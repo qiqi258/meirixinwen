@@ -127,11 +127,13 @@ def fetch_weibo_hot() -> List[Dict]:
                 print(f"获取微博热搜图片失败: {e}")
                 img_url = ''
             
+            hot_value = str(item.get('raw_hot') or item.get('num') or item.get('hot') or '').strip()
             news_list.append({
                 'title': item.get('word', ''),
                 'url': detail_url,
                 'platform': '微博',
-                'image_url': img_url
+                'image_url': img_url,
+                'hot_value': hot_value
             })
             time.sleep(1)  # 添加延迟避免请求过快
         return news_list
@@ -164,11 +166,18 @@ def fetch_zhihu_hot() -> List[Dict]:
             # 获取知乎问题的封面图
             image_url = target.get('image_url', '') or target.get('thumbnail', '')
             if title and url:
+                metrics_area = target.get('metrics_area', {})
+                if isinstance(metrics_area, dict):
+                    metrics_text = metrics_area.get('text', '')
+                else:
+                    metrics_text = str(metrics_area) if metrics_area else ''
+                hot_value = str(item.get('detail_text') or metrics_text or target.get('metrics_text', '') or '').strip()
                 news_list.append({
                     'title': title,
                     'url': url,
                     'platform': '知乎',
-                    'image_url': image_url
+                    'image_url': image_url,
+                    'hot_value': hot_value
                 })
         return news_list
     except Exception as e:
@@ -192,7 +201,7 @@ def fetch_bilibili_hot() -> List[Dict]:
         news_list = []
         trending_list = data.get('data', {}).get('trending', {}).get('list', [])
         # 只取前10条
-        for item in trending_list[:10]:
+        for idx, item in enumerate(trending_list[:10]):
             keyword = item.get('keyword', '')
             # 获取B站搜索结果的第一个视频封面
             search_url = f"https://api.bilibili.com/x/web-interface/search/type?keyword={quote(keyword)}&search_type=video"
@@ -204,12 +213,14 @@ def fetch_bilibili_hot() -> List[Dict]:
             except Exception as e:
                 print(f"获取B站视频封面失败: {e}")
                 image_url = ''
+            hot_value = str(item.get('hot_id') or item.get('hot_score') or '').strip() or f"TOP{idx+1}"
             
             news_list.append({
                 'title': keyword,
                 'url': f"https://search.bilibili.com/all?keyword={quote(keyword)}",
                 'platform': 'B站',
-                'image_url': image_url
+                'image_url': image_url,
+                'hot_value': hot_value
             })
             time.sleep(1)  # 添加延迟避免请求过快
         return news_list
@@ -233,10 +244,12 @@ def fetch_baidu_hot() -> List[Dict]:
         news_list = []
         # 只取前10条
         for item in data.get('data', {}).get('cards', [{}])[0].get('content', [])[:10]:
+            hot_value = str(item.get('hotScore') or item.get('hot_score') or item.get('heatScore') or '').strip()
             news_list.append({
                 'title': item.get('query', ''),
                 'url': f"https://www.baidu.com/s?wd={quote(item.get('query', ''))}",
-                'platform': '百度'
+                'platform': '百度',
+                'hot_value': hot_value
             })
         return news_list
     except Exception as e:
@@ -261,10 +274,12 @@ def fetch_tieba_hot() -> List[Dict]:
         news_list = []
         # 只取前10条
         for item in data.get('data', {}).get('bang_topic', {}).get('topic_list', [])[:10]:
+            hot_value = str(item.get('discuss_num') or item.get('discuss_count') or '').strip()
             news_list.append({
                 'title': item.get('topic_name', ''),
                 'url': item.get('topic_url', f"https://tieba.baidu.com/hottopic"),
-                'platform': '贴吧'
+                'platform': '贴吧',
+                'hot_value': hot_value
             })
         return news_list
     except Exception as e:
@@ -288,10 +303,12 @@ def fetch_douyin_hot() -> List[Dict]:
         news_list = []
         # 只取前10条
         for item in data.get('data', {}).get('word_list', [])[:10]:
+            hot_value = str(item.get('hot_value') or item.get('hot') or '').strip()
             news_list.append({
                 'title': item.get('word', ''),
                 'url': f"https://www.douyin.com/search/{quote(item.get('word', ''))}",
-                'platform': '抖音'
+                'platform': '抖音',
+                'hot_value': hot_value
             })
         return news_list
     except Exception as e:
@@ -315,10 +332,12 @@ def fetch_hupu_hot() -> List[Dict]:
         news_list = []
         # 只取前10条
         for item in data.get('data', {}).get('topics', [])[:10]:
+            hot_value = str(item.get('replies') or item.get('reply_count') or item.get('replies_count') or item.get('light_reply') or '').strip()
             news_list.append({
                 'title': item.get('title', ''),
                 'url': f"https://bbs.hupu.com{item.get('url', '')}",
-                'platform': '虎扑'
+                'platform': '虎扑',
+                'hot_value': hot_value
             })
         return news_list
     except Exception as e:
@@ -778,11 +797,13 @@ def render_daily_post_html(news_entry: Dict) -> str:
         for news in platform_news:
             title = news.get('title', '')
             url = news.get('url', '#')
-            hot_value = news.get('hot_value', '')
+            hot_value = str(news.get('hot_value', '')).strip()
+            # 小白解释：有些平台没有提供“热度”数值，如果为空就不要显示“热度：”这行，避免看起来像是丢数据
+            hot_line = f"""<p class="text-sm text-neutral-500 mt-1">热度：{hot_value}</p>""" if hot_value else ""
             
             html += f"""
                     <li class="pt-3">
-                        <a href="{url}" 
+                        <a href="{url}"
                            target="_blank"
                            class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
                             <span class="flex-shrink-0 w-8 h-8 bg-{platform_color}-100 rounded-full flex items-center justify-center text-{platform_color}-600">
@@ -792,7 +813,7 @@ def render_daily_post_html(news_entry: Dict) -> str:
                                 <p class="text-neutral-700 group-hover:text-{platform_color}-600 transition-colors">
                                     {title}
                                 </p>
-                                <p class="text-sm text-neutral-500 mt-1">热度：{hot_value}</p>
+                                {hot_line}
                             </div>
                         </a>
                     </li>"""
