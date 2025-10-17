@@ -10,7 +10,6 @@ from datetime import datetime
 from typing import Dict, List, Optional, Tuple, Union, Any
 
 import pytz
-import requests
 from typing import Dict, List, Set, Tuple
 from datetime import datetime, timedelta
 from urllib.parse import quote
@@ -25,6 +24,39 @@ INDEX_HTML_PATH = "index.html"
 
 # 确保必要目录存在
 Path(POSTS_DIR).mkdir(exist_ok=True)
+
+# 全局配置缓存（供 HTTP 请求读取参数）
+GLOBAL_CFG: Dict = {}
+
+def get_crawler_settings() -> Tuple[int, int]:
+    """从配置中读取爬虫的超时与重试次数
+    小白解释：这里把“请求超时时间”和“重试次数”读出来，给下面的网络请求用。这样如果网络波动，程序就更稳。
+    """
+    cfg = GLOBAL_CFG or {}
+    crawler = (cfg.get('crawler') or {})
+    timeout = int(crawler.get('timeout', 10))
+    max_retries = int(crawler.get('max_retries', 3))
+    return timeout, max_retries
+
+def http_get(url: str, headers: Optional[Dict[str, str]] = None) -> requests.Response:
+    """带自动重试的 HTTP GET 请求封装
+    小白解释：请求网页时，可能会失败。这段代码会自动试几次，每次稍微等一下，再试，尽量确保能拿到数据。
+    """
+    timeout, max_retries = get_crawler_settings()
+    last_err: Optional[Exception] = None
+    for attempt in range(max_retries):
+        try:
+            session = requests.Session()
+            session.trust_env = False  # 禁用系统代理，避免环境代理影响
+            resp = session.get(url, headers=headers or {}, timeout=timeout)
+            resp.raise_for_status()
+            return resp
+        except Exception as e:
+            last_err = e
+            # 简单退避策略：下一次等待时间更长一些
+            wait_seconds = 0.8 * (attempt + 1)
+            time.sleep(wait_seconds)
+    raise RuntimeError(f"请求失败(重试{max_retries}次): {url} - {last_err}")
 
 def get_beijing_time() -> datetime:
     """获取北京时区当前时间"""
@@ -77,10 +109,7 @@ def fetch_weibo_hot() -> List[Dict]:
             'Referer': 'https://weibo.com/',
             'Cookie': 'SUB=_2AkMSLwF9f8NxqwJRmP0dyGjhaoxwzwDEieKjKM4uJRMxHRl-yj9jqmtbtRB6PDkJ9w8OaqJAbsgjdEWtIcilcZxHG7rw'
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -89,8 +118,7 @@ def fetch_weibo_hot() -> List[Dict]:
             # 获取微博热搜详情页
             detail_url = f"https://s.weibo.com/weibo?q={quote(item.get('word', ''))}"
             try:
-                detail_response = session.get(detail_url, headers=headers, timeout=10)
-                detail_response.raise_for_status()
+                detail_response = http_get(detail_url, headers=headers)
                 # 使用正则表达式提取图片URL
                 import re
                 img_urls = re.findall(r'src="(https://wx\d\.sinaimg\.cn/[^"]+)"', detail_response.text)
@@ -124,10 +152,7 @@ def fetch_zhihu_hot() -> List[Dict]:
             'x-app-za': 'OS=Web',
             'Cookie': '_zap=8b0a6869-a1f4-4bdf-9c83-e1e3a5e29e96; d_c0="AHBXHQPqTBWPTqwf1GgVE8WgX4pVXEHCQxw=|1634483427"; _xsrf=c8b7b8b8-8b0a-4b0f-9c83-e1e3a5e29e96'
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -161,10 +186,7 @@ def fetch_bilibili_hot() -> List[Dict]:
             'Referer': 'https://www.bilibili.com/',
             'Cookie': "buvid3=2B1E4817-E425-4C36-87BE-C857EA8DD5CF185003infoc; b_nut=1697509762; i-wanna-go-back=-1; b_ut=7; _uuid=6C2310F99-C106D-84B9-FF65-C3BC376364C185004infoc; buvid4=AB4D8751-2D8A-BAA2-7504-DE584D7DF63E85004-023101613-; DedeUserID=3493279343885079; DedeUserID__ckMd5=60d7119ef6a59181"
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -175,8 +197,7 @@ def fetch_bilibili_hot() -> List[Dict]:
             # 获取B站搜索结果的第一个视频封面
             search_url = f"https://api.bilibili.com/x/web-interface/search/type?keyword={quote(keyword)}&search_type=video"
             try:
-                search_response = session.get(search_url, headers=headers, timeout=10)
-                search_response.raise_for_status()
+                search_response = http_get(search_url, headers=headers)
                 search_data = search_response.json()
                 first_video = search_data.get('data', {}).get('result', [{}])[0]
                 image_url = first_video.get('pic', '')
@@ -206,10 +227,7 @@ def fetch_baidu_hot() -> List[Dict]:
             'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
             'Referer': 'https://top.baidu.com/board?tab=realtime',
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -225,90 +243,7 @@ def fetch_baidu_hot() -> List[Dict]:
         print(f"获取百度热搜失败: {e}")
         return []
 
-def fetch_zhihu_hot() -> List[Dict]:
-    """获取知乎热榜前10条"""
-    try:
-        url = "https://api.zhihu.com/topstory/hot-list"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-            'Referer': 'https://www.zhihu.com/hot',
-            'x-api-version': '3.0.91',
-            'x-app-za': 'OS=Web',
-            'Cookie': '_zap=8b0a6869-a1f4-4bdf-9c83-e1e3a5e29e96; d_c0="AHBXHQPqTBWPTqwf1GgVE8WgX4pVXEHCQxw=|1634483427"; _xsrf=c8b7b8b8-8b0a-4b0f-9c83-e1e3a5e29e96'
-        }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        
-        news_list = []
-        # 只取前10条
-        for item in data.get('data', [])[:10]:
-            target = item.get('target', {})
-            title = target.get('title', '')
-            url = target.get('url', '')
-            # 获取知乎问题的封面图
-            image_url = target.get('image_url', '') or target.get('thumbnail', '')
-            if title and url:
-                news_list.append({
-                    'title': title,
-                    'url': url,
-                    'platform': '知乎',
-                    'image_url': image_url
-                })
-        return news_list
-    except Exception as e:
-        print(f"获取知乎热榜失败: {e}")
-        return []
 
-def fetch_bilibili_hot() -> List[Dict]:
-    """获取B站热搜榜前10条"""
-    try:
-        url = "https://api.bilibili.com/x/web-interface/search/square?limit=10"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-            'Referer': 'https://www.bilibili.com/',
-            'Cookie': "buvid3=2B1E4817-E425-4C36-87BE-C857EA8DD5CF185003infoc; b_nut=1697509762; i-wanna-go-back=-1; b_ut=7; _uuid=6C2310F99-C106D-84B9-FF65-C3BC376364C185004infoc; buvid4=AB4D8751-2D8A-BAA2-7504-DE584D7DF63E85004-023101613-; DedeUserID=3493279343885079; DedeUserID__ckMd5=60d7119ef6a59181"
-        }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        
-        news_list = []
-        trending_list = data.get('data', {}).get('trending', {}).get('list', [])
-        # 只取前10条
-        for item in trending_list[:10]:
-            keyword = item.get('keyword', '')
-            # 获取B站搜索结果的第一个视频封面
-            search_url = f"https://api.bilibili.com/x/web-interface/search/type?keyword={quote(keyword)}&search_type=video"
-            try:
-                search_response = session.get(search_url, headers=headers, timeout=10)
-                search_response.raise_for_status()
-                search_data = search_response.json()
-                first_video = search_data.get('data', {}).get('result', [{}])[0]
-                image_url = first_video.get('pic', '')
-            except Exception as e:
-                print(f"获取B站视频封面失败: {e}")
-                image_url = ''
-            
-            news_list.append({
-                'title': keyword,
-                'url': f"https://search.bilibili.com/all?keyword={quote(keyword)}",
-                'platform': 'B站',
-                'image_url': image_url
-            })
-            time.sleep(1)  # 添加延迟避免请求过快
-        return news_list
-    except Exception as e:
-        print(f"获取B站热搜失败: {e}")
-        return []
 
 def fetch_tieba_hot() -> List[Dict]:
     """获取贴吧热搜榜前10条"""
@@ -320,10 +255,7 @@ def fetch_tieba_hot() -> List[Dict]:
             'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
             'Referer': 'https://tieba.baidu.com/hottopic/browse/topicList',
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -350,10 +282,7 @@ def fetch_douyin_hot() -> List[Dict]:
             'Referer': 'https://www.douyin.com/',
             'Cookie': 'douyin.com; ttwid=1%7CuU0ZIsyDyN7j3H9Yl0-hh4eNB1oXC-DGBKDZhKoqbVY%7C1697509762%7C1d87722dd4c6e9470e872833c2df88c8f4c669b37ff893d0e3da9aa083a1d43d; passport_csrf_token=cdb9b4d3990db4a34e8b0c67d2db1f75;'
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -380,10 +309,7 @@ def fetch_hupu_hot() -> List[Dict]:
             'Referer': 'https://bbs.hupu.com/',
             'Cookie': '_dacevid3=b8d6b3b3.b3b3.b3b3.b3b3.b3b3b3b3b3b3; _cnzz_CV1256378648=is-logon%7Clogged-out%7C1697509762'
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -534,7 +460,7 @@ def render_index_html(news_by_date: Dict[str, List[Dict]], config: Dict) -> str:
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <link rel="icon" href="favicon.ico" type="image/svg+xml" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>每日热点聚合 - 热点新闻分析</title>
@@ -775,7 +701,7 @@ def render_daily_post_html(news_entry: Dict) -> str:
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <link rel="icon" href="../favicon.ico" type="image/svg+xml" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{date} 热点新闻 - 每日热点新闻聚合</title>
@@ -903,7 +829,7 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
     <!DOCTYPE html>
     <html lang="zh-CN">
     <head>
-        <link rel="icon" href="favicon.ico" type="image/svg+xml" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>每日热点新闻聚合</title>
@@ -1093,7 +1019,7 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
 
 def save_news_to_blog(report_data: Dict):
     """保存新闻数据到博客"""
-    current_date = datetime.now().strftime("%Y-%m-%d")
+    current_date = get_beijing_time().strftime("%Y-%m-%d")
     news_entry = {
         "date": current_date,
         "news": report_data.get('all_news', []),
@@ -1108,6 +1034,16 @@ def save_news_to_blog(report_data: Dict):
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(archive_dir, exist_ok=True)
     os.makedirs(POSTS_DIR, exist_ok=True)
+
+    # 写入 CNAME（如果配置存在），用于 GitHub Pages 自定义域名
+    try:
+        cfg = load_config()
+        cname = (cfg.get('blog', {}) or {}).get('cname')
+        if cname:
+            with open("CNAME", "w", encoding="utf-8") as f:
+                f.write(str(cname).strip())
+    except Exception as e:
+        print(f"写入CNAME失败: {e}")
     
     # 保存当天数据到独立的JSON文件
     daily_data_path = os.path.join(data_dir, f"{current_date}.json")
@@ -1171,6 +1107,9 @@ def main():
     if not config:
         print("配置文件加载失败，无法继续运行")
         return
+    # 设置全局配置，供 HTTP 请求读取爬虫参数
+    global GLOBAL_CFG
+    GLOBAL_CFG = config
     
     # 加载关键词配置
     required_words, keywords, exclude_words = load_frequency_words()
