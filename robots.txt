@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Ads crawlers
+User-agent: AdsBot-Google
+Allow: /
+User-agent: Mediapartners-Google
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: Baiduspider-ads
+Allow: /
