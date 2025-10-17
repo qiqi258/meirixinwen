@@ -1,0 +1,377 @@
+
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2025-10-17 热点新闻 - 每日热点新闻聚合</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!-- 配置Tailwind自定义颜色和字体 -->
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: '#165DFF',
+                            secondary: '#FF7D00',
+                            neutral: {
+                                100: '#F5F7FA',
+                                200: '#E5E6EB',
+                                300: '#C9CDD4',
+                                400: '#86909C',
+                                500: '#4E5969',
+                                600: '#272E3B',
+                                700: '#1D2129',
+                            }
+                        },
+                        fontFamily: {
+                            sans: ['Noto Sans SC', 'sans-serif'],
+                        },
+                    }
+                }
+            }
+        </script>
+        
+        <style type="text/tailwindcss">
+            @layer utilities {
+                .content-auto {
+                    content-visibility: auto;
+                }
+                .text-shadow {
+                    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                }
+            }
+        </style>
+        
+        <style>
+            body {
+                font-family: 'Noto Sans SC', sans-serif;
+                scroll-behavior: smooth;
+            }
+            
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body class="bg-neutral-100 min-h-screen">
+        <!-- 导航栏 -->
+        <header class="sticky top-0 bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex items-center space-x-8">
+                        <a href="../index.html" class="flex items-center text-neutral-500 hover:text-primary transition-colors">
+                            <i class="fa fa-arrow-left mr-2"></i>
+                            <span>返回首页</span>
+                        </a>
+                        <div class="flex items-center">
+                            <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
+                            <span class="text-xl font-bold text-neutral-700">热点聚合</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 主要内容区 -->
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <!-- 页面标题 -->
+            <div class="bg-white rounded-xl shadow-sm p-8 mb-10">
+                <h1 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">
+                    2025-10-17 热点新闻汇总
+                </h1>
+                <div class="flex items-center text-neutral-500">
+                    <i class="fa fa-clock-o mr-2"></i>
+                    <span>更新时间：2025-10-17</span>
+                </div>
+            </div>
+
+            <!-- 新闻列表 -->
+            <div class="bg-white rounded-xl shadow-sm p-8">
+                
+        <div class="mb-8">
+            <div class="flex items-center mb-4">
+                <h3 class="text-xl font-bold text-neutral-700">微博</h3>
+                <span class="ml-3 px-2.5 py-0.5 bg-primary/10 text-primary text-sm rounded-full">
+                    9条
+                </span>
+            </div>
+            <ul class="space-y-1 divide-y divide-neutral-200">
+                
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E9%93%B6%E8%A1%8C%E9%95%BF%E6%9C%9F%E4%B8%8D%E5%8A%A8%E8%B4%A6%E6%88%B7%E5%B0%86%E8%A2%AB%E6%B8%85%E7%90%86" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            银行长期不动账户将被清理
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E7%9F%A5%E4%B9%8E%E5%B4%A9%E4%BA%86" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            知乎崩了
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E5%8D%81%E5%9B%9B%E4%BA%94%E6%88%90%E5%B0%B1" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            十四五成就
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E6%88%91%E5%9C%A8%E6%B1%A4%E8%BE%BE%E4%BA%BA%E5%85%83%E6%B0%94%E9%9F%B3%E4%B9%90%E8%8A%82%E5%90%83%E9%A5%B1%E4%BA%86" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            我在汤达人元气音乐节吃饱了
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E6%9C%89%E4%BA%BA600%E5%85%83%E6%97%B6%E5%9B%A4150%E4%B8%87%E9%BB%84%E9%87%91" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            杭州有人600元时囤150万黄金
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E4%BA%BA%E8%B4%A9%E5%AD%90%E8%A2%AB%E5%88%A43%E5%B9%B4%E5%90%8E%E5%8F%88%E5%8D%96%E4%BA%86%E5%8D%81%E4%BD%99%E4%B8%AA%E5%AD%A9%E5%AD%90" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            人贩子被判3年后又卖了十余个孩子
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E5%91%A8%E9%B9%8F%E5%8A%9B%E8%8D%90%E5%90%91%E5%BE%80M8%E5%AE%97%E5%B8%88" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            周鹏力荐向往M8宗师
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E6%88%90%E6%AF%85%E8%AF%B4%E6%BC%94%E5%91%98%E5%85%88%E5%81%9A%E4%BA%BA%E5%86%8D%E6%BC%94%E6%88%8F" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            成毅说演员先做人再演戏
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://s.weibo.com/weibo?q=%E4%BF%84%E7%BE%8E%E6%80%BB%E7%BB%9F%E9%80%9A%E8%AF%9D%E7%BB%86%E8%8A%82" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            俄美总统通话细节
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            </ul>
+        </div>
+        
+        <div class="mb-8">
+            <div class="flex items-center mb-4">
+                <h3 class="text-xl font-bold text-neutral-700">百度</h3>
+                <span class="ml-3 px-2.5 py-0.5 bg-primary/10 text-primary text-sm rounded-full">
+                    6条
+                </span>
+            </div>
+            <ul class="space-y-1 divide-y divide-neutral-200">
+                
+            <li class="py-3">
+                <a href="https://www.baidu.com/s?wd=%E2%80%9C%E7%AB%B9%E8%A3%A4%E6%9E%B6%E2%80%9D%E7%AA%81%E7%84%B6%E7%BF%BB%E7%BA%A2" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            “竹裤架”突然翻红
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://www.baidu.com/s?wd=%E6%9B%B9%E5%BE%B7%E6%97%BA%E5%9B%9E%E5%BA%94%E9%80%80%E4%BC%91%EF%BC%9A%E6%88%91%E5%84%BF%E5%AD%90%E4%B9%9F55%E5%B2%81%E4%BA%86" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            曹德旺回应退休：我儿子也55岁了
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://www.baidu.com/s?wd=%E6%AF%8F%E6%9C%88%E6%94%92%E4%B8%80%E9%A2%97%E5%B0%8F%E9%87%91%E9%A5%B0%2000%E5%90%8E%E2%80%9C%E5%8F%A6%E7%B1%BB%E2%80%9D%E6%B7%98%E9%87%91" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            每月攒一颗小金饰 00后“另类”淘金
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://www.baidu.com/s?wd=%E4%B8%80%E5%AF%B9%E5%B9%BF%E4%B8%9C%E6%96%B0%E4%BA%BA%E4%BD%95%E4%BB%A5%E8%A2%AB%E4%B8%AD%E5%A4%AE%E6%96%87%E6%98%8E%E5%8A%9E%E7%82%B9%E8%B5%9E" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            一对广东新人何以被中央文明办点赞
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://www.baidu.com/s?wd=%E5%AE%A2%E4%BA%BA%E5%9C%A8%E9%85%92%E5%BA%97%E9%9A%8F%E6%89%8B%E4%B8%80%E6%8C%82%20%E4%BA%8B%E5%90%8E%E8%A2%AB%E7%B4%A2%E8%B5%9416%E4%B8%87" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            客人在酒店随手一挂 事后被索赔16万
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            <li class="py-3">
+                <a href="https://www.baidu.com/s?wd=%E9%83%91%E5%B7%9E%E2%80%9C%E7%82%92%E5%85%AB%E6%8E%BA%E2%80%9D%E7%88%86%E7%81%AB%20%E5%BA%97%E4%B8%BB%E4%BD%93%E5%8A%9B%E4%B8%8D%E6%94%AF" 
+                   target="_blank"
+                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-fire"></i>
+                    </span>
+                    <div class="ml-4 flex-1">
+                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
+                            郑州“炒八掺”爆火 店主体力不支
+                        </p>
+                    </div>
+                    
+                </a>
+            </li>
+            
+            </ul>
+        </div>
+        
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="bg-white mt-12 py-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center text-neutral-500">
+                    <p>© 2025 每日热点新闻聚合 | 
+                    <a href="https://zxnve.dpdns.org" target="_blank" class="text-neutral-300 hover:text-white transition-colors">
+                        导航站主页
+                        </a>
+                    </p>
+                    <p class="mt-2">本网站内容仅记录热搜，不代表任何立场</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
