@@ -2,7 +2,7 @@ name: 每日新闻自动更新
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 每天晚上10点运行（UTC+8）
+    - cron: '0 14 * * *'  # 每天 UTC 14:00 = 北京时间 22:00
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -12,7 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        fetch-depth: 1
+        fetch-depth: 0  # 拉取完整历史，避免推送失败
+        ref: main  # 明确指定拉取主分支
     
     - name: 设置Python环境
       uses: actions/setup-python@v4
@@ -29,20 +30,27 @@ jobs:
       run: |
         python main.py
       env:
-        TZ: Asia/Shanghai
+        TZ: Asia/Shanghai  # 设置时区，确保日期正确
+    
+    - name: 提交更新到主分支
+      run: |
+        # 检查是否有变更
+        if git diff --quiet; then
+          echo "没有内容更新，无需提交"
+          exit 0
+        fi
+        
+        # 配置提交信息
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git add .
+        git commit -m "自动更新: $(date '+%Y-%m-%d %H:%M:%S')"
+        git push origin main
     
     - name: 部署到GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: .
+        publish_dir: .  # 发布目录（根据实际情况调整）
         publish_branch: gh-pages
-        full_commit_message: "自动更新: ${{ github.event.head_commit.message || '每日新闻更新' }}"
-        
-    - name: 提交更新到主分支
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add .
-        git commit -m "自动更新: $(date '+%Y-%m-%d %H:%M:%S')" || exit 0
-        git push
+        full_commit_message: "自动部署: $(date '+%Y-%m-%d %H:%M:%S')"
