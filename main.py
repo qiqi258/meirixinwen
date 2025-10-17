@@ -1,9 +1,15 @@
 import os
 import json
-import time
 import yaml
-import pytz
+import time
+import random
+import logging
 import requests
+import threading
+from datetime import datetime
+from typing import Dict, List, Optional, Tuple, Union, Any
+
+import pytz
 from typing import Dict, List, Set, Tuple
 from datetime import datetime, timedelta
 from urllib.parse import quote
@@ -18,6 +24,39 @@ INDEX_HTML_PATH = "index.html"
 
 # 确保必要目录存在
 Path(POSTS_DIR).mkdir(exist_ok=True)
+
+# 全局配置缓存（供 HTTP 请求读取参数）
+GLOBAL_CFG: Dict = {}
+
+def get_crawler_settings() -> Tuple[int, int]:
+    """从配置中读取爬虫的超时与重试次数
+    小白解释：这里把“请求超时时间”和“重试次数”读出来，给下面的网络请求用。这样如果网络波动，程序就更稳。
+    """
+    cfg = GLOBAL_CFG or {}
+    crawler = (cfg.get('crawler') or {})
+    timeout = int(crawler.get('timeout', 10))
+    max_retries = int(crawler.get('max_retries', 3))
+    return timeout, max_retries
+
+def http_get(url: str, headers: Optional[Dict[str, str]] = None) -> requests.Response:
+    """带自动重试的 HTTP GET 请求封装
+    小白解释：请求网页时，可能会失败。这段代码会自动试几次，每次稍微等一下，再试，尽量确保能拿到数据。
+    """
+    timeout, max_retries = get_crawler_settings()
+    last_err: Optional[Exception] = None
+    for attempt in range(max_retries):
+        try:
+            session = requests.Session()
+            session.trust_env = False  # 禁用系统代理，避免环境代理影响
+            resp = session.get(url, headers=headers or {}, timeout=timeout)
+            resp.raise_for_status()
+            return resp
+        except Exception as e:
+            last_err = e
+            # 简单退避策略：下一次等待时间更长一些
+            wait_seconds = 0.8 * (attempt + 1)
+            time.sleep(wait_seconds)
+    raise RuntimeError(f"请求失败(重试{max_retries}次): {url} - {last_err}")
 
 def get_beijing_time() -> datetime:
     """获取北京时区当前时间"""
@@ -70,10 +109,7 @@ def fetch_weibo_hot() -> List[Dict]:
             'Referer': 'https://weibo.com/',
             'Cookie': 'SUB=_2AkMSLwF9f8NxqwJRmP0dyGjhaoxwzwDEieKjKM4uJRMxHRl-yj9jqmtbtRB6PDkJ9w8OaqJAbsgjdEWtIcilcZxHG7rw'
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -82,8 +118,7 @@ def fetch_weibo_hot() -> List[Dict]:
             # 获取微博热搜详情页
             detail_url = f"https://s.weibo.com/weibo?q={quote(item.get('word', ''))}"
             try:
-                detail_response = session.get(detail_url, headers=headers, timeout=10)
-                detail_response.raise_for_status()
+                detail_response = http_get(detail_url, headers=headers)
                 # 使用正则表达式提取图片URL
                 import re
                 img_urls = re.findall(r'src="(https://wx\d\.sinaimg\.cn/[^"]+)"', detail_response.text)
@@ -92,11 +127,13 @@ def fetch_weibo_hot() -> List[Dict]:
                 print(f"获取微博热搜图片失败: {e}")
                 img_url = ''
             
+            hot_value = str(item.get('raw_hot') or item.get('num') or item.get('hot') or '').strip()
             news_list.append({
                 'title': item.get('word', ''),
                 'url': detail_url,
                 'platform': '微博',
-                'image_url': img_url
+                'image_url': img_url,
+                'hot_value': hot_value
             })
             time.sleep(1)  # 添加延迟避免请求过快
         return news_list
@@ -117,10 +154,7 @@ def fetch_zhihu_hot() -> List[Dict]:
             'x-app-za': 'OS=Web',
             'Cookie': '_zap=8b0a6869-a1f4-4bdf-9c83-e1e3a5e29e96; d_c0="AHBXHQPqTBWPTqwf1GgVE8WgX4pVXEHCQxw=|1634483427"; _xsrf=c8b7b8b8-8b0a-4b0f-9c83-e1e3a5e29e96'
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
@@ -132,11 +166,18 @@ def fetch_zhihu_hot() -> List[Dict]:
             # 获取知乎问题的封面图
             image_url = target.get('image_url', '') or target.get('thumbnail', '')
             if title and url:
+                metrics_area = target.get('metrics_area', {})
+                if isinstance(metrics_area, dict):
+                    metrics_text = metrics_area.get('text', '')
+                else:
+                    metrics_text = str(metrics_area) if metrics_area else ''
+                hot_value = str(item.get('detail_text') or metrics_text or target.get('metrics_text', '') or '').strip()
                 news_list.append({
                     'title': title,
                     'url': url,
                     'platform': '知乎',
-                    'image_url': image_url
+                    'image_url': image_url,
+                    'hot_value': hot_value
                 })
         return news_list
     except Exception as e:
@@ -154,34 +195,32 @@ def fetch_bilibili_hot() -> List[Dict]:
             'Referer': 'https://www.bilibili.com/',
             'Cookie': "buvid3=2B1E4817-E425-4C36-87BE-C857EA8DD5CF185003infoc; b_nut=1697509762; i-wanna-go-back=-1; b_ut=7; _uuid=6C2310F99-C106D-84B9-FF65-C3BC376364C185004infoc; buvid4=AB4D8751-2D8A-BAA2-7504-DE584D7DF63E85004-023101613-; DedeUserID=3493279343885079; DedeUserID__ckMd5=60d7119ef6a59181"
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
         trending_list = data.get('data', {}).get('trending', {}).get('list', [])
         # 只取前10条
-        for item in trending_list[:10]:
+        for idx, item in enumerate(trending_list[:10]):
             keyword = item.get('keyword', '')
             # 获取B站搜索结果的第一个视频封面
             search_url = f"https://api.bilibili.com/x/web-interface/search/type?keyword={quote(keyword)}&search_type=video"
             try:
-                search_response = session.get(search_url, headers=headers, timeout=10)
-                search_response.raise_for_status()
+                search_response = http_get(search_url, headers=headers)
                 search_data = search_response.json()
                 first_video = search_data.get('data', {}).get('result', [{}])[0]
                 image_url = first_video.get('pic', '')
             except Exception as e:
                 print(f"获取B站视频封面失败: {e}")
                 image_url = ''
+            hot_value = str(item.get('hot_id') or item.get('hot_score') or '').strip() or f"TOP{idx+1}"
             
             news_list.append({
                 'title': keyword,
                 'url': f"https://search.bilibili.com/all?keyword={quote(keyword)}",
                 'platform': 'B站',
-                'image_url': image_url
+                'image_url': image_url,
+                'hot_value': hot_value
             })
             time.sleep(1)  # 添加延迟避免请求过快
         return news_list
@@ -199,109 +238,25 @@ def fetch_baidu_hot() -> List[Dict]:
             'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
             'Referer': 'https://top.baidu.com/board?tab=realtime',
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
         # 只取前10条
         for item in data.get('data', {}).get('cards', [{}])[0].get('content', [])[:10]:
+            hot_value = str(item.get('hotScore') or item.get('hot_score') or item.get('heatScore') or '').strip()
             news_list.append({
                 'title': item.get('query', ''),
                 'url': f"https://www.baidu.com/s?wd={quote(item.get('query', ''))}",
-                'platform': '百度'
+                'platform': '百度',
+                'hot_value': hot_value
             })
         return news_list
     except Exception as e:
         print(f"获取百度热搜失败: {e}")
         return []
 
-def fetch_zhihu_hot() -> List[Dict]:
-    """获取知乎热榜前10条"""
-    try:
-        url = "https://api.zhihu.com/topstory/hot-list"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-            'Referer': 'https://www.zhihu.com/hot',
-            'x-api-version': '3.0.91',
-            'x-app-za': 'OS=Web',
-            'Cookie': '_zap=8b0a6869-a1f4-4bdf-9c83-e1e3a5e29e96; d_c0="AHBXHQPqTBWPTqwf1GgVE8WgX4pVXEHCQxw=|1634483427"; _xsrf=c8b7b8b8-8b0a-4b0f-9c83-e1e3a5e29e96'
-        }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        
-        news_list = []
-        # 只取前10条
-        for item in data.get('data', [])[:10]:
-            target = item.get('target', {})
-            title = target.get('title', '')
-            url = target.get('url', '')
-            # 获取知乎问题的封面图
-            image_url = target.get('image_url', '') or target.get('thumbnail', '')
-            if title and url:
-                news_list.append({
-                    'title': title,
-                    'url': url,
-                    'platform': '知乎',
-                    'image_url': image_url
-                })
-        return news_list
-    except Exception as e:
-        print(f"获取知乎热榜失败: {e}")
-        return []
 
-def fetch_bilibili_hot() -> List[Dict]:
-    """获取B站热搜榜前10条"""
-    try:
-        url = "https://api.bilibili.com/x/web-interface/search/square?limit=10"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-            'Referer': 'https://www.bilibili.com/',
-            'Cookie': "buvid3=2B1E4817-E425-4C36-87BE-C857EA8DD5CF185003infoc; b_nut=1697509762; i-wanna-go-back=-1; b_ut=7; _uuid=6C2310F99-C106D-84B9-FF65-C3BC376364C185004infoc; buvid4=AB4D8751-2D8A-BAA2-7504-DE584D7DF63E85004-023101613-; DedeUserID=3493279343885079; DedeUserID__ckMd5=60d7119ef6a59181"
-        }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        
-        news_list = []
-        trending_list = data.get('data', {}).get('trending', {}).get('list', [])
-        # 只取前10条
-        for item in trending_list[:10]:
-            keyword = item.get('keyword', '')
-            # 获取B站搜索结果的第一个视频封面
-            search_url = f"https://api.bilibili.com/x/web-interface/search/type?keyword={quote(keyword)}&search_type=video"
-            try:
-                search_response = session.get(search_url, headers=headers, timeout=10)
-                search_response.raise_for_status()
-                search_data = search_response.json()
-                first_video = search_data.get('data', {}).get('result', [{}])[0]
-                image_url = first_video.get('pic', '')
-            except Exception as e:
-                print(f"获取B站视频封面失败: {e}")
-                image_url = ''
-            
-            news_list.append({
-                'title': keyword,
-                'url': f"https://search.bilibili.com/all?keyword={quote(keyword)}",
-                'platform': 'B站',
-                'image_url': image_url
-            })
-            time.sleep(1)  # 添加延迟避免请求过快
-        return news_list
-    except Exception as e:
-        print(f"获取B站热搜失败: {e}")
-        return []
 
 def fetch_tieba_hot() -> List[Dict]:
     """获取贴吧热搜榜前10条"""
@@ -313,19 +268,18 @@ def fetch_tieba_hot() -> List[Dict]:
             'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
             'Referer': 'https://tieba.baidu.com/hottopic/browse/topicList',
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
         # 只取前10条
         for item in data.get('data', {}).get('bang_topic', {}).get('topic_list', [])[:10]:
+            hot_value = str(item.get('discuss_num') or item.get('discuss_count') or '').strip()
             news_list.append({
                 'title': item.get('topic_name', ''),
                 'url': item.get('topic_url', f"https://tieba.baidu.com/hottopic"),
-                'platform': '贴吧'
+                'platform': '贴吧',
+                'hot_value': hot_value
             })
         return news_list
     except Exception as e:
@@ -343,19 +297,18 @@ def fetch_douyin_hot() -> List[Dict]:
             'Referer': 'https://www.douyin.com/',
             'Cookie': 'douyin.com; ttwid=1%7CuU0ZIsyDyN7j3H9Yl0-hh4eNB1oXC-DGBKDZhKoqbVY%7C1697509762%7C1d87722dd4c6e9470e872833c2df88c8f4c669b37ff893d0e3da9aa083a1d43d; passport_csrf_token=cdb9b4d3990db4a34e8b0c67d2db1f75;'
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
         # 只取前10条
         for item in data.get('data', {}).get('word_list', [])[:10]:
+            hot_value = str(item.get('hot_value') or item.get('hot') or '').strip()
             news_list.append({
                 'title': item.get('word', ''),
                 'url': f"https://www.douyin.com/search/{quote(item.get('word', ''))}",
-                'platform': '抖音'
+                'platform': '抖音',
+                'hot_value': hot_value
             })
         return news_list
     except Exception as e:
@@ -373,19 +326,18 @@ def fetch_hupu_hot() -> List[Dict]:
             'Referer': 'https://bbs.hupu.com/',
             'Cookie': '_dacevid3=b8d6b3b3.b3b3.b3b3.b3b3.b3b3b3b3b3b3; _cnzz_CV1256378648=is-logon%7Clogged-out%7C1697509762'
         }
-        session = requests.Session()
-        session.trust_env = False  # 禁用系统代理
-        response = session.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = http_get(url, headers=headers)
         data = response.json()
         
         news_list = []
         # 只取前10条
         for item in data.get('data', {}).get('topics', [])[:10]:
+            hot_value = str(item.get('replies') or item.get('reply_count') or item.get('replies_count') or item.get('light_reply') or '').strip()
             news_list.append({
                 'title': item.get('title', ''),
                 'url': f"https://bbs.hupu.com{item.get('url', '')}",
-                'platform': '虎扑'
+                'platform': '虎扑',
+                'hot_value': hot_value
             })
         return news_list
     except Exception as e:
@@ -395,16 +347,15 @@ def fetch_hupu_hot() -> List[Dict]:
 def fetch_news(config: Dict) -> List[Dict]:
     """从各平台直接获取新闻数据"""
     news = []
-    platforms = config.get('platforms', [])
-    request_interval = config.get('crawler', {}).get('request_interval', 1000) / 1000
+    platforms = config.get('platforms', {})
+    request_interval = config.get('crawler', {}).get('request_interval', 1)
     
-    for platform in platforms:
+    for platform_id, platform_config in platforms.items():
         try:
-            platform_id = platform.get('id')
-            if not platform_id:
+            if not platform_config.get('enabled', False):
                 continue
                 
-            print(f"获取 {platform.get('name', platform_id)} 新闻...")
+            print(f"获取 {platform_id} 新闻...")
             
             # 直接从各平台获取数据
             if platform_id == "weibo":
@@ -419,7 +370,7 @@ def fetch_news(config: Dict) -> List[Dict]:
                 zhihu_news = fetch_zhihu_hot()
                 if zhihu_news:
                     news.extend(zhihu_news)
-            elif platform_id == "bilibili-hot-search":
+            elif platform_id == "bilibili":
                 bilibili_news = fetch_bilibili_hot()
                 if bilibili_news:
                     news.extend(bilibili_news)
@@ -431,14 +382,10 @@ def fetch_news(config: Dict) -> List[Dict]:
                 douyin_news = fetch_douyin_hot()
                 if douyin_news:
                     news.extend(douyin_news)
-            elif platform_id == "hupu":
-                hupu_news = fetch_hupu_hot()
-                if hupu_news:
-                    news.extend(hupu_news)
             
             time.sleep(request_interval)
         except Exception as e:
-            print(f"获取 {platform.get('name')} 新闻失败: {e}")
+            print(f"获取 {platform_id} 新闻失败: {e}")
     
     return news
 
@@ -532,7 +479,7 @@ def render_index_html(news_by_date: Dict[str, List[Dict]], config: Dict) -> str:
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <link rel="icon" href="favicon.ico" type="image/svg+xml" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>每日热点聚合 - 热点新闻分析</title>
@@ -742,9 +689,15 @@ def render_index_html(news_by_date: Dict[str, List[Dict]], config: Dict) -> str:
     return template
 
 def render_daily_post_html(news_entry: Dict) -> str:
-    """生成每日新闻详情页面的HTML"""
-    date = news_entry.get('date', '')
-    news_list = news_entry.get('content', [])
+    """渲染每日详情页HTML"""
+    news_list = news_entry.get('news', [])
+    update_time = news_entry.get('update_time', '')
+    
+    # 处理日期，如果update_time为空，使用当前日期
+    try:
+        date = update_time.split()[0] if update_time else datetime.now().strftime('%Y-%m-%d')
+    except (AttributeError, IndexError):
+        date = datetime.now().strftime('%Y-%m-%d')
     
     # 按平台分组新闻
     news_by_platform = {}
@@ -754,167 +707,140 @@ def render_daily_post_html(news_entry: Dict) -> str:
             news_by_platform[platform] = []
         news_by_platform[platform].append(news)
     
-    # 生成平台新闻列表HTML
-    platform_news_html = ''
-    for platform, platform_news in news_by_platform.items():
-        news_items_html = ''
-        for news in platform_news:
-            # 获取新闻图片
-            image_url = news.get('image_url', '')
-            image_html = ''
-            if image_url:
-                image_html = f'''
-                <div class="w-24 h-24 flex-shrink-0 overflow-hidden rounded-lg">
-                    <img src="{image_url}" alt="新闻图片" class="w-full h-full object-cover">
-                </div>
-                '''
-            
-            news_items_html += f'''
-            <li class="py-3">
-                <a href="{news.get('url', '#')}" 
-                   target="_blank"
-                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
-                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
-                        <i class="fa fa-fire"></i>
-                    </span>
-                    <div class="ml-4 flex-1">
-                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
-                            {news.get('title', '')}
-                        </p>
-                    </div>
-                    {image_html}
-                </a>
-            </li>
-            '''
-            
-        platform_news_html += f'''
-        <div class="mb-8">
-            <div class="flex items-center mb-4">
-                <h3 class="text-xl font-bold text-neutral-700">{platform}</h3>
-                <span class="ml-3 px-2.5 py-0.5 bg-primary/10 text-primary text-sm rounded-full">
-                    {len(platform_news)}条
-                </span>
-            </div>
-            <ul class="space-y-1 divide-y divide-neutral-200">
-                {news_items_html}
-            </ul>
-        </div>
-        '''
+    # 计算布局
+    platform_count = len(news_by_platform)
+    if platform_count <= 2:
+        grid_cols = "grid-cols-2"
+    elif platform_count <= 4:
+        grid_cols = "grid-cols-2 lg:grid-cols-4"
+    else:
+        grid_cols = "grid-cols-2 lg:grid-cols-3"
     
-    html = f'''
-    <!DOCTYPE html>
-    <html lang="zh-CN">
-    <head>
-        <link rel="icon" href="favicon.ico" type="image/svg+xml" />
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{date} 热点新闻 - 每日热点新闻聚合</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        
-        <!-- 配置Tailwind自定义颜色和字体 -->
-        <script>
-            tailwind.config = {{
-                theme: {{
-                    extend: {{
-                        colors: {{
-                            primary: '#165DFF',
-                            secondary: '#FF7D00',
-                            neutral: {{
-                                100: '#F5F7FA',
-                                200: '#E5E6EB',
-                                300: '#C9CDD4',
-                                400: '#86909C',
-                                500: '#4E5969',
-                                600: '#272E3B',
-                                700: '#1D2129',
-                            }}
-                        }},
-                        fontFamily: {{
-                            sans: ['Noto Sans SC', 'sans-serif'],
-                        }},
-                    }}
-                }}
-            }}
-        </script>
-        
-        <style type="text/tailwindcss">
-            @layer utilities {{
-                .content-auto {{
-                    content-visibility: auto;
-                }}
-                .text-shadow {{
-                    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                }}
-            }}
-        </style>
-        
-        <style>
-            body {{
-                font-family: 'Noto Sans SC', sans-serif;
-                scroll-behavior: smooth;
-            }}
-            
-            html {{
-                scroll-behavior: smooth;
-            }}
-        </style>
-    </head>
-    <body class="bg-neutral-100 min-h-screen">
-        <!-- 导航栏 -->
-        <header class="sticky top-0 bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between items-center h-16">
-                    <div class="flex items-center space-x-8">
-                        <a href="../index.html" class="flex items-center text-neutral-500 hover:text-primary transition-colors">
-                            <i class="fa fa-arrow-left mr-2"></i>
-                            <span>返回首页</span>
-                        </a>
-                        <div class="flex items-center">
-                            <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
-                            <span class="text-xl font-bold text-neutral-700">热点聚合</span>
-                        </div>
+    # 生成HTML
+    html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{date} 热点新闻 - 每日热点新闻聚合</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <style>
+        body {{
+            font-family: 'Noto Sans SC', sans-serif;
+            scroll-behavior: smooth;
+        }}
+        html {{
+            scroll-behavior: smooth;
+        }}
+    </style>
+</head>
+<body class="bg-neutral-100 min-h-screen">
+    <!-- 导航栏 -->
+    <header class="sticky top-0 bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-8">
+                    <a href="../index.html" class="flex items-center text-neutral-500 hover:text-primary transition-colors">
+                        <i class="fa fa-arrow-left mr-2"></i>
+                        <span>返回首页</span>
+                    </a>
+                    <div class="flex items-center">
+                        <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-neutral-700">热点聚合</span>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!-- 主要内容区 -->
-        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <!-- 页面标题 -->
-            <div class="bg-white rounded-xl shadow-sm p-8 mb-10">
-                <h1 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">
-                    {date} 热点新闻汇总
-                </h1>
-                <div class="flex items-center text-neutral-500">
-                    <i class="fa fa-clock-o mr-2"></i>
-                    <span>更新时间：{date}</span>
+    <!-- 主要内容区 -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- 页面标题 -->
+        <div class="bg-white rounded-xl shadow-sm p-8 mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">
+                {date} 热点新闻汇总
+            </h1>
+            <div class="flex items-center text-neutral-500">
+                <i class="fa fa-clock-o mr-2"></i>
+                <span>更新时间：{update_time or date}</span>
+            </div>
+        </div>
+
+        <!-- 新闻列表 -->
+        <div class="grid {grid_cols} gap-6">"""
+    
+    # 生成每个平台的新闻列表
+    for platform, platform_news in news_by_platform.items():
+        platform_color = {
+            '微博': 'red',
+            '知乎': 'blue',
+            '百度': 'green',
+            'B站': 'pink',
+            '贴吧': 'purple',
+            '抖音': 'gray'
+        }.get(platform, 'blue')
+        
+        html += f"""
+            <div class="bg-white rounded-xl shadow-sm p-6">
+                <div class="flex items-center mb-4">
+                    <h3 class="text-xl font-bold text-neutral-700">{platform}</h3>
+                    <span class="ml-3 px-2.5 py-0.5 bg-{platform_color}-100 text-{platform_color}-600 text-sm rounded-full">
+                        {len(platform_news)}条
+                    </span>
                 </div>
-            </div>
+                <ul class="space-y-3 divide-y divide-neutral-200">"""
+        
+        for news in platform_news:
+            title = news.get('title', '')
+            url = news.get('url', '#')
+            hot_value = str(news.get('hot_value', '')).strip()
+            # 小白解释：有些平台没有提供“热度”数值，如果为空就不要显示“热度：”这行，避免看起来像是丢数据
+            hot_line = f"""<p class="text-sm text-neutral-500 mt-1">热度：{hot_value}</p>""" if hot_value else ""
+            
+            html += f"""
+                    <li class="pt-3">
+                        <a href="{url}"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-{platform_color}-100 rounded-full flex items-center justify-center text-{platform_color}-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-{platform_color}-600 transition-colors">
+                                    {title}
+                                </p>
+                                {hot_line}
+                            </div>
+                        </a>
+                    </li>"""
+        
+        html += """
+                </ul>
+            </div>"""
+    
+    html += """
+        </div>
+    </main>
 
-            <!-- 新闻列表 -->
-            <div class="bg-white rounded-xl shadow-sm p-8">
-                {platform_news_html}
+    <!-- 页脚 -->
+    <footer class="bg-white mt-12 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-neutral-500">
+                <p>© 2025 每日热点新闻聚合 | 
+                <a href="https://zxnve.dpdns.org" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors">
+                   导航站主页
+                </a>
+                </p>
+                <p class="mt-2">本网站内容仅记录热搜，不代表任何立场</p>
             </div>
-        </main>
-
-        <!-- 页脚 -->
-        <footer class="bg-white mt-12 py-8">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center text-neutral-500">
-                    <p>© 2025 每日热点新闻聚合 | 
-                    <a href="https://zxnve.dpdns.org" target="_blank" class="text-neutral-300 hover:text-white transition-colors">
-                       导航站主页
-                    </a>
-                    </p>
-                    <p class="mt-2">本网站内容仅记录热搜，不代表任何立场</p>
-                </div>
-            </div>
-        </footer>
-    </body>
-    </html>
-    '''
+        </div>
+    </footer>
+</body>
+</html>"""
     
     return html
 
@@ -924,7 +850,7 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
     <!DOCTYPE html>
     <html lang="zh-CN">
     <head>
-        <link rel="icon" href="favicon.ico" type="image/svg+xml" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>每日热点新闻聚合</title>
@@ -1114,11 +1040,13 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
 
 def save_news_to_blog(report_data: Dict):
     """保存新闻数据到博客"""
-    current_date = datetime.now().strftime("%Y-%m-%d")
+    current_date = get_beijing_time().strftime("%Y-%m-%d")
     news_entry = {
         "date": current_date,
-        "content": report_data.get('word_groups', [])[0].get('news', []) if report_data.get('word_groups') else report_data,
-        "title": f"{current_date} 热点新闻汇总"
+        "news": report_data.get('all_news', []),
+        "content": report_data.get('all_news', []),
+        "title": f"{current_date} 热点新闻汇总",
+        "update_time": report_data.get('timestamp', current_date)
     }
     
     # 创建数据存储目录
@@ -1127,6 +1055,16 @@ def save_news_to_blog(report_data: Dict):
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(archive_dir, exist_ok=True)
     os.makedirs(POSTS_DIR, exist_ok=True)
+
+    # 写入 CNAME（如果配置存在），用于 GitHub Pages 自定义域名
+    try:
+        cfg = load_config()
+        cname = (cfg.get('blog', {}) or {}).get('cname')
+        if cname:
+            with open("CNAME", "w", encoding="utf-8") as f:
+                f.write(str(cname).strip())
+    except Exception as e:
+        print(f"写入CNAME失败: {e}")
     
     # 保存当天数据到独立的JSON文件
     daily_data_path = os.path.join(data_dir, f"{current_date}.json")
@@ -1190,6 +1128,9 @@ def main():
     if not config:
         print("配置文件加载失败，无法继续运行")
         return
+    # 设置全局配置，供 HTTP 请求读取爬虫参数
+    global GLOBAL_CFG
+    GLOBAL_CFG = config
     
     # 加载关键词配置
     required_words, keywords, exclude_words = load_frequency_words()
@@ -1214,7 +1155,8 @@ def main():
     report_data = {
         "word_groups": word_groups,
         "total": len(filtered_news),
-        "timestamp": get_beijing_time().strftime("%Y-%m-%d %H:%M:%S")
+        "timestamp": get_beijing_time().strftime("%Y-%m-%d %H:%M:%S"),
+        "all_news": filtered_news
     }
     
     # 保存到博客
