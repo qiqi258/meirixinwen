@@ -5,6 +5,10 @@ on:
     - cron: '0 14 * * *'  # 每天 UTC 14:00 = 北京时间 22:00
   workflow_dispatch:  # 允许手动触发
 
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   update-news:
     runs-on: ubuntu-latest
@@ -31,6 +35,7 @@ jobs:
         python main.py
       env:
         TZ: Asia/Shanghai  # 设置时区，确保日期正确
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 添加 GitHub Token
     
     - name: 提交更新到主分支
       run: |
@@ -46,6 +51,8 @@ jobs:
         git add .
         git commit -m "自动更新: $(date '+%Y-%m-%d %H:%M:%S')"
         git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 添加 GitHub Token
     
     - name: 部署到GitHub Pages
       uses: peaceiris/actions-gh-pages@v3

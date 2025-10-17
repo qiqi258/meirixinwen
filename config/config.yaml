@@ -1,0 +1,41 @@
+# 平台配置
+platforms:
+  weibo:
+    enabled: true
+    limit: 10
+  zhihu:
+    enabled: true
+    limit: 10
+  baidu:
+    enabled: true
+    limit: 10
+  bilibili:
+    enabled: true
+    limit: 10
+  tieba:
+    enabled: true
+    limit: 10
+  douyin:
+    enabled: true
+    limit: 10
+
+# 爬虫设置
+crawler:
+  request_interval: 1  # 请求间隔（秒）
+  timeout: 10  # 请求超时时间（秒）
+  max_retries: 3  # 最大重试次数
+
+# 过滤设置
+filter:
+  min_title_length: 2  # 最小标题长度
+  max_title_length: 100  # 最大标题长度
+  min_news_count: 50  # 最小新闻数量
+
+# 博客设置
+blog:
+  title: "每日热点新闻聚合"
+  description: "聚合展示微博、知乎、百度、B站等多个平台的热点新闻"
+  author: "每日新闻聚合系统"
+  language: "zh-CN"
+  theme_color: "#2196f3"
+  background_color: "#ffffff"

@@ -1,7 +1,14 @@
 import os
 import json
-import time
 import yaml
+import time
+import random
+import logging
+import requests
+import threading
+from datetime import datetime
+from typing import Dict, List, Optional, Tuple, Union, Any
+
 import pytz
 import requests
 from typing import Dict, List, Set, Tuple
@@ -395,16 +402,15 @@ def fetch_hupu_hot() -> List[Dict]:
 def fetch_news(config: Dict) -> List[Dict]:
     """从各平台直接获取新闻数据"""
     news = []
-    platforms = config.get('platforms', [])
-    request_interval = config.get('crawler', {}).get('request_interval', 1000) / 1000
+    platforms = config.get('platforms', {})
+    request_interval = config.get('crawler', {}).get('request_interval', 1)
     
-    for platform in platforms:
+    for platform_id, platform_config in platforms.items():
         try:
-            platform_id = platform.get('id')
-            if not platform_id:
+            if not platform_config.get('enabled', False):
                 continue
                 
-            print(f"获取 {platform.get('name', platform_id)} 新闻...")
+            print(f"获取 {platform_id} 新闻...")
             
             # 直接从各平台获取数据
             if platform_id == "weibo":
@@ -419,7 +425,7 @@ def fetch_news(config: Dict) -> List[Dict]:
                 zhihu_news = fetch_zhihu_hot()
                 if zhihu_news:
                     news.extend(zhihu_news)
-            elif platform_id == "bilibili-hot-search":
+            elif platform_id == "bilibili":
                 bilibili_news = fetch_bilibili_hot()
                 if bilibili_news:
                     news.extend(bilibili_news)
@@ -431,14 +437,10 @@ def fetch_news(config: Dict) -> List[Dict]:
                 douyin_news = fetch_douyin_hot()
                 if douyin_news:
                     news.extend(douyin_news)
-            elif platform_id == "hupu":
-                hupu_news = fetch_hupu_hot()
-                if hupu_news:
-                    news.extend(hupu_news)
             
             time.sleep(request_interval)
         except Exception as e:
-            print(f"获取 {platform.get('name')} 新闻失败: {e}")
+            print(f"获取 {platform_id} 新闻失败: {e}")
     
     return news
 
@@ -742,9 +744,15 @@ def render_index_html(news_by_date: Dict[str, List[Dict]], config: Dict) -> str:
     return template
 
 def render_daily_post_html(news_entry: Dict) -> str:
-    """生成每日新闻详情页面的HTML"""
-    date = news_entry.get('date', '')
-    news_list = news_entry.get('content', [])
+    """渲染每日详情页HTML"""
+    news_list = news_entry.get('news', [])
+    update_time = news_entry.get('update_time', '')
+    
+    # 处理日期，如果update_time为空，使用当前日期
+    try:
+        date = update_time.split()[0] if update_time else datetime.now().strftime('%Y-%m-%d')
+    except (AttributeError, IndexError):
+        date = datetime.now().strftime('%Y-%m-%d')
     
     # 按平台分组新闻
     news_by_platform = {}
@@ -754,167 +762,138 @@ def render_daily_post_html(news_entry: Dict) -> str:
             news_by_platform[platform] = []
         news_by_platform[platform].append(news)
     
-    # 生成平台新闻列表HTML
-    platform_news_html = ''
-    for platform, platform_news in news_by_platform.items():
-        news_items_html = ''
-        for news in platform_news:
-            # 获取新闻图片
-            image_url = news.get('image_url', '')
-            image_html = ''
-            if image_url:
-                image_html = f'''
-                <div class="w-24 h-24 flex-shrink-0 overflow-hidden rounded-lg">
-                    <img src="{image_url}" alt="新闻图片" class="w-full h-full object-cover">
-                </div>
-                '''
-            
-            news_items_html += f'''
-            <li class="py-3">
-                <a href="{news.get('url', '#')}" 
-                   target="_blank"
-                   class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
-                    <span class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center text-primary">
-                        <i class="fa fa-fire"></i>
-                    </span>
-                    <div class="ml-4 flex-1">
-                        <p class="text-neutral-700 group-hover:text-primary transition-colors">
-                            {news.get('title', '')}
-                        </p>
-                    </div>
-                    {image_html}
-                </a>
-            </li>
-            '''
-            
-        platform_news_html += f'''
-        <div class="mb-8">
-            <div class="flex items-center mb-4">
-                <h3 class="text-xl font-bold text-neutral-700">{platform}</h3>
-                <span class="ml-3 px-2.5 py-0.5 bg-primary/10 text-primary text-sm rounded-full">
-                    {len(platform_news)}条
-                </span>
-            </div>
-            <ul class="space-y-1 divide-y divide-neutral-200">
-                {news_items_html}
-            </ul>
-        </div>
-        '''
+    # 计算布局
+    platform_count = len(news_by_platform)
+    if platform_count <= 2:
+        grid_cols = "grid-cols-2"
+    elif platform_count <= 4:
+        grid_cols = "grid-cols-2 lg:grid-cols-4"
+    else:
+        grid_cols = "grid-cols-2 lg:grid-cols-3"
     
-    html = f'''
-    <!DOCTYPE html>
-    <html lang="zh-CN">
-    <head>
-        <link rel="icon" href="favicon.ico" type="image/svg+xml" />
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{date} 热点新闻 - 每日热点新闻聚合</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        
-        <!-- 配置Tailwind自定义颜色和字体 -->
-        <script>
-            tailwind.config = {{
-                theme: {{
-                    extend: {{
-                        colors: {{
-                            primary: '#165DFF',
-                            secondary: '#FF7D00',
-                            neutral: {{
-                                100: '#F5F7FA',
-                                200: '#E5E6EB',
-                                300: '#C9CDD4',
-                                400: '#86909C',
-                                500: '#4E5969',
-                                600: '#272E3B',
-                                700: '#1D2129',
-                            }}
-                        }},
-                        fontFamily: {{
-                            sans: ['Noto Sans SC', 'sans-serif'],
-                        }},
-                    }}
-                }}
-            }}
-        </script>
-        
-        <style type="text/tailwindcss">
-            @layer utilities {{
-                .content-auto {{
-                    content-visibility: auto;
-                }}
-                .text-shadow {{
-                    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                }}
-            }}
-        </style>
-        
-        <style>
-            body {{
-                font-family: 'Noto Sans SC', sans-serif;
-                scroll-behavior: smooth;
-            }}
-            
-            html {{
-                scroll-behavior: smooth;
-            }}
-        </style>
-    </head>
-    <body class="bg-neutral-100 min-h-screen">
-        <!-- 导航栏 -->
-        <header class="sticky top-0 bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between items-center h-16">
-                    <div class="flex items-center space-x-8">
-                        <a href="../index.html" class="flex items-center text-neutral-500 hover:text-primary transition-colors">
-                            <i class="fa fa-arrow-left mr-2"></i>
-                            <span>返回首页</span>
-                        </a>
-                        <div class="flex items-center">
-                            <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
-                            <span class="text-xl font-bold text-neutral-700">热点聚合</span>
-                        </div>
+    # 生成HTML
+    html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <link rel="icon" href="../favicon.ico" type="image/svg+xml" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{date} 热点新闻 - 每日热点新闻聚合</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <style>
+        body {{
+            font-family: 'Noto Sans SC', sans-serif;
+            scroll-behavior: smooth;
+        }}
+        html {{
+            scroll-behavior: smooth;
+        }}
+    </style>
+</head>
+<body class="bg-neutral-100 min-h-screen">
+    <!-- 导航栏 -->
+    <header class="sticky top-0 bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-8">
+                    <a href="../index.html" class="flex items-center text-neutral-500 hover:text-primary transition-colors">
+                        <i class="fa fa-arrow-left mr-2"></i>
+                        <span>返回首页</span>
+                    </a>
+                    <div class="flex items-center">
+                        <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-neutral-700">热点聚合</span>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!-- 主要内容区 -->
-        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <!-- 页面标题 -->
-            <div class="bg-white rounded-xl shadow-sm p-8 mb-10">
-                <h1 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">
-                    {date} 热点新闻汇总
-                </h1>
-                <div class="flex items-center text-neutral-500">
-                    <i class="fa fa-clock-o mr-2"></i>
-                    <span>更新时间：{date}</span>
+    <!-- 主要内容区 -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- 页面标题 -->
+        <div class="bg-white rounded-xl shadow-sm p-8 mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">
+                {date} 热点新闻汇总
+            </h1>
+            <div class="flex items-center text-neutral-500">
+                <i class="fa fa-clock-o mr-2"></i>
+                <span>更新时间：{update_time or date}</span>
+            </div>
+        </div>
+
+        <!-- 新闻列表 -->
+        <div class="grid {grid_cols} gap-6">"""
+    
+    # 生成每个平台的新闻列表
+    for platform, platform_news in news_by_platform.items():
+        platform_color = {
+            '微博': 'red',
+            '知乎': 'blue',
+            '百度': 'green',
+            'B站': 'pink',
+            '贴吧': 'purple',
+            '抖音': 'gray'
+        }.get(platform, 'blue')
+        
+        html += f"""
+            <div class="bg-white rounded-xl shadow-sm p-6">
+                <div class="flex items-center mb-4">
+                    <h3 class="text-xl font-bold text-neutral-700">{platform}</h3>
+                    <span class="ml-3 px-2.5 py-0.5 bg-{platform_color}-100 text-{platform_color}-600 text-sm rounded-full">
+                        {len(platform_news)}条
+                    </span>
                 </div>
-            </div>
+                <ul class="space-y-3 divide-y divide-neutral-200">"""
+        
+        for news in platform_news:
+            title = news.get('title', '')
+            url = news.get('url', '#')
+            hot_value = news.get('hot_value', '')
+            
+            html += f"""
+                    <li class="pt-3">
+                        <a href="{url}" 
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-{platform_color}-100 rounded-full flex items-center justify-center text-{platform_color}-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-{platform_color}-600 transition-colors">
+                                    {title}
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1">热度：{hot_value}</p>
+                            </div>
+                        </a>
+                    </li>"""
+        
+        html += """
+                </ul>
+            </div>"""
+    
+    html += """
+        </div>
+    </main>
 
-            <!-- 新闻列表 -->
-            <div class="bg-white rounded-xl shadow-sm p-8">
-                {platform_news_html}
+    <!-- 页脚 -->
+    <footer class="bg-white mt-12 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-neutral-500">
+                <p>© 2025 每日热点新闻聚合 | 
+                <a href="https://zxnve.dpdns.org" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors">
+                   导航站主页
+                </a>
+                </p>
+                <p class="mt-2">本网站内容仅记录热搜，不代表任何立场</p>
             </div>
-        </main>
-
-        <!-- 页脚 -->
-        <footer class="bg-white mt-12 py-8">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center text-neutral-500">
-                    <p>© 2025 每日热点新闻聚合 | 
-                    <a href="https://zxnve.dpdns.org" target="_blank" class="text-neutral-300 hover:text-white transition-colors">
-                       导航站主页
-                    </a>
-                    </p>
-                    <p class="mt-2">本网站内容仅记录热搜，不代表任何立场</p>
-                </div>
-            </div>
-        </footer>
-    </body>
-    </html>
-    '''
+        </div>
+    </footer>
+</body>
+</html>"""
     
     return html
 
@@ -1117,8 +1096,10 @@ def save_news_to_blog(report_data: Dict):
     current_date = datetime.now().strftime("%Y-%m-%d")
     news_entry = {
         "date": current_date,
-        "content": report_data.get('word_groups', [])[0].get('news', []) if report_data.get('word_groups') else report_data,
-        "title": f"{current_date} 热点新闻汇总"
+        "news": report_data.get('all_news', []),
+        "content": report_data.get('all_news', []),
+        "title": f"{current_date} 热点新闻汇总",
+        "update_time": report_data.get('timestamp', current_date)
     }
     
     # 创建数据存储目录
@@ -1214,7 +1195,8 @@ def main():
     report_data = {
         "word_groups": word_groups,
         "total": len(filtered_news),
-        "timestamp": get_beijing_time().strftime("%Y-%m-%d %H:%M:%S")
+        "timestamp": get_beijing_time().strftime("%Y-%m-%d %H:%M:%S"),
+        "all_news": filtered_news
     }
     
     # 保存到博客
