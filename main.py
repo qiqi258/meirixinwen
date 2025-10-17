@@ -724,6 +724,9 @@ def render_daily_post_html(news_entry: Dict) -> str:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{date} 热点新闻 - 每日热点新闻聚合</title>
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="baiduspider" content="index,follow" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -768,6 +771,9 @@ def render_daily_post_html(news_entry: Dict) -> str:
                 <i class="fa fa-clock-o mr-2"></i>
                 <span>更新时间：{update_time or date}</span>
             </div>
+            <p class="text-sm text-neutral-400 mt-3">
+                爬虫友好声明：本站允许任何搜索引擎与广告爬虫抓取与索引（包括 Google Ads、Baidu Ads 等）。
+            </p>
         </div>
 
         <!-- 新闻列表 -->
@@ -854,6 +860,9 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>每日热点新闻聚合</title>
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
+        <meta name="baiduspider" content="index,follow" />
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -942,6 +951,9 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
                 <h2 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">每日热点新闻聚合</h2>
                 <p class="text-lg text-neutral-500 max-w-3xl mx-auto">
                     每日整理来自各大平台的热点，帮助您快速了解当下最受关注的话题，一站式掌握全球动态。
+                </p>
+                <p class="text-sm text-neutral-400 mt-3">
+                    爬虫友好声明：本站允许任何搜索引擎与广告爬虫抓取与索引（包括 Google Ads、Baidu Ads 等）。
                 </p>
             </div>
 
@@ -1065,6 +1077,26 @@ def save_news_to_blog(report_data: Dict):
                 f.write(str(cname).strip())
     except Exception as e:
         print(f"写入CNAME失败: {e}")
+
+    # 写入 robots.txt，允许所有爬虫抓取与索引（包含广告爬虫）
+    try:
+        robots_txt = """User-agent: *
+Allow: /
+
+# Ads crawlers
+User-agent: AdsBot-Google
+Allow: /
+User-agent: Mediapartners-Google
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: Baiduspider-ads
+Allow: /
+"""
+        with open("robots.txt", "w", encoding="utf-8") as f:
+            f.write(robots_txt)
+    except Exception as e:
+        print(f"写入robots.txt失败: {e}")
     
     # 保存当天数据到独立的JSON文件
     daily_data_path = os.path.join(data_dir, f"{current_date}.json")
