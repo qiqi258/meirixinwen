@@ -39,17 +39,16 @@
             }
         </script>
         
-        <style type="text/tailwindcss">
-            @layer utilities {
-                .content-auto {
-                    content-visibility: auto;
-                }
-                .text-shadow {
-                    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                }
-                .card-hover {
-                    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
-                }
+        <style>
+            /* 兼容纯浏览器环境：移除 Tailwind @apply，改用等效原生 CSS */
+            .content-auto { content-visibility: auto; }
+            .text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+            .card-hover { transition: all 0.3s ease; }
+            .card-hover:hover {
+                /* 等效 hover:shadow-lg */
+                box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+                /* 等效 hover:-translate-y-1 (-0.25rem) */
+                transform: translateY(-0.25rem);
             }
         </style>
         
