@@ -401,9 +401,85 @@
                    导航站主页
                 </a>
                 </p>
-                <p class="mt-2">本网站内容仅记录热搜，不代表任何立场</p>
+                <p class="mt-2">本站已累计运行：<span id="runtime">计算中...</span></p>
             </div>
         </div>
     </footer>
+    <script>
+      // 站点起始时间（北京时间）
+      const START_BJ = '2025-10-17 00:00:00';
+      // 将北京时间转换为 UTC 时间戳（2025-10-17 00:00:00+08:00 == 2025-10-16T16:00:00Z）
+      const START_UTC_MS = Date.parse('2025-10-16T16:00:00Z');
+
+      /**
+       * computeElapsedYDHMS()
+       * 功能：计算从起始时间到当前时间的“年 / 日 / 时 / 分 / 秒”
+       * 小白解释：先按日历扣掉整年的周年（更符合人类直觉），然后把剩余时间用天/小时/分钟/秒拆开，精确到秒。
+       */
+      function computeElapsedYDHMS(nowMs) {
+        const now = new Date(nowMs);
+        const startUtc = new Date(START_UTC_MS);
+
+        // 估算整年差
+        let y = now.getUTCFullYear() - startUtc.getUTCFullYear();
+
+        // 基准时间 = 起点 + y年（均用UTC，避免夏令时等问题）
+        let base = new Date(Date.UTC(
+          startUtc.getUTCFullYear() + y,
+          startUtc.getUTCMonth(),
+          startUtc.getUTCDate(),
+          startUtc.getUTCHours(),
+          startUtc.getUTCMinutes(),
+          startUtc.getUTCSeconds()
+        ));
+
+        // 如果当前时间还没到周年，年份回退一并重算
+        if (now < base) {
+          y -= 1;
+          base = new Date(Date.UTC(
+            startUtc.getUTCFullYear() + y,
+            startUtc.getUTCMonth(),
+            startUtc.getUTCDate(),
+            startUtc.getUTCHours(),
+            startUtc.getUTCMinutes(),
+            startUtc.getUTCSeconds()
+          ));
+        }
+
+        // 拆分日/时/分/秒
+        const diffMs = now - base;
+        const dayMs = 24 * 60 * 60 * 1000;
+        const hourMs = 60 * 60 * 1000;
+        const minuteMs = 60 * 1000;
+
+        const d = Math.floor(diffMs / dayMs);
+        const remAfterDays = diffMs - d * dayMs;
+
+        const h = Math.floor(remAfterDays / hourMs);
+        const remAfterHours = remAfterDays - h * hourMs;
+
+        const min = Math.floor(remAfterHours / minuteMs);
+        const s = Math.floor((remAfterHours - min * minuteMs) / 1000);
+
+        return { y, d, h, min, s };
+      }
+
+      /**
+       * updateRuntime()
+       * 功能：把“年/日/时/分/秒”的累计运行时间渲染到页面，并每秒刷新一次
+       * 小白解释：每1秒计算一次“过去了多少年、日、时、分、秒”，然后把内容填到 id=runtime 的位置。
+       */
+      function updateRuntime() {
+        const el = document.getElementById('runtime');
+        if (!el) return;
+        const nowMs = Date.now();
+        const { y, d, h, min, s } = computeElapsedYDHMS(nowMs);
+        el.textContent = `${y}年${d}日${h.toString().padStart(2,'0')}时${min.toString().padStart(2,'0')}分${s.toString().padStart(2,'0')}秒`;
+      }
+
+      // 首次渲染 + 每秒刷新
+      updateRuntime();
+      setInterval(updateRuntime, 1000);
+    </script>
 </body>
 </html>

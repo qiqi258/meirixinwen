@@ -841,10 +841,86 @@ def render_daily_post_html(news_entry: Dict) -> str:
                    导航站主页
                 </a>
                 </p>
-                <p class="mt-2">本网站内容仅记录热搜，不代表任何立场</p>
+                <p class="mt-2">本站已累计运行：<span id="runtime">计算中...</span></p>
             </div>
         </div>
     </footer>
+    <script>
+      // 站点起始时间（北京时间）
+      const START_BJ = '2025-10-17 00:00:00';
+      // 将北京时间转换为 UTC 时间戳（2025-10-17 00:00:00+08:00 == 2025-10-16T16:00:00Z）
+      const START_UTC_MS = Date.parse('2025-10-16T16:00:00Z');
+
+      /**
+       * computeElapsedYDHMS
+       * 功能：计算从起始时间到当前时间的“年 / 日 / 时 / 分 / 秒”
+       * 小白解释：先扣掉整年（周年），剩余的用天/小时/分钟/秒拆分，精确到秒。
+       */
+      function computeElapsedYDHMS(nowMs) {
+        const now = new Date(nowMs);
+        const startUtc = new Date(START_UTC_MS);
+
+        // 估算整年差
+        let y = now.getUTCFullYear() - startUtc.getUTCFullYear();
+
+        // 基准时间 = 起点 + y年（均用UTC避免夏令时问题）
+        let base = new Date(Date.UTC(
+          startUtc.getUTCFullYear() + y,
+          startUtc.getUTCMonth(),
+          startUtc.getUTCDate(),
+          startUtc.getUTCHours(),
+          startUtc.getUTCMinutes(),
+          startUtc.getUTCSeconds()
+        ));
+
+        // 如果当前时间还没到周年，年份回退一
+        if (now < base) {
+          y -= 1;
+          base = new Date(Date.UTC(
+            startUtc.getUTCFullYear() + y,
+            startUtc.getUTCMonth(),
+            startUtc.getUTCDate(),
+            startUtc.getUTCHours(),
+            startUtc.getUTCMinutes(),
+            startUtc.getUTCSeconds()
+          ));
+        }
+
+        // 拆分日/时/分/秒
+        const diffMs = now - base;
+        const dayMs = 24 * 60 * 60 * 1000;
+        const hourMs = 60 * 60 * 1000;
+        const minuteMs = 60 * 1000;
+
+        const d = Math.floor(diffMs / dayMs);
+        const remAfterDays = diffMs - d * dayMs;
+
+        const h = Math.floor(remAfterDays / hourMs);
+        const remAfterHours = remAfterDays - h * hourMs;
+
+        const min = Math.floor(remAfterHours / minuteMs);
+        const s = Math.floor((remAfterHours - min * minuteMs) / 1000);
+
+        return { y, d, h, min, s };
+      }
+
+      /**
+       * updateRuntime
+       * 功能：渲染累计运行时间并每秒刷新
+       * 小白解释：每1秒计算“年/日/时/分/秒”，更新到页面 id=runtime 的位置。
+       */
+      function updateRuntime() {
+        const el = document.getElementById('runtime');
+        if (!el) return;
+        const nowMs = Date.now();
+        const { y, d, h, min, s } = computeElapsedYDHMS(nowMs);
+        el.textContent = `${y}年${d}日${h.toString().padStart(2,'0')}时${min.toString().padStart(2,'0')}分${s.toString().padStart(2,'0')}秒`;
+      }
+
+      // 首次渲染 + 每秒刷新
+      updateRuntime();
+      setInterval(updateRuntime, 1000);
+    </script>
 </body>
 </html>"""
     
@@ -893,17 +969,16 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
             }
         </script>
         
-        <style type="text/tailwindcss">
-            @layer utilities {
-                .content-auto {
-                    content-visibility: auto;
-                }
-                .text-shadow {
-                    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                }
-                .card-hover {
-                    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
-                }
+        <style>
+            /* 兼容纯浏览器环境：移除 Tailwind @apply，改用等效原生 CSS */
+            .content-auto { content-visibility: auto; }
+            .text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+            .card-hover { transition: all 0.3s ease; }
+            .card-hover:hover {
+                /* 等效 hover:shadow-lg */
+                box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+                /* 等效 hover:-translate-y-1 (-0.25rem) */
+                transform: translateY(-0.25rem);
             }
         </style>
         
@@ -1039,11 +1114,81 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
                        导航站主页
                     </a>
                     </p>
-                    <p class="mt-2">本网站内容仅记录热搜，不代表任何立场</p>
+                    <p class="mt-2">本站已累计运行：<span id="runtime">计算中...</span></p>
                 </div>
                 </div>
             </div>
         </footer>
+        <script>
+          // 站点起始时间（北京时间）
+          const START_BJ = '2025-10-17 00:00:00';
+          // 将北京时间转换为 UTC 时间戳（2025-10-17 00:00:00+08:00 == 2025-10-16T16:00:00Z）
+          const START_UTC_MS = Date.parse('2025-10-16T16:00:00Z');
+
+          /**
+           * computeElapsedYDHMS
+           * 功能：计算“年/日/时/分/秒”的累计运行时间
+           * 小白解释：先扣除整年，再把剩余毫秒拆分为天/小时/分钟/秒。
+           */
+          function computeElapsedYDHMS(nowMs) {
+            const now = new Date(nowMs);
+            const startUtc = new Date(START_UTC_MS);
+
+            let y = now.getUTCFullYear() - startUtc.getUTCFullYear();
+
+            let base = new Date(Date.UTC(
+              startUtc.getUTCFullYear() + y,
+              startUtc.getUTCMonth(),
+              startUtc.getUTCDate(),
+              startUtc.getUTCHours(),
+              startUtc.getUTCMinutes(),
+              startUtc.getUTCSeconds()
+            ));
+
+            if (now < base) {
+              y -= 1;
+              base = new Date(Date.UTC(
+                startUtc.getUTCFullYear() + y,
+                startUtc.getUTCMonth(),
+                startUtc.getUTCDate(),
+                startUtc.getUTCHours(),
+                startUtc.getUTCMinutes(),
+                startUtc.getUTCSeconds()
+              ));
+            }
+
+            const diffMs = now - base;
+            const dayMs = 24 * 60 * 60 * 1000;
+            const hourMs = 60 * 60 * 1000;
+            const minuteMs = 60 * 1000;
+
+            const d = Math.floor(diffMs / dayMs);
+            const remAfterDays = diffMs - d * dayMs;
+
+            const h = Math.floor(remAfterDays / hourMs);
+            const remAfterHours = remAfterDays - h * hourMs;
+
+            const min = Math.floor(remAfterHours / minuteMs);
+            const s = Math.floor((remAfterHours - min * minuteMs) / 1000);
+
+            return { y, d, h, min, s };
+          }
+
+          /**
+           * updateRuntime
+           * 功能：渲染累计运行时间并每秒刷新
+           */
+          function updateRuntime() {
+            const el = document.getElementById('runtime');
+            if (!el) return;
+            const nowMs = Date.now();
+            const { y, d, h, min, s } = computeElapsedYDHMS(nowMs);
+            el.textContent = `${y}年${d}日${h.toString().padStart(2,'0')}时${min.toString().padStart(2,'0')}分${s.toString().padStart(2,'0')}秒`;
+          }
+
+          updateRuntime();
+          setInterval(updateRuntime, 1000);
+        </script>
     </body>
     </html>
     '''
