@@ -772,7 +772,7 @@ def render_daily_post_html(news_entry: Dict) -> str:
                 <span>更新时间：{update_time or date}</span>
             </div>
             <p class="text-sm text-neutral-400 mt-3">
-                爬虫友好声明：本站允许任何搜索引擎与广告爬虫抓取与索引（包括 Google Ads、Baidu Ads 等）。
+                
             </p>
         </div>
 
@@ -953,7 +953,7 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
                     每日整理来自各大平台的热点，帮助您快速了解当下最受关注的话题，一站式掌握全球动态。
                 </p>
                 <p class="text-sm text-neutral-400 mt-3">
-                    爬虫友好声明：本站允许任何搜索引擎与广告爬虫抓取与索引（包括 Google Ads、Baidu Ads 等）。
+                    
                 </p>
             </div>
 
