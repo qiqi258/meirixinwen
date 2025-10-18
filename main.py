@@ -1033,7 +1033,7 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
             </div>
 
             <!-- 文章列表 -->
-            <div class="space-y-6">
+            <div id="blogList" class="space-y-6">
     '''
     
     # 生成文章列表
@@ -1103,8 +1103,13 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
     
     html += '''
             </div>
+            <div class="flex justify-center gap-2 mt-6">
+                <button id="prevPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed">上一页</button>
+                <span id="pageInfo" class="px-4 py-2">第 1 页</span>
+                <button id="nextPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed">下一页</button>
+            </div>
         </main>
-
+ 
         <!-- 页脚 -->
         <footer class="bg-white mt-12 py-8">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1188,6 +1193,44 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
 
           updateRuntime();
           setInterval(updateRuntime, 1000);
+
+          // ===== 主页分页（每页显示文章数，可调整）=====
+          const ITEMS_PER_PAGE = 10; // 默认每页显示10篇文章
+          let currentPage = 1;
+
+          function updatePagination() {
+            const cards = Array.from(document.querySelectorAll('#blogList > article'));
+            const totalPages = Math.max(1, Math.ceil(cards.length / ITEMS_PER_PAGE));
+            currentPage = Math.min(currentPage, totalPages);
+
+            const start = (currentPage - 1) * ITEMS_PER_PAGE;
+            const end = start + ITEMS_PER_PAGE;
+
+            cards.forEach((card, idx) => {
+              card.style.display = (idx >= start && idx < end) ? '' : 'none';
+            });
+
+            const prev = document.getElementById('prevPage');
+            const next = document.getElementById('nextPage');
+            const info = document.getElementById('pageInfo');
+
+            if (prev) prev.disabled = currentPage <= 1;
+            if (next) next.disabled = currentPage >= totalPages;
+            if (info) info.textContent = `第 ${currentPage} 页 / 共 ${totalPages} 页`;
+          }
+
+          // 初始化分页与按钮事件
+          updatePagination();
+          const prevBtn = document.getElementById('prevPage');
+          const nextBtn = document.getElementById('nextPage');
+          if (prevBtn) prevBtn.addEventListener('click', () => {
+            if (currentPage > 1) { currentPage--; updatePagination(); }
+          });
+          if (nextBtn) nextBtn.addEventListener('click', () => {
+            const cardsCount = document.querySelectorAll('#blogList > article').length;
+            const totalPages = Math.max(1, Math.ceil(cardsCount / ITEMS_PER_PAGE));
+            if (currentPage < totalPages) { currentPage++; updatePagination(); }
+          });
         </script>
     </body>
     </html>
