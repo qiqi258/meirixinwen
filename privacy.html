@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - 每日热点新闻聚合</title>
+    <meta name="robots" content="index,follow" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- 配置Tailwind自定义颜色和字体 -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#FF7D00',
+                        neutral: {
+                            100: '#F5F7FA',
+                            200: '#E5E6EB',
+                            300: '#C9CDD4',
+                            400: '#86909C',
+                            500: '#4E5969',
+                            600: '#272E3B',
+                            700: '#1D2129',
+                            800: '#141414',
+                            900: '#0A0A0A',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Noto Sans SC', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-neutral-100 dark:bg-neutral-900 min-h-screen transition-colors duration-300">
+    <!-- 导航栏 -->
+    <header class="sticky top-0 bg-white/90 dark:bg-neutral-800/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
+                    <span class="text-xl font-bold text-neutral-700 dark:text-neutral-200" data-zh="热点聚合" data-en="News Hub">热点聚合</span>
+                </div>
+                
+                <!-- 导航链接 -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="about.html" class="text-base font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors" data-zh="关于本站" data-en="About">关于本站</a>
+                    <a href="privacy.html" class="text-base font-medium text-primary" data-zh="隐私政策" data-en="Privacy">隐私政策</a>
+                    <a href="help.html" class="text-base font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors" data-zh="帮助中心" data-en="Help">帮助中心</a>
+                    <a href="index.html" class="text-base font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors">
+                        <i class="fa fa-home mr-1"></i><span data-zh="返回首页" data-en="Home">返回首页</span>
+                    </a>
+                </nav>
+                
+                <!-- 功能按钮组 -->
+                <div class="flex items-center space-x-2">
+                    <!-- 语言切换按钮 -->
+                    <button id="lang-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-600 transition-colors">
+                        <span id="lang-text" class="text-sm font-medium">中</span>
+                    </button>
+                    
+                    <!-- 主题切换按钮 -->
+                    <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-600 transition-colors">
+                        <i id="theme-icon" class="fa fa-moon-o"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容区 -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm p-8">
+            <h1 class="text-3xl font-bold text-neutral-700 dark:text-neutral-200 mb-6" data-zh="隐私政策" data-en="Privacy Policy">隐私政策</h1>
+            
+            <div class="prose prose-neutral dark:prose-invert max-w-none">
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                    <strong data-zh="最后更新时间：2025年11月15日" data-en="Last Updated: November 15, 2025">最后更新时间：2025年11月15日</strong>
+                </p>
+                
+                <h2 class="text-xl font-semibold text-neutral-700 dark:text-neutral-200 mt-8 mb-4" data-zh="1. 信息收集" data-en="1. Information Collection">1. 信息收集</h2>
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4" data-zh="我们致力于保护您的隐私。本网站仅收集和存储以下信息：" data-en="We are committed to protecting your privacy. This website only collects and stores the following information:">
+                    我们致力于保护您的隐私。本网站仅收集和存储以下信息：
+                </p>
+                <ul class="list-disc pl-6 text-neutral-600 dark:text-neutral-400 space-y-2">
+                    <li data-zh="网站访问日志（IP地址、浏览器类型、访问时间等）" data-en="Website access logs (IP address, browser type, access time, etc.)">网站访问日志（IP地址、浏览器类型、访问时间等）</li>
+                    <li data-zh="用户通过主题切换功能保存的主题偏好设置" data-en="User's theme preference settings saved through theme switching feature">用户通过主题切换功能保存的主题偏好设置</li>
+                    <li data-zh="用户通过联系表单主动提供的联系信息" data-en="Contact information voluntarily provided by users through contact forms">用户通过联系表单主动提供的联系信息</li>
+                </ul>
+                
+                <h2 class="text-xl font-semibold text-neutral-700 dark:text-neutral-200 mt-8 mb-4" data-zh="2. 信息使用" data-en="2. Information Usage">2. 信息使用</h2>
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4" data-zh="我们收集的信息仅用于以下目的：" data-en="The information we collect is used only for the following purposes:">
+                    我们收集的信息仅用于以下目的：
+                </p>
+                <ul class="list-disc pl-6 text-neutral-600 dark:text-neutral-400 space-y-2">
+                    <li data-zh="改善网站用户体验和功能" data-en="Improve website user experience and functionality">改善网站用户体验和功能</li>
+                    <li data-zh="分析网站使用情况以优化内容" data-en="Analyze website usage to optimize content">分析网站使用情况以优化内容</li>
+                    <li data-zh="回应用户的咨询和反馈" data-en="Respond to user inquiries and feedback">回应用户的咨询和反馈</li>
+                    <li data-zh="确保网站安全和正常运行" data-en="Ensure website security and normal operation">确保网站安全和正常运行</li>
+                </ul>
+                
+                <h2 class="text-xl font-semibold text-neutral-700 dark:text-neutral-200 mt-8 mb-4" data-zh="3. 信息共享" data-en="3. Information Sharing">3. 信息共享</h2>
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4" data-zh="我们不会向第三方出售、交易或转让您的个人信息，除非：" data-en="We will not sell, trade, or transfer your personal information to third parties, unless:">
+                    我们不会向第三方出售、交易或转让您的个人信息，除非：
+                </p>
+                <ul class="list-disc pl-6 text-neutral-600 dark:text-neutral-400 space-y-2">
+                    <li data-zh="获得您的明确同意" data-en="We obtain your explicit consent">获得您的明确同意</li>
+                    <li data-zh="法律要求或法院命令要求" data-en="Required by law or court order">法律要求或法院命令要求</li>
+                    <li data-zh="保护网站权利、财产或安全" data-en="To protect website's rights, property, or security">保护网站权利、财产或安全</li>
+                </ul>
+                
+                <h2 class="text-xl font-semibold text-neutral-700 dark:text-neutral-200 mt-8 mb-4" data-zh="4. 数据安全" data-en="4. Data Security">4. 数据安全</h2>
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4" data-zh="我们采取适当的安全措施来保护您的个人信息免受未经授权的访问、更改、披露或销毁。这些措施包括：" data-en="We take appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. These measures include:">
+                    我们采取适当的安全措施来保护您的个人信息免受未经授权的访问、更改、披露或销毁。这些措施包括：
+                </p>
+                <ul class="list-disc pl-6 text-neutral-600 dark:text-neutral-400 space-y-2">
+                    <li data-zh="使用安全的服务器和加密技术" data-en="Using secure servers and encryption technology">使用安全的服务器和加密技术</li>
+                    <li data-zh="限制对个人信息的访问权限" data-en="Restricting access to personal information">限制对个人信息的访问权限</li>
+                    <li data-zh="定期审查安全措施" data-en="Regularly reviewing security measures">定期审查安全措施</li>
+                </ul>
+                
+                <h2 class="text-xl font-semibold text-neutral-700 dark:text-neutral-200 mt-8 mb-4" data-zh="5. Cookie 使用" data-en="5. Cookie Usage">5. Cookie 使用</h2>
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4" data-zh="本网站使用 Cookie 来保存您的主题偏好设置。您可以通过浏览器设置禁用 Cookie，但这可能会影响网站的某些功能。" data-en="This website uses cookies to save your theme preference settings. You can disable cookies through your browser settings, but this may affect some features of the website.">
+                    本网站使用 Cookie 来保存您的主题偏好设置。您可以通过浏览器设置禁用 Cookie，但这可能会影响网站的某些功能。
+                </p>
+                
+                <h2 class="text-xl font-semibold text-neutral-700 dark:text-neutral-200 mt-8 mb-4" data-zh="6. 第三方链接" data-en="6. Third-party Links">6. 第三方链接</h2>
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4" data-zh="我们的网站可能包含指向第三方网站的链接。我们对这些第三方网站的隐私做法不承担责任。我们建议您查看这些网站的隐私政策。" data-en="Our website may contain links to third-party websites. We are not responsible for the privacy practices of these third-party websites. We recommend that you review the privacy policies of these websites.">
+                    我们的网站可能包含指向第三方网站的链接。我们对这些第三方网站的隐私做法不承担责任。我们建议您查看这些网站的隐私政策。
+                </p>
+                
+                <h2 class="text-xl font-semibold text-neutral-700 dark:text-neutral-200 mt-8 mb-4" data-zh="7. 隐私政策更新" data-en="7. Privacy Policy Updates">7. 隐私政策更新</h2>
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4" data-zh="我们可能会不时更新本隐私政策。当我们对政策进行重大更改时，我们会通过在网站上发布通知来告知您。" data-en="We may update this privacy policy from time to time. When we make significant changes to the policy, we will notify you by posting a notice on the website.">
+                    我们可能会不时更新本隐私政策。当我们对政策进行重大更改时，我们会通过在网站上发布通知来告知您。
+                </p>
+                
+                <h2 class="text-xl font-semibold text-neutral-700 dark:text-neutral-200 mt-8 mb-4" data-zh="8. 联系我们" data-en="8. Contact Us">8. 联系我们</h2>
+                <p class="text-neutral-600 dark:text-neutral-400 mb-4" data-zh="如果您对本隐私政策有任何疑问或关注，请通过以下方式联系我们：" data-en="If you have any questions or concerns about this privacy policy, please contact us through the following ways:">
+                    如果您对本隐私政策有任何疑问或关注，请通过以下方式联系我们：
+                </p>
+                <div class="bg-neutral-50 dark:bg-neutral-700 rounded-lg p-4 text-neutral-600 dark:text-neutral-400">
+                    <p><i class="fa fa-envelope mr-2"></i><span data-zh="邮箱：" data-en="Email: ">邮箱：</span>a@aink.dpdns.org</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-white dark:bg-neutral-800 mt-12 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-neutral-500 dark:text-neutral-400">
+                <p>© 2025 <span data-zh="每日热点新闻聚合" data-en="Daily Hot News Aggregator">每日热点新闻聚合</span> |
+                <a href="https://zxnve.dpdns.org" target="_blank" class="text-blue-400 dark:text-blue-500 hover:text-blue-300 dark:hover:text-blue-400 transition-colors underline decoration-blue-400/30 hover:decoration-blue-300/50 underline-offset-2 font-medium">
+                   <span data-zh="导航站主页" data-en="Navigation Homepage">导航站主页</span>
+                </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- 主题切换和语言切换脚本 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 主题切换功能
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = document.getElementById('theme-icon');
+            
+            const savedTheme = localStorage.getItem('theme');
+            
+            if (savedTheme) {
+                if (savedTheme === 'dark') {
+                    document.documentElement.classList.add('dark');
+                    themeIcon.classList.remove('fa-moon-o');
+                    themeIcon.classList.add('fa-sun-o');
+                }
+            } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.classList.add('dark');
+                themeIcon.classList.remove('fa-moon-o');
+                themeIcon.classList.add('fa-sun-o');
+            }
+            
+            themeToggle.addEventListener('click', function() {
+                document.documentElement.classList.toggle('dark');
+                
+                if (document.documentElement.classList.contains('dark')) {
+                    themeIcon.classList.remove('fa-moon-o');
+                    themeIcon.classList.add('fa-sun-o');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    themeIcon.classList.remove('fa-sun-o');
+                    themeIcon.classList.add('fa-moon-o');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+            
+            // 语言切换功能
+            const langToggle = document.getElementById('lang-toggle');
+            const langText = document.getElementById('lang-text');
+            
+            const savedLang = localStorage.getItem('language') || 'zh';
+            
+            let currentLang = savedLang;
+            updateLanguage(currentLang);
+            
+            langToggle.addEventListener('click', function() {
+                currentLang = currentLang === 'zh' ? 'en' : 'zh';
+                updateLanguage(currentLang);
+                localStorage.setItem('language', currentLang);
+            });
+            
+            function updateLanguage(lang) {
+                langText.textContent = lang === 'zh' ? '中' : 'EN';
+                
+                const elements = document.querySelectorAll('[data-zh][data-en]');
+                
+                elements.forEach(element => {
+                    const text = lang === 'zh' ? element.getAttribute('data-zh') : element.getAttribute('data-en');
+                    if (element.tagName === 'INPUT' && element.type === 'placeholder') {
+                        element.placeholder = text;
+                    } else {
+                        element.textContent = text;
+                    }
+                });
+            }
+            
+            // 监听存储变化，实现跨页面语言同步
+            window.addEventListener('storage', function(e) {
+                if (e.key === 'language') {
+                    currentLang = e.newValue || 'zh';
+                    updateLanguage(currentLang);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
