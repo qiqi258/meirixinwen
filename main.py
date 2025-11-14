@@ -14,6 +14,7 @@ from typing import Dict, List, Set, Tuple
 from datetime import datetime, timedelta
 from urllib.parse import quote
 from pathlib import Path
+import urllib.parse
 
 # 配置常量
 CONFIG_PATH = "config/config.yaml"
@@ -27,6 +28,57 @@ Path(POSTS_DIR).mkdir(exist_ok=True)
 
 # 全局配置缓存（供 HTTP 请求读取参数）
 GLOBAL_CFG: Dict = {}
+
+# 简单的中英文翻译映射表
+TRANSLATION_MAP = {
+    # 平台名称
+    "微博": "Weibo",
+    "知乎": "Zhihu",
+    "百度": "Baidu",
+    "B站": "Bilibili",
+    "贴吧": "Tieba",
+    "抖音": "Douyin",
+    "虎扑": "Hupu",
+    
+    # 常用词汇
+    "热点新闻汇总": "Hot News Summary",
+    "热点新闻": "Hot News",
+    "更新时间": "Update Time",
+    "返回首页": "Back to Home",
+    "热点聚合": "News Hub",
+    "查看全部内容": "View Full Content",
+    "综合": "General",
+    "条": "items",
+    "热度": "Heat",
+    "本站已累计运行": "Site has been running for",
+    "每日热点新闻聚合": "Daily Hot News Aggregator",
+    "导航站主页": "Navigation Homepage"
+}
+
+def translate_text(text: str, target_lang: str = "en") -> str:
+    """
+    简单的文本翻译函数
+    小白解释：这个函数会把中文文本翻译成英文，主要处理一些常见的新闻标题和平台名称
+    """
+    if not text or target_lang == "zh":
+        return text
+        
+    # 首先检查预定义的翻译映射
+    if text in TRANSLATION_MAP:
+        return TRANSLATION_MAP[text]
+    
+    # 对于新闻标题，尝试简单的翻译逻辑
+    # 这里可以扩展更复杂的翻译逻辑，或者接入翻译API
+    try:
+        # 简单的字符替换翻译（仅用于演示）
+        simplified_text = text
+        # 这里可以添加更多的翻译规则或使用翻译API
+        
+        # 如果没有找到翻译，返回原文
+        return simplified_text
+    except Exception as e:
+        print(f"翻译失败: {e}")
+        return text
 
 def get_crawler_settings() -> Tuple[int, int]:
     """从配置中读取爬虫的超时与重试次数
@@ -128,10 +180,13 @@ def fetch_weibo_hot() -> List[Dict]:
                 img_url = ''
             
             hot_value = str(item.get('raw_hot') or item.get('num') or item.get('hot') or '').strip()
+            title = item.get('word', '')
             news_list.append({
-                'title': item.get('word', ''),
+                'title': title,
+                'title_en': translate_text(title),  # 添加英文标题
                 'url': detail_url,
                 'platform': '微博',
+                'platform_en': 'Weibo',  # 添加英文平台名
                 'image_url': img_url,
                 'hot_value': hot_value
             })
@@ -174,8 +229,10 @@ def fetch_zhihu_hot() -> List[Dict]:
                 hot_value = str(item.get('detail_text') or metrics_text or target.get('metrics_text', '') or '').strip()
                 news_list.append({
                     'title': title,
+                    'title_en': translate_text(title),  # 添加英文标题
                     'url': url,
                     'platform': '知乎',
+                    'platform_en': 'Zhihu',  # 添加英文平台名
                     'image_url': image_url,
                     'hot_value': hot_value
                 })
@@ -217,8 +274,10 @@ def fetch_bilibili_hot() -> List[Dict]:
             
             news_list.append({
                 'title': keyword,
+                'title_en': translate_text(keyword),  # 添加英文标题
                 'url': f"https://search.bilibili.com/all?keyword={quote(keyword)}",
                 'platform': 'B站',
+                'platform_en': 'Bilibili',  # 添加英文平台名
                 'image_url': image_url,
                 'hot_value': hot_value
             })
@@ -245,10 +304,13 @@ def fetch_baidu_hot() -> List[Dict]:
         # 只取前10条
         for item in data.get('data', {}).get('cards', [{}])[0].get('content', [])[:10]:
             hot_value = str(item.get('hotScore') or item.get('hot_score') or item.get('heatScore') or '').strip()
+            title = item.get('query', '')
             news_list.append({
-                'title': item.get('query', ''),
-                'url': f"https://www.baidu.com/s?wd={quote(item.get('query', ''))}",
+                'title': title,
+                'title_en': translate_text(title),  # 添加英文标题
+                'url': f"https://www.baidu.com/s?wd={quote(title)}",
                 'platform': '百度',
+                'platform_en': 'Baidu',  # 添加英文平台名
                 'hot_value': hot_value
             })
         return news_list
@@ -275,10 +337,13 @@ def fetch_tieba_hot() -> List[Dict]:
         # 只取前10条
         for item in data.get('data', {}).get('bang_topic', {}).get('topic_list', [])[:10]:
             hot_value = str(item.get('discuss_num') or item.get('discuss_count') or '').strip()
+            title = item.get('topic_name', '')
             news_list.append({
-                'title': item.get('topic_name', ''),
+                'title': title,
+                'title_en': translate_text(title),  # 添加英文标题
                 'url': item.get('topic_url', f"https://tieba.baidu.com/hottopic"),
                 'platform': '贴吧',
+                'platform_en': 'Tieba',  # 添加英文平台名
                 'hot_value': hot_value
             })
         return news_list
@@ -304,10 +369,13 @@ def fetch_douyin_hot() -> List[Dict]:
         # 只取前10条
         for item in data.get('data', {}).get('word_list', [])[:10]:
             hot_value = str(item.get('hot_value') or item.get('hot') or '').strip()
+            title = item.get('word', '')
             news_list.append({
-                'title': item.get('word', ''),
-                'url': f"https://www.douyin.com/search/{quote(item.get('word', ''))}",
+                'title': title,
+                'title_en': translate_text(title),  # 添加英文标题
+                'url': f"https://www.douyin.com/search/{quote(title)}",
                 'platform': '抖音',
+                'platform_en': 'Douyin',  # 添加英文平台名
                 'hot_value': hot_value
             })
         return news_list
@@ -333,10 +401,13 @@ def fetch_hupu_hot() -> List[Dict]:
         # 只取前10条
         for item in data.get('data', {}).get('topics', [])[:10]:
             hot_value = str(item.get('replies') or item.get('reply_count') or item.get('replies_count') or item.get('light_reply') or '').strip()
+            title = item.get('title', '')
             news_list.append({
-                'title': item.get('title', ''),
+                'title': title,
+                'title_en': translate_text(title),  # 添加英文标题
                 'url': f"https://bbs.hupu.com{item.get('url', '')}",
                 'platform': '虎扑',
+                'platform_en': 'Hupu',  # 添加英文平台名
                 'hot_value': hot_value
             })
         return news_list
@@ -749,12 +820,20 @@ def render_daily_post_html(news_entry: Dict) -> str:
                 <div class="flex items-center space-x-8">
                     <a href="../index.html" class="flex items-center text-neutral-500 hover:text-primary transition-colors">
                         <i class="fa fa-arrow-left mr-2"></i>
-                        <span>返回首页</span>
+                        <span data-zh="返回首页" data-en="Back to Home">返回首页</span>
                     </a>
                     <div class="flex items-center">
                         <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
-                        <span class="text-xl font-bold text-neutral-700">热点聚合</span>
+                        <span class="text-xl font-bold text-neutral-700" data-zh="热点聚合" data-en="News Hub">热点聚合</span>
                     </div>
+                </div>
+                
+                <!-- 功能按钮组 -->
+                <div class="flex items-center space-x-2">
+                    <!-- 语言切换按钮 -->
+                    <button id="lang-toggle" class="p-2 rounded-lg bg-neutral-100 text-neutral-600 hover:bg-neutral-200 transition-colors">
+                        <span id="lang-text" class="text-sm font-medium">中</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -765,11 +844,11 @@ def render_daily_post_html(news_entry: Dict) -> str:
         <!-- 页面标题 -->
         <div class="bg-white rounded-xl shadow-sm p-8 mb-10">
             <h1 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">
-                {date} 热点新闻汇总
+                <span data-zh="{date} 热点新闻汇总" data-en="{date} Hot News Summary">{date} 热点新闻汇总</span>
             </h1>
             <div class="flex items-center text-neutral-500">
                 <i class="fa fa-clock-o mr-2"></i>
-                <span>更新时间：{update_time or date}</span>
+                <span data-zh="更新时间：" data-en="Update Time: ">更新时间：</span><span>{update_time or date}</span>
             </div>
             <p class="text-sm text-neutral-400 mt-3">
                 
@@ -790,22 +869,28 @@ def render_daily_post_html(news_entry: Dict) -> str:
             '抖音': 'gray'
         }.get(platform, 'blue')
         
+        # 获取平台英文名
+        platform_en = platform_news[0].get('platform_en', platform) if platform_news else platform
+        
         html += f"""
             <div class="bg-white rounded-xl shadow-sm p-6">
                 <div class="flex items-center mb-4">
-                    <h3 class="text-xl font-bold text-neutral-700">{platform}</h3>
+                    <h3 class="text-xl font-bold text-neutral-700">
+                        <span data-zh="{platform}" data-en="{platform_en}">{platform}</span>
+                    </h3>
                     <span class="ml-3 px-2.5 py-0.5 bg-{platform_color}-100 text-{platform_color}-600 text-sm rounded-full">
-                        {len(platform_news)}条
+                        <span data-zh="{len(platform_news)}条" data-en="{len(platform_news)} items">{len(platform_news)}条</span>
                     </span>
                 </div>
                 <ul class="space-y-3 divide-y divide-neutral-200">"""
         
         for news in platform_news:
             title = news.get('title', '')
+            title_en = news.get('title_en', title)
             url = news.get('url', '#')
             hot_value = str(news.get('hot_value', '')).strip()
-            # 小白解释：有些平台没有提供“热度”数值，如果为空就不要显示“热度：”这行，避免看起来像是丢数据
-            hot_line = f"""<p class="text-sm text-neutral-500 mt-1">热度：{hot_value}</p>""" if hot_value else ""
+            # 小白解释：有些平台没有提供"热度"数值，如果为空就不要显示"热度："这行，避免看起来像是丢数据
+            hot_line = f"""<p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>{hot_value}</p>""" if hot_value else ""
             
             html += f"""
                     <li class="pt-3">
@@ -817,7 +902,7 @@ def render_daily_post_html(news_entry: Dict) -> str:
                             </span>
                             <div class="ml-4 flex-1">
                                 <p class="text-neutral-700 group-hover:text-{platform_color}-600 transition-colors">
-                                    {title}
+                                    <span data-zh="{title}" data-en="{title_en}">{title}</span>
                                 </p>
                                 {hot_line}
                             </div>
@@ -836,12 +921,12 @@ def render_daily_post_html(news_entry: Dict) -> str:
     <footer class="bg-white mt-12 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center text-neutral-500">
-                <p>© 2025 每日热点新闻聚合 | 
+                <p>© 2025 <span data-zh="每日热点新闻聚合" data-en="Daily Hot News Aggregator">每日热点新闻聚合</span> |
                 <a href="https://zxnve.dpdns.org" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors">
-                   导航站主页
+                   <span data-zh="导航站主页" data-en="Navigation Homepage">导航站主页</span>
                 </a>
                 </p>
-                <p class="mt-2">本站已累计运行：<span id="runtime">计算中...</span></p>
+                <p class="mt-2"><span data-zh="本站已累计运行：" data-en="Site has been running for: ">本站已累计运行：</span><span id="runtime">计算中...</span></p>
             </div>
         </div>
     </footer>
@@ -853,7 +938,7 @@ def render_daily_post_html(news_entry: Dict) -> str:
 
       /**
        * computeElapsedYDHMS
-       * 功能：计算从起始时间到当前时间的“年 / 日 / 时 / 分 / 秒”
+       * 功能：计算从起始时间到当前时间的"年 / 日 / 时 / 分 / 秒"
        * 小白解释：先扣掉整年（周年），剩余的用天/小时/分钟/秒拆分，精确到秒。
        */
       function computeElapsedYDHMS(nowMs) {
@@ -907,7 +992,7 @@ def render_daily_post_html(news_entry: Dict) -> str:
       /**
        * updateRuntime
        * 功能：渲染累计运行时间并每秒刷新
-       * 小白解释：每1秒计算“年/日/时/分/秒”，更新到页面 id=runtime 的位置。
+       * 小白解释：每1秒计算"年/日/时/分/秒"，更新到页面 id=runtime 的位置。
        */
       function updateRuntime() {
         const el = document.getElementById('runtime');
@@ -917,9 +1002,63 @@ def render_daily_post_html(news_entry: Dict) -> str:
         el.textContent = `${y}年${d}日${h.toString().padStart(2,'0')}时${min.toString().padStart(2,'0')}分${s.toString().padStart(2,'0')}秒`;
       }
 
+      /**
+       * updateLanguage
+       * 功能：根据选择的语言更新页面文本
+       * 小白解释：这个函数会遍历页面中所有带有data-zh和data-en属性的元素，根据当前语言显示对应的文本
+       */
+      function updateLanguage(lang) {
+          // 更新按钮文本
+          document.getElementById('lang-text').textContent = lang === 'zh' ? '中' : 'EN';
+          
+          // 获取所有带有语言属性的元素
+          const elements = document.querySelectorAll('[data-zh][data-en]');
+          
+          // 遍历所有元素，更新文本内容
+          elements.forEach(element => {
+              const text = lang === 'zh' ? element.getAttribute('data-zh') : element.getAttribute('data-en');
+              if (element.tagName === 'INPUT' && element.type === 'placeholder') {
+                  element.placeholder = text;
+              } else {
+                  element.textContent = text;
+              }
+          });
+      }
+
       // 首次渲染 + 每秒刷新
       updateRuntime();
       setInterval(updateRuntime, 1000);
+
+      // 语言切换功能
+      document.addEventListener('DOMContentLoaded', function() {
+          // 获取语言切换按钮和文本
+          const langToggle = document.getElementById('lang-toggle');
+          const langText = document.getElementById('lang-text');
+          
+          // 检查本地存储中是否有用户保存的语言偏好
+          const savedLang = localStorage.getItem('language') || 'zh';
+          
+          // 应用保存的语言设置
+          let currentLang = savedLang;
+          updateLanguage(currentLang);
+          
+          // 语言切换按钮点击事件
+          langToggle.addEventListener('click', function() {
+              // 切换语言
+              currentLang = currentLang === 'zh' ? 'en' : 'zh';
+              updateLanguage(currentLang);
+              // 保存用户偏好到本地存储
+              localStorage.setItem('language', currentLang);
+          });
+          
+          // 监听存储变化，实现跨页面语言同步
+          window.addEventListener('storage', function(e) {
+              if (e.key === 'language') {
+                  currentLang = e.newValue || 'zh';
+                  updateLanguage(currentLang);
+              }
+          });
+      });
     </script>
 </body>
 </html>"""
@@ -1006,14 +1145,27 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
             }
         </style>
     </head>
-    <body class="bg-neutral-100 min-h-screen">
+    <body class="bg-neutral-100 dark:bg-neutral-900 min-h-screen transition-colors duration-300">
         <!-- 导航栏 -->
-        <header class="sticky top-0 bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
+        <header class="sticky top-0 bg-white/90 dark:bg-neutral-800/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
                     <div class="flex items-center">
                         <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
-                        <span class="text-xl font-bold text-neutral-700">热点聚合</span>
+                        <span class="text-xl font-bold text-neutral-700 dark:text-neutral-200" data-zh="热点聚合" data-en="News Hub">热点聚合</span>
+                    </div>
+                    
+                    <!-- 功能按钮组 -->
+                    <div class="flex items-center space-x-2">
+                        <!-- 语言切换按钮 -->
+                        <button id="lang-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-600 transition-colors">
+                            <span id="lang-text" class="text-sm font-medium">中</span>
+                        </button>
+                        
+                        <!-- 主题切换按钮 -->
+                        <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-600 transition-colors">
+                            <i id="theme-icon" class="fa fa-moon-o"></i>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -1022,9 +1174,9 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
         <!-- 主要内容区 -->
         <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <!-- 介绍区 -->
-            <div class="bg-white rounded-xl shadow-sm p-8 mb-10 text-center transform transition-all hover:shadow-md">
-                <h2 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">每日热点新闻聚合</h2>
-                <p class="text-lg text-neutral-500 max-w-3xl mx-auto">
+            <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm p-8 mb-10 text-center transform transition-all hover:shadow-md">
+                <h2 class="text-3xl md:text-4xl font-bold text-neutral-700 dark:text-neutral-200 mb-4" data-zh="每日热点新闻聚合" data-en="Daily Hot News Aggregator">每日热点新闻聚合</h2>
+                <p class="text-lg text-neutral-500 dark:text-neutral-400 max-w-3xl mx-auto" data-zh="每日整理来自各大平台的热点，帮助您快速了解当下最受关注的话题，一站式掌握全球动态。" data-en="Daily compilation of hot topics from major platforms, helping you quickly understand the most talked-about topics and stay updated with global trends.">
                     每日整理来自各大平台的热点，帮助您快速了解当下最受关注的话题，一站式掌握全球动态。
                 </p>
                 <p class="text-sm text-neutral-400 mt-3">
@@ -1063,37 +1215,37 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
         platform_stats_html = ''
         for platform, count in platform_counts.items():
             platform_stats_html += f'''
-            <div class="flex items-center text-sm text-neutral-500">
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
                 <i class="fa fa-folder-o mr-1"></i>
-                <span>{platform} ({count}条)</span>
+                <span data-zh="{platform} ({count}条)" data-en="{platform} ({count} items)">{platform} ({count}条)</span>
             </div>
             '''
         
         html += f'''
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
                 <div class="md:flex">
                     <div class="md:w-1/3">
                         <img src="{cover_image}" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
                     </div>
                     <div class="p-6 md:w-2/3">
                         <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">{date}</span>
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">{date}</span>
                         </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/{date}.html" class="hover:text-primary transition-colors">
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/{date}.html" class="hover:text-primary transition-colors" data-zh="{date} 热点新闻汇总" data-en="{date} Hot News Summary">
                                 {date} 热点新闻汇总
                             </a>
                         </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
                             今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
                         </p>
                         <div class="flex flex-wrap gap-3 mb-4">
                             {platform_stats_html}
                         </div>
-                        <a href="posts/{date}.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
+                        <a href="posts/{date}.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
                             <i class="fa fa-angle-right ml-1"></i>
                         </a>
                     </div>
@@ -1104,22 +1256,22 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
     html += '''
             </div>
             <div class="flex justify-center gap-2 mt-6">
-                <button id="prevPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed">上一页</button>
-                <span id="pageInfo" class="px-4 py-2">第 1 页</span>
-                <button id="nextPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed">下一页</button>
+                <button id="prevPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed" data-zh="上一页" data-en="Previous">上一页</button>
+                <span id="pageInfo" class="px-4 py-2" data-zh="第 1 页" data-en="Page 1">第 1 页</span>
+                <button id="nextPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed" data-zh="下一页" data-en="Next">下一页</button>
             </div>
         </main>
  
         <!-- 页脚 -->
-        <footer class="bg-white mt-12 py-8">
+        <footer class="bg-white dark:bg-neutral-800 mt-12 py-8">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center text-neutral-500">
-                    <p>© 2025 每日热点新闻聚合 | 
-                    <a href="https://zxnve.dpdns.org" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors underline decoration-blue-400/30 hover:decoration-blue-300/50 underline-offset-2 font-medium">
-                       导航站主页
+                <div class="text-center text-neutral-500 dark:text-neutral-400">
+                    <p>© 2025 <span data-zh="每日热点新闻聚合" data-en="Daily Hot News Aggregator">每日热点新闻聚合</span> |
+                    <a href="https://zxnve.dpdns.org" target="_blank" class="text-blue-400 dark:text-blue-500 hover:text-blue-300 dark:hover:text-blue-400 transition-colors underline decoration-blue-400/30 hover:decoration-blue-300/50 underline-offset-2 font-medium">
+                       <span data-zh="导航站主页" data-en="Navigation Homepage">导航站主页</span>
                     </a>
                     </p>
-                    <p class="mt-2">本站已累计运行：<span id="runtime">计算中...</span></p>
+                    <p class="mt-2"><span data-zh="本站已累计运行：" data-en="Site has been running for: ">本站已累计运行：</span><span id="runtime">计算中...</span></p>
                 </div>
                 </div>
             </div>
@@ -1231,6 +1383,112 @@ def render_blog_html(blog_entries: List[Dict], blog_config: Dict) -> str:
             const totalPages = Math.max(1, Math.ceil(cardsCount / ITEMS_PER_PAGE));
             if (currentPage < totalPages) { currentPage++; updatePagination(); }
           });
+        </script>
+        
+        <!-- 主题切换和语言切换脚本 -->
+        <script>
+            /**
+             * 主题切换功能
+             * 功能：实现明暗主题的切换，并保存用户偏好到本地存储
+             * 解释（小白版）：点击月亮/太阳图标可以切换页面的明暗主题，系统会记住你的选择
+             */
+            document.addEventListener('DOMContentLoaded', function() {
+                // 获取主题切换按钮和图标
+                const themeToggle = document.getElementById('theme-toggle');
+                const themeIcon = document.getElementById('theme-icon');
+                
+                // 检查本地存储中是否有用户保存的主题偏好
+                const savedTheme = localStorage.getItem('theme');
+                
+                // 如果有保存的主题，应用它；否则检查系统偏好
+                if (savedTheme) {
+                    if (savedTheme === 'dark') {
+                        document.documentElement.classList.add('dark');
+                        themeIcon.classList.remove('fa-moon-o');
+                        themeIcon.classList.add('fa-sun-o');
+                    }
+                } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    // 如果系统偏好是暗色模式，应用暗色主题
+                    document.documentElement.classList.add('dark');
+                    themeIcon.classList.remove('fa-moon-o');
+                    themeIcon.classList.add('fa-sun-o');
+                }
+                
+                // 主题切换按钮点击事件
+                themeToggle.addEventListener('click', function() {
+                    // 切换dark类
+                    document.documentElement.classList.toggle('dark');
+                    
+                    // 切换图标
+                    if (document.documentElement.classList.contains('dark')) {
+                        themeIcon.classList.remove('fa-moon-o');
+                        themeIcon.classList.add('fa-sun-o');
+                        // 保存用户偏好到本地存储
+                        localStorage.setItem('theme', 'dark');
+                    } else {
+                        themeIcon.classList.remove('fa-sun-o');
+                        themeIcon.classList.add('fa-moon-o');
+                        // 保存用户偏好到本地存储
+                        localStorage.setItem('theme', 'light');
+                    }
+                });
+                
+                /**
+                 * 语言切换功能
+                 * 功能：实现中英文切换，并保存用户偏好到本地存储
+                 * 解释（小白版）：点击中/英按钮可以切换页面语言，系统会记住你的选择
+                 */
+                // 获取语言切换按钮和文本
+                const langToggle = document.getElementById('lang-toggle');
+                const langText = document.getElementById('lang-text');
+                
+                // 检查本地存储中是否有用户保存的语言偏好
+                const savedLang = localStorage.getItem('language') || 'zh';
+                
+                // 应用保存的语言设置
+                let currentLang = savedLang;
+                updateLanguage(currentLang);
+                
+                // 语言切换按钮点击事件
+                langToggle.addEventListener('click', function() {
+                    // 切换语言
+                    currentLang = currentLang === 'zh' ? 'en' : 'zh';
+                    updateLanguage(currentLang);
+                    // 保存用户偏好到本地存储
+                    localStorage.setItem('language', currentLang);
+                });
+                
+                /**
+                 * updateLanguage
+                 * 功能：根据选择的语言更新页面文本
+                 * 解释（小白版）：这个函数会遍历页面中所有带有data-zh和data-en属性的元素，根据当前语言显示对应的文本
+                 */
+                function updateLanguage(lang) {
+                    // 更新按钮文本
+                    langText.textContent = lang === 'zh' ? '中' : 'EN';
+                    
+                    // 获取所有带有语言属性的元素
+                    const elements = document.querySelectorAll('[data-zh][data-en]');
+                    
+                    // 遍历所有元素，更新文本内容
+                    elements.forEach(element => {
+                        const text = lang === 'zh' ? element.getAttribute('data-zh') : element.getAttribute('data-en');
+                        if (element.tagName === 'INPUT' && element.type === 'placeholder') {
+                            element.placeholder = text;
+                        } else {
+                            element.textContent = text;
+                        }
+                    });
+                }
+                
+                // 监听存储变化，实现跨页面语言同步
+                window.addEventListener('storage', function(e) {
+                    if (e.key === 'language') {
+                        currentLang = e.newValue || 'zh';
+                        updateLanguage(currentLang);
+                    }
+                });
+            });
         </script>
     </body>
     </html>
