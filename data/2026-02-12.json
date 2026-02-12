@@ -1,0 +1,367 @@
+{
+  "date": "2026-02-12",
+  "news": [
+    {
+      "title": "成何体统",
+      "title_en": "成何体统",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%90%E4%BD%95%E4%BD%93%E7%BB%9F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "799881"
+    },
+    {
+      "title": "我家的C位年货",
+      "title_en": "我家的C位年货",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%AE%B6%E7%9A%84C%E4%BD%8D%E5%B9%B4%E8%B4%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "637523"
+    },
+    {
+      "title": "李佳琦蜜丝婷带团勇闯普吉岛",
+      "title_en": "李佳琦蜜丝婷带团勇闯普吉岛",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E4%BD%B3%E7%90%A6%E8%9C%9C%E4%B8%9D%E5%A9%B7%E5%B8%A6%E5%9B%A2%E5%8B%87%E9%97%AF%E6%99%AE%E5%90%89%E5%B2%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "463661"
+    },
+    {
+      "title": "王者荣耀超话爆了",
+      "title_en": "王者荣耀超话爆了",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E8%B6%85%E8%AF%9D%E7%88%86%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "450574"
+    },
+    {
+      "title": "22岁主播每天焊妆两次确诊肺炎",
+      "title_en": "22岁主播每天焊妆两次确诊肺炎",
+      "url": "https://s.weibo.com/weibo?q=22%E5%B2%81%E4%B8%BB%E6%92%AD%E6%AF%8F%E5%A4%A9%E7%84%8A%E5%A6%86%E4%B8%A4%E6%AC%A1%E7%A1%AE%E8%AF%8A%E8%82%BA%E7%82%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "400893"
+    },
+    {
+      "title": "爸爸被劝酒女儿站身后霸气挡酒",
+      "title_en": "爸爸被劝酒女儿站身后霸气挡酒",
+      "url": "https://s.weibo.com/weibo?q=%E7%88%B8%E7%88%B8%E8%A2%AB%E5%8A%9D%E9%85%92%E5%A5%B3%E5%84%BF%E7%AB%99%E8%BA%AB%E5%90%8E%E9%9C%B8%E6%B0%94%E6%8C%A1%E9%85%92",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "329311"
+    },
+    {
+      "title": "春节二创视频大赛",
+      "title_en": "春节二创视频大赛",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%A5%E8%8A%82%E4%BA%8C%E5%88%9B%E8%A7%86%E9%A2%91%E5%A4%A7%E8%B5%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "266786"
+    },
+    {
+      "title": "第一次看到一箱草莓毫无食欲",
+      "title_en": "第一次看到一箱草莓毫无食欲",
+      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9C%8B%E5%88%B0%E4%B8%80%E7%AE%B1%E8%8D%89%E8%8E%93%E6%AF%AB%E6%97%A0%E9%A3%9F%E6%AC%B2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "238695"
+    },
+    {
+      "title": "今年为啥没有年三十",
+      "title_en": "今年为啥没有年三十",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%8A%E5%B9%B4%E4%B8%BA%E5%95%A5%E6%B2%A1%E6%9C%89%E5%B9%B4%E4%B8%89%E5%8D%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "185969"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "日本将缺席亚运会LOL项目",
+      "title_en": "日本将缺席亚运会LOL项目",
+      "url": "https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E5%B0%86%E7%BC%BA%E5%B8%AD%E4%BA%9A%E8%BF%90%E4%BC%9ALOL%E9%A1%B9%E7%9B%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/d1821d93408aad3542b2a36b7da9cbc52378e782.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "圆脸谈加拿大校园枪击致10死",
+      "title_en": "圆脸谈加拿大校园枪击致10死",
+      "url": "https://search.bilibili.com/all?keyword=%E5%9C%86%E8%84%B8%E8%B0%88%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%A0%A1%E5%9B%AD%E6%9E%AA%E5%87%BB%E8%87%B410%E6%AD%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/1f4f440e26fbdccf9e2a92742a73d3acffc2aac7.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "虞书欣空降直播中",
+      "title_en": "虞书欣空降直播中",
+      "url": "https://search.bilibili.com/all?keyword=%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%A9%BA%E9%99%8D%E7%9B%B4%E6%92%AD%E4%B8%AD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/aa1357768c1de298796a323d7c799da84cf5c220.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "雨哥直播陪看下一个是谁",
+      "title_en": "雨哥直播陪看下一个是谁",
+      "url": "https://search.bilibili.com/all?keyword=%E9%9B%A8%E5%93%A5%E7%9B%B4%E6%92%AD%E9%99%AA%E7%9C%8B%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%98%AF%E8%B0%81",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/2df3268fb9ecd5ab95ee5a7873fea25b463a64f9.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "阿张现场锐评邪恶人格上线",
+      "title_en": "阿张现场锐评邪恶人格上线",
+      "url": "https://search.bilibili.com/all?keyword=%E9%98%BF%E5%BC%A0%E7%8E%B0%E5%9C%BA%E9%94%90%E8%AF%84%E9%82%AA%E6%81%B6%E4%BA%BA%E6%A0%BC%E4%B8%8A%E7%BA%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/b1613e6a8d60f0e4a43f6399141985e94b9bd0f6.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "09年高中生返乡日记",
+      "title_en": "09年高中生返乡日记",
+      "url": "https://search.bilibili.com/all?keyword=09%E5%B9%B4%E9%AB%98%E4%B8%AD%E7%94%9F%E8%BF%94%E4%B9%A1%E6%97%A5%E8%AE%B0",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/bccb982a797d8871e4adac7438e3ea6b5f579b23.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "一系列首届教师春晚定档",
+      "title_en": "一系列首届教师春晚定档",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%80%E7%B3%BB%E5%88%97%E9%A6%96%E5%B1%8A%E6%95%99%E5%B8%88%E6%98%A5%E6%99%9A%E5%AE%9A%E6%A1%A3",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/07b1a905c6b95dc32d4a30d7837d563b92367be5.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "中方回应特朗普或将4月访华",
+      "title_en": "中方回应特朗普或将4月访华",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E6%88%96%E5%B0%864%E6%9C%88%E8%AE%BF%E5%8D%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/d605d71ca36523f2c45fe88bd62cb4eb73493c86.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "姜云升B站独家直播",
+      "title_en": "姜云升B站独家直播",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A7%9C%E4%BA%91%E5%8D%87B%E7%AB%99%E7%8B%AC%E5%AE%B6%E7%9B%B4%E6%92%AD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/d98a73c439657bd9ba59ce94174649cd4bc80037.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "周传雄花香也太有年味了",
+      "title_en": "周传雄花香也太有年味了",
+      "url": "https://search.bilibili.com/all?keyword=%E5%91%A8%E4%BC%A0%E9%9B%84%E8%8A%B1%E9%A6%99%E4%B9%9F%E5%A4%AA%E6%9C%89%E5%B9%B4%E5%91%B3%E4%BA%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/ef7fca504a4aa23a6f0ddca728e4543d95e97743.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "content": [
+    {
+      "title": "成何体统",
+      "title_en": "成何体统",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%90%E4%BD%95%E4%BD%93%E7%BB%9F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "799881"
+    },
+    {
+      "title": "我家的C位年货",
+      "title_en": "我家的C位年货",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%AE%B6%E7%9A%84C%E4%BD%8D%E5%B9%B4%E8%B4%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "637523"
+    },
+    {
+      "title": "李佳琦蜜丝婷带团勇闯普吉岛",
+      "title_en": "李佳琦蜜丝婷带团勇闯普吉岛",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E4%BD%B3%E7%90%A6%E8%9C%9C%E4%B8%9D%E5%A9%B7%E5%B8%A6%E5%9B%A2%E5%8B%87%E9%97%AF%E6%99%AE%E5%90%89%E5%B2%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "463661"
+    },
+    {
+      "title": "王者荣耀超话爆了",
+      "title_en": "王者荣耀超话爆了",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E8%B6%85%E8%AF%9D%E7%88%86%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "450574"
+    },
+    {
+      "title": "22岁主播每天焊妆两次确诊肺炎",
+      "title_en": "22岁主播每天焊妆两次确诊肺炎",
+      "url": "https://s.weibo.com/weibo?q=22%E5%B2%81%E4%B8%BB%E6%92%AD%E6%AF%8F%E5%A4%A9%E7%84%8A%E5%A6%86%E4%B8%A4%E6%AC%A1%E7%A1%AE%E8%AF%8A%E8%82%BA%E7%82%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "400893"
+    },
+    {
+      "title": "爸爸被劝酒女儿站身后霸气挡酒",
+      "title_en": "爸爸被劝酒女儿站身后霸气挡酒",
+      "url": "https://s.weibo.com/weibo?q=%E7%88%B8%E7%88%B8%E8%A2%AB%E5%8A%9D%E9%85%92%E5%A5%B3%E5%84%BF%E7%AB%99%E8%BA%AB%E5%90%8E%E9%9C%B8%E6%B0%94%E6%8C%A1%E9%85%92",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "329311"
+    },
+    {
+      "title": "春节二创视频大赛",
+      "title_en": "春节二创视频大赛",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%A5%E8%8A%82%E4%BA%8C%E5%88%9B%E8%A7%86%E9%A2%91%E5%A4%A7%E8%B5%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "266786"
+    },
+    {
+      "title": "第一次看到一箱草莓毫无食欲",
+      "title_en": "第一次看到一箱草莓毫无食欲",
+      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9C%8B%E5%88%B0%E4%B8%80%E7%AE%B1%E8%8D%89%E8%8E%93%E6%AF%AB%E6%97%A0%E9%A3%9F%E6%AC%B2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "238695"
+    },
+    {
+      "title": "今年为啥没有年三十",
+      "title_en": "今年为啥没有年三十",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%8A%E5%B9%B4%E4%B8%BA%E5%95%A5%E6%B2%A1%E6%9C%89%E5%B9%B4%E4%B8%89%E5%8D%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "185969"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "日本将缺席亚运会LOL项目",
+      "title_en": "日本将缺席亚运会LOL项目",
+      "url": "https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E5%B0%86%E7%BC%BA%E5%B8%AD%E4%BA%9A%E8%BF%90%E4%BC%9ALOL%E9%A1%B9%E7%9B%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/d1821d93408aad3542b2a36b7da9cbc52378e782.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "圆脸谈加拿大校园枪击致10死",
+      "title_en": "圆脸谈加拿大校园枪击致10死",
+      "url": "https://search.bilibili.com/all?keyword=%E5%9C%86%E8%84%B8%E8%B0%88%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%A0%A1%E5%9B%AD%E6%9E%AA%E5%87%BB%E8%87%B410%E6%AD%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/1f4f440e26fbdccf9e2a92742a73d3acffc2aac7.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "虞书欣空降直播中",
+      "title_en": "虞书欣空降直播中",
+      "url": "https://search.bilibili.com/all?keyword=%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%A9%BA%E9%99%8D%E7%9B%B4%E6%92%AD%E4%B8%AD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/aa1357768c1de298796a323d7c799da84cf5c220.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "雨哥直播陪看下一个是谁",
+      "title_en": "雨哥直播陪看下一个是谁",
+      "url": "https://search.bilibili.com/all?keyword=%E9%9B%A8%E5%93%A5%E7%9B%B4%E6%92%AD%E9%99%AA%E7%9C%8B%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%98%AF%E8%B0%81",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/2df3268fb9ecd5ab95ee5a7873fea25b463a64f9.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "阿张现场锐评邪恶人格上线",
+      "title_en": "阿张现场锐评邪恶人格上线",
+      "url": "https://search.bilibili.com/all?keyword=%E9%98%BF%E5%BC%A0%E7%8E%B0%E5%9C%BA%E9%94%90%E8%AF%84%E9%82%AA%E6%81%B6%E4%BA%BA%E6%A0%BC%E4%B8%8A%E7%BA%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/b1613e6a8d60f0e4a43f6399141985e94b9bd0f6.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "09年高中生返乡日记",
+      "title_en": "09年高中生返乡日记",
+      "url": "https://search.bilibili.com/all?keyword=09%E5%B9%B4%E9%AB%98%E4%B8%AD%E7%94%9F%E8%BF%94%E4%B9%A1%E6%97%A5%E8%AE%B0",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/bccb982a797d8871e4adac7438e3ea6b5f579b23.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "一系列首届教师春晚定档",
+      "title_en": "一系列首届教师春晚定档",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%80%E7%B3%BB%E5%88%97%E9%A6%96%E5%B1%8A%E6%95%99%E5%B8%88%E6%98%A5%E6%99%9A%E5%AE%9A%E6%A1%A3",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/07b1a905c6b95dc32d4a30d7837d563b92367be5.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "中方回应特朗普或将4月访华",
+      "title_en": "中方回应特朗普或将4月访华",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E6%88%96%E5%B0%864%E6%9C%88%E8%AE%BF%E5%8D%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/d605d71ca36523f2c45fe88bd62cb4eb73493c86.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "姜云升B站独家直播",
+      "title_en": "姜云升B站独家直播",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A7%9C%E4%BA%91%E5%8D%87B%E7%AB%99%E7%8B%AC%E5%AE%B6%E7%9B%B4%E6%92%AD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/d98a73c439657bd9ba59ce94174649cd4bc80037.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "周传雄花香也太有年味了",
+      "title_en": "周传雄花香也太有年味了",
+      "url": "https://search.bilibili.com/all?keyword=%E5%91%A8%E4%BC%A0%E9%9B%84%E8%8A%B1%E9%A6%99%E4%B9%9F%E5%A4%AA%E6%9C%89%E5%B9%B4%E5%91%B3%E4%BA%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/ef7fca504a4aa23a6f0ddca728e4543d95e97743.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "title": "2026-02-12 热点新闻汇总",
+  "update_time": "2026-02-12 22:52:15"
+}
