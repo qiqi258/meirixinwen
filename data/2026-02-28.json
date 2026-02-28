@@ -1,0 +1,367 @@
+{
+  "date": "2026-02-28",
+  "news": [
+    {
+      "title": "以色列宣布袭击伊朗",
+      "title_en": "以色列宣布袭击伊朗",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%A3%E5%B8%83%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "5628366"
+    },
+    {
+      "title": "小米发布会",
+      "title_en": "小米发布会",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1382483"
+    },
+    {
+      "title": "3月起一批国家标准开始实施",
+      "title_en": "3月起一批国家标准开始实施",
+      "url": "https://s.weibo.com/weibo?q=3%E6%9C%88%E8%B5%B7%E4%B8%80%E6%89%B9%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86%E5%BC%80%E5%A7%8B%E5%AE%9E%E6%96%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1079107"
+    },
+    {
+      "title": "伊朗袭击已致约200名美军伤亡",
+      "title_en": "伊朗袭击已致约200名美军伤亡",
+      "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%97%E8%A2%AD%E5%87%BB%E5%B7%B2%E8%87%B4%E7%BA%A6200%E5%90%8D%E7%BE%8E%E5%86%9B%E4%BC%A4%E4%BA%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1075688"
+    },
+    {
+      "title": "五粮液董事长曾从钦被查",
+      "title_en": "五粮液董事长曾从钦被查",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%94%E7%B2%AE%E6%B6%B2%E8%91%A3%E4%BA%8B%E9%95%BF%E6%9B%BE%E4%BB%8E%E9%92%A6%E8%A2%AB%E6%9F%A5",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "279225"
+    },
+    {
+      "title": "据称伊朗革命卫队总司令和防长身亡",
+      "title_en": "据称伊朗革命卫队总司令和防长身亡",
+      "url": "https://s.weibo.com/weibo?q=%E6%8D%AE%E7%A7%B0%E4%BC%8A%E6%9C%97%E9%9D%A9%E5%91%BD%E5%8D%AB%E9%98%9F%E6%80%BB%E5%8F%B8%E4%BB%A4%E5%92%8C%E9%98%B2%E9%95%BF%E8%BA%AB%E4%BA%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "272998"
+    },
+    {
+      "title": "美颜突然关掉吓得人一哆嗦",
+      "title_en": "美颜突然关掉吓得人一哆嗦",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E9%A2%9C%E7%AA%81%E7%84%B6%E5%85%B3%E6%8E%89%E5%90%93%E5%BE%97%E4%BA%BA%E4%B8%80%E5%93%86%E5%97%A6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "271518"
+    },
+    {
+      "title": "镖人票房超越惊蛰无声",
+      "title_en": "镖人票房超越惊蛰无声",
+      "url": "https://s.weibo.com/weibo?q=%E9%95%96%E4%BA%BA%E7%A5%A8%E6%88%BF%E8%B6%85%E8%B6%8A%E6%83%8A%E8%9B%B0%E6%97%A0%E5%A3%B0",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "265532"
+    },
+    {
+      "title": "杨紫董竹君造型直播",
+      "title_en": "杨紫董竹君造型直播",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E7%B4%AB%E8%91%A3%E7%AB%B9%E5%90%9B%E9%80%A0%E5%9E%8B%E7%9B%B4%E6%92%AD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "250868"
+    },
+    {
+      "title": "山姆520元巧克力降到99元",
+      "title_en": "山姆520元巧克力降到99元",
+      "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E5%A7%86520%E5%85%83%E5%B7%A7%E5%85%8B%E5%8A%9B%E9%99%8D%E5%88%B099%E5%85%83",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "236559"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "直击伊朗首都德黑兰爆炸现场",
+      "title_en": "直击伊朗首都德黑兰爆炸现场",
+      "url": "https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E4%BC%8A%E6%9C%97%E9%A6%96%E9%83%BD%E5%BE%B7%E9%BB%91%E5%85%B0%E7%88%86%E7%82%B8%E7%8E%B0%E5%9C%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1e927e369ba20408431b8f5263523b4ca976da8c.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "伊朗一学校多名学生遇袭身亡",
+      "title_en": "伊朗一学校多名学生遇袭身亡",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E4%B8%80%E5%AD%A6%E6%A0%A1%E5%A4%9A%E5%90%8D%E5%AD%A6%E7%94%9F%E9%81%87%E8%A2%AD%E8%BA%AB%E4%BA%A1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/6e6a805166bb07855770d3ed970dd183ddf9ddb2.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "刘晓艳考研复试技巧",
+      "title_en": "刘晓艳考研复试技巧",
+      "url": "https://search.bilibili.com/all?keyword=%E5%88%98%E6%99%93%E8%89%B3%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95%E6%8A%80%E5%B7%A7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a8b145c6764ab0a1222b39401de827469a78eaf9.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "开学精神状态belike",
+      "title_en": "开学精神状态belike",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BC%80%E5%AD%A6%E7%B2%BE%E7%A5%9E%E7%8A%B6%E6%80%81belike",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/c1e568c18c0641680173cbf8b31d333cc36d6684.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "巴基斯坦阿富汗冲突为何升级",
+      "title_en": "巴基斯坦阿富汗冲突为何升级",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E9%98%BF%E5%AF%8C%E6%B1%97%E5%86%B2%E7%AA%81%E4%B8%BA%E4%BD%95%E5%8D%87%E7%BA%A7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/726d4eafebe6d7ecdf1cb9981745b36f1c6e60d9.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "TES WE",
+      "title_en": "TES WE",
+      "url": "https://search.bilibili.com/all?keyword=TES%20WE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/16b363eeee74bb0ec09464030038bb5681e4546a.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "美以袭击伊朗",
+      "title_en": "美以袭击伊朗",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E4%BB%A5%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/7c43f69db3b5ca19dc45946cfd0250d4ee6a4248.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "花海退役仪式",
+      "title_en": "花海退役仪式",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8A%B1%E6%B5%B7%E9%80%80%E5%BD%B9%E4%BB%AA%E5%BC%8F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/73cd9b71b5d0df1c78ecdc7a114688a860b73022.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "2026年考研国家线公布",
+      "title_en": "2026年考研国家线公布",
+      "url": "https://search.bilibili.com/all?keyword=2026%E5%B9%B4%E8%80%83%E7%A0%94%E5%9B%BD%E5%AE%B6%E7%BA%BF%E5%85%AC%E5%B8%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/41131d7e9430a22a9d3f33ae02dd024fc0cbfdad.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "以色列宣布袭击伊朗",
+      "title_en": "以色列宣布袭击伊朗",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%A3%E5%B8%83%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "5628366"
+    },
+    {
+      "title": "小米发布会",
+      "title_en": "小米发布会",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1382483"
+    },
+    {
+      "title": "3月起一批国家标准开始实施",
+      "title_en": "3月起一批国家标准开始实施",
+      "url": "https://s.weibo.com/weibo?q=3%E6%9C%88%E8%B5%B7%E4%B8%80%E6%89%B9%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86%E5%BC%80%E5%A7%8B%E5%AE%9E%E6%96%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1079107"
+    },
+    {
+      "title": "伊朗袭击已致约200名美军伤亡",
+      "title_en": "伊朗袭击已致约200名美军伤亡",
+      "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%97%E8%A2%AD%E5%87%BB%E5%B7%B2%E8%87%B4%E7%BA%A6200%E5%90%8D%E7%BE%8E%E5%86%9B%E4%BC%A4%E4%BA%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1075688"
+    },
+    {
+      "title": "五粮液董事长曾从钦被查",
+      "title_en": "五粮液董事长曾从钦被查",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%94%E7%B2%AE%E6%B6%B2%E8%91%A3%E4%BA%8B%E9%95%BF%E6%9B%BE%E4%BB%8E%E9%92%A6%E8%A2%AB%E6%9F%A5",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "279225"
+    },
+    {
+      "title": "据称伊朗革命卫队总司令和防长身亡",
+      "title_en": "据称伊朗革命卫队总司令和防长身亡",
+      "url": "https://s.weibo.com/weibo?q=%E6%8D%AE%E7%A7%B0%E4%BC%8A%E6%9C%97%E9%9D%A9%E5%91%BD%E5%8D%AB%E9%98%9F%E6%80%BB%E5%8F%B8%E4%BB%A4%E5%92%8C%E9%98%B2%E9%95%BF%E8%BA%AB%E4%BA%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "272998"
+    },
+    {
+      "title": "美颜突然关掉吓得人一哆嗦",
+      "title_en": "美颜突然关掉吓得人一哆嗦",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E9%A2%9C%E7%AA%81%E7%84%B6%E5%85%B3%E6%8E%89%E5%90%93%E5%BE%97%E4%BA%BA%E4%B8%80%E5%93%86%E5%97%A6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "271518"
+    },
+    {
+      "title": "镖人票房超越惊蛰无声",
+      "title_en": "镖人票房超越惊蛰无声",
+      "url": "https://s.weibo.com/weibo?q=%E9%95%96%E4%BA%BA%E7%A5%A8%E6%88%BF%E8%B6%85%E8%B6%8A%E6%83%8A%E8%9B%B0%E6%97%A0%E5%A3%B0",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "265532"
+    },
+    {
+      "title": "杨紫董竹君造型直播",
+      "title_en": "杨紫董竹君造型直播",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E7%B4%AB%E8%91%A3%E7%AB%B9%E5%90%9B%E9%80%A0%E5%9E%8B%E7%9B%B4%E6%92%AD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "250868"
+    },
+    {
+      "title": "山姆520元巧克力降到99元",
+      "title_en": "山姆520元巧克力降到99元",
+      "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E5%A7%86520%E5%85%83%E5%B7%A7%E5%85%8B%E5%8A%9B%E9%99%8D%E5%88%B099%E5%85%83",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "236559"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "直击伊朗首都德黑兰爆炸现场",
+      "title_en": "直击伊朗首都德黑兰爆炸现场",
+      "url": "https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E4%BC%8A%E6%9C%97%E9%A6%96%E9%83%BD%E5%BE%B7%E9%BB%91%E5%85%B0%E7%88%86%E7%82%B8%E7%8E%B0%E5%9C%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1e927e369ba20408431b8f5263523b4ca976da8c.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "伊朗一学校多名学生遇袭身亡",
+      "title_en": "伊朗一学校多名学生遇袭身亡",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E4%B8%80%E5%AD%A6%E6%A0%A1%E5%A4%9A%E5%90%8D%E5%AD%A6%E7%94%9F%E9%81%87%E8%A2%AD%E8%BA%AB%E4%BA%A1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/6e6a805166bb07855770d3ed970dd183ddf9ddb2.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "刘晓艳考研复试技巧",
+      "title_en": "刘晓艳考研复试技巧",
+      "url": "https://search.bilibili.com/all?keyword=%E5%88%98%E6%99%93%E8%89%B3%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95%E6%8A%80%E5%B7%A7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a8b145c6764ab0a1222b39401de827469a78eaf9.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "开学精神状态belike",
+      "title_en": "开学精神状态belike",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BC%80%E5%AD%A6%E7%B2%BE%E7%A5%9E%E7%8A%B6%E6%80%81belike",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/c1e568c18c0641680173cbf8b31d333cc36d6684.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "巴基斯坦阿富汗冲突为何升级",
+      "title_en": "巴基斯坦阿富汗冲突为何升级",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E9%98%BF%E5%AF%8C%E6%B1%97%E5%86%B2%E7%AA%81%E4%B8%BA%E4%BD%95%E5%8D%87%E7%BA%A7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/726d4eafebe6d7ecdf1cb9981745b36f1c6e60d9.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "TES WE",
+      "title_en": "TES WE",
+      "url": "https://search.bilibili.com/all?keyword=TES%20WE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/16b363eeee74bb0ec09464030038bb5681e4546a.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "美以袭击伊朗",
+      "title_en": "美以袭击伊朗",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E4%BB%A5%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/7c43f69db3b5ca19dc45946cfd0250d4ee6a4248.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "花海退役仪式",
+      "title_en": "花海退役仪式",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8A%B1%E6%B5%B7%E9%80%80%E5%BD%B9%E4%BB%AA%E5%BC%8F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/73cd9b71b5d0df1c78ecdc7a114688a860b73022.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "2026年考研国家线公布",
+      "title_en": "2026年考研国家线公布",
+      "url": "https://search.bilibili.com/all?keyword=2026%E5%B9%B4%E8%80%83%E7%A0%94%E5%9B%BD%E5%AE%B6%E7%BA%BF%E5%85%AC%E5%B8%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/41131d7e9430a22a9d3f33ae02dd024fc0cbfdad.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-02-28 热点新闻汇总",
+  "update_time": "2026-02-28 22:27:34"
+}
