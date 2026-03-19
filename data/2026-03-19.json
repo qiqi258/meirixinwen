@@ -1,0 +1,367 @@
+{
+  "date": "2026-03-19",
+  "news": [
+    {
+      "title": "胖东来馒头每人限购12个",
+      "title_en": "胖东来馒头每人限购12个",
+      "url": "https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5%E9%A6%92%E5%A4%B4%E6%AF%8F%E4%BA%BA%E9%99%90%E8%B4%AD12%E4%B8%AA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "799791"
+    },
+    {
+      "title": "长江上又一座大桥建设新进展",
+      "title_en": "长江上又一座大桥建设新进展",
+      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%B1%9F%E4%B8%8A%E5%8F%88%E4%B8%80%E5%BA%A7%E5%A4%A7%E6%A1%A5%E5%BB%BA%E8%AE%BE%E6%96%B0%E8%BF%9B%E5%B1%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "627464"
+    },
+    {
+      "title": "和热巴共享甄稀美妙时刻",
+      "title_en": "和热巴共享甄稀美妙时刻",
+      "url": "https://s.weibo.com/weibo?q=%E5%92%8C%E7%83%AD%E5%B7%B4%E5%85%B1%E4%BA%AB%E7%94%84%E7%A8%80%E7%BE%8E%E5%A6%99%E6%97%B6%E5%88%BB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "619885"
+    },
+    {
+      "title": "新一代SU734分钟锁单1.5万台",
+      "title_en": "新一代SU734分钟锁单1.5万台",
+      "url": "https://s.weibo.com/weibo?q=%E6%96%B0%E4%B8%80%E4%BB%A3SU734%E5%88%86%E9%92%9F%E9%94%81%E5%8D%951.5%E4%B8%87%E5%8F%B0",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "248506"
+    },
+    {
+      "title": "小米发布会",
+      "title_en": "小米发布会",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "216021"
+    },
+    {
+      "title": "中方对以方说法感到震惊",
+      "title_en": "中方对以方说法感到震惊",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E6%96%B9%E5%AF%B9%E4%BB%A5%E6%96%B9%E8%AF%B4%E6%B3%95%E6%84%9F%E5%88%B0%E9%9C%87%E6%83%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "211480"
+    },
+    {
+      "title": "小米新SU7起售价21.99万元",
+      "title_en": "小米新SU7起售价21.99万元",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E6%96%B0SU7%E8%B5%B7%E5%94%AE%E4%BB%B721.99%E4%B8%87%E5%85%83",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "209880"
+    },
+    {
+      "title": "伊朗外长回应美2000亿美元战争拨款",
+      "title_en": "伊朗外长回应美2000亿美元战争拨款",
+      "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%97%E5%A4%96%E9%95%BF%E5%9B%9E%E5%BA%94%E7%BE%8E2000%E4%BA%BF%E7%BE%8E%E5%85%83%E6%88%98%E4%BA%89%E6%8B%A8%E6%AC%BE",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "205538"
+    },
+    {
+      "title": "小米笔记本",
+      "title_en": "小米笔记本",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E7%AC%94%E8%AE%B0%E6%9C%AC",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "205196"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "GEN LYON",
+      "title_en": "GEN LYON",
+      "url": "https://search.bilibili.com/all?keyword=GEN%20LYON",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1b660c04f9a828d0404d250cba435eb32a50ea68.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "直击红旗16实弹演练",
+      "title_en": "直击红旗16实弹演练",
+      "url": "https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E7%BA%A2%E6%97%9716%E5%AE%9E%E5%BC%B9%E6%BC%94%E7%BB%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a0ecf8d06ce5657fdfbb12ec4e5b9007bebe866e.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "科学家拍到物质从量子真空诞生",
+      "title_en": "科学家拍到物质从量子真空诞生",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E5%AD%A6%E5%AE%B6%E6%8B%8D%E5%88%B0%E7%89%A9%E8%B4%A8%E4%BB%8E%E9%87%8F%E5%AD%90%E7%9C%9F%E7%A9%BA%E8%AF%9E%E7%94%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/6aa89c1c42e71c67fb21764abba13cd4682ab100.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "北京WB 深圳DYG",
+      "title_en": "北京WB 深圳DYG",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E4%BA%ACWB%20%E6%B7%B1%E5%9C%B3DYG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/96455ac686796732701fac0d65a15555003d3673.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "詹姆斯14投13中",
+      "title_en": "詹姆斯14投13中",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A9%B9%E5%A7%86%E6%96%AF14%E6%8A%9513%E4%B8%AD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3423addbc60cafe2f0d5a912e8b8b75bea28f4a0.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "让大模型学会选择性记忆",
+      "title_en": "让大模型学会选择性记忆",
+      "url": "https://search.bilibili.com/all?keyword=%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%AD%A6%E4%BC%9A%E9%80%89%E6%8B%A9%E6%80%A7%E8%AE%B0%E5%BF%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1a728c01e1e66d3bb8f80f90d66aa43921ac59fe.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "JDG vs LOUD 赛前数据前瞻",
+      "title_en": "JDG vs LOUD 赛前数据前瞻",
+      "url": "https://search.bilibili.com/all?keyword=JDG%20vs%20LOUD%20%E8%B5%9B%E5%89%8D%E6%95%B0%E6%8D%AE%E5%89%8D%E7%9E%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/2d0b9a471381ef70e30f3934c48c586075be260e.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "中国化肥价格如何保持稳定",
+      "title_en": "中国化肥价格如何保持稳定",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%8C%96%E8%82%A5%E4%BB%B7%E6%A0%BC%E5%A6%82%E4%BD%95%E4%BF%9D%E6%8C%81%E7%A8%B3%E5%AE%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f0e58d881119da2783e4e40a3dbf421d10b44ea9.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "复盘亚马尔如何突破纽卡防线",
+      "title_en": "复盘亚马尔如何突破纽卡防线",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%8D%E7%9B%98%E4%BA%9A%E9%A9%AC%E5%B0%94%E5%A6%82%E4%BD%95%E7%AA%81%E7%A0%B4%E7%BA%BD%E5%8D%A1%E9%98%B2%E7%BA%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3023da41d0f52f21e67af123a0e563f6e7fa0618.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "BLG FPX",
+      "title_en": "BLG FPX",
+      "url": "https://search.bilibili.com/all?keyword=BLG%20FPX",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/91c04951c1b14a2dede69b78b8febbbebb1a78e9.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "content": [
+    {
+      "title": "胖东来馒头每人限购12个",
+      "title_en": "胖东来馒头每人限购12个",
+      "url": "https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5%E9%A6%92%E5%A4%B4%E6%AF%8F%E4%BA%BA%E9%99%90%E8%B4%AD12%E4%B8%AA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "799791"
+    },
+    {
+      "title": "长江上又一座大桥建设新进展",
+      "title_en": "长江上又一座大桥建设新进展",
+      "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%B1%9F%E4%B8%8A%E5%8F%88%E4%B8%80%E5%BA%A7%E5%A4%A7%E6%A1%A5%E5%BB%BA%E8%AE%BE%E6%96%B0%E8%BF%9B%E5%B1%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "627464"
+    },
+    {
+      "title": "和热巴共享甄稀美妙时刻",
+      "title_en": "和热巴共享甄稀美妙时刻",
+      "url": "https://s.weibo.com/weibo?q=%E5%92%8C%E7%83%AD%E5%B7%B4%E5%85%B1%E4%BA%AB%E7%94%84%E7%A8%80%E7%BE%8E%E5%A6%99%E6%97%B6%E5%88%BB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "619885"
+    },
+    {
+      "title": "新一代SU734分钟锁单1.5万台",
+      "title_en": "新一代SU734分钟锁单1.5万台",
+      "url": "https://s.weibo.com/weibo?q=%E6%96%B0%E4%B8%80%E4%BB%A3SU734%E5%88%86%E9%92%9F%E9%94%81%E5%8D%951.5%E4%B8%87%E5%8F%B0",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "248506"
+    },
+    {
+      "title": "小米发布会",
+      "title_en": "小米发布会",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "216021"
+    },
+    {
+      "title": "中方对以方说法感到震惊",
+      "title_en": "中方对以方说法感到震惊",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E6%96%B9%E5%AF%B9%E4%BB%A5%E6%96%B9%E8%AF%B4%E6%B3%95%E6%84%9F%E5%88%B0%E9%9C%87%E6%83%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "211480"
+    },
+    {
+      "title": "小米新SU7起售价21.99万元",
+      "title_en": "小米新SU7起售价21.99万元",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E6%96%B0SU7%E8%B5%B7%E5%94%AE%E4%BB%B721.99%E4%B8%87%E5%85%83",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "209880"
+    },
+    {
+      "title": "伊朗外长回应美2000亿美元战争拨款",
+      "title_en": "伊朗外长回应美2000亿美元战争拨款",
+      "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%97%E5%A4%96%E9%95%BF%E5%9B%9E%E5%BA%94%E7%BE%8E2000%E4%BA%BF%E7%BE%8E%E5%85%83%E6%88%98%E4%BA%89%E6%8B%A8%E6%AC%BE",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "205538"
+    },
+    {
+      "title": "小米笔记本",
+      "title_en": "小米笔记本",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E7%AC%94%E8%AE%B0%E6%9C%AC",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "205196"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "GEN LYON",
+      "title_en": "GEN LYON",
+      "url": "https://search.bilibili.com/all?keyword=GEN%20LYON",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1b660c04f9a828d0404d250cba435eb32a50ea68.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "直击红旗16实弹演练",
+      "title_en": "直击红旗16实弹演练",
+      "url": "https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E7%BA%A2%E6%97%9716%E5%AE%9E%E5%BC%B9%E6%BC%94%E7%BB%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a0ecf8d06ce5657fdfbb12ec4e5b9007bebe866e.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "科学家拍到物质从量子真空诞生",
+      "title_en": "科学家拍到物质从量子真空诞生",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E5%AD%A6%E5%AE%B6%E6%8B%8D%E5%88%B0%E7%89%A9%E8%B4%A8%E4%BB%8E%E9%87%8F%E5%AD%90%E7%9C%9F%E7%A9%BA%E8%AF%9E%E7%94%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/6aa89c1c42e71c67fb21764abba13cd4682ab100.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "北京WB 深圳DYG",
+      "title_en": "北京WB 深圳DYG",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E4%BA%ACWB%20%E6%B7%B1%E5%9C%B3DYG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/96455ac686796732701fac0d65a15555003d3673.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "詹姆斯14投13中",
+      "title_en": "詹姆斯14投13中",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A9%B9%E5%A7%86%E6%96%AF14%E6%8A%9513%E4%B8%AD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3423addbc60cafe2f0d5a912e8b8b75bea28f4a0.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "让大模型学会选择性记忆",
+      "title_en": "让大模型学会选择性记忆",
+      "url": "https://search.bilibili.com/all?keyword=%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%AD%A6%E4%BC%9A%E9%80%89%E6%8B%A9%E6%80%A7%E8%AE%B0%E5%BF%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1a728c01e1e66d3bb8f80f90d66aa43921ac59fe.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "JDG vs LOUD 赛前数据前瞻",
+      "title_en": "JDG vs LOUD 赛前数据前瞻",
+      "url": "https://search.bilibili.com/all?keyword=JDG%20vs%20LOUD%20%E8%B5%9B%E5%89%8D%E6%95%B0%E6%8D%AE%E5%89%8D%E7%9E%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/2d0b9a471381ef70e30f3934c48c586075be260e.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "中国化肥价格如何保持稳定",
+      "title_en": "中国化肥价格如何保持稳定",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%8C%96%E8%82%A5%E4%BB%B7%E6%A0%BC%E5%A6%82%E4%BD%95%E4%BF%9D%E6%8C%81%E7%A8%B3%E5%AE%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f0e58d881119da2783e4e40a3dbf421d10b44ea9.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "复盘亚马尔如何突破纽卡防线",
+      "title_en": "复盘亚马尔如何突破纽卡防线",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%8D%E7%9B%98%E4%BA%9A%E9%A9%AC%E5%B0%94%E5%A6%82%E4%BD%95%E7%AA%81%E7%A0%B4%E7%BA%BD%E5%8D%A1%E9%98%B2%E7%BA%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3023da41d0f52f21e67af123a0e563f6e7fa0618.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "BLG FPX",
+      "title_en": "BLG FPX",
+      "url": "https://search.bilibili.com/all?keyword=BLG%20FPX",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/91c04951c1b14a2dede69b78b8febbbebb1a78e9.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "title": "2026-03-19 热点新闻汇总",
+  "update_time": "2026-03-19 22:53:00"
+}
