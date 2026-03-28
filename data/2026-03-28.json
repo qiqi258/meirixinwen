@@ -1,0 +1,367 @@
+{
+  "date": "2026-03-28",
+  "news": [
+    {
+      "title": "太原火灾",
+      "title_en": "太原火灾",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1670898"
+    },
+    {
+      "title": "女子断碳水2月确诊糖尿病前期",
+      "title_en": "女子断碳水2月确诊糖尿病前期",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E6%96%AD%E7%A2%B3%E6%B0%B42%E6%9C%88%E7%A1%AE%E8%AF%8A%E7%B3%96%E5%B0%BF%E7%97%85%E5%89%8D%E6%9C%9F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "940891"
+    },
+    {
+      "title": "原来你是这样的河南",
+      "title_en": "原来你是这样的河南",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E4%BD%A0%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84%E6%B2%B3%E5%8D%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "721033"
+    },
+    {
+      "title": "徐良方致歉声明",
+      "title_en": "徐良方致歉声明",
+      "url": "https://s.weibo.com/weibo?q=%E5%BE%90%E8%89%AF%E6%96%B9%E8%87%B4%E6%AD%89%E5%A3%B0%E6%98%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "446573"
+    },
+    {
+      "title": "太原一商圈起火现场浓烟滚滚",
+      "title_en": "太原一商圈起火现场浓烟滚滚",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E4%B8%80%E5%95%86%E5%9C%88%E8%B5%B7%E7%81%AB%E7%8E%B0%E5%9C%BA%E6%B5%93%E7%83%9F%E6%BB%9A%E6%BB%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "296947"
+    },
+    {
+      "title": "穿上春装被误认为是保洁",
+      "title_en": "穿上春装被误认为是保洁",
+      "url": "https://s.weibo.com/weibo?q=%E7%A9%BF%E4%B8%8A%E6%98%A5%E8%A3%85%E8%A2%AB%E8%AF%AF%E8%AE%A4%E4%B8%BA%E6%98%AF%E4%BF%9D%E6%B4%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "294301"
+    },
+    {
+      "title": "王俊凯巅峰之夜和粉丝拍合照",
+      "title_en": "王俊凯巅峰之夜和粉丝拍合照",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%B7%85%E5%B3%B0%E4%B9%8B%E5%A4%9C%E5%92%8C%E7%B2%89%E4%B8%9D%E6%8B%8D%E5%90%88%E7%85%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "292011"
+    },
+    {
+      "title": "太原火灾已致1死25伤",
+      "title_en": "太原火灾已致1死25伤",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE%E5%B7%B2%E8%87%B41%E6%AD%BB25%E4%BC%A4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "281954"
+    },
+    {
+      "title": "AG战胜JDG",
+      "title_en": "AG战胜JDG",
+      "url": "https://s.weibo.com/weibo?q=AG%E6%88%98%E8%83%9CJDG",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "223160"
+    },
+    {
+      "title": "美国最强导弹击落了美国最强战机",
+      "title_en": "美国最强导弹击落了美国最强战机",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E6%9C%80%E5%BC%BA%E5%AF%BC%E5%BC%B9%E5%87%BB%E8%90%BD%E4%BA%86%E7%BE%8E%E5%9B%BD%E6%9C%80%E5%BC%BA%E6%88%98%E6%9C%BA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "218719"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "成都AG超玩会战胜北京JDG",
+      "title_en": "成都AG超玩会战胜北京JDG",
+      "url": "https://search.bilibili.com/all?keyword=%E6%88%90%E9%83%BDAG%E8%B6%85%E7%8E%A9%E4%BC%9A%E6%88%98%E8%83%9C%E5%8C%97%E4%BA%ACJDG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/f66af79609bbaed9e60afded3b6c91b76f5954e6.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "U23国足1-1战平朝鲜",
+      "title_en": "U23国足1-1战平朝鲜",
+      "url": "https://search.bilibili.com/all?keyword=U23%E5%9B%BD%E8%B6%B31-1%E6%88%98%E5%B9%B3%E6%9C%9D%E9%B2%9C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/13f759e152c74c5261b1ea71c464c5f671c567bb.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "F1日本站排位赛战报",
+      "title_en": "F1日本站排位赛战报",
+      "url": "https://search.bilibili.com/all?keyword=F1%E6%97%A5%E6%9C%AC%E7%AB%99%E6%8E%92%E4%BD%8D%E8%B5%9B%E6%88%98%E6%8A%A5",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/fcbcf773c383ec91f2c4c1cde43138ab8cefb53e.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "官方约谈315曝光问题地方政府负责人",
+      "title_en": "官方约谈315曝光问题地方政府负责人",
+      "url": "https://search.bilibili.com/all?keyword=%E5%AE%98%E6%96%B9%E7%BA%A6%E8%B0%88315%E6%9B%9D%E5%85%89%E9%97%AE%E9%A2%98%E5%9C%B0%E6%96%B9%E6%94%BF%E5%BA%9C%E8%B4%9F%E8%B4%A3%E4%BA%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/4c2a7e87f00493db62b85a3ffeacaec84cc50b7a.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "AG超玩会战胜北京JDG赛后数据",
+      "title_en": "AG超玩会战胜北京JDG赛后数据",
+      "url": "https://search.bilibili.com/all?keyword=AG%E8%B6%85%E7%8E%A9%E4%BC%9A%E6%88%98%E8%83%9C%E5%8C%97%E4%BA%ACJDG%E8%B5%9B%E5%90%8E%E6%95%B0%E6%8D%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/486a4a9782f20630a87449808c66918a49dc0fe2.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "伊朗军方称击中一艘美军舰艇",
+      "title_en": "伊朗军方称击中一艘美军舰艇",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E5%86%9B%E6%96%B9%E7%A7%B0%E5%87%BB%E4%B8%AD%E4%B8%80%E8%89%98%E7%BE%8E%E5%86%9B%E8%88%B0%E8%89%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/ca487e2379c0be29fbb244b8b5597be1300b56ae.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "2026高考数学冲刺",
+      "title_en": "2026高考数学冲刺",
+      "url": "https://search.bilibili.com/all?keyword=2026%E9%AB%98%E8%80%83%E6%95%B0%E5%AD%A6%E5%86%B2%E5%88%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/5d25bbea945a1bb6d1cd00743f81053268fddbc8.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "做一颗百发百中的台球",
+      "title_en": "做一颗百发百中的台球",
+      "url": "https://search.bilibili.com/all?keyword=%E5%81%9A%E4%B8%80%E9%A2%97%E7%99%BE%E5%8F%91%E7%99%BE%E4%B8%AD%E7%9A%84%E5%8F%B0%E7%90%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/40c6758e8889049ce1ddde56a14741ac01c4bb9b.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "俄罗斯禁止汽油出口",
+      "title_en": "俄罗斯禁止汽油出口",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BF%84%E7%BD%97%E6%96%AF%E7%A6%81%E6%AD%A2%E6%B1%BD%E6%B2%B9%E5%87%BA%E5%8F%A3",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/fefeb82857ad83969a69441dc333fd97ba185cc0.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "太原火灾",
+      "title_en": "太原火灾",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1670898"
+    },
+    {
+      "title": "女子断碳水2月确诊糖尿病前期",
+      "title_en": "女子断碳水2月确诊糖尿病前期",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E6%96%AD%E7%A2%B3%E6%B0%B42%E6%9C%88%E7%A1%AE%E8%AF%8A%E7%B3%96%E5%B0%BF%E7%97%85%E5%89%8D%E6%9C%9F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "940891"
+    },
+    {
+      "title": "原来你是这样的河南",
+      "title_en": "原来你是这样的河南",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E4%BD%A0%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84%E6%B2%B3%E5%8D%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "721033"
+    },
+    {
+      "title": "徐良方致歉声明",
+      "title_en": "徐良方致歉声明",
+      "url": "https://s.weibo.com/weibo?q=%E5%BE%90%E8%89%AF%E6%96%B9%E8%87%B4%E6%AD%89%E5%A3%B0%E6%98%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "446573"
+    },
+    {
+      "title": "太原一商圈起火现场浓烟滚滚",
+      "title_en": "太原一商圈起火现场浓烟滚滚",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E4%B8%80%E5%95%86%E5%9C%88%E8%B5%B7%E7%81%AB%E7%8E%B0%E5%9C%BA%E6%B5%93%E7%83%9F%E6%BB%9A%E6%BB%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "296947"
+    },
+    {
+      "title": "穿上春装被误认为是保洁",
+      "title_en": "穿上春装被误认为是保洁",
+      "url": "https://s.weibo.com/weibo?q=%E7%A9%BF%E4%B8%8A%E6%98%A5%E8%A3%85%E8%A2%AB%E8%AF%AF%E8%AE%A4%E4%B8%BA%E6%98%AF%E4%BF%9D%E6%B4%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "294301"
+    },
+    {
+      "title": "王俊凯巅峰之夜和粉丝拍合照",
+      "title_en": "王俊凯巅峰之夜和粉丝拍合照",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%B7%85%E5%B3%B0%E4%B9%8B%E5%A4%9C%E5%92%8C%E7%B2%89%E4%B8%9D%E6%8B%8D%E5%90%88%E7%85%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "292011"
+    },
+    {
+      "title": "太原火灾已致1死25伤",
+      "title_en": "太原火灾已致1死25伤",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%81%AB%E7%81%BE%E5%B7%B2%E8%87%B41%E6%AD%BB25%E4%BC%A4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "281954"
+    },
+    {
+      "title": "AG战胜JDG",
+      "title_en": "AG战胜JDG",
+      "url": "https://s.weibo.com/weibo?q=AG%E6%88%98%E8%83%9CJDG",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "223160"
+    },
+    {
+      "title": "美国最强导弹击落了美国最强战机",
+      "title_en": "美国最强导弹击落了美国最强战机",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E6%9C%80%E5%BC%BA%E5%AF%BC%E5%BC%B9%E5%87%BB%E8%90%BD%E4%BA%86%E7%BE%8E%E5%9B%BD%E6%9C%80%E5%BC%BA%E6%88%98%E6%9C%BA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "218719"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "成都AG超玩会战胜北京JDG",
+      "title_en": "成都AG超玩会战胜北京JDG",
+      "url": "https://search.bilibili.com/all?keyword=%E6%88%90%E9%83%BDAG%E8%B6%85%E7%8E%A9%E4%BC%9A%E6%88%98%E8%83%9C%E5%8C%97%E4%BA%ACJDG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/f66af79609bbaed9e60afded3b6c91b76f5954e6.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "U23国足1-1战平朝鲜",
+      "title_en": "U23国足1-1战平朝鲜",
+      "url": "https://search.bilibili.com/all?keyword=U23%E5%9B%BD%E8%B6%B31-1%E6%88%98%E5%B9%B3%E6%9C%9D%E9%B2%9C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/13f759e152c74c5261b1ea71c464c5f671c567bb.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "F1日本站排位赛战报",
+      "title_en": "F1日本站排位赛战报",
+      "url": "https://search.bilibili.com/all?keyword=F1%E6%97%A5%E6%9C%AC%E7%AB%99%E6%8E%92%E4%BD%8D%E8%B5%9B%E6%88%98%E6%8A%A5",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/fcbcf773c383ec91f2c4c1cde43138ab8cefb53e.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "官方约谈315曝光问题地方政府负责人",
+      "title_en": "官方约谈315曝光问题地方政府负责人",
+      "url": "https://search.bilibili.com/all?keyword=%E5%AE%98%E6%96%B9%E7%BA%A6%E8%B0%88315%E6%9B%9D%E5%85%89%E9%97%AE%E9%A2%98%E5%9C%B0%E6%96%B9%E6%94%BF%E5%BA%9C%E8%B4%9F%E8%B4%A3%E4%BA%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/4c2a7e87f00493db62b85a3ffeacaec84cc50b7a.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "AG超玩会战胜北京JDG赛后数据",
+      "title_en": "AG超玩会战胜北京JDG赛后数据",
+      "url": "https://search.bilibili.com/all?keyword=AG%E8%B6%85%E7%8E%A9%E4%BC%9A%E6%88%98%E8%83%9C%E5%8C%97%E4%BA%ACJDG%E8%B5%9B%E5%90%8E%E6%95%B0%E6%8D%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/486a4a9782f20630a87449808c66918a49dc0fe2.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "伊朗军方称击中一艘美军舰艇",
+      "title_en": "伊朗军方称击中一艘美军舰艇",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E5%86%9B%E6%96%B9%E7%A7%B0%E5%87%BB%E4%B8%AD%E4%B8%80%E8%89%98%E7%BE%8E%E5%86%9B%E8%88%B0%E8%89%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/ca487e2379c0be29fbb244b8b5597be1300b56ae.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "2026高考数学冲刺",
+      "title_en": "2026高考数学冲刺",
+      "url": "https://search.bilibili.com/all?keyword=2026%E9%AB%98%E8%80%83%E6%95%B0%E5%AD%A6%E5%86%B2%E5%88%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/5d25bbea945a1bb6d1cd00743f81053268fddbc8.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "做一颗百发百中的台球",
+      "title_en": "做一颗百发百中的台球",
+      "url": "https://search.bilibili.com/all?keyword=%E5%81%9A%E4%B8%80%E9%A2%97%E7%99%BE%E5%8F%91%E7%99%BE%E4%B8%AD%E7%9A%84%E5%8F%B0%E7%90%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/40c6758e8889049ce1ddde56a14741ac01c4bb9b.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "俄罗斯禁止汽油出口",
+      "title_en": "俄罗斯禁止汽油出口",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BF%84%E7%BD%97%E6%96%AF%E7%A6%81%E6%AD%A2%E6%B1%BD%E6%B2%B9%E5%87%BA%E5%8F%A3",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/fefeb82857ad83969a69441dc333fd97ba185cc0.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-03-28 热点新闻汇总",
+  "update_time": "2026-03-28 22:35:57"
+}
