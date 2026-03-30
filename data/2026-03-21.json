@@ -1,0 +1,367 @@
+{
+  "date": "2026-03-21",
+  "news": [
+    {
+      "title": "重庆大学实验室爆炸1死3伤",
+      "title_en": "重庆大学实验室爆炸1死3伤",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%88%86%E7%82%B81%E6%AD%BB3%E4%BC%A4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1400274"
+    },
+    {
+      "title": "梅姨被逮捕",
+      "title_en": "梅姨被逮捕",
+      "url": "https://s.weibo.com/weibo?q=%E6%A2%85%E5%A7%A8%E8%A2%AB%E9%80%AE%E6%8D%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "916455"
+    },
+    {
+      "title": "2026全国寻春地图",
+      "title_en": "2026全国寻春地图",
+      "url": "https://s.weibo.com/weibo?q=2026%E5%85%A8%E5%9B%BD%E5%AF%BB%E6%98%A5%E5%9C%B0%E5%9B%BE",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "686202"
+    },
+    {
+      "title": "好面料真的会走秀",
+      "title_en": "好面料真的会走秀",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%BD%E9%9D%A2%E6%96%99%E7%9C%9F%E7%9A%84%E4%BC%9A%E8%B5%B0%E7%A7%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "468037"
+    },
+    {
+      "title": "狼队战胜AG",
+      "title_en": "狼队战胜AG",
+      "url": "https://s.weibo.com/weibo?q=%E7%8B%BC%E9%98%9F%E6%88%98%E8%83%9CAG",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "334322"
+    },
+    {
+      "title": "季冠霖发文抵制AI",
+      "title_en": "季冠霖发文抵制AI",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%A3%E5%86%A0%E9%9C%96%E5%8F%91%E6%96%87%E6%8A%B5%E5%88%B6AI",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "304889"
+    },
+    {
+      "title": "逐玉 删戏份",
+      "title_en": "逐玉 删戏份",
+      "url": "https://s.weibo.com/weibo?q=%E9%80%90%E7%8E%89%20%E5%88%A0%E6%88%8F%E4%BB%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "304333"
+    },
+    {
+      "title": "重庆一高校实验室爆炸现场画面",
+      "title_en": "重庆一高校实验室爆炸现场画面",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E5%BA%86%E4%B8%80%E9%AB%98%E6%A0%A1%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%88%86%E7%82%B8%E7%8E%B0%E5%9C%BA%E7%94%BB%E9%9D%A2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "206135"
+    },
+    {
+      "title": "GEN对战G2",
+      "title_en": "GEN对战G2",
+      "url": "https://s.weibo.com/weibo?q=GEN%E5%AF%B9%E6%88%98G2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "194495"
+    },
+    {
+      "title": "你好星期六预告",
+      "title_en": "你好星期六预告",
+      "url": "https://s.weibo.com/weibo?q=%E4%BD%A0%E5%A5%BD%E6%98%9F%E6%9C%9F%E5%85%AD%E9%A2%84%E5%91%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "191764"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "GEN G2",
+      "title_en": "GEN G2",
+      "url": "https://search.bilibili.com/all?keyword=GEN%20G2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/7ceddd2b2408b4f4cfd00834282109d3d05d84ee.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "高考最后十课",
+      "title_en": "高考最后十课",
+      "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E6%9C%80%E5%90%8E%E5%8D%81%E8%AF%BE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/0c563f5177b6b6dd87e9acf6686fba8011822e94.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "高中生UP现场采访库克",
+      "title_en": "高中生UP现场采访库克",
+      "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E4%B8%AD%E7%94%9FUP%E7%8E%B0%E5%9C%BA%E9%87%87%E8%AE%BF%E5%BA%93%E5%85%8B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/771ccef14aad76afea4b700c2a54f2159ad184ac.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "中国能源到底有啥底牌",
+      "title_en": "中国能源到底有啥底牌",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E8%83%BD%E6%BA%90%E5%88%B0%E5%BA%95%E6%9C%89%E5%95%A5%E5%BA%95%E7%89%8C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/74f0214e788befcfd36210742ccae4d4718d65d5.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "十年前的观众在看什么动画",
+      "title_en": "十年前的观众在看什么动画",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8D%81%E5%B9%B4%E5%89%8D%E7%9A%84%E8%A7%82%E4%BC%97%E5%9C%A8%E7%9C%8B%E4%BB%80%E4%B9%88%E5%8A%A8%E7%94%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/60552b005fdabefad4fa9fb18c3dbea238a8763e.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "申军良谈梅姨落网",
+      "title_en": "申军良谈梅姨落网",
+      "url": "https://search.bilibili.com/all?keyword=%E7%94%B3%E5%86%9B%E8%89%AF%E8%B0%88%E6%A2%85%E5%A7%A8%E8%90%BD%E7%BD%91",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/041de79e77b3ab5b669e55b11e1b056558b6d519.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "雪山救狐但穿越版",
+      "title_en": "雪山救狐但穿越版",
+      "url": "https://search.bilibili.com/all?keyword=%E9%9B%AA%E5%B1%B1%E6%95%91%E7%8B%90%E4%BD%86%E7%A9%BF%E8%B6%8A%E7%89%88",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/92e05a001f797716443d8697e18e0e42c30578e9.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "老番茄 最害怕的一集",
+      "title_en": "老番茄 最害怕的一集",
+      "url": "https://search.bilibili.com/all?keyword=%E8%80%81%E7%95%AA%E8%8C%84%20%E6%9C%80%E5%AE%B3%E6%80%95%E7%9A%84%E4%B8%80%E9%9B%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/93ca1ef23e309c4cb911fcc8fa6c7843b44bd492.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "揭秘南昌舰首次实弹发射背后",
+      "title_en": "揭秘南昌舰首次实弹发射背后",
+      "url": "https://search.bilibili.com/all?keyword=%E6%8F%AD%E7%A7%98%E5%8D%97%E6%98%8C%E8%88%B0%E9%A6%96%E6%AC%A1%E5%AE%9E%E5%BC%B9%E5%8F%91%E5%B0%84%E8%83%8C%E5%90%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/7ae9ba43abaeb51e4b7d3bc39b47206e7c0cdef8.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "重庆大学实验室爆炸1死3伤",
+      "title_en": "重庆大学实验室爆炸1死3伤",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%88%86%E7%82%B81%E6%AD%BB3%E4%BC%A4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1400274"
+    },
+    {
+      "title": "梅姨被逮捕",
+      "title_en": "梅姨被逮捕",
+      "url": "https://s.weibo.com/weibo?q=%E6%A2%85%E5%A7%A8%E8%A2%AB%E9%80%AE%E6%8D%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "916455"
+    },
+    {
+      "title": "2026全国寻春地图",
+      "title_en": "2026全国寻春地图",
+      "url": "https://s.weibo.com/weibo?q=2026%E5%85%A8%E5%9B%BD%E5%AF%BB%E6%98%A5%E5%9C%B0%E5%9B%BE",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "686202"
+    },
+    {
+      "title": "好面料真的会走秀",
+      "title_en": "好面料真的会走秀",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%BD%E9%9D%A2%E6%96%99%E7%9C%9F%E7%9A%84%E4%BC%9A%E8%B5%B0%E7%A7%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "468037"
+    },
+    {
+      "title": "狼队战胜AG",
+      "title_en": "狼队战胜AG",
+      "url": "https://s.weibo.com/weibo?q=%E7%8B%BC%E9%98%9F%E6%88%98%E8%83%9CAG",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "334322"
+    },
+    {
+      "title": "季冠霖发文抵制AI",
+      "title_en": "季冠霖发文抵制AI",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%A3%E5%86%A0%E9%9C%96%E5%8F%91%E6%96%87%E6%8A%B5%E5%88%B6AI",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "304889"
+    },
+    {
+      "title": "逐玉 删戏份",
+      "title_en": "逐玉 删戏份",
+      "url": "https://s.weibo.com/weibo?q=%E9%80%90%E7%8E%89%20%E5%88%A0%E6%88%8F%E4%BB%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "304333"
+    },
+    {
+      "title": "重庆一高校实验室爆炸现场画面",
+      "title_en": "重庆一高校实验室爆炸现场画面",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E5%BA%86%E4%B8%80%E9%AB%98%E6%A0%A1%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%88%86%E7%82%B8%E7%8E%B0%E5%9C%BA%E7%94%BB%E9%9D%A2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "206135"
+    },
+    {
+      "title": "GEN对战G2",
+      "title_en": "GEN对战G2",
+      "url": "https://s.weibo.com/weibo?q=GEN%E5%AF%B9%E6%88%98G2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "194495"
+    },
+    {
+      "title": "你好星期六预告",
+      "title_en": "你好星期六预告",
+      "url": "https://s.weibo.com/weibo?q=%E4%BD%A0%E5%A5%BD%E6%98%9F%E6%9C%9F%E5%85%AD%E9%A2%84%E5%91%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "191764"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "GEN G2",
+      "title_en": "GEN G2",
+      "url": "https://search.bilibili.com/all?keyword=GEN%20G2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/7ceddd2b2408b4f4cfd00834282109d3d05d84ee.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "高考最后十课",
+      "title_en": "高考最后十课",
+      "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E6%9C%80%E5%90%8E%E5%8D%81%E8%AF%BE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/0c563f5177b6b6dd87e9acf6686fba8011822e94.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "高中生UP现场采访库克",
+      "title_en": "高中生UP现场采访库克",
+      "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E4%B8%AD%E7%94%9FUP%E7%8E%B0%E5%9C%BA%E9%87%87%E8%AE%BF%E5%BA%93%E5%85%8B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/771ccef14aad76afea4b700c2a54f2159ad184ac.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "中国能源到底有啥底牌",
+      "title_en": "中国能源到底有啥底牌",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E8%83%BD%E6%BA%90%E5%88%B0%E5%BA%95%E6%9C%89%E5%95%A5%E5%BA%95%E7%89%8C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/74f0214e788befcfd36210742ccae4d4718d65d5.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "十年前的观众在看什么动画",
+      "title_en": "十年前的观众在看什么动画",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8D%81%E5%B9%B4%E5%89%8D%E7%9A%84%E8%A7%82%E4%BC%97%E5%9C%A8%E7%9C%8B%E4%BB%80%E4%B9%88%E5%8A%A8%E7%94%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/60552b005fdabefad4fa9fb18c3dbea238a8763e.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "申军良谈梅姨落网",
+      "title_en": "申军良谈梅姨落网",
+      "url": "https://search.bilibili.com/all?keyword=%E7%94%B3%E5%86%9B%E8%89%AF%E8%B0%88%E6%A2%85%E5%A7%A8%E8%90%BD%E7%BD%91",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/041de79e77b3ab5b669e55b11e1b056558b6d519.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "雪山救狐但穿越版",
+      "title_en": "雪山救狐但穿越版",
+      "url": "https://search.bilibili.com/all?keyword=%E9%9B%AA%E5%B1%B1%E6%95%91%E7%8B%90%E4%BD%86%E7%A9%BF%E8%B6%8A%E7%89%88",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/92e05a001f797716443d8697e18e0e42c30578e9.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "老番茄 最害怕的一集",
+      "title_en": "老番茄 最害怕的一集",
+      "url": "https://search.bilibili.com/all?keyword=%E8%80%81%E7%95%AA%E8%8C%84%20%E6%9C%80%E5%AE%B3%E6%80%95%E7%9A%84%E4%B8%80%E9%9B%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/93ca1ef23e309c4cb911fcc8fa6c7843b44bd492.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "揭秘南昌舰首次实弹发射背后",
+      "title_en": "揭秘南昌舰首次实弹发射背后",
+      "url": "https://search.bilibili.com/all?keyword=%E6%8F%AD%E7%A7%98%E5%8D%97%E6%98%8C%E8%88%B0%E9%A6%96%E6%AC%A1%E5%AE%9E%E5%BC%B9%E5%8F%91%E5%B0%84%E8%83%8C%E5%90%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/7ae9ba43abaeb51e4b7d3bc39b47206e7c0cdef8.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-03-21 热点新闻汇总",
+  "update_time": "2026-03-21 22:31:53"
+}

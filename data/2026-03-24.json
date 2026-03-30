@@ -1,0 +1,367 @@
+{
+  "date": "2026-03-24",
+  "news": [
+    {
+      "title": "心源性猝死",
+      "title_en": "心源性猝死",
+      "url": "https://s.weibo.com/weibo?q=%E5%BF%83%E6%BA%90%E6%80%A7%E7%8C%9D%E6%AD%BB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "4989227"
+    },
+    {
+      "title": "外交部回应日方拟将中日关系降级",
+      "title_en": "外交部回应日方拟将中日关系降级",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%96%B9%E6%8B%9F%E5%B0%86%E4%B8%AD%E6%97%A5%E5%85%B3%E7%B3%BB%E9%99%8D%E7%BA%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1310546"
+    },
+    {
+      "title": "太空加油站新进展",
+      "title_en": "太空加油站新进展",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E7%A9%BA%E5%8A%A0%E6%B2%B9%E7%AB%99%E6%96%B0%E8%BF%9B%E5%B1%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "994477"
+    },
+    {
+      "title": "4岁女童就诊177次患者是母亲",
+      "title_en": "4岁女童就诊177次患者是母亲",
+      "url": "https://s.weibo.com/weibo?q=4%E5%B2%81%E5%A5%B3%E7%AB%A5%E5%B0%B1%E8%AF%8A177%E6%AC%A1%E6%82%A3%E8%80%85%E6%98%AF%E6%AF%8D%E4%BA%B2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "783384"
+    },
+    {
+      "title": "文淇 年轻女演员演主角等于没票房",
+      "title_en": "文淇 年轻女演员演主角等于没票房",
+      "url": "https://s.weibo.com/weibo?q=%E6%96%87%E6%B7%87%20%E5%B9%B4%E8%BD%BB%E5%A5%B3%E6%BC%94%E5%91%98%E6%BC%94%E4%B8%BB%E8%A7%92%E7%AD%89%E4%BA%8E%E6%B2%A1%E7%A5%A8%E6%88%BF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "538817"
+    },
+    {
+      "title": "张雪峰公司发布讣告",
+      "title_en": "张雪峰公司发布讣告",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E5%B3%B0%E5%85%AC%E5%8F%B8%E5%8F%91%E5%B8%83%E8%AE%A3%E5%91%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "25164876"
+    },
+    {
+      "title": "地铁吐血女孩已离开华西医院",
+      "title_en": "地铁吐血女孩已离开华西医院",
+      "url": "https://s.weibo.com/weibo?q=%E5%9C%B0%E9%93%81%E5%90%90%E8%A1%80%E5%A5%B3%E5%AD%A9%E5%B7%B2%E7%A6%BB%E5%BC%80%E5%8D%8E%E8%A5%BF%E5%8C%BB%E9%99%A2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "491039"
+    },
+    {
+      "title": "草莓下火锅",
+      "title_en": "草莓下火锅",
+      "url": "https://s.weibo.com/weibo?q=%E8%8D%89%E8%8E%93%E4%B8%8B%E7%81%AB%E9%94%85",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "409411"
+    },
+    {
+      "title": "张雪峰曾回应如何面对死亡",
+      "title_en": "张雪峰曾回应如何面对死亡",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E5%B3%B0%E6%9B%BE%E5%9B%9E%E5%BA%94%E5%A6%82%E4%BD%95%E9%9D%A2%E5%AF%B9%E6%AD%BB%E4%BA%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "407910"
+    },
+    {
+      "title": "以色列被打穿了",
+      "title_en": "以色列被打穿了",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E8%89%B2%E5%88%97%E8%A2%AB%E6%89%93%E7%A9%BF%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "398802"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "周杰伦新专辑花式改编",
+      "title_en": "周杰伦新专辑花式改编",
+      "url": "https://search.bilibili.com/all?keyword=%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%96%B0%E4%B8%93%E8%BE%91%E8%8A%B1%E5%BC%8F%E6%94%B9%E7%BC%96",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/ada19ff7a10b83289b431ae0c866a7f64bb2c8e0.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "库克说想玩逃离鸭科夫",
+      "title_en": "库克说想玩逃离鸭科夫",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BA%93%E5%85%8B%E8%AF%B4%E6%83%B3%E7%8E%A9%E9%80%83%E7%A6%BB%E9%B8%AD%E7%A7%91%E5%A4%AB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/7cca613077dcbab9000dc75d4f38e7de5bac8437.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "请重视身体的求救信号",
+      "title_en": "请重视身体的求救信号",
+      "url": "https://search.bilibili.com/all?keyword=%E8%AF%B7%E9%87%8D%E8%A7%86%E8%BA%AB%E4%BD%93%E7%9A%84%E6%B1%82%E6%95%91%E4%BF%A1%E5%8F%B7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/8844905812d7f4f3ad24a4a0db3bc73f2338b791.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "当某幻偶遇林宥嘉",
+      "title_en": "当某幻偶遇林宥嘉",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BD%93%E6%9F%90%E5%B9%BB%E5%81%B6%E9%81%87%E6%9E%97%E5%AE%A5%E5%98%89",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/5a73692cc1d7532273c618fadcfd31098d051f28.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "先锋赛全位置数据雷达图",
+      "title_en": "先锋赛全位置数据雷达图",
+      "url": "https://search.bilibili.com/all?keyword=%E5%85%88%E9%94%8B%E8%B5%9B%E5%85%A8%E4%BD%8D%E7%BD%AE%E6%95%B0%E6%8D%AE%E9%9B%B7%E8%BE%BE%E5%9B%BE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/8e10fd5ed37aec97a6b6a85a4235b0e110ce6072.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "张雪峰逝世",
+      "title_en": "张雪峰逝世",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BC%A0%E9%9B%AA%E5%B3%B0%E9%80%9D%E4%B8%96",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/1a4b629c247530737b0d455a3a36df521f5a1d02.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "Token中文名定为词元",
+      "title_en": "Token中文名定为词元",
+      "url": "https://search.bilibili.com/all?keyword=Token%E4%B8%AD%E6%96%87%E5%90%8D%E5%AE%9A%E4%B8%BA%E8%AF%8D%E5%85%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/515af24909f29f37ee0f286ce5b132ace24e49a2.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "中方要求日方立即彻查严惩",
+      "title_en": "中方要求日方立即彻查严惩",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E6%96%B9%E8%A6%81%E6%B1%82%E6%97%A5%E6%96%B9%E7%AB%8B%E5%8D%B3%E5%BD%BB%E6%9F%A5%E4%B8%A5%E6%83%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/48bf82d994111c96084fc8a4d1cd3e499cc0c8e9.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "科学家疑似发现准极端原初黑洞",
+      "title_en": "科学家疑似发现准极端原初黑洞",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%96%91%E4%BC%BC%E5%8F%91%E7%8E%B0%E5%87%86%E6%9E%81%E7%AB%AF%E5%8E%9F%E5%88%9D%E9%BB%91%E6%B4%9E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/82bcf1dc4484baeac1e74b8ae61c152f3cd93054.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "心源性猝死",
+      "title_en": "心源性猝死",
+      "url": "https://s.weibo.com/weibo?q=%E5%BF%83%E6%BA%90%E6%80%A7%E7%8C%9D%E6%AD%BB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "4989227"
+    },
+    {
+      "title": "外交部回应日方拟将中日关系降级",
+      "title_en": "外交部回应日方拟将中日关系降级",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%96%B9%E6%8B%9F%E5%B0%86%E4%B8%AD%E6%97%A5%E5%85%B3%E7%B3%BB%E9%99%8D%E7%BA%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1310546"
+    },
+    {
+      "title": "太空加油站新进展",
+      "title_en": "太空加油站新进展",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E7%A9%BA%E5%8A%A0%E6%B2%B9%E7%AB%99%E6%96%B0%E8%BF%9B%E5%B1%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "994477"
+    },
+    {
+      "title": "4岁女童就诊177次患者是母亲",
+      "title_en": "4岁女童就诊177次患者是母亲",
+      "url": "https://s.weibo.com/weibo?q=4%E5%B2%81%E5%A5%B3%E7%AB%A5%E5%B0%B1%E8%AF%8A177%E6%AC%A1%E6%82%A3%E8%80%85%E6%98%AF%E6%AF%8D%E4%BA%B2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "783384"
+    },
+    {
+      "title": "文淇 年轻女演员演主角等于没票房",
+      "title_en": "文淇 年轻女演员演主角等于没票房",
+      "url": "https://s.weibo.com/weibo?q=%E6%96%87%E6%B7%87%20%E5%B9%B4%E8%BD%BB%E5%A5%B3%E6%BC%94%E5%91%98%E6%BC%94%E4%B8%BB%E8%A7%92%E7%AD%89%E4%BA%8E%E6%B2%A1%E7%A5%A8%E6%88%BF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "538817"
+    },
+    {
+      "title": "张雪峰公司发布讣告",
+      "title_en": "张雪峰公司发布讣告",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E5%B3%B0%E5%85%AC%E5%8F%B8%E5%8F%91%E5%B8%83%E8%AE%A3%E5%91%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "25164876"
+    },
+    {
+      "title": "地铁吐血女孩已离开华西医院",
+      "title_en": "地铁吐血女孩已离开华西医院",
+      "url": "https://s.weibo.com/weibo?q=%E5%9C%B0%E9%93%81%E5%90%90%E8%A1%80%E5%A5%B3%E5%AD%A9%E5%B7%B2%E7%A6%BB%E5%BC%80%E5%8D%8E%E8%A5%BF%E5%8C%BB%E9%99%A2",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "491039"
+    },
+    {
+      "title": "草莓下火锅",
+      "title_en": "草莓下火锅",
+      "url": "https://s.weibo.com/weibo?q=%E8%8D%89%E8%8E%93%E4%B8%8B%E7%81%AB%E9%94%85",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "409411"
+    },
+    {
+      "title": "张雪峰曾回应如何面对死亡",
+      "title_en": "张雪峰曾回应如何面对死亡",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E5%B3%B0%E6%9B%BE%E5%9B%9E%E5%BA%94%E5%A6%82%E4%BD%95%E9%9D%A2%E5%AF%B9%E6%AD%BB%E4%BA%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "407910"
+    },
+    {
+      "title": "以色列被打穿了",
+      "title_en": "以色列被打穿了",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E8%89%B2%E5%88%97%E8%A2%AB%E6%89%93%E7%A9%BF%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "398802"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "周杰伦新专辑花式改编",
+      "title_en": "周杰伦新专辑花式改编",
+      "url": "https://search.bilibili.com/all?keyword=%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%96%B0%E4%B8%93%E8%BE%91%E8%8A%B1%E5%BC%8F%E6%94%B9%E7%BC%96",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/ada19ff7a10b83289b431ae0c866a7f64bb2c8e0.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "库克说想玩逃离鸭科夫",
+      "title_en": "库克说想玩逃离鸭科夫",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BA%93%E5%85%8B%E8%AF%B4%E6%83%B3%E7%8E%A9%E9%80%83%E7%A6%BB%E9%B8%AD%E7%A7%91%E5%A4%AB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/7cca613077dcbab9000dc75d4f38e7de5bac8437.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "请重视身体的求救信号",
+      "title_en": "请重视身体的求救信号",
+      "url": "https://search.bilibili.com/all?keyword=%E8%AF%B7%E9%87%8D%E8%A7%86%E8%BA%AB%E4%BD%93%E7%9A%84%E6%B1%82%E6%95%91%E4%BF%A1%E5%8F%B7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/8844905812d7f4f3ad24a4a0db3bc73f2338b791.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "当某幻偶遇林宥嘉",
+      "title_en": "当某幻偶遇林宥嘉",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BD%93%E6%9F%90%E5%B9%BB%E5%81%B6%E9%81%87%E6%9E%97%E5%AE%A5%E5%98%89",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/5a73692cc1d7532273c618fadcfd31098d051f28.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "先锋赛全位置数据雷达图",
+      "title_en": "先锋赛全位置数据雷达图",
+      "url": "https://search.bilibili.com/all?keyword=%E5%85%88%E9%94%8B%E8%B5%9B%E5%85%A8%E4%BD%8D%E7%BD%AE%E6%95%B0%E6%8D%AE%E9%9B%B7%E8%BE%BE%E5%9B%BE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/8e10fd5ed37aec97a6b6a85a4235b0e110ce6072.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "张雪峰逝世",
+      "title_en": "张雪峰逝世",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BC%A0%E9%9B%AA%E5%B3%B0%E9%80%9D%E4%B8%96",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/1a4b629c247530737b0d455a3a36df521f5a1d02.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "Token中文名定为词元",
+      "title_en": "Token中文名定为词元",
+      "url": "https://search.bilibili.com/all?keyword=Token%E4%B8%AD%E6%96%87%E5%90%8D%E5%AE%9A%E4%B8%BA%E8%AF%8D%E5%85%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/515af24909f29f37ee0f286ce5b132ace24e49a2.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "中方要求日方立即彻查严惩",
+      "title_en": "中方要求日方立即彻查严惩",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E6%96%B9%E8%A6%81%E6%B1%82%E6%97%A5%E6%96%B9%E7%AB%8B%E5%8D%B3%E5%BD%BB%E6%9F%A5%E4%B8%A5%E6%83%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/48bf82d994111c96084fc8a4d1cd3e499cc0c8e9.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "科学家疑似发现准极端原初黑洞",
+      "title_en": "科学家疑似发现准极端原初黑洞",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%96%91%E4%BC%BC%E5%8F%91%E7%8E%B0%E5%87%86%E6%9E%81%E7%AB%AF%E5%8E%9F%E5%88%9D%E9%BB%91%E6%B4%9E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/82bcf1dc4484baeac1e74b8ae61c152f3cd93054.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-03-24 热点新闻汇总",
+  "update_time": "2026-03-24 23:02:47"
+}

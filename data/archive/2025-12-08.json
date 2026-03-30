@@ -1,0 +1,353 @@
+{
+  "date": "2025-12-08",
+  "news": [
+    {
+      "title": "经典版QQ回归",
+      "title_en": "经典版QQ回归",
+      "url": "https://s.weibo.com/weibo?q=%E7%BB%8F%E5%85%B8%E7%89%88QQ%E5%9B%9E%E5%BD%92",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1153386"
+    },
+    {
+      "title": "多校撤销外语专业",
+      "title_en": "多校撤销外语专业",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E6%A0%A1%E6%92%A4%E9%94%80%E5%A4%96%E8%AF%AD%E4%B8%93%E4%B8%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "376293"
+    },
+    {
+      "title": "盘点2025",
+      "title_en": "盘点2025",
+      "url": "https://s.weibo.com/weibo?q=%E7%9B%98%E7%82%B92025",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "297035"
+    },
+    {
+      "title": "专业画手分析肖战小肌群的抖动",
+      "title_en": "专业画手分析肖战小肌群的抖动",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%93%E4%B8%9A%E7%94%BB%E6%89%8B%E5%88%86%E6%9E%90%E8%82%96%E6%88%98%E5%B0%8F%E8%82%8C%E7%BE%A4%E7%9A%84%E6%8A%96%E5%8A%A8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "253106"
+    },
+    {
+      "title": "盒马承认生产草莓蛋糕出问题",
+      "title_en": "盒马承认生产草莓蛋糕出问题",
+      "url": "https://s.weibo.com/weibo?q=%E7%9B%92%E9%A9%AC%E6%89%BF%E8%AE%A4%E7%94%9F%E4%BA%A7%E8%8D%89%E8%8E%93%E8%9B%8B%E7%B3%95%E5%87%BA%E9%97%AE%E9%A2%98",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "203007"
+    },
+    {
+      "title": "丈夫帮剖宫产妻子换药看到伤口泪崩",
+      "title_en": "丈夫帮剖宫产妻子换药看到伤口泪崩",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%88%E5%A4%AB%E5%B8%AE%E5%89%96%E5%AE%AB%E4%BA%A7%E5%A6%BB%E5%AD%90%E6%8D%A2%E8%8D%AF%E7%9C%8B%E5%88%B0%E4%BC%A4%E5%8F%A3%E6%B3%AA%E5%B4%A9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202992"
+    },
+    {
+      "title": "找到冬季皮肤过敏的救星了",
+      "title_en": "找到冬季皮肤过敏的救星了",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%BE%E5%88%B0%E5%86%AC%E5%AD%A3%E7%9A%AE%E8%82%A4%E8%BF%87%E6%95%8F%E7%9A%84%E6%95%91%E6%98%9F%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202906"
+    },
+    {
+      "title": "得闲谨制票房",
+      "title_en": "得闲谨制票房",
+      "url": "https://s.weibo.com/weibo?q=%E5%BE%97%E9%97%B2%E8%B0%A8%E5%88%B6%E7%A5%A8%E6%88%BF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202825"
+    },
+    {
+      "title": "苟仲文被判死缓终身监禁不得减刑假释",
+      "title_en": "苟仲文被判死缓终身监禁不得减刑假释",
+      "url": "https://s.weibo.com/weibo?q=%E8%8B%9F%E4%BB%B2%E6%96%87%E8%A2%AB%E5%88%A4%E6%AD%BB%E7%BC%93%E7%BB%88%E8%BA%AB%E7%9B%91%E7%A6%81%E4%B8%8D%E5%BE%97%E5%87%8F%E5%88%91%E5%81%87%E9%87%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202521"
+    },
+    {
+      "title": "一人一句为残特奥会运动员加油",
+      "title_en": "一人一句为残特奥会运动员加油",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E4%B8%BA%E6%AE%8B%E7%89%B9%E5%A5%A5%E4%BC%9A%E8%BF%90%E5%8A%A8%E5%91%98%E5%8A%A0%E6%B2%B9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202495"
+    },
+    {
+      "title": "高铁商务座一擦全是黑印 12306回应",
+      "title_en": "高铁商务座一擦全是黑印 12306回应",
+      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E9%93%81%E5%95%86%E5%8A%A1%E5%BA%A7%E4%B8%80%E6%93%A6%E5%85%A8%E6%98%AF%E9%BB%91%E5%8D%B0%2012306%E5%9B%9E%E5%BA%94",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7808570"
+    },
+    {
+      "title": "课本上明太祖画像换了",
+      "title_en": "课本上明太祖画像换了",
+      "url": "https://www.baidu.com/s?wd=%E8%AF%BE%E6%9C%AC%E4%B8%8A%E6%98%8E%E5%A4%AA%E7%A5%96%E7%94%BB%E5%83%8F%E6%8D%A2%E4%BA%86",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7713620"
+    },
+    {
+      "title": "全国首艘氢电拖轮作业亮点多",
+      "title_en": "全国首艘氢电拖轮作业亮点多",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E9%A6%96%E8%89%98%E6%B0%A2%E7%94%B5%E6%8B%96%E8%BD%AE%E4%BD%9C%E4%B8%9A%E4%BA%AE%E7%82%B9%E5%A4%9A",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7618676"
+    },
+    {
+      "title": "最高13万元一只！实验猴价格暴涨",
+      "title_en": "最高13万元一只！实验猴价格暴涨",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%80%E9%AB%9813%E4%B8%87%E5%85%83%E4%B8%80%E5%8F%AA%EF%BC%81%E5%AE%9E%E9%AA%8C%E7%8C%B4%E4%BB%B7%E6%A0%BC%E6%9A%B4%E6%B6%A8",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7520029"
+    },
+    {
+      "title": "苟仲文受贿2.36亿余元一审被判死缓",
+      "title_en": "苟仲文受贿2.36亿余元一审被判死缓",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%9F%E4%BB%B2%E6%96%87%E5%8F%97%E8%B4%BF2.36%E4%BA%BF%E4%BD%99%E5%85%83%E4%B8%80%E5%AE%A1%E8%A2%AB%E5%88%A4%E6%AD%BB%E7%BC%93",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7237490"
+    },
+    {
+      "title": "1岁多女童吊环上“开挂”",
+      "title_en": "1岁多女童吊环上“开挂”",
+      "url": "https://www.baidu.com/s?wd=1%E5%B2%81%E5%A4%9A%E5%A5%B3%E7%AB%A5%E5%90%8A%E7%8E%AF%E4%B8%8A%E2%80%9C%E5%BC%80%E6%8C%82%E2%80%9D",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7143336"
+    },
+    {
+      "title": "“人造太阳”何以照进现实",
+      "title_en": "“人造太阳”何以照进现实",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%BA%BA%E9%80%A0%E5%A4%AA%E9%98%B3%E2%80%9D%E4%BD%95%E4%BB%A5%E7%85%A7%E8%BF%9B%E7%8E%B0%E5%AE%9E",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7046100"
+    },
+    {
+      "title": "近3成美国人承认结账时“顺手牵羊”",
+      "title_en": "近3成美国人承认结账时“顺手牵羊”",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%913%E6%88%90%E7%BE%8E%E5%9B%BD%E4%BA%BA%E6%89%BF%E8%AE%A4%E7%BB%93%E8%B4%A6%E6%97%B6%E2%80%9C%E9%A1%BA%E6%89%8B%E7%89%B5%E7%BE%8A%E2%80%9D",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "6951281"
+    },
+    {
+      "title": "挑战者杯",
+      "title_en": "挑战者杯",
+      "url": "https://search.bilibili.com/all?keyword=%E6%8C%91%E6%88%98%E8%80%85%E6%9D%AF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/50423063fa4c118b28b22962ad562988ef33016b.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "肖四精讲带背",
+      "title_en": "肖四精讲带背",
+      "url": "https://search.bilibili.com/all?keyword=%E8%82%96%E5%9B%9B%E7%B2%BE%E8%AE%B2%E5%B8%A6%E8%83%8C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/f233e35a522843aebf085e1b208fc64e2c6ed535.jpg",
+      "hot_value": "TOP2"
+    }
+  ],
+  "content": [
+    {
+      "title": "经典版QQ回归",
+      "title_en": "经典版QQ回归",
+      "url": "https://s.weibo.com/weibo?q=%E7%BB%8F%E5%85%B8%E7%89%88QQ%E5%9B%9E%E5%BD%92",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1153386"
+    },
+    {
+      "title": "多校撤销外语专业",
+      "title_en": "多校撤销外语专业",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E6%A0%A1%E6%92%A4%E9%94%80%E5%A4%96%E8%AF%AD%E4%B8%93%E4%B8%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "376293"
+    },
+    {
+      "title": "盘点2025",
+      "title_en": "盘点2025",
+      "url": "https://s.weibo.com/weibo?q=%E7%9B%98%E7%82%B92025",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "297035"
+    },
+    {
+      "title": "专业画手分析肖战小肌群的抖动",
+      "title_en": "专业画手分析肖战小肌群的抖动",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%93%E4%B8%9A%E7%94%BB%E6%89%8B%E5%88%86%E6%9E%90%E8%82%96%E6%88%98%E5%B0%8F%E8%82%8C%E7%BE%A4%E7%9A%84%E6%8A%96%E5%8A%A8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "253106"
+    },
+    {
+      "title": "盒马承认生产草莓蛋糕出问题",
+      "title_en": "盒马承认生产草莓蛋糕出问题",
+      "url": "https://s.weibo.com/weibo?q=%E7%9B%92%E9%A9%AC%E6%89%BF%E8%AE%A4%E7%94%9F%E4%BA%A7%E8%8D%89%E8%8E%93%E8%9B%8B%E7%B3%95%E5%87%BA%E9%97%AE%E9%A2%98",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "203007"
+    },
+    {
+      "title": "丈夫帮剖宫产妻子换药看到伤口泪崩",
+      "title_en": "丈夫帮剖宫产妻子换药看到伤口泪崩",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%88%E5%A4%AB%E5%B8%AE%E5%89%96%E5%AE%AB%E4%BA%A7%E5%A6%BB%E5%AD%90%E6%8D%A2%E8%8D%AF%E7%9C%8B%E5%88%B0%E4%BC%A4%E5%8F%A3%E6%B3%AA%E5%B4%A9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202992"
+    },
+    {
+      "title": "找到冬季皮肤过敏的救星了",
+      "title_en": "找到冬季皮肤过敏的救星了",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%BE%E5%88%B0%E5%86%AC%E5%AD%A3%E7%9A%AE%E8%82%A4%E8%BF%87%E6%95%8F%E7%9A%84%E6%95%91%E6%98%9F%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202906"
+    },
+    {
+      "title": "得闲谨制票房",
+      "title_en": "得闲谨制票房",
+      "url": "https://s.weibo.com/weibo?q=%E5%BE%97%E9%97%B2%E8%B0%A8%E5%88%B6%E7%A5%A8%E6%88%BF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202825"
+    },
+    {
+      "title": "苟仲文被判死缓终身监禁不得减刑假释",
+      "title_en": "苟仲文被判死缓终身监禁不得减刑假释",
+      "url": "https://s.weibo.com/weibo?q=%E8%8B%9F%E4%BB%B2%E6%96%87%E8%A2%AB%E5%88%A4%E6%AD%BB%E7%BC%93%E7%BB%88%E8%BA%AB%E7%9B%91%E7%A6%81%E4%B8%8D%E5%BE%97%E5%87%8F%E5%88%91%E5%81%87%E9%87%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202521"
+    },
+    {
+      "title": "一人一句为残特奥会运动员加油",
+      "title_en": "一人一句为残特奥会运动员加油",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E4%B8%BA%E6%AE%8B%E7%89%B9%E5%A5%A5%E4%BC%9A%E8%BF%90%E5%8A%A8%E5%91%98%E5%8A%A0%E6%B2%B9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202495"
+    },
+    {
+      "title": "高铁商务座一擦全是黑印 12306回应",
+      "title_en": "高铁商务座一擦全是黑印 12306回应",
+      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E9%93%81%E5%95%86%E5%8A%A1%E5%BA%A7%E4%B8%80%E6%93%A6%E5%85%A8%E6%98%AF%E9%BB%91%E5%8D%B0%2012306%E5%9B%9E%E5%BA%94",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7808570"
+    },
+    {
+      "title": "课本上明太祖画像换了",
+      "title_en": "课本上明太祖画像换了",
+      "url": "https://www.baidu.com/s?wd=%E8%AF%BE%E6%9C%AC%E4%B8%8A%E6%98%8E%E5%A4%AA%E7%A5%96%E7%94%BB%E5%83%8F%E6%8D%A2%E4%BA%86",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7713620"
+    },
+    {
+      "title": "全国首艘氢电拖轮作业亮点多",
+      "title_en": "全国首艘氢电拖轮作业亮点多",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E9%A6%96%E8%89%98%E6%B0%A2%E7%94%B5%E6%8B%96%E8%BD%AE%E4%BD%9C%E4%B8%9A%E4%BA%AE%E7%82%B9%E5%A4%9A",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7618676"
+    },
+    {
+      "title": "最高13万元一只！实验猴价格暴涨",
+      "title_en": "最高13万元一只！实验猴价格暴涨",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%80%E9%AB%9813%E4%B8%87%E5%85%83%E4%B8%80%E5%8F%AA%EF%BC%81%E5%AE%9E%E9%AA%8C%E7%8C%B4%E4%BB%B7%E6%A0%BC%E6%9A%B4%E6%B6%A8",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7520029"
+    },
+    {
+      "title": "苟仲文受贿2.36亿余元一审被判死缓",
+      "title_en": "苟仲文受贿2.36亿余元一审被判死缓",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%9F%E4%BB%B2%E6%96%87%E5%8F%97%E8%B4%BF2.36%E4%BA%BF%E4%BD%99%E5%85%83%E4%B8%80%E5%AE%A1%E8%A2%AB%E5%88%A4%E6%AD%BB%E7%BC%93",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7237490"
+    },
+    {
+      "title": "1岁多女童吊环上“开挂”",
+      "title_en": "1岁多女童吊环上“开挂”",
+      "url": "https://www.baidu.com/s?wd=1%E5%B2%81%E5%A4%9A%E5%A5%B3%E7%AB%A5%E5%90%8A%E7%8E%AF%E4%B8%8A%E2%80%9C%E5%BC%80%E6%8C%82%E2%80%9D",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7143336"
+    },
+    {
+      "title": "“人造太阳”何以照进现实",
+      "title_en": "“人造太阳”何以照进现实",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%BA%BA%E9%80%A0%E5%A4%AA%E9%98%B3%E2%80%9D%E4%BD%95%E4%BB%A5%E7%85%A7%E8%BF%9B%E7%8E%B0%E5%AE%9E",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "7046100"
+    },
+    {
+      "title": "近3成美国人承认结账时“顺手牵羊”",
+      "title_en": "近3成美国人承认结账时“顺手牵羊”",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%913%E6%88%90%E7%BE%8E%E5%9B%BD%E4%BA%BA%E6%89%BF%E8%AE%A4%E7%BB%93%E8%B4%A6%E6%97%B6%E2%80%9C%E9%A1%BA%E6%89%8B%E7%89%B5%E7%BE%8A%E2%80%9D",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": "6951281"
+    },
+    {
+      "title": "挑战者杯",
+      "title_en": "挑战者杯",
+      "url": "https://search.bilibili.com/all?keyword=%E6%8C%91%E6%88%98%E8%80%85%E6%9D%AF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/50423063fa4c118b28b22962ad562988ef33016b.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "肖四精讲带背",
+      "title_en": "肖四精讲带背",
+      "url": "https://search.bilibili.com/all?keyword=%E8%82%96%E5%9B%9B%E7%B2%BE%E8%AE%B2%E5%B8%A6%E8%83%8C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/f233e35a522843aebf085e1b208fc64e2c6ed535.jpg",
+      "hot_value": "TOP2"
+    }
+  ],
+  "title": "2025-12-08 热点新闻汇总",
+  "update_time": "2025-12-08 22:27:44"
+}

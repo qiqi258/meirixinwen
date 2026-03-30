@@ -16,7 +16,6 @@
         <!-- 配置Tailwind自定义颜色和字体 -->
         <script>
             tailwind.config = {
-                darkMode: 'class', // 启用基于类的暗色模式
                 theme: {
                     extend: {
                         colors: {
@@ -30,8 +29,6 @@
                                 500: '#4E5969',
                                 600: '#272E3B',
                                 700: '#1D2129',
-                                800: '#141414',
-                                900: '#0A0A0A',
                             }
                         },
                         fontFamily: {
@@ -89,13 +86,6 @@
                         <span class="text-xl font-bold text-neutral-700 dark:text-neutral-200" data-zh="热点聚合" data-en="News Hub">热点聚合</span>
                     </div>
                     
-                    <!-- 导航链接 -->
-                    <nav class="hidden md:flex space-x-8">
-                        <a href="about.html" class="text-base font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors" data-zh="关于本站" data-en="About">关于本站</a>
-                        <a href="privacy.html" class="text-base font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors" data-zh="隐私政策" data-en="Privacy">隐私政策</a>
-                        <a href="help.html" class="text-base font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors" data-zh="帮助中心" data-en="Help">帮助中心</a>
-                    </nav>
-                    
                     <!-- 功能按钮组 -->
                     <div class="flex items-center space-x-2">
                         <!-- 语言切换按钮 -->
@@ -131,1136 +121,16 @@
             <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
                 <div class="md:flex">
                     <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-14" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-14</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-14.html" class="hover:text-primary transition-colors">
-                                2025-11-14 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-14.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-13" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-13</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-13.html" class="hover:text-primary transition-colors">
-                                2025-11-13 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (9条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (9条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>B站 (2条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-13.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-12" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-12</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-12.html" class="hover:text-primary transition-colors">
-                                2025-11-12 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-12.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-11" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-11</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-11.html" class="hover:text-primary transition-colors">
-                                2025-11-11 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-11.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-10" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-10</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-10.html" class="hover:text-primary transition-colors">
-                                2025-11-10 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (9条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>B站 (1条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-10.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-09" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-09</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-09.html" class="hover:text-primary transition-colors">
-                                2025-11-09 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-09.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-08" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-08</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-08.html" class="hover:text-primary transition-colors">
-                                2025-11-08 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-08.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-07" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-07</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-07.html" class="hover:text-primary transition-colors">
-                                2025-11-07 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-07.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-06" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-06</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-06.html" class="hover:text-primary transition-colors">
-                                2025-11-06 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-06.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-05" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-05</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-05.html" class="hover:text-primary transition-colors">
-                                2025-11-05 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (8条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>B站 (2条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-05.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-04" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-04</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-04.html" class="hover:text-primary transition-colors">
-                                2025-11-04 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-04.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-03" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-03</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-03.html" class="hover:text-primary transition-colors">
-                                2025-11-03 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-03.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-02" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-02</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-02.html" class="hover:text-primary transition-colors">
-                                2025-11-02 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-02.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-11-01" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-11-01</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-11-01.html" class="hover:text-primary transition-colors">
-                                2025-11-01 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (9条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>B站 (1条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-11-01.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-31" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-31</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-31.html" class="hover:text-primary transition-colors">
-                                2025-10-31 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-31.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-30" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-30</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-30.html" class="hover:text-primary transition-colors">
-                                2025-10-30 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (9条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>B站 (1条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-30.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-29" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-29</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-29.html" class="hover:text-primary transition-colors">
-                                2025-10-29 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-29.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-28" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-28</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-28.html" class="hover:text-primary transition-colors">
-                                2025-10-28 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-28.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-27" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-27</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-27.html" class="hover:text-primary transition-colors">
-                                2025-10-27 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-27.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-26" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-26</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-26.html" class="hover:text-primary transition-colors">
-                                2025-10-26 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-26.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-25" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-25</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-25.html" class="hover:text-primary transition-colors">
-                                2025-10-25 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-25.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-24" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-24</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-24.html" class="hover:text-primary transition-colors">
-                                2025-10-24 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-24.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-23" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-23</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-23.html" class="hover:text-primary transition-colors">
-                                2025-10-23 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-23.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-22" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-22</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-22.html" class="hover:text-primary transition-colors">
-                                2025-10-22 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (9条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>B站 (1条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-22.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-21" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-21</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-21.html" class="hover:text-primary transition-colors">
-                                2025-10-21 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-21.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-20" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-20</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-20.html" class="hover:text-primary transition-colors">
-                                2025-10-20 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (4条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (3条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>B站 (2条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>抖音 (2条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-20.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-19" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
-                    </div>
-                    <div class="p-6 md:w-2/3">
-                        <div class="flex items-center mb-3">
-                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 text-primary">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400">2025-10-19</span>
-                        </div>
-                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 mb-3">
-                            <a href="posts/2025-10-19.html" class="hover:text-primary transition-colors">
-                                2025-10-19 热点新闻汇总
-                            </a>
-                        </h2>
-                        <p class="text-neutral-500 mb-4 line-clamp-2">
-                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-4">
-                            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
-            </div>
-            
-            <div class="flex items-center text-sm text-neutral-500">
-                <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
-            </div>
-            
-                        </div>
-                        <a href="posts/2025-10-19.html" 
-                           class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors">
-                            查看全部内容
-                            <i class="fa fa-angle-right ml-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
-                <div class="md:flex">
-                    <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-18" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                        <img src="https://picsum.photos/600/400?random=2026-03-29" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
                     </div>
                     <div class="p-6 md:w-2/3">
                         <div class="flex items-center mb-3">
                             <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2025-10-18</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-29</span>
                         </div>
                         <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
-                            <a href="posts/2025-10-18.html" class="hover:text-primary transition-colors" data-zh="2025-10-18 热点新闻汇总" data-en="2025-10-18 Hot News Summary">
-                                2025-10-18 热点新闻汇总
+                            <a href="posts/2026-03-29.html" class="hover:text-primary transition-colors" data-zh="2026-03-29 热点新闻汇总" data-en="2026-03-29 Hot News Summary">
+                                2026-03-29 热点新闻汇总
                             </a>
                         </h2>
                         <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
@@ -1270,16 +140,26 @@
                             
             <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
                 <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
             </div>
             
             <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
                 <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (10条)</span>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (8条)" data-en="B站 (8 items)">B站 (8条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="贴吧 (1条)" data-en="贴吧 (1 items)">贴吧 (1条)</span>
             </div>
             
                         </div>
-                        <a href="posts/2025-10-18.html"
+                        <a href="posts/2026-03-29.html"
                            class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
                             <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
                             <i class="fa fa-angle-right ml-1"></i>
@@ -1291,16 +171,16 @@
             <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
                 <div class="md:flex">
                     <div class="md:w-1/3">
-                        <img src="https://picsum.photos/600/400?random=2025-10-17" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                        <img src="https://picsum.photos/600/400?random=2026-03-28" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
                     </div>
                     <div class="p-6 md:w-2/3">
                         <div class="flex items-center mb-3">
                             <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
-                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2025-10-17</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-28</span>
                         </div>
                         <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
-                            <a href="posts/2025-10-17.html" class="hover:text-primary transition-colors" data-zh="2025-10-17 热点新闻汇总" data-en="2025-10-17 Hot News Summary">
-                                2025-10-17 热点新闻汇总
+                            <a href="posts/2026-03-28.html" class="hover:text-primary transition-colors" data-zh="2026-03-28 热点新闻汇总" data-en="2026-03-28 Hot News Summary">
+                                2026-03-28 热点新闻汇总
                             </a>
                         </h2>
                         <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
@@ -1310,21 +190,1346 @@
                             
             <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
                 <i class="fa fa-folder-o mr-1"></i>
-                <span>微博 (10条)</span>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
             </div>
             
             <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
                 <i class="fa fa-folder-o mr-1"></i>
-                <span>百度 (9条)</span>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
             </div>
             
             <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
                 <i class="fa fa-folder-o mr-1"></i>
-                <span>B站 (1条)</span>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
             </div>
             
                         </div>
-                        <a href="posts/2025-10-17.html"
+                        <a href="posts/2026-03-28.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-27" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-27</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-27.html" class="hover:text-primary transition-colors" data-zh="2026-03-27 热点新闻汇总" data-en="2026-03-27 Hot News Summary">
+                                2026-03-27 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (9条)" data-en="微博 (9 items)">微博 (9条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (10条)" data-en="B站 (10 items)">B站 (10条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-27.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-26" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-26</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-26.html" class="hover:text-primary transition-colors" data-zh="2026-03-26 热点新闻汇总" data-en="2026-03-26 Hot News Summary">
+                                2026-03-26 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-26.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-25" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-25</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-25.html" class="hover:text-primary transition-colors" data-zh="2026-03-25 热点新闻汇总" data-en="2026-03-25 Hot News Summary">
+                                2026-03-25 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-25.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-24" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-24</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-24.html" class="hover:text-primary transition-colors" data-zh="2026-03-24 热点新闻汇总" data-en="2026-03-24 Hot News Summary">
+                                2026-03-24 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-24.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-23" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-23</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-23.html" class="hover:text-primary transition-colors" data-zh="2026-03-23 热点新闻汇总" data-en="2026-03-23 Hot News Summary">
+                                2026-03-23 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-23.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-22" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-22</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-22.html" class="hover:text-primary transition-colors" data-zh="2026-03-22 热点新闻汇总" data-en="2026-03-22 Hot News Summary">
+                                2026-03-22 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-22.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-21" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-21</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-21.html" class="hover:text-primary transition-colors" data-zh="2026-03-21 热点新闻汇总" data-en="2026-03-21 Hot News Summary">
+                                2026-03-21 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-21.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-20" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-20</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-20.html" class="hover:text-primary transition-colors" data-zh="2026-03-20 热点新闻汇总" data-en="2026-03-20 Hot News Summary">
+                                2026-03-20 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-20.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-19" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-19</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-19.html" class="hover:text-primary transition-colors" data-zh="2026-03-19 热点新闻汇总" data-en="2026-03-19 Hot News Summary">
+                                2026-03-19 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (9条)" data-en="微博 (9 items)">微博 (9条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (10条)" data-en="B站 (10 items)">B站 (10条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-19.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-18" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-18</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-18.html" class="hover:text-primary transition-colors" data-zh="2026-03-18 热点新闻汇总" data-en="2026-03-18 Hot News Summary">
+                                2026-03-18 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (9条)" data-en="微博 (9 items)">微博 (9条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (10条)" data-en="B站 (10 items)">B站 (10条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-18.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-17" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-17</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-17.html" class="hover:text-primary transition-colors" data-zh="2026-03-17 热点新闻汇总" data-en="2026-03-17 Hot News Summary">
+                                2026-03-17 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-17.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-16" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-16</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-16.html" class="hover:text-primary transition-colors" data-zh="2026-03-16 热点新闻汇总" data-en="2026-03-16 Hot News Summary">
+                                2026-03-16 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (2条)" data-en="微博 (2 items)">微博 (2条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (4条)" data-en="B站 (4 items)">B站 (4条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="贴吧 (4条)" data-en="贴吧 (4 items)">贴吧 (4条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="抖音 (1条)" data-en="抖音 (1 items)">抖音 (1条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-16.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-15" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-15</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-15.html" class="hover:text-primary transition-colors" data-zh="2026-03-15 热点新闻汇总" data-en="2026-03-15 Hot News Summary">
+                                2026-03-15 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (9条)" data-en="微博 (9 items)">微博 (9条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="贴吧 (1条)" data-en="贴吧 (1 items)">贴吧 (1条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-15.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-14" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-14</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-14.html" class="hover:text-primary transition-colors" data-zh="2026-03-14 热点新闻汇总" data-en="2026-03-14 Hot News Summary">
+                                2026-03-14 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (9条)" data-en="微博 (9 items)">微博 (9条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (8条)" data-en="B站 (8 items)">B站 (8条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="贴吧 (2条)" data-en="贴吧 (2 items)">贴吧 (2条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-14.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-13" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-13</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-13.html" class="hover:text-primary transition-colors" data-zh="2026-03-13 热点新闻汇总" data-en="2026-03-13 Hot News Summary">
+                                2026-03-13 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-13.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-12" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-12</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-12.html" class="hover:text-primary transition-colors" data-zh="2026-03-12 热点新闻汇总" data-en="2026-03-12 Hot News Summary">
+                                2026-03-12 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (7条)" data-en="B站 (7 items)">B站 (7条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="贴吧 (2条)" data-en="贴吧 (2 items)">贴吧 (2条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-12.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-11" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-11</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-11.html" class="hover:text-primary transition-colors" data-zh="2026-03-11 热点新闻汇总" data-en="2026-03-11 Hot News Summary">
+                                2026-03-11 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-11.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-10" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-10</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-10.html" class="hover:text-primary transition-colors" data-zh="2026-03-10 热点新闻汇总" data-en="2026-03-10 Hot News Summary">
+                                2026-03-10 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-10.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-08" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-08</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-08.html" class="hover:text-primary transition-colors" data-zh="2026-03-08 热点新闻汇总" data-en="2026-03-08 Hot News Summary">
+                                2026-03-08 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-08.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-07" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-07</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-07.html" class="hover:text-primary transition-colors" data-zh="2026-03-07 热点新闻汇总" data-en="2026-03-07 Hot News Summary">
+                                2026-03-07 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-07.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-06" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-06</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-06.html" class="hover:text-primary transition-colors" data-zh="2026-03-06 热点新闻汇总" data-en="2026-03-06 Hot News Summary">
+                                2026-03-06 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-06.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-05" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-05</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-05.html" class="hover:text-primary transition-colors" data-zh="2026-03-05 热点新闻汇总" data-en="2026-03-05 Hot News Summary">
+                                2026-03-05 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-05.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-04" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-04</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-04.html" class="hover:text-primary transition-colors" data-zh="2026-03-04 热点新闻汇总" data-en="2026-03-04 Hot News Summary">
+                                2026-03-04 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-04.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-03" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-03</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-03.html" class="hover:text-primary transition-colors" data-zh="2026-03-03 热点新闻汇总" data-en="2026-03-03 Hot News Summary">
+                                2026-03-03 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-03.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-02" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-02</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-02.html" class="hover:text-primary transition-colors" data-zh="2026-03-02 热点新闻汇总" data-en="2026-03-02 Hot News Summary">
+                                2026-03-02 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-02.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-03-01" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-03-01</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-03-01.html" class="hover:text-primary transition-colors" data-zh="2026-03-01 热点新闻汇总" data-en="2026-03-01 Hot News Summary">
+                                2026-03-01 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-03-01.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-02-28" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-02-28</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-02-28.html" class="hover:text-primary transition-colors" data-zh="2026-02-28 热点新闻汇总" data-en="2026-02-28 Hot News Summary">
+                                2026-02-28 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-02-28.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-02-27" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-02-27</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-02-27.html" class="hover:text-primary transition-colors" data-zh="2026-02-27 热点新闻汇总" data-en="2026-02-27 Hot News Summary">
+                                2026-02-27 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (10条)" data-en="微博 (10 items)">微博 (10条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (9条)" data-en="B站 (9 items)">B站 (9条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-02-27.html"
+                           class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
+                            <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
+                            <i class="fa fa-angle-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm overflow-hidden card-hover">
+                <div class="md:flex">
+                    <div class="md:w-1/3">
+                        <img src="https://picsum.photos/600/400?random=2026-02-26" alt="新闻图片" class="w-full h-48 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex items-center mb-3">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900 text-primary" data-zh="综合" data-en="General">综合</span>
+                            <span class="ml-auto text-sm text-neutral-400 dark:text-neutral-500">2026-02-26</span>
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-bold text-neutral-700 dark:text-neutral-200 mb-3">
+                            <a href="posts/2026-02-26.html" class="hover:text-primary transition-colors" data-zh="2026-02-26 热点新闻汇总" data-en="2026-02-26 Hot News Summary">
+                                2026-02-26 热点新闻汇总
+                            </a>
+                        </h2>
+                        <p class="text-neutral-500 dark:text-neutral-400 mb-4 line-clamp-2" data-zh="今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。" data-en="Today's hot topics cover multiple platforms, including Weibo, Zhihu, Baidu and other platforms' trending content, presenting today's focus comprehensively.">
+                            今日热点涵盖多个平台热点话题，包括微博、知乎、百度等平台的热搜内容，全方位呈现今日焦点。
+                        </p>
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="微博 (9条)" data-en="微博 (9 items)">微博 (9条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="百度 (1条)" data-en="百度 (1 items)">百度 (1条)</span>
+            </div>
+            
+            <div class="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                <i class="fa fa-folder-o mr-1"></i>
+                <span data-zh="B站 (10条)" data-en="B站 (10 items)">B站 (10条)</span>
+            </div>
+            
+                        </div>
+                        <a href="posts/2026-02-26.html"
                            class="inline-flex items-center text-primary hover:text-primary/80 dark:hover:text-primary/60 font-medium transition-colors">
                             <span data-zh="查看全部内容" data-en="View Full Content">查看全部内容</span>
                             <i class="fa fa-angle-right ml-1"></i>
@@ -1335,9 +1540,9 @@
         
             </div>
             <div class="flex justify-center gap-2 mt-6">
-                <button id="prevPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed">上一页</button>
-                <span id="pageInfo" class="px-4 py-2">第 1 页</span>
-                <button id="nextPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed">下一页</button>
+                <button id="prevPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed" data-zh="上一页" data-en="Previous">上一页</button>
+                <span id="pageInfo" class="px-4 py-2" data-zh="第 1 页" data-en="Page 1">第 1 页</span>
+                <button id="nextPage" class="px-4 py-2 rounded-lg bg-blue-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed" data-zh="下一页" data-en="Next">下一页</button>
             </div>
         </main>
  
