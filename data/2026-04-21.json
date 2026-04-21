@@ -1,0 +1,367 @@
+{
+  "date": "2026-04-21",
+  "news": [
+    {
+      "title": "男子心脏停跳2天后生还",
+      "title_en": "男子心脏停跳2天后生还",
+      "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E5%BF%83%E8%84%8F%E5%81%9C%E8%B7%B32%E5%A4%A9%E5%90%8E%E7%94%9F%E8%BF%98",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1159401"
+    },
+    {
+      "title": "巴萨",
+      "title_en": "巴萨",
+      "url": "https://s.weibo.com/weibo?q=%E5%B7%B4%E8%90%A8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "869093"
+    },
+    {
+      "title": "中国工业成绩单亮了",
+      "title_en": "中国工业成绩单亮了",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%B7%A5%E4%B8%9A%E6%88%90%E7%BB%A9%E5%8D%95%E4%BA%AE%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "748379"
+    },
+    {
+      "title": "义乌请量产吧",
+      "title_en": "义乌请量产吧",
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%89%E4%B9%8C%E8%AF%B7%E9%87%8F%E4%BA%A7%E5%90%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "687550"
+    },
+    {
+      "title": "吃原型食物",
+      "title_en": "吃原型食物",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%83%E5%8E%9F%E5%9E%8B%E9%A3%9F%E7%89%A9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "581279"
+    },
+    {
+      "title": "董力给阿诺发全职妈妈工资",
+      "title_en": "董力给阿诺发全职妈妈工资",
+      "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E5%8A%9B%E7%BB%99%E9%98%BF%E8%AF%BA%E5%8F%91%E5%85%A8%E8%81%8C%E5%A6%88%E5%A6%88%E5%B7%A5%E8%B5%84",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "321438"
+    },
+    {
+      "title": "创作者连麦有约",
+      "title_en": "创作者连麦有约",
+      "url": "https://s.weibo.com/weibo?q=%E5%88%9B%E4%BD%9C%E8%80%85%E8%BF%9E%E9%BA%A6%E6%9C%89%E7%BA%A6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "320100"
+    },
+    {
+      "title": "OPPO哈苏双两亿影像给到夯",
+      "title_en": "OPPO哈苏双两亿影像给到夯",
+      "url": "https://s.weibo.com/weibo?q=OPPO%E5%93%88%E8%8B%8F%E5%8F%8C%E4%B8%A4%E4%BA%BF%E5%BD%B1%E5%83%8F%E7%BB%99%E5%88%B0%E5%A4%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "319999"
+    },
+    {
+      "title": "唐诡导演 真人能演为啥让AI演",
+      "title_en": "唐诡导演 真人能演为啥让AI演",
+      "url": "https://s.weibo.com/weibo?q=%E5%94%90%E8%AF%A1%E5%AF%BC%E6%BC%94%20%E7%9C%9F%E4%BA%BA%E8%83%BD%E6%BC%94%E4%B8%BA%E5%95%A5%E8%AE%A9AI%E6%BC%94",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "319746"
+    },
+    {
+      "title": "虞书欣新歌",
+      "title_en": "虞书欣新歌",
+      "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%E6%96%B0%E6%AD%8C",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "317790"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "食贫道贵州吃饭故事",
+      "title_en": "食贫道贵州吃饭故事",
+      "url": "https://search.bilibili.com/all?keyword=%E9%A3%9F%E8%B4%AB%E9%81%93%E8%B4%B5%E5%B7%9E%E5%90%83%E9%A5%AD%E6%95%85%E4%BA%8B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/106e418cc703cd1bce6c9d7f91ec17fa795bd7a3.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "12年1011位志愿军烈士的回家路",
+      "title_en": "12年1011位志愿军烈士的回家路",
+      "url": "https://search.bilibili.com/all?keyword=12%E5%B9%B41011%E4%BD%8D%E5%BF%97%E6%84%BF%E5%86%9B%E7%83%88%E5%A3%AB%E7%9A%84%E5%9B%9E%E5%AE%B6%E8%B7%AF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/7bcf7700075551ef7ae4eea01cbb3dcb4be12fcd.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "氪金买瓜",
+      "title_en": "氪金买瓜",
+      "url": "https://search.bilibili.com/all?keyword=%E6%B0%AA%E9%87%91%E4%B9%B0%E7%93%9C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/de0e8854b01faf07780682e064d2adfab43611fc.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "F1规则调整后有何影响",
+      "title_en": "F1规则调整后有何影响",
+      "url": "https://search.bilibili.com/all?keyword=F1%E8%A7%84%E5%88%99%E8%B0%83%E6%95%B4%E5%90%8E%E6%9C%89%E4%BD%95%E5%BD%B1%E5%93%8D",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/ee2348c643aa660668aa8b6c8f9968ec71ca642f.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "法国UP主锐评文物归还法",
+      "title_en": "法国UP主锐评文物归还法",
+      "url": "https://search.bilibili.com/all?keyword=%E6%B3%95%E5%9B%BDUP%E4%B8%BB%E9%94%90%E8%AF%84%E6%96%87%E7%89%A9%E5%BD%92%E8%BF%98%E6%B3%95",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/b3f73ec682c857c527dca5a24b20269dc418b5cf.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "全明星登场无限城",
+      "title_en": "全明星登场无限城",
+      "url": "https://search.bilibili.com/all?keyword=%E5%85%A8%E6%98%8E%E6%98%9F%E7%99%BB%E5%9C%BA%E6%97%A0%E9%99%90%E5%9F%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/5a71b081d228086f1e57ca7b6d6252f1c7a035c9.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "9950X3D2首发测试",
+      "title_en": "9950X3D2首发测试",
+      "url": "https://search.bilibili.com/all?keyword=9950X3D2%E9%A6%96%E5%8F%91%E6%B5%8B%E8%AF%95",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/4aff735c9b27656825c63f91bd172f9920d590cd.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "XG战胜VG",
+      "title_en": "XG战胜VG",
+      "url": "https://search.bilibili.com/all?keyword=XG%E6%88%98%E8%83%9CVG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/878ed16e7bf84805300094996a6f65cbcda76288.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "范玮琪入驻B站",
+      "title_en": "范玮琪入驻B站",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8C%83%E7%8E%AE%E7%90%AA%E5%85%A5%E9%A9%BBB%E7%AB%99",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/8ebce7ffe30956c2ea0134d9be05c24fa23043f5.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "男子心脏停跳2天后生还",
+      "title_en": "男子心脏停跳2天后生还",
+      "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E5%BF%83%E8%84%8F%E5%81%9C%E8%B7%B32%E5%A4%A9%E5%90%8E%E7%94%9F%E8%BF%98",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1159401"
+    },
+    {
+      "title": "巴萨",
+      "title_en": "巴萨",
+      "url": "https://s.weibo.com/weibo?q=%E5%B7%B4%E8%90%A8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "869093"
+    },
+    {
+      "title": "中国工业成绩单亮了",
+      "title_en": "中国工业成绩单亮了",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%B7%A5%E4%B8%9A%E6%88%90%E7%BB%A9%E5%8D%95%E4%BA%AE%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "748379"
+    },
+    {
+      "title": "义乌请量产吧",
+      "title_en": "义乌请量产吧",
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%89%E4%B9%8C%E8%AF%B7%E9%87%8F%E4%BA%A7%E5%90%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "687550"
+    },
+    {
+      "title": "吃原型食物",
+      "title_en": "吃原型食物",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%83%E5%8E%9F%E5%9E%8B%E9%A3%9F%E7%89%A9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "581279"
+    },
+    {
+      "title": "董力给阿诺发全职妈妈工资",
+      "title_en": "董力给阿诺发全职妈妈工资",
+      "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E5%8A%9B%E7%BB%99%E9%98%BF%E8%AF%BA%E5%8F%91%E5%85%A8%E8%81%8C%E5%A6%88%E5%A6%88%E5%B7%A5%E8%B5%84",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "321438"
+    },
+    {
+      "title": "创作者连麦有约",
+      "title_en": "创作者连麦有约",
+      "url": "https://s.weibo.com/weibo?q=%E5%88%9B%E4%BD%9C%E8%80%85%E8%BF%9E%E9%BA%A6%E6%9C%89%E7%BA%A6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "320100"
+    },
+    {
+      "title": "OPPO哈苏双两亿影像给到夯",
+      "title_en": "OPPO哈苏双两亿影像给到夯",
+      "url": "https://s.weibo.com/weibo?q=OPPO%E5%93%88%E8%8B%8F%E5%8F%8C%E4%B8%A4%E4%BA%BF%E5%BD%B1%E5%83%8F%E7%BB%99%E5%88%B0%E5%A4%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "319999"
+    },
+    {
+      "title": "唐诡导演 真人能演为啥让AI演",
+      "title_en": "唐诡导演 真人能演为啥让AI演",
+      "url": "https://s.weibo.com/weibo?q=%E5%94%90%E8%AF%A1%E5%AF%BC%E6%BC%94%20%E7%9C%9F%E4%BA%BA%E8%83%BD%E6%BC%94%E4%B8%BA%E5%95%A5%E8%AE%A9AI%E6%BC%94",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "319746"
+    },
+    {
+      "title": "虞书欣新歌",
+      "title_en": "虞书欣新歌",
+      "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%E6%96%B0%E6%AD%8C",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "317790"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "食贫道贵州吃饭故事",
+      "title_en": "食贫道贵州吃饭故事",
+      "url": "https://search.bilibili.com/all?keyword=%E9%A3%9F%E8%B4%AB%E9%81%93%E8%B4%B5%E5%B7%9E%E5%90%83%E9%A5%AD%E6%95%85%E4%BA%8B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/106e418cc703cd1bce6c9d7f91ec17fa795bd7a3.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "12年1011位志愿军烈士的回家路",
+      "title_en": "12年1011位志愿军烈士的回家路",
+      "url": "https://search.bilibili.com/all?keyword=12%E5%B9%B41011%E4%BD%8D%E5%BF%97%E6%84%BF%E5%86%9B%E7%83%88%E5%A3%AB%E7%9A%84%E5%9B%9E%E5%AE%B6%E8%B7%AF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/7bcf7700075551ef7ae4eea01cbb3dcb4be12fcd.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "氪金买瓜",
+      "title_en": "氪金买瓜",
+      "url": "https://search.bilibili.com/all?keyword=%E6%B0%AA%E9%87%91%E4%B9%B0%E7%93%9C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/de0e8854b01faf07780682e064d2adfab43611fc.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "F1规则调整后有何影响",
+      "title_en": "F1规则调整后有何影响",
+      "url": "https://search.bilibili.com/all?keyword=F1%E8%A7%84%E5%88%99%E8%B0%83%E6%95%B4%E5%90%8E%E6%9C%89%E4%BD%95%E5%BD%B1%E5%93%8D",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/ee2348c643aa660668aa8b6c8f9968ec71ca642f.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "法国UP主锐评文物归还法",
+      "title_en": "法国UP主锐评文物归还法",
+      "url": "https://search.bilibili.com/all?keyword=%E6%B3%95%E5%9B%BDUP%E4%B8%BB%E9%94%90%E8%AF%84%E6%96%87%E7%89%A9%E5%BD%92%E8%BF%98%E6%B3%95",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/b3f73ec682c857c527dca5a24b20269dc418b5cf.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "全明星登场无限城",
+      "title_en": "全明星登场无限城",
+      "url": "https://search.bilibili.com/all?keyword=%E5%85%A8%E6%98%8E%E6%98%9F%E7%99%BB%E5%9C%BA%E6%97%A0%E9%99%90%E5%9F%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/5a71b081d228086f1e57ca7b6d6252f1c7a035c9.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "9950X3D2首发测试",
+      "title_en": "9950X3D2首发测试",
+      "url": "https://search.bilibili.com/all?keyword=9950X3D2%E9%A6%96%E5%8F%91%E6%B5%8B%E8%AF%95",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/4aff735c9b27656825c63f91bd172f9920d590cd.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "XG战胜VG",
+      "title_en": "XG战胜VG",
+      "url": "https://search.bilibili.com/all?keyword=XG%E6%88%98%E8%83%9CVG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/878ed16e7bf84805300094996a6f65cbcda76288.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "范玮琪入驻B站",
+      "title_en": "范玮琪入驻B站",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8C%83%E7%8E%AE%E7%90%AA%E5%85%A5%E9%A9%BBB%E7%AB%99",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/8ebce7ffe30956c2ea0134d9be05c24fa23043f5.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-04-21 热点新闻汇总",
+  "update_time": "2026-04-21 23:17:42"
+}
