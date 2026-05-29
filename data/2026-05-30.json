@@ -1,0 +1,367 @@
+{
+  "date": "2026-05-30",
+  "news": [
+    {
+      "title": "歌手排名",
+      "title_en": "歌手排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "993839"
+    },
+    {
+      "title": "VOGUE晚宴",
+      "title_en": "VOGUE晚宴",
+      "url": "https://s.weibo.com/weibo?q=VOGUE%E6%99%9A%E5%AE%B4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "423079"
+    },
+    {
+      "title": "又一大国重器硬核刷屏",
+      "title_en": "又一大国重器硬核刷屏",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%88%E4%B8%80%E5%A4%A7%E5%9B%BD%E9%87%8D%E5%99%A8%E7%A1%AC%E6%A0%B8%E5%88%B7%E5%B1%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "317074"
+    },
+    {
+      "title": "京东手机数码618狂撒补贴直降15%",
+      "title_en": "京东手机数码618狂撒补贴直降15%",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9C%E6%89%8B%E6%9C%BA%E6%95%B0%E7%A0%81618%E7%8B%82%E6%92%92%E8%A1%A5%E8%B4%B4%E7%9B%B4%E9%99%8D15%25",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "317067"
+    },
+    {
+      "title": "耳帝 歌手第二期非常糟糕",
+      "title_en": "耳帝 歌手第二期非常糟糕",
+      "url": "https://s.weibo.com/weibo?q=%E8%80%B3%E5%B8%9D%20%E6%AD%8C%E6%89%8B%E7%AC%AC%E4%BA%8C%E6%9C%9F%E9%9D%9E%E5%B8%B8%E7%B3%9F%E7%B3%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "317044"
+    },
+    {
+      "title": "歌手第三期帮唱嘉宾信息",
+      "title_en": "歌手第三期帮唱嘉宾信息",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E7%AC%AC%E4%B8%89%E6%9C%9F%E5%B8%AE%E5%94%B1%E5%98%89%E5%AE%BE%E4%BF%A1%E6%81%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "316102"
+    },
+    {
+      "title": "单依纯含金量",
+      "title_en": "单依纯含金量",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%95%E4%BE%9D%E7%BA%AF%E5%90%AB%E9%87%91%E9%87%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "315634"
+    },
+    {
+      "title": "饿着入睡对胃肠更好吗",
+      "title_en": "饿着入睡对胃肠更好吗",
+      "url": "https://s.weibo.com/weibo?q=%E9%A5%BF%E7%9D%80%E5%85%A5%E7%9D%A1%E5%AF%B9%E8%83%83%E8%82%A0%E6%9B%B4%E5%A5%BD%E5%90%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "314696"
+    },
+    {
+      "title": "一家四口有限责任公司",
+      "title_en": "一家四口有限责任公司",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%AE%B6%E5%9B%9B%E5%8F%A3%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "217384"
+    },
+    {
+      "title": "重新定义一户一梯",
+      "title_en": "重新定义一户一梯",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89%E4%B8%80%E6%88%B7%E4%B8%80%E6%A2%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "217165"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "TES LGD",
+      "title_en": "TES LGD",
+      "url": "https://search.bilibili.com/all?keyword=TES%20LGD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1a307f5e54fca5e03a7df1fa8927697b99111ffe.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "高考前身体调参指南",
+      "title_en": "高考前身体调参指南",
+      "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E5%89%8D%E8%BA%AB%E4%BD%93%E8%B0%83%E5%8F%82%E6%8C%87%E5%8D%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1280922dbcf7d1066c62b8fa9bb3d44ecd0fb7e3.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "神22返回舱成功着陆",
+      "title_en": "神22返回舱成功着陆",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A5%9E22%E8%BF%94%E5%9B%9E%E8%88%B1%E6%88%90%E5%8A%9F%E7%9D%80%E9%99%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/afafb9c37cedead5289fe32c93bb9560b750eda1.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "英雄联盟CN缺席亚运会",
+      "title_en": "英雄联盟CN缺席亚运会",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9FCN%E7%BC%BA%E5%B8%AD%E4%BA%9A%E8%BF%90%E4%BC%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/ea059583538a5d31ea8512c0f2070afd6f90128c.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "尤长靖阿嬷的话唱哭观众",
+      "title_en": "尤长靖阿嬷的话唱哭观众",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B0%A4%E9%95%BF%E9%9D%96%E9%98%BF%E5%AC%B7%E7%9A%84%E8%AF%9D%E5%94%B1%E5%93%AD%E8%A7%82%E4%BC%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/4b5d745767d99c32701fb437c069372507b8f3c9.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "张碧晨唱的知道好让人心碎",
+      "title_en": "张碧晨唱的知道好让人心碎",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BC%A0%E7%A2%A7%E6%99%A8%E5%94%B1%E7%9A%84%E7%9F%A5%E9%81%93%E5%A5%BD%E8%AE%A9%E4%BA%BA%E5%BF%83%E7%A2%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/c6d27678252e0baf88d83b4f190a31ada4a62dee.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "詹俊预测世界杯32强",
+      "title_en": "詹俊预测世界杯32强",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A9%B9%E4%BF%8A%E9%A2%84%E6%B5%8B%E4%B8%96%E7%95%8C%E6%9D%AF32%E5%BC%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/aaeb3610d635356446705d3bd5c547a9b330436f.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "大学生英语配音喜羊羊",
+      "title_en": "大学生英语配音喜羊羊",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%8B%B1%E8%AF%AD%E9%85%8D%E9%9F%B3%E5%96%9C%E7%BE%8A%E7%BE%8A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/355d9c15e2d9a6fff433374845e525e7450c1d6d.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "阿凡强买瓜记",
+      "title_en": "阿凡强买瓜记",
+      "url": "https://search.bilibili.com/all?keyword=%E9%98%BF%E5%87%A1%E5%BC%BA%E4%B9%B0%E7%93%9C%E8%AE%B0",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a0ad47c38dc6a7310f74e791e1c30980493a7967.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "content": [
+    {
+      "title": "歌手排名",
+      "title_en": "歌手排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "993839"
+    },
+    {
+      "title": "VOGUE晚宴",
+      "title_en": "VOGUE晚宴",
+      "url": "https://s.weibo.com/weibo?q=VOGUE%E6%99%9A%E5%AE%B4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "423079"
+    },
+    {
+      "title": "又一大国重器硬核刷屏",
+      "title_en": "又一大国重器硬核刷屏",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%88%E4%B8%80%E5%A4%A7%E5%9B%BD%E9%87%8D%E5%99%A8%E7%A1%AC%E6%A0%B8%E5%88%B7%E5%B1%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "317074"
+    },
+    {
+      "title": "京东手机数码618狂撒补贴直降15%",
+      "title_en": "京东手机数码618狂撒补贴直降15%",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9C%E6%89%8B%E6%9C%BA%E6%95%B0%E7%A0%81618%E7%8B%82%E6%92%92%E8%A1%A5%E8%B4%B4%E7%9B%B4%E9%99%8D15%25",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "317067"
+    },
+    {
+      "title": "耳帝 歌手第二期非常糟糕",
+      "title_en": "耳帝 歌手第二期非常糟糕",
+      "url": "https://s.weibo.com/weibo?q=%E8%80%B3%E5%B8%9D%20%E6%AD%8C%E6%89%8B%E7%AC%AC%E4%BA%8C%E6%9C%9F%E9%9D%9E%E5%B8%B8%E7%B3%9F%E7%B3%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "317044"
+    },
+    {
+      "title": "歌手第三期帮唱嘉宾信息",
+      "title_en": "歌手第三期帮唱嘉宾信息",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E7%AC%AC%E4%B8%89%E6%9C%9F%E5%B8%AE%E5%94%B1%E5%98%89%E5%AE%BE%E4%BF%A1%E6%81%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "316102"
+    },
+    {
+      "title": "单依纯含金量",
+      "title_en": "单依纯含金量",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%95%E4%BE%9D%E7%BA%AF%E5%90%AB%E9%87%91%E9%87%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "315634"
+    },
+    {
+      "title": "饿着入睡对胃肠更好吗",
+      "title_en": "饿着入睡对胃肠更好吗",
+      "url": "https://s.weibo.com/weibo?q=%E9%A5%BF%E7%9D%80%E5%85%A5%E7%9D%A1%E5%AF%B9%E8%83%83%E8%82%A0%E6%9B%B4%E5%A5%BD%E5%90%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "314696"
+    },
+    {
+      "title": "一家四口有限责任公司",
+      "title_en": "一家四口有限责任公司",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%AE%B6%E5%9B%9B%E5%8F%A3%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "217384"
+    },
+    {
+      "title": "重新定义一户一梯",
+      "title_en": "重新定义一户一梯",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89%E4%B8%80%E6%88%B7%E4%B8%80%E6%A2%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "217165"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "TES LGD",
+      "title_en": "TES LGD",
+      "url": "https://search.bilibili.com/all?keyword=TES%20LGD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1a307f5e54fca5e03a7df1fa8927697b99111ffe.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "高考前身体调参指南",
+      "title_en": "高考前身体调参指南",
+      "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E5%89%8D%E8%BA%AB%E4%BD%93%E8%B0%83%E5%8F%82%E6%8C%87%E5%8D%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1280922dbcf7d1066c62b8fa9bb3d44ecd0fb7e3.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "神22返回舱成功着陆",
+      "title_en": "神22返回舱成功着陆",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A5%9E22%E8%BF%94%E5%9B%9E%E8%88%B1%E6%88%90%E5%8A%9F%E7%9D%80%E9%99%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/afafb9c37cedead5289fe32c93bb9560b750eda1.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "英雄联盟CN缺席亚运会",
+      "title_en": "英雄联盟CN缺席亚运会",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9FCN%E7%BC%BA%E5%B8%AD%E4%BA%9A%E8%BF%90%E4%BC%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/ea059583538a5d31ea8512c0f2070afd6f90128c.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "尤长靖阿嬷的话唱哭观众",
+      "title_en": "尤长靖阿嬷的话唱哭观众",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B0%A4%E9%95%BF%E9%9D%96%E9%98%BF%E5%AC%B7%E7%9A%84%E8%AF%9D%E5%94%B1%E5%93%AD%E8%A7%82%E4%BC%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/4b5d745767d99c32701fb437c069372507b8f3c9.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "张碧晨唱的知道好让人心碎",
+      "title_en": "张碧晨唱的知道好让人心碎",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BC%A0%E7%A2%A7%E6%99%A8%E5%94%B1%E7%9A%84%E7%9F%A5%E9%81%93%E5%A5%BD%E8%AE%A9%E4%BA%BA%E5%BF%83%E7%A2%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/c6d27678252e0baf88d83b4f190a31ada4a62dee.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "詹俊预测世界杯32强",
+      "title_en": "詹俊预测世界杯32强",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A9%B9%E4%BF%8A%E9%A2%84%E6%B5%8B%E4%B8%96%E7%95%8C%E6%9D%AF32%E5%BC%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/aaeb3610d635356446705d3bd5c547a9b330436f.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "大学生英语配音喜羊羊",
+      "title_en": "大学生英语配音喜羊羊",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%8B%B1%E8%AF%AD%E9%85%8D%E9%9F%B3%E5%96%9C%E7%BE%8A%E7%BE%8A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/355d9c15e2d9a6fff433374845e525e7450c1d6d.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "阿凡强买瓜记",
+      "title_en": "阿凡强买瓜记",
+      "url": "https://search.bilibili.com/all?keyword=%E9%98%BF%E5%87%A1%E5%BC%BA%E4%B9%B0%E7%93%9C%E8%AE%B0",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a0ad47c38dc6a7310f74e791e1c30980493a7967.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "title": "2026-05-30 热点新闻汇总",
+  "update_time": "2026-05-30 01:36:06"
+}
