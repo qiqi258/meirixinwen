@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026-05-31 热点新闻 - 每日热点新闻聚合</title>
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="baiduspider" content="index,follow" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            scroll-behavior: smooth;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-neutral-100 min-h-screen">
+    <!-- 导航栏 -->
+    <header class="sticky top-0 bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-8">
+                    <a href="../index.html" class="flex items-center text-neutral-500 hover:text-primary transition-colors">
+                        <i class="fa fa-arrow-left mr-2"></i>
+                        <span data-zh="返回首页" data-en="Back to Home">返回首页</span>
+                    </a>
+                    <div class="flex items-center">
+                        <i class="fa fa-newspaper-o text-primary text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-neutral-700" data-zh="热点聚合" data-en="News Hub">热点聚合</span>
+                    </div>
+                </div>
+                
+                <!-- 功能按钮组 -->
+                <div class="flex items-center space-x-2">
+                    <!-- 语言切换按钮 -->
+                    <button id="lang-toggle" class="p-2 rounded-lg bg-neutral-100 text-neutral-600 hover:bg-neutral-200 transition-colors">
+                        <span id="lang-text" class="text-sm font-medium">中</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容区 -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- 页面标题 -->
+        <div class="bg-white rounded-xl shadow-sm p-8 mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-neutral-700 mb-4">
+                <span data-zh="2026-05-31 热点新闻汇总" data-en="2026-05-31 Hot News Summary">2026-05-31 热点新闻汇总</span>
+            </h1>
+            <div class="flex items-center text-neutral-500">
+                <i class="fa fa-clock-o mr-2"></i>
+                <span data-zh="更新时间：" data-en="Update Time: ">更新时间：</span><span>2026-05-31 23:19:17</span>
+            </div>
+            <p class="text-sm text-neutral-400 mt-3">
+                
+            </p>
+        </div>
+
+        <!-- 新闻列表 -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-xl shadow-sm p-6">
+                <div class="flex items-center mb-4">
+                    <h3 class="text-xl font-bold text-neutral-700">
+                        <span data-zh="微博" data-en="Weibo">微博</span>
+                    </h3>
+                    <span class="ml-3 px-2.5 py-0.5 bg-red-100 text-red-600 text-sm rounded-full">
+                        <span data-zh="10条" data-en="10 items">10条</span>
+                    </span>
+                </div>
+                <ul class="space-y-3 divide-y divide-neutral-200">
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E5%A4%A9%E6%B6%AF%E7%A5%9E%E5%B8%96"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="天涯神帖" data-en="天涯神帖">天涯神帖</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>3979805</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%BE%B7%E7%94%B2%E5%A4%BA%E5%86%A0"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="樊振东德甲夺冠" data-en="樊振东德甲夺冠">樊振东德甲夺冠</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>2267264</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E5%9F%8E%E4%BA%8B%E6%97%A5%E8%AE%B0%E6%B4%A5%E5%BD%A9%E6%9C%89%E4%BD%A0"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="城事日记津彩有你" data-en="城事日记津彩有你">城事日记津彩有你</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>900630</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=618%E4%B8%8A%E6%B7%98%E5%AE%9D%E4%B9%B0%E7%88%86%E6%AC%BE%E6%8A%BD888%E5%85%83%E7%BA%A2%E5%8C%85"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="618上淘宝买爆款抽888元红包" data-en="618上淘宝买爆款抽888元红包">618上淘宝买爆款抽888元红包</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>674476</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E6%96%B0%E7%96%86%E4%BA%BA%E6%9C%AA%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%9C%88%E8%8F%9C%E5%93%81"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="新疆人未来一个月菜品" data-en="新疆人未来一个月菜品">新疆人未来一个月菜品</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>610688</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%B7%B2%E9%9B%86%E9%BD%90%E5%BE%B7%E5%9B%BD%E6%9D%AF%E6%AC%A7%E5%86%A0%E5%BE%B7%E7%94%B2%E5%86%A0%E5%86%9B"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="樊振东已集齐德国杯欧冠德甲冠军" data-en="樊振东已集齐德国杯欧冠德甲冠军">樊振东已集齐德国杯欧冠德甲冠军</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>486013</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E5%85%B3%E6%99%93%E5%BD%A4%E6%BC%94%E6%8A%80"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="关晓彤演技" data-en="关晓彤演技">关晓彤演技</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>460754</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E5%A4%A9%E6%B6%AF%E7%A4%BE%E5%8C%BA%E5%B0%86%E6%AD%A3%E5%BC%8F%E6%81%A2%E5%A4%8D%E8%AE%BF%E9%97%AE"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="天涯社区将正式恢复访问" data-en="天涯社区将正式恢复访问">天涯社区将正式恢复访问</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>446666</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E5%BF%86%E7%A7%A6%E5%A8%A5%E5%A9%9A%E5%90%8E"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="忆秦娥婚后" data-en="忆秦娥婚后">忆秦娥婚后</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>415862</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://s.weibo.com/weibo?q=%E5%93%88%E5%B0%94%E6%BB%A8%E6%B2%99%E5%B0%98%E6%9A%B4%E9%BB%91%E5%A2%992%E5%88%86%E9%92%9F%E5%90%9E%E6%B2%A1%E5%B1%85%E6%B0%91%E6%A5%BC"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-red-600 transition-colors">
+                                    <span data-zh="哈尔滨沙尘暴黑墙2分钟吞没居民楼" data-en="哈尔滨沙尘暴黑墙2分钟吞没居民楼">哈尔滨沙尘暴黑墙2分钟吞没居民楼</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>401438</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm p-6">
+                <div class="flex items-center mb-4">
+                    <h3 class="text-xl font-bold text-neutral-700">
+                        <span data-zh="百度" data-en="Baidu">百度</span>
+                    </h3>
+                    <span class="ml-3 px-2.5 py-0.5 bg-green-100 text-green-600 text-sm rounded-full">
+                        <span data-zh="1条" data-en="1 items">1条</span>
+                    </span>
+                </div>
+                <ul class="space-y-3 divide-y divide-neutral-200">
+                    <li class="pt-3">
+                        <a href="https://www.baidu.com/s?wd="
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-green-100 rounded-full flex items-center justify-center text-green-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-green-600 transition-colors">
+                                    <span data-zh="" data-en=""></span>
+                                </p>
+                                
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm p-6">
+                <div class="flex items-center mb-4">
+                    <h3 class="text-xl font-bold text-neutral-700">
+                        <span data-zh="B站" data-en="Bilibili">B站</span>
+                    </h3>
+                    <span class="ml-3 px-2.5 py-0.5 bg-pink-100 text-pink-600 text-sm rounded-full">
+                        <span data-zh="9条" data-en="9 items">9条</span>
+                    </span>
+                </div>
+                <ul class="space-y-3 divide-y divide-neutral-200">
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=%E5%93%88%E5%B0%94%E6%BB%A8%E4%B8%BA%E4%BD%95%E4%BC%9A%E5%87%BA%E7%8E%B013%E7%BA%A7%E6%B2%99%E5%B0%98%E6%9A%B4"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="哈尔滨为何会出现13级沙尘暴" data-en="哈尔滨为何会出现13级沙尘暴">哈尔滨为何会出现13级沙尘暴</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP1</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=%E9%A9%AC%E5%88%BA%E9%9B%B7%E9%9C%86%E5%A4%A7%E6%88%98%E5%90%84%E7%90%83%E5%91%98%E8%A1%A8%E7%8E%B0%E5%A6%82%E4%BD%95"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="马刺雷霆大战各球员表现如何" data-en="马刺雷霆大战各球员表现如何">马刺雷霆大战各球员表现如何</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP2</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E5%91%A8%E5%88%8A%20%E9%87%8D%E8%BF%94%E6%AC%A7%E7%9B%9F%E8%83%BD%E5%90%A6%E6%95%91%E8%8B%B1%E5%9B%BD"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="世界周刊 重返欧盟能否救英国" data-en="世界周刊 重返欧盟能否救英国">世界周刊 重返欧盟能否救英国</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP3</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=TES%E6%88%98%E8%83%9CJDG%E8%B5%9B%E5%90%8E%E6%95%B0%E6%8D%AE"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="TES战胜JDG赛后数据" data-en="TES战胜JDG赛后数据">TES战胜JDG赛后数据</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP4</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=%E5%B0%8F%E6%9E%97%E6%9C%AA%E9%83%81%E4%B8%AD%E6%96%87%E7%BF%BB%E5%94%B1%E5%A4%A7%E4%B8%9C%E5%8C%97"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="小林未郁中文翻唱大东北" data-en="小林未郁中文翻唱大东北">小林未郁中文翻唱大东北</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP5</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=%E9%99%B6%E5%96%86100%E5%9C%BA%E5%B7%A1%E6%BC%94%E6%94%B6%E5%AE%98"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="陶喆100场巡演收官" data-en="陶喆100场巡演收官">陶喆100场巡演收官</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP6</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E5%91%A8%E5%88%8A%E4%B9%8B%E7%BE%8E%E4%BC%8A%E5%81%9C%E7%81%AB%E8%BF%B7%E5%B1%80"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="世界周刊之美伊停火迷局" data-en="世界周刊之美伊停火迷局">世界周刊之美伊停火迷局</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP7</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=%E8%AE%A1%E7%AE%97%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%85%AC%E5%BC%8F"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="计算姆巴佩公式" data-en="计算姆巴佩公式">计算姆巴佩公式</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP8</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="https://search.bilibili.com/all?keyword=JDG%20TES"
+                           target="_blank"
+                           class="group flex items-start hover:bg-neutral-50 p-2 rounded-lg transition-colors">
+                            <span class="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                                <i class="fa fa-fire"></i>
+                            </span>
+                            <div class="ml-4 flex-1">
+                                <p class="text-neutral-700 group-hover:text-pink-600 transition-colors">
+                                    <span data-zh="JDG TES" data-en="JDG TES">JDG TES</span>
+                                </p>
+                                <p class="text-sm text-neutral-500 mt-1"><span data-zh="热度：" data-en="Heat: ">热度：</span>TOP10</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-white mt-12 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-neutral-500">
+                <p>© 2025 <span data-zh="每日热点新闻聚合" data-en="Daily Hot News Aggregator">每日热点新闻聚合</span> |
+                <a href="https://zxnve.dpdns.org" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors">
+                   <span data-zh="导航站主页" data-en="Navigation Homepage">导航站主页</span>
+                </a>
+                </p>
+                <p class="mt-2"><span data-zh="本站已累计运行：" data-en="Site has been running for: ">本站已累计运行：</span><span id="runtime">计算中...</span></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+      // 站点起始时间（北京时间）
+      const START_BJ = '2025-10-17 00:00:00';
+      // 将北京时间转换为 UTC 时间戳（2025-10-17 00:00:00+08:00 == 2025-10-16T16:00:00Z）
+      const START_UTC_MS = Date.parse('2025-10-16T16:00:00Z');
+
+      /**
+       * computeElapsedYDHMS
+       * 功能：计算从起始时间到当前时间的"年 / 日 / 时 / 分 / 秒"
+       * 小白解释：先扣掉整年（周年），剩余的用天/小时/分钟/秒拆分，精确到秒。
+       */
+      function computeElapsedYDHMS(nowMs) {
+        const now = new Date(nowMs);
+        const startUtc = new Date(START_UTC_MS);
+
+        // 估算整年差
+        let y = now.getUTCFullYear() - startUtc.getUTCFullYear();
+
+        // 基准时间 = 起点 + y年（均用UTC避免夏令时问题）
+        let base = new Date(Date.UTC(
+          startUtc.getUTCFullYear() + y,
+          startUtc.getUTCMonth(),
+          startUtc.getUTCDate(),
+          startUtc.getUTCHours(),
+          startUtc.getUTCMinutes(),
+          startUtc.getUTCSeconds()
+        ));
+
+        // 如果当前时间还没到周年，年份回退一
+        if (now < base) {
+          y -= 1;
+          base = new Date(Date.UTC(
+            startUtc.getUTCFullYear() + y,
+            startUtc.getUTCMonth(),
+            startUtc.getUTCDate(),
+            startUtc.getUTCHours(),
+            startUtc.getUTCMinutes(),
+            startUtc.getUTCSeconds()
+          ));
+        }
+
+        // 拆分日/时/分/秒
+        const diffMs = now - base;
+        const dayMs = 24 * 60 * 60 * 1000;
+        const hourMs = 60 * 60 * 1000;
+        const minuteMs = 60 * 1000;
+
+        const d = Math.floor(diffMs / dayMs);
+        const remAfterDays = diffMs - d * dayMs;
+
+        const h = Math.floor(remAfterDays / hourMs);
+        const remAfterHours = remAfterDays - h * hourMs;
+
+        const min = Math.floor(remAfterHours / minuteMs);
+        const s = Math.floor((remAfterHours - min * minuteMs) / 1000);
+
+        return { y, d, h, min, s };
+      }
+
+      /**
+       * updateRuntime
+       * 功能：渲染累计运行时间并每秒刷新
+       * 小白解释：每1秒计算"年/日/时/分/秒"，更新到页面 id=runtime 的位置。
+       */
+      function updateRuntime() {
+        const el = document.getElementById('runtime');
+        if (!el) return;
+        const nowMs = Date.now();
+        const { y, d, h, min, s } = computeElapsedYDHMS(nowMs);
+        el.textContent = `${y}年${d}日${h.toString().padStart(2,'0')}时${min.toString().padStart(2,'0')}分${s.toString().padStart(2,'0')}秒`;
+      }
+
+      /**
+       * updateLanguage
+       * 功能：根据选择的语言更新页面文本
+       * 小白解释：这个函数会遍历页面中所有带有data-zh和data-en属性的元素，根据当前语言显示对应的文本
+       */
+      function updateLanguage(lang) {
+          // 更新按钮文本
+          document.getElementById('lang-text').textContent = lang === 'zh' ? '中' : 'EN';
+          
+          // 获取所有带有语言属性的元素
+          const elements = document.querySelectorAll('[data-zh][data-en]');
+          
+          // 遍历所有元素，更新文本内容
+          elements.forEach(element => {
+              const text = lang === 'zh' ? element.getAttribute('data-zh') : element.getAttribute('data-en');
+              if (element.tagName === 'INPUT' && element.type === 'placeholder') {
+                  element.placeholder = text;
+              } else {
+                  element.textContent = text;
+              }
+          });
+      }
+
+      // 首次渲染 + 每秒刷新
+      updateRuntime();
+      setInterval(updateRuntime, 1000);
+
+      // 语言切换功能
+      document.addEventListener('DOMContentLoaded', function() {
+          // 获取语言切换按钮和文本
+          const langToggle = document.getElementById('lang-toggle');
+          const langText = document.getElementById('lang-text');
+          
+          // 检查本地存储中是否有用户保存的语言偏好
+          const savedLang = localStorage.getItem('language') || 'zh';
+          
+          // 应用保存的语言设置
+          let currentLang = savedLang;
+          updateLanguage(currentLang);
+          
+          // 语言切换按钮点击事件
+          langToggle.addEventListener('click', function() {
+              // 切换语言
+              currentLang = currentLang === 'zh' ? 'en' : 'zh';
+              updateLanguage(currentLang);
+              // 保存用户偏好到本地存储
+              localStorage.setItem('language', currentLang);
+          });
+          
+          // 监听存储变化，实现跨页面语言同步
+          window.addEventListener('storage', function(e) {
+              if (e.key === 'language') {
+                  currentLang = e.newValue || 'zh';
+                  updateLanguage(currentLang);
+              }
+          });
+      });
+    </script>
+</body>
+</html>
