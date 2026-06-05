@@ -1,0 +1,367 @@
+{
+  "date": "2026-06-06",
+  "news": [
+    {
+      "title": "歌手排名",
+      "title_en": "歌手排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "2308594"
+    },
+    {
+      "title": "黄金",
+      "title_en": "黄金",
+      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1573160"
+    },
+    {
+      "title": "卫星影像记录中国生态巨变",
+      "title_en": "卫星影像记录中国生态巨变",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E8%AE%B0%E5%BD%95%E4%B8%AD%E5%9B%BD%E7%94%9F%E6%80%81%E5%B7%A8%E5%8F%98",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1345808"
+    },
+    {
+      "title": "京东请全网女生敷面膜",
+      "title_en": "京东请全网女生敷面膜",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9C%E8%AF%B7%E5%85%A8%E7%BD%91%E5%A5%B3%E7%94%9F%E6%95%B7%E9%9D%A2%E8%86%9C",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1343113"
+    },
+    {
+      "title": "李晨好大一个白眼",
+      "title_en": "李晨好大一个白眼",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E6%99%A8%E5%A5%BD%E5%A4%A7%E4%B8%80%E4%B8%AA%E7%99%BD%E7%9C%BC",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1340417"
+    },
+    {
+      "title": "红果3类短剧禁拍13类受限",
+      "title_en": "红果3类短剧禁拍13类受限",
+      "url": "https://s.weibo.com/weibo?q=%E7%BA%A2%E6%9E%9C3%E7%B1%BB%E7%9F%AD%E5%89%A7%E7%A6%81%E6%8B%8D13%E7%B1%BB%E5%8F%97%E9%99%90",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1328833"
+    },
+    {
+      "title": "以后真要把细菌当衣服穿了",
+      "title_en": "以后真要把细菌当衣服穿了",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E5%90%8E%E7%9C%9F%E8%A6%81%E6%8A%8A%E7%BB%86%E8%8F%8C%E5%BD%93%E8%A1%A3%E6%9C%8D%E7%A9%BF%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "608501"
+    },
+    {
+      "title": "唐艺昕假发掉了",
+      "title_en": "唐艺昕假发掉了",
+      "url": "https://s.weibo.com/weibo?q=%E5%94%90%E8%89%BA%E6%98%95%E5%81%87%E5%8F%91%E6%8E%89%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "606626"
+    },
+    {
+      "title": "上海男篮CBA总冠军",
+      "title_en": "上海男篮CBA总冠军",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E7%94%B7%E7%AF%AECBA%E6%80%BB%E5%86%A0%E5%86%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "604204"
+    },
+    {
+      "title": "国足2比1新加坡",
+      "title_en": "国足2比1新加坡",
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E8%B6%B32%E6%AF%941%E6%96%B0%E5%8A%A0%E5%9D%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "600209"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "JackeyLove怕TES去涅槃",
+      "title_en": "JackeyLove怕TES去涅槃",
+      "url": "https://search.bilibili.com/all?keyword=JackeyLove%E6%80%95TES%E5%8E%BB%E6%B6%85%E6%A7%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/2435da0f30f0ee26aeb049a013b48e09f0716c30.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "一数团队为全国高考生加油",
+      "title_en": "一数团队为全国高考生加油",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%80%E6%95%B0%E5%9B%A2%E9%98%9F%E4%B8%BA%E5%85%A8%E5%9B%BD%E9%AB%98%E8%80%83%E7%94%9F%E5%8A%A0%E6%B2%B9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/5df66240b2b71ca2bc6ce697e929657b1b1df5a4.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "科隆Major中国德比天禄晋级",
+      "title_en": "科隆Major中国德比天禄晋级",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E9%9A%86Major%E4%B8%AD%E5%9B%BD%E5%BE%B7%E6%AF%94%E5%A4%A9%E7%A6%84%E6%99%8B%E7%BA%A7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/f14baa7db6df66f341362d350adaf53bee918417.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "世界杯不是一个人在战斗名场面背后",
+      "title_en": "世界杯不是一个人在战斗名场面背后",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E6%9D%AF%E4%B8%8D%E6%98%AF%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%9C%A8%E6%88%98%E6%96%97%E5%90%8D%E5%9C%BA%E9%9D%A2%E8%83%8C%E5%90%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/5bd76af2735db85e50e534efcf838ad4fb61bee6.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "2026高考倒计时1天",
+      "title_en": "2026高考倒计时1天",
+      "url": "https://search.bilibili.com/all?keyword=2026%E9%AB%98%E8%80%83%E5%80%92%E8%AE%A1%E6%97%B61%E5%A4%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/eaf08d4620632a6c7f3e1925b4aa1cfcdfbeea63.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "中国成功发射千帆极轨12组卫星",
+      "title_en": "中国成功发射千帆极轨12组卫星",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84%E5%8D%83%E5%B8%86%E6%9E%81%E8%BD%A812%E7%BB%84%E5%8D%AB%E6%98%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/438e5ccc6a907d22f16bb1f23cf04d826df91f40.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "如何在家制造浓汤宝",
+      "title_en": "如何在家制造浓汤宝",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E5%9C%A8%E5%AE%B6%E5%88%B6%E9%80%A0%E6%B5%93%E6%B1%A4%E5%AE%9D",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/94c85d2ebad9002fcbad0c7ef2f3c8a3f1ec6768.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "科隆Major第一阶段",
+      "title_en": "科隆Major第一阶段",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E9%9A%86Major%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/7806401b457fbcfbd89da264dbb9d62e997dfa30.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "尤长靖锤娜丽莎顶峰相见",
+      "title_en": "尤长靖锤娜丽莎顶峰相见",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B0%A4%E9%95%BF%E9%9D%96%E9%94%A4%E5%A8%9C%E4%B8%BD%E8%8E%8E%E9%A1%B6%E5%B3%B0%E7%9B%B8%E8%A7%81",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/da7169f0992edd969890cbc18205a6df45f10e13.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "歌手排名",
+      "title_en": "歌手排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "2308594"
+    },
+    {
+      "title": "黄金",
+      "title_en": "黄金",
+      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1573160"
+    },
+    {
+      "title": "卫星影像记录中国生态巨变",
+      "title_en": "卫星影像记录中国生态巨变",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E8%AE%B0%E5%BD%95%E4%B8%AD%E5%9B%BD%E7%94%9F%E6%80%81%E5%B7%A8%E5%8F%98",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1345808"
+    },
+    {
+      "title": "京东请全网女生敷面膜",
+      "title_en": "京东请全网女生敷面膜",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9C%E8%AF%B7%E5%85%A8%E7%BD%91%E5%A5%B3%E7%94%9F%E6%95%B7%E9%9D%A2%E8%86%9C",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1343113"
+    },
+    {
+      "title": "李晨好大一个白眼",
+      "title_en": "李晨好大一个白眼",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E6%99%A8%E5%A5%BD%E5%A4%A7%E4%B8%80%E4%B8%AA%E7%99%BD%E7%9C%BC",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1340417"
+    },
+    {
+      "title": "红果3类短剧禁拍13类受限",
+      "title_en": "红果3类短剧禁拍13类受限",
+      "url": "https://s.weibo.com/weibo?q=%E7%BA%A2%E6%9E%9C3%E7%B1%BB%E7%9F%AD%E5%89%A7%E7%A6%81%E6%8B%8D13%E7%B1%BB%E5%8F%97%E9%99%90",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1328833"
+    },
+    {
+      "title": "以后真要把细菌当衣服穿了",
+      "title_en": "以后真要把细菌当衣服穿了",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E5%90%8E%E7%9C%9F%E8%A6%81%E6%8A%8A%E7%BB%86%E8%8F%8C%E5%BD%93%E8%A1%A3%E6%9C%8D%E7%A9%BF%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "608501"
+    },
+    {
+      "title": "唐艺昕假发掉了",
+      "title_en": "唐艺昕假发掉了",
+      "url": "https://s.weibo.com/weibo?q=%E5%94%90%E8%89%BA%E6%98%95%E5%81%87%E5%8F%91%E6%8E%89%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "606626"
+    },
+    {
+      "title": "上海男篮CBA总冠军",
+      "title_en": "上海男篮CBA总冠军",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E7%94%B7%E7%AF%AECBA%E6%80%BB%E5%86%A0%E5%86%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "604204"
+    },
+    {
+      "title": "国足2比1新加坡",
+      "title_en": "国足2比1新加坡",
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E8%B6%B32%E6%AF%941%E6%96%B0%E5%8A%A0%E5%9D%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "600209"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "JackeyLove怕TES去涅槃",
+      "title_en": "JackeyLove怕TES去涅槃",
+      "url": "https://search.bilibili.com/all?keyword=JackeyLove%E6%80%95TES%E5%8E%BB%E6%B6%85%E6%A7%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/2435da0f30f0ee26aeb049a013b48e09f0716c30.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "一数团队为全国高考生加油",
+      "title_en": "一数团队为全国高考生加油",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%80%E6%95%B0%E5%9B%A2%E9%98%9F%E4%B8%BA%E5%85%A8%E5%9B%BD%E9%AB%98%E8%80%83%E7%94%9F%E5%8A%A0%E6%B2%B9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/5df66240b2b71ca2bc6ce697e929657b1b1df5a4.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "科隆Major中国德比天禄晋级",
+      "title_en": "科隆Major中国德比天禄晋级",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E9%9A%86Major%E4%B8%AD%E5%9B%BD%E5%BE%B7%E6%AF%94%E5%A4%A9%E7%A6%84%E6%99%8B%E7%BA%A7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/f14baa7db6df66f341362d350adaf53bee918417.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "世界杯不是一个人在战斗名场面背后",
+      "title_en": "世界杯不是一个人在战斗名场面背后",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E6%9D%AF%E4%B8%8D%E6%98%AF%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%9C%A8%E6%88%98%E6%96%97%E5%90%8D%E5%9C%BA%E9%9D%A2%E8%83%8C%E5%90%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/5bd76af2735db85e50e534efcf838ad4fb61bee6.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "2026高考倒计时1天",
+      "title_en": "2026高考倒计时1天",
+      "url": "https://search.bilibili.com/all?keyword=2026%E9%AB%98%E8%80%83%E5%80%92%E8%AE%A1%E6%97%B61%E5%A4%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/eaf08d4620632a6c7f3e1925b4aa1cfcdfbeea63.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "中国成功发射千帆极轨12组卫星",
+      "title_en": "中国成功发射千帆极轨12组卫星",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84%E5%8D%83%E5%B8%86%E6%9E%81%E8%BD%A812%E7%BB%84%E5%8D%AB%E6%98%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/438e5ccc6a907d22f16bb1f23cf04d826df91f40.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "如何在家制造浓汤宝",
+      "title_en": "如何在家制造浓汤宝",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E5%9C%A8%E5%AE%B6%E5%88%B6%E9%80%A0%E6%B5%93%E6%B1%A4%E5%AE%9D",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/94c85d2ebad9002fcbad0c7ef2f3c8a3f1ec6768.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "科隆Major第一阶段",
+      "title_en": "科隆Major第一阶段",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E9%9A%86Major%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/7806401b457fbcfbd89da264dbb9d62e997dfa30.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "尤长靖锤娜丽莎顶峰相见",
+      "title_en": "尤长靖锤娜丽莎顶峰相见",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B0%A4%E9%95%BF%E9%9D%96%E9%94%A4%E5%A8%9C%E4%B8%BD%E8%8E%8E%E9%A1%B6%E5%B3%B0%E7%9B%B8%E8%A7%81",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/da7169f0992edd969890cbc18205a6df45f10e13.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-06-06 热点新闻汇总",
+  "update_time": "2026-06-06 00:31:09"
+}
