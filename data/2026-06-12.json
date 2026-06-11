@@ -1,0 +1,367 @@
+{
+  "date": "2026-06-12",
+  "news": [
+    {
+      "title": "世界杯开幕式",
+      "title_en": "世界杯开幕式",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%BC%80%E5%B9%95%E5%BC%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "2096753"
+    },
+    {
+      "title": "美国五角大楼被封锁",
+      "title_en": "美国五角大楼被封锁",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E4%BA%94%E8%A7%92%E5%A4%A7%E6%A5%BC%E8%A2%AB%E5%B0%81%E9%94%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "512486"
+    },
+    {
+      "title": "中国航天又一次成功发射",
+      "title_en": "中国航天又一次成功发射",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E5%8F%88%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "435148"
+    },
+    {
+      "title": "名古屋亚运会电竞参赛名单",
+      "title_en": "名古屋亚运会电竞参赛名单",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%BA%9A%E8%BF%90%E4%BC%9A%E7%94%B5%E7%AB%9E%E5%8F%82%E8%B5%9B%E5%90%8D%E5%8D%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "432219"
+    },
+    {
+      "title": "AI短片效果看到起鸡皮疙瘩了",
+      "title_en": "AI短片效果看到起鸡皮疙瘩了",
+      "url": "https://s.weibo.com/weibo?q=AI%E7%9F%AD%E7%89%87%E6%95%88%E6%9E%9C%E7%9C%8B%E5%88%B0%E8%B5%B7%E9%B8%A1%E7%9A%AE%E7%96%99%E7%98%A9%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "235366"
+    },
+    {
+      "title": "微信能合并发图了",
+      "title_en": "微信能合并发图了",
+      "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E4%BF%A1%E8%83%BD%E5%90%88%E5%B9%B6%E5%8F%91%E5%9B%BE%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "222172"
+    },
+    {
+      "title": "对大房子祛魅了",
+      "title_en": "对大房子祛魅了",
+      "url": "https://s.weibo.com/weibo?q=%E5%AF%B9%E5%A4%A7%E6%88%BF%E5%AD%90%E7%A5%9B%E9%AD%85%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202025"
+    },
+    {
+      "title": "丁禹兮说请客吃虾是真给报销啊",
+      "title_en": "丁禹兮说请客吃虾是真给报销啊",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%81%E7%A6%B9%E5%85%AE%E8%AF%B4%E8%AF%B7%E5%AE%A2%E5%90%83%E8%99%BE%E6%98%AF%E7%9C%9F%E7%BB%99%E6%8A%A5%E9%94%80%E5%95%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "188662"
+    },
+    {
+      "title": "熬夜看世界杯",
+      "title_en": "熬夜看世界杯",
+      "url": "https://s.weibo.com/weibo?q=%E7%86%AC%E5%A4%9C%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "183835"
+    },
+    {
+      "title": "世界杯",
+      "title_en": "世界杯",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "177426"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "科隆Major第三阶段",
+      "title_en": "科隆Major第三阶段",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E9%9A%86Major%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/079d79cea4456abe3aaf3e2e96ec701d7fb6aa99.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "世界杯揭幕战墨西哥有优势吗",
+      "title_en": "世界杯揭幕战墨西哥有优势吗",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E6%9D%AF%E6%8F%AD%E5%B9%95%E6%88%98%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%9C%89%E4%BC%98%E5%8A%BF%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/6e1c5b5bc2c604a7263977a440d08cbeff7224c8.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "通信技术试验卫星二十五号发射成功",
+      "title_en": "通信技术试验卫星二十五号发射成功",
+      "url": "https://search.bilibili.com/all?keyword=%E9%80%9A%E4%BF%A1%E6%8A%80%E6%9C%AF%E8%AF%95%E9%AA%8C%E5%8D%AB%E6%98%9F%E4%BA%8C%E5%8D%81%E4%BA%94%E5%8F%B7%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/7384391644df3f051b6a43feadae2f4ad640a3cc.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "央视曝光色情漫画陷阱",
+      "title_en": "央视曝光色情漫画陷阱",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E8%89%B2%E6%83%85%E6%BC%AB%E7%94%BB%E9%99%B7%E9%98%B1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a9ad1022c83786fb463ab3243ef2b944fe944e43.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "ZywOo残局1v3满血5杀",
+      "title_en": "ZywOo残局1v3满血5杀",
+      "url": "https://search.bilibili.com/all?keyword=ZywOo%E6%AE%8B%E5%B1%801v3%E6%BB%A1%E8%A1%805%E6%9D%80",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/dabf365b3e5d551e5fb2a2161972d45b4c029c3c.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "解读OG补篮绝杀",
+      "title_en": "解读OG补篮绝杀",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%BBOG%E8%A1%A5%E7%AF%AE%E7%BB%9D%E6%9D%80",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/ac4374e0f7f035267aa3900b55482e51bce683b0.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "Smoggy 最难受的还是曼谷",
+      "title_en": "Smoggy 最难受的还是曼谷",
+      "url": "https://search.bilibili.com/all?keyword=Smoggy%20%E6%9C%80%E9%9A%BE%E5%8F%97%E7%9A%84%E8%BF%98%E6%98%AF%E6%9B%BC%E8%B0%B7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/c2af934fdc81af7660325167a488693afca7cce0.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "世界杯A组前瞻",
+      "title_en": "世界杯A组前瞻",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E6%9D%AFA%E7%BB%84%E5%89%8D%E7%9E%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/7e6ddeaca8abb9aa0476191eee010d43a0ffac32.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "一口气速通网飞爽剧铁拳教育",
+      "title_en": "一口气速通网飞爽剧铁拳教育",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%80%E5%8F%A3%E6%B0%94%E9%80%9F%E9%80%9A%E7%BD%91%E9%A3%9E%E7%88%BD%E5%89%A7%E9%93%81%E6%8B%B3%E6%95%99%E8%82%B2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/68e1f6ff76d7a1c98766e682624ad16dba049a30.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "世界杯开幕式",
+      "title_en": "世界杯开幕式",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%BC%80%E5%B9%95%E5%BC%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "2096753"
+    },
+    {
+      "title": "美国五角大楼被封锁",
+      "title_en": "美国五角大楼被封锁",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E4%BA%94%E8%A7%92%E5%A4%A7%E6%A5%BC%E8%A2%AB%E5%B0%81%E9%94%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "512486"
+    },
+    {
+      "title": "中国航天又一次成功发射",
+      "title_en": "中国航天又一次成功发射",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E5%8F%88%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "435148"
+    },
+    {
+      "title": "名古屋亚运会电竞参赛名单",
+      "title_en": "名古屋亚运会电竞参赛名单",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%BA%9A%E8%BF%90%E4%BC%9A%E7%94%B5%E7%AB%9E%E5%8F%82%E8%B5%9B%E5%90%8D%E5%8D%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "432219"
+    },
+    {
+      "title": "AI短片效果看到起鸡皮疙瘩了",
+      "title_en": "AI短片效果看到起鸡皮疙瘩了",
+      "url": "https://s.weibo.com/weibo?q=AI%E7%9F%AD%E7%89%87%E6%95%88%E6%9E%9C%E7%9C%8B%E5%88%B0%E8%B5%B7%E9%B8%A1%E7%9A%AE%E7%96%99%E7%98%A9%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "235366"
+    },
+    {
+      "title": "微信能合并发图了",
+      "title_en": "微信能合并发图了",
+      "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E4%BF%A1%E8%83%BD%E5%90%88%E5%B9%B6%E5%8F%91%E5%9B%BE%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "222172"
+    },
+    {
+      "title": "对大房子祛魅了",
+      "title_en": "对大房子祛魅了",
+      "url": "https://s.weibo.com/weibo?q=%E5%AF%B9%E5%A4%A7%E6%88%BF%E5%AD%90%E7%A5%9B%E9%AD%85%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "202025"
+    },
+    {
+      "title": "丁禹兮说请客吃虾是真给报销啊",
+      "title_en": "丁禹兮说请客吃虾是真给报销啊",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%81%E7%A6%B9%E5%85%AE%E8%AF%B4%E8%AF%B7%E5%AE%A2%E5%90%83%E8%99%BE%E6%98%AF%E7%9C%9F%E7%BB%99%E6%8A%A5%E9%94%80%E5%95%8A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "188662"
+    },
+    {
+      "title": "熬夜看世界杯",
+      "title_en": "熬夜看世界杯",
+      "url": "https://s.weibo.com/weibo?q=%E7%86%AC%E5%A4%9C%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "183835"
+    },
+    {
+      "title": "世界杯",
+      "title_en": "世界杯",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "177426"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "科隆Major第三阶段",
+      "title_en": "科隆Major第三阶段",
+      "url": "https://search.bilibili.com/all?keyword=%E7%A7%91%E9%9A%86Major%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/079d79cea4456abe3aaf3e2e96ec701d7fb6aa99.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "世界杯揭幕战墨西哥有优势吗",
+      "title_en": "世界杯揭幕战墨西哥有优势吗",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E6%9D%AF%E6%8F%AD%E5%B9%95%E6%88%98%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%9C%89%E4%BC%98%E5%8A%BF%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/6e1c5b5bc2c604a7263977a440d08cbeff7224c8.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "通信技术试验卫星二十五号发射成功",
+      "title_en": "通信技术试验卫星二十五号发射成功",
+      "url": "https://search.bilibili.com/all?keyword=%E9%80%9A%E4%BF%A1%E6%8A%80%E6%9C%AF%E8%AF%95%E9%AA%8C%E5%8D%AB%E6%98%9F%E4%BA%8C%E5%8D%81%E4%BA%94%E5%8F%B7%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/7384391644df3f051b6a43feadae2f4ad640a3cc.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "央视曝光色情漫画陷阱",
+      "title_en": "央视曝光色情漫画陷阱",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E8%89%B2%E6%83%85%E6%BC%AB%E7%94%BB%E9%99%B7%E9%98%B1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a9ad1022c83786fb463ab3243ef2b944fe944e43.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "ZywOo残局1v3满血5杀",
+      "title_en": "ZywOo残局1v3满血5杀",
+      "url": "https://search.bilibili.com/all?keyword=ZywOo%E6%AE%8B%E5%B1%801v3%E6%BB%A1%E8%A1%805%E6%9D%80",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/dabf365b3e5d551e5fb2a2161972d45b4c029c3c.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "解读OG补篮绝杀",
+      "title_en": "解读OG补篮绝杀",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%BBOG%E8%A1%A5%E7%AF%AE%E7%BB%9D%E6%9D%80",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/ac4374e0f7f035267aa3900b55482e51bce683b0.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "Smoggy 最难受的还是曼谷",
+      "title_en": "Smoggy 最难受的还是曼谷",
+      "url": "https://search.bilibili.com/all?keyword=Smoggy%20%E6%9C%80%E9%9A%BE%E5%8F%97%E7%9A%84%E8%BF%98%E6%98%AF%E6%9B%BC%E8%B0%B7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/c2af934fdc81af7660325167a488693afca7cce0.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "世界杯A组前瞻",
+      "title_en": "世界杯A组前瞻",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E6%9D%AFA%E7%BB%84%E5%89%8D%E7%9E%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/7e6ddeaca8abb9aa0476191eee010d43a0ffac32.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "一口气速通网飞爽剧铁拳教育",
+      "title_en": "一口气速通网飞爽剧铁拳教育",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%80%E5%8F%A3%E6%B0%94%E9%80%9F%E9%80%9A%E7%BD%91%E9%A3%9E%E7%88%BD%E5%89%A7%E9%93%81%E6%8B%B3%E6%95%99%E8%82%B2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/68e1f6ff76d7a1c98766e682624ad16dba049a30.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-06-12 热点新闻汇总",
+  "update_time": "2026-06-12 01:37:56"
+}
