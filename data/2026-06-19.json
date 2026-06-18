@@ -1,0 +1,367 @@
+{
+  "date": "2026-06-19",
+  "news": [
+    {
+      "title": "葡萄牙丢球后C罗质问本队门将",
+      "title_en": "葡萄牙丢球后C罗质问本队门将",
+      "url": "https://s.weibo.com/weibo?q=%E8%91%A1%E8%90%84%E7%89%99%E4%B8%A2%E7%90%83%E5%90%8EC%E7%BD%97%E8%B4%A8%E9%97%AE%E6%9C%AC%E9%98%9F%E9%97%A8%E5%B0%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "861719"
+    },
+    {
+      "title": "香港机场发生黄金大劫案",
+      "title_en": "香港机场发生黄金大劫案",
+      "url": "https://s.weibo.com/weibo?q=%E9%A6%99%E6%B8%AF%E6%9C%BA%E5%9C%BA%E5%8F%91%E7%94%9F%E9%BB%84%E9%87%91%E5%A4%A7%E5%8A%AB%E6%A1%88",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "586915"
+    },
+    {
+      "title": "我国又一千亿级产业刷屏",
+      "title_en": "我国又一千亿级产业刷屏",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E5%8F%88%E4%B8%80%E5%8D%83%E4%BA%BF%E7%BA%A7%E4%BA%A7%E4%B8%9A%E5%88%B7%E5%B1%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "468827"
+    },
+    {
+      "title": "建议大家对钱要有概念",
+      "title_en": "建议大家对钱要有概念",
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E5%A4%A7%E5%AE%B6%E5%AF%B9%E9%92%B1%E8%A6%81%E6%9C%89%E6%A6%82%E5%BF%B5",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "425180"
+    },
+    {
+      "title": "捷克vs南非",
+      "title_en": "捷克vs南非",
+      "url": "https://s.weibo.com/weibo?q=%E6%8D%B7%E5%85%8Bvs%E5%8D%97%E9%9D%9E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "368108"
+    },
+    {
+      "title": "葡萄牙队回应C罗发文",
+      "title_en": "葡萄牙队回应C罗发文",
+      "url": "https://s.weibo.com/weibo?q=%E8%91%A1%E8%90%84%E7%89%99%E9%98%9F%E5%9B%9E%E5%BA%94C%E7%BD%97%E5%8F%91%E6%96%87",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "266840"
+    },
+    {
+      "title": "袁咏仪香港小姐的含金量还在上升",
+      "title_en": "袁咏仪香港小姐的含金量还在上升",
+      "url": "https://s.weibo.com/weibo?q=%E8%A2%81%E5%92%8F%E4%BB%AA%E9%A6%99%E6%B8%AF%E5%B0%8F%E5%A7%90%E7%9A%84%E5%90%AB%E9%87%91%E9%87%8F%E8%BF%98%E5%9C%A8%E4%B8%8A%E5%8D%87",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "262715"
+    },
+    {
+      "title": "毛晓彤为了剧宣五问赵又廷",
+      "title_en": "毛晓彤为了剧宣五问赵又廷",
+      "url": "https://s.weibo.com/weibo?q=%E6%AF%9B%E6%99%93%E5%BD%A4%E4%B8%BA%E4%BA%86%E5%89%A7%E5%AE%A3%E4%BA%94%E9%97%AE%E8%B5%B5%E5%8F%88%E5%BB%B7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "237628"
+    },
+    {
+      "title": "端午节",
+      "title_en": "端午节",
+      "url": "https://s.weibo.com/weibo?q=%E7%AB%AF%E5%8D%88%E8%8A%82",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "218599"
+    },
+    {
+      "title": "好奇客服回应纸尿裤检出甲酰胺",
+      "title_en": "好奇客服回应纸尿裤检出甲酰胺",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%BD%E5%A5%87%E5%AE%A2%E6%9C%8D%E5%9B%9E%E5%BA%94%E7%BA%B8%E5%B0%BF%E8%A3%A4%E6%A3%80%E5%87%BA%E7%94%B2%E9%85%B0%E8%83%BA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "218477"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "韩国工蜂经济下的年轻人现状",
+      "title_en": "韩国工蜂经济下的年轻人现状",
+      "url": "https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E5%B7%A5%E8%9C%82%E7%BB%8F%E6%B5%8E%E4%B8%8B%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%8E%B0%E7%8A%B6",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/87a49cf123cd20a263b34ad2a03aaa6f66a182c7.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "原神至冬短片",
+      "title_en": "原神至冬短片",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E8%87%B3%E5%86%AC%E7%9F%AD%E7%89%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a55b011b2bb0d31974367c9a32c1f7257c6c2bc2.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "管泽元预测墨西哥vs韩国",
+      "title_en": "管泽元预测墨西哥vs韩国",
+      "url": "https://search.bilibili.com/all?keyword=%E7%AE%A1%E6%B3%BD%E5%85%83%E9%A2%84%E6%B5%8B%E5%A2%A8%E8%A5%BF%E5%93%A5vs%E9%9F%A9%E5%9B%BD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/76dfef6d8bc83d1a64ae779b4ee24a97680d584e.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "三支CN战队将出战TI2026",
+      "title_en": "三支CN战队将出战TI2026",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%89%E6%94%AFCN%E6%88%98%E9%98%9F%E5%B0%86%E5%87%BA%E6%88%98TI2026",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/a2df37f5c2100bd4e4b3a2414e43f4fc2317aa69.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "英格兰首战体系强在哪",
+      "title_en": "英格兰首战体系强在哪",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E6%A0%BC%E5%85%B0%E9%A6%96%E6%88%98%E4%BD%93%E7%B3%BB%E5%BC%BA%E5%9C%A8%E5%93%AA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/e83cc91108d397758cf43381062167e681fa8461.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "中国商人助佛得角门将母亲赴美观赛",
+      "title_en": "中国商人助佛得角门将母亲赴美观赛",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%95%86%E4%BA%BA%E5%8A%A9%E4%BD%9B%E5%BE%97%E8%A7%92%E9%97%A8%E5%B0%86%E6%AF%8D%E4%BA%B2%E8%B5%B4%E7%BE%8E%E8%A7%82%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/b5982639367d7402ff960f1bb7243fd7af0084cc.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "GTA6官方封面预告",
+      "title_en": "GTA6官方封面预告",
+      "url": "https://search.bilibili.com/all?keyword=GTA6%E5%AE%98%E6%96%B9%E5%B0%81%E9%9D%A2%E9%A2%84%E5%91%8A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/3a5b1752183ae3a61c868f88eacb5657c885c381.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "端午节专属推背感来了",
+      "title_en": "端午节专属推背感来了",
+      "url": "https://search.bilibili.com/all?keyword=%E7%AB%AF%E5%8D%88%E8%8A%82%E4%B8%93%E5%B1%9E%E6%8E%A8%E8%83%8C%E6%84%9F%E6%9D%A5%E4%BA%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/29314efcd27fdb1a0e4b28908909e10f160938a2.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "解说高分爽剧铁拳教育",
+      "title_en": "解说高分爽剧铁拳教育",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%B4%E9%AB%98%E5%88%86%E7%88%BD%E5%89%A7%E9%93%81%E6%8B%B3%E6%95%99%E8%82%B2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/9e2be8f86e50e886380e321dbaea7cdee76917d7.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "葡萄牙丢球后C罗质问本队门将",
+      "title_en": "葡萄牙丢球后C罗质问本队门将",
+      "url": "https://s.weibo.com/weibo?q=%E8%91%A1%E8%90%84%E7%89%99%E4%B8%A2%E7%90%83%E5%90%8EC%E7%BD%97%E8%B4%A8%E9%97%AE%E6%9C%AC%E9%98%9F%E9%97%A8%E5%B0%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "861719"
+    },
+    {
+      "title": "香港机场发生黄金大劫案",
+      "title_en": "香港机场发生黄金大劫案",
+      "url": "https://s.weibo.com/weibo?q=%E9%A6%99%E6%B8%AF%E6%9C%BA%E5%9C%BA%E5%8F%91%E7%94%9F%E9%BB%84%E9%87%91%E5%A4%A7%E5%8A%AB%E6%A1%88",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "586915"
+    },
+    {
+      "title": "我国又一千亿级产业刷屏",
+      "title_en": "我国又一千亿级产业刷屏",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E5%8F%88%E4%B8%80%E5%8D%83%E4%BA%BF%E7%BA%A7%E4%BA%A7%E4%B8%9A%E5%88%B7%E5%B1%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "468827"
+    },
+    {
+      "title": "建议大家对钱要有概念",
+      "title_en": "建议大家对钱要有概念",
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E5%A4%A7%E5%AE%B6%E5%AF%B9%E9%92%B1%E8%A6%81%E6%9C%89%E6%A6%82%E5%BF%B5",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "425180"
+    },
+    {
+      "title": "捷克vs南非",
+      "title_en": "捷克vs南非",
+      "url": "https://s.weibo.com/weibo?q=%E6%8D%B7%E5%85%8Bvs%E5%8D%97%E9%9D%9E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "368108"
+    },
+    {
+      "title": "葡萄牙队回应C罗发文",
+      "title_en": "葡萄牙队回应C罗发文",
+      "url": "https://s.weibo.com/weibo?q=%E8%91%A1%E8%90%84%E7%89%99%E9%98%9F%E5%9B%9E%E5%BA%94C%E7%BD%97%E5%8F%91%E6%96%87",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "266840"
+    },
+    {
+      "title": "袁咏仪香港小姐的含金量还在上升",
+      "title_en": "袁咏仪香港小姐的含金量还在上升",
+      "url": "https://s.weibo.com/weibo?q=%E8%A2%81%E5%92%8F%E4%BB%AA%E9%A6%99%E6%B8%AF%E5%B0%8F%E5%A7%90%E7%9A%84%E5%90%AB%E9%87%91%E9%87%8F%E8%BF%98%E5%9C%A8%E4%B8%8A%E5%8D%87",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "262715"
+    },
+    {
+      "title": "毛晓彤为了剧宣五问赵又廷",
+      "title_en": "毛晓彤为了剧宣五问赵又廷",
+      "url": "https://s.weibo.com/weibo?q=%E6%AF%9B%E6%99%93%E5%BD%A4%E4%B8%BA%E4%BA%86%E5%89%A7%E5%AE%A3%E4%BA%94%E9%97%AE%E8%B5%B5%E5%8F%88%E5%BB%B7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "237628"
+    },
+    {
+      "title": "端午节",
+      "title_en": "端午节",
+      "url": "https://s.weibo.com/weibo?q=%E7%AB%AF%E5%8D%88%E8%8A%82",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "218599"
+    },
+    {
+      "title": "好奇客服回应纸尿裤检出甲酰胺",
+      "title_en": "好奇客服回应纸尿裤检出甲酰胺",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%BD%E5%A5%87%E5%AE%A2%E6%9C%8D%E5%9B%9E%E5%BA%94%E7%BA%B8%E5%B0%BF%E8%A3%A4%E6%A3%80%E5%87%BA%E7%94%B2%E9%85%B0%E8%83%BA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "218477"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "韩国工蜂经济下的年轻人现状",
+      "title_en": "韩国工蜂经济下的年轻人现状",
+      "url": "https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E5%B7%A5%E8%9C%82%E7%BB%8F%E6%B5%8E%E4%B8%8B%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%8E%B0%E7%8A%B6",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/87a49cf123cd20a263b34ad2a03aaa6f66a182c7.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "原神至冬短片",
+      "title_en": "原神至冬短片",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E8%87%B3%E5%86%AC%E7%9F%AD%E7%89%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a55b011b2bb0d31974367c9a32c1f7257c6c2bc2.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "管泽元预测墨西哥vs韩国",
+      "title_en": "管泽元预测墨西哥vs韩国",
+      "url": "https://search.bilibili.com/all?keyword=%E7%AE%A1%E6%B3%BD%E5%85%83%E9%A2%84%E6%B5%8B%E5%A2%A8%E8%A5%BF%E5%93%A5vs%E9%9F%A9%E5%9B%BD",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/76dfef6d8bc83d1a64ae779b4ee24a97680d584e.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "三支CN战队将出战TI2026",
+      "title_en": "三支CN战队将出战TI2026",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%89%E6%94%AFCN%E6%88%98%E9%98%9F%E5%B0%86%E5%87%BA%E6%88%98TI2026",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/a2df37f5c2100bd4e4b3a2414e43f4fc2317aa69.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "英格兰首战体系强在哪",
+      "title_en": "英格兰首战体系强在哪",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E6%A0%BC%E5%85%B0%E9%A6%96%E6%88%98%E4%BD%93%E7%B3%BB%E5%BC%BA%E5%9C%A8%E5%93%AA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/e83cc91108d397758cf43381062167e681fa8461.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "中国商人助佛得角门将母亲赴美观赛",
+      "title_en": "中国商人助佛得角门将母亲赴美观赛",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%95%86%E4%BA%BA%E5%8A%A9%E4%BD%9B%E5%BE%97%E8%A7%92%E9%97%A8%E5%B0%86%E6%AF%8D%E4%BA%B2%E8%B5%B4%E7%BE%8E%E8%A7%82%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/b5982639367d7402ff960f1bb7243fd7af0084cc.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "GTA6官方封面预告",
+      "title_en": "GTA6官方封面预告",
+      "url": "https://search.bilibili.com/all?keyword=GTA6%E5%AE%98%E6%96%B9%E5%B0%81%E9%9D%A2%E9%A2%84%E5%91%8A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/3a5b1752183ae3a61c868f88eacb5657c885c381.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "端午节专属推背感来了",
+      "title_en": "端午节专属推背感来了",
+      "url": "https://search.bilibili.com/all?keyword=%E7%AB%AF%E5%8D%88%E8%8A%82%E4%B8%93%E5%B1%9E%E6%8E%A8%E8%83%8C%E6%84%9F%E6%9D%A5%E4%BA%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/29314efcd27fdb1a0e4b28908909e10f160938a2.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "解说高分爽剧铁拳教育",
+      "title_en": "解说高分爽剧铁拳教育",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%B4%E9%AB%98%E5%88%86%E7%88%BD%E5%89%A7%E9%93%81%E6%8B%B3%E6%95%99%E8%82%B2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/9e2be8f86e50e886380e321dbaea7cdee76917d7.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-06-19 热点新闻汇总",
+  "update_time": "2026-06-19 00:59:00"
+}
