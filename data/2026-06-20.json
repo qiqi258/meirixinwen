@@ -1,0 +1,367 @@
+{
+  "date": "2026-06-20",
+  "news": [
+    {
+      "title": "歌手排名",
+      "title_en": "歌手排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "3524849"
+    },
+    {
+      "title": "心引力开场 灾难",
+      "title_en": "心引力开场 灾难",
+      "url": "https://s.weibo.com/weibo?q=%E5%BF%83%E5%BC%95%E5%8A%9B%E5%BC%80%E5%9C%BA%20%E7%81%BE%E9%9A%BE",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1582235"
+    },
+    {
+      "title": "端午假期第一天2.4亿人次跨区域流动",
+      "title_en": "端午假期第一天2.4亿人次跨区域流动",
+      "url": "https://s.weibo.com/weibo?q=%E7%AB%AF%E5%8D%88%E5%81%87%E6%9C%9F%E7%AC%AC%E4%B8%80%E5%A4%A92.4%E4%BA%BF%E4%BA%BA%E6%AC%A1%E8%B7%A8%E5%8C%BA%E5%9F%9F%E6%B5%81%E5%8A%A8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1182852"
+    },
+    {
+      "title": "张远 刘美含",
+      "title_en": "张远 刘美含",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%BF%9C%20%E5%88%98%E7%BE%8E%E5%90%AB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1166457"
+    },
+    {
+      "title": "特朗普和高市早苗因珍珠港发生争吵",
+      "title_en": "特朗普和高市早苗因珍珠港发生争吵",
+      "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%92%8C%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%9B%A0%E7%8F%8D%E7%8F%A0%E6%B8%AF%E5%8F%91%E7%94%9F%E4%BA%89%E5%90%B5",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "666915"
+    },
+    {
+      "title": "日本签证费涨5倍",
+      "title_en": "日本签证费涨5倍",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E7%AD%BE%E8%AF%81%E8%B4%B9%E6%B6%A85%E5%80%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "615241"
+    },
+    {
+      "title": "浪姐排名",
+      "title_en": "浪姐排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%B5%AA%E5%A7%90%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "491083"
+    },
+    {
+      "title": "阿什拉夫因强奸罪受审",
+      "title_en": "阿什拉夫因强奸罪受审",
+      "url": "https://s.weibo.com/weibo?q=%E9%98%BF%E4%BB%80%E6%8B%89%E5%A4%AB%E5%9B%A0%E5%BC%BA%E5%A5%B8%E7%BD%AA%E5%8F%97%E5%AE%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "489932"
+    },
+    {
+      "title": "雷军吃热干面被指模仿黄仁勋",
+      "title_en": "雷军吃热干面被指模仿黄仁勋",
+      "url": "https://s.weibo.com/weibo?q=%E9%9B%B7%E5%86%9B%E5%90%83%E7%83%AD%E5%B9%B2%E9%9D%A2%E8%A2%AB%E6%8C%87%E6%A8%A1%E4%BB%BF%E9%BB%84%E4%BB%81%E5%8B%8B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "485759"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "EDG PRX",
+      "title_en": "EDG PRX",
+      "url": "https://search.bilibili.com/all?keyword=EDG%20PRX",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/bfb488fa524249cf7d07479dae5e3c414fcb9c2a.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "管泽元王楚淇锐评C罗",
+      "title_en": "管泽元王楚淇锐评C罗",
+      "url": "https://search.bilibili.com/all?keyword=%E7%AE%A1%E6%B3%BD%E5%85%83%E7%8E%8B%E6%A5%9A%E6%B7%87%E9%94%90%E8%AF%84C%E7%BD%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1f1a290799a81a7ea65ba5e4ff5235a0ed901a94.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "葡萄牙更衣室要崩",
+      "title_en": "葡萄牙更衣室要崩",
+      "url": "https://search.bilibili.com/all?keyword=%E8%91%A1%E8%90%84%E7%89%99%E6%9B%B4%E8%A1%A3%E5%AE%A4%E8%A6%81%E5%B4%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a751a9432c04e707d0fc6cb4243654fe514862ce.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "LEV VIT",
+      "title_en": "LEV VIT",
+      "url": "https://search.bilibili.com/all?keyword=LEV%20VIT",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/97213f3c16cb0f6ea8de47e8f6a4fb4a3b591960.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "美国和以色列还是盟友吗",
+      "title_en": "美国和以色列还是盟友吗",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E5%92%8C%E4%BB%A5%E8%89%B2%E5%88%97%E8%BF%98%E6%98%AF%E7%9B%9F%E5%8F%8B%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/fb7567ba185c227bcb803c18ebc4671d61dc8a79.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "长腿金发哈兰德",
+      "title_en": "长腿金发哈兰德",
+      "url": "https://search.bilibili.com/all?keyword=%E9%95%BF%E8%85%BF%E9%87%91%E5%8F%91%E5%93%88%E5%85%B0%E5%BE%B7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/0addda06e13618a0f961d27c66b1662811bc1b38.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "PRX 2-1 EDG数据雷达图",
+      "title_en": "PRX 2-1 EDG数据雷达图",
+      "url": "https://search.bilibili.com/all?keyword=PRX%202-1%20EDG%E6%95%B0%E6%8D%AE%E9%9B%B7%E8%BE%BE%E5%9B%BE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f7b943a952aa9d55850e1a03ec55a34057f052c4.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "范玮琪徐洁儿心之火太绝了",
+      "title_en": "范玮琪徐洁儿心之火太绝了",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8C%83%E7%8E%AE%E7%90%AA%E5%BE%90%E6%B4%81%E5%84%BF%E5%BF%83%E4%B9%8B%E7%81%AB%E5%A4%AA%E7%BB%9D%E4%BA%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/a049eb58bd9e439c1d18abf6de8214fa12c57502.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "美伊备忘录有哪些陷阱",
+      "title_en": "美伊备忘录有哪些陷阱",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E4%BC%8A%E5%A4%87%E5%BF%98%E5%BD%95%E6%9C%89%E5%93%AA%E4%BA%9B%E9%99%B7%E9%98%B1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/46ba866eb2cd96a8580f78c63e14179246a37640.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "成都AG超玩会 KSG",
+      "title_en": "成都AG超玩会 KSG",
+      "url": "https://search.bilibili.com/all?keyword=%E6%88%90%E9%83%BDAG%E8%B6%85%E7%8E%A9%E4%BC%9A%20KSG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/843fd97cf40f15b1d37162740bfea6038f1f1371.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "content": [
+    {
+      "title": "歌手排名",
+      "title_en": "歌手排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "3524849"
+    },
+    {
+      "title": "心引力开场 灾难",
+      "title_en": "心引力开场 灾难",
+      "url": "https://s.weibo.com/weibo?q=%E5%BF%83%E5%BC%95%E5%8A%9B%E5%BC%80%E5%9C%BA%20%E7%81%BE%E9%9A%BE",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1582235"
+    },
+    {
+      "title": "端午假期第一天2.4亿人次跨区域流动",
+      "title_en": "端午假期第一天2.4亿人次跨区域流动",
+      "url": "https://s.weibo.com/weibo?q=%E7%AB%AF%E5%8D%88%E5%81%87%E6%9C%9F%E7%AC%AC%E4%B8%80%E5%A4%A92.4%E4%BA%BF%E4%BA%BA%E6%AC%A1%E8%B7%A8%E5%8C%BA%E5%9F%9F%E6%B5%81%E5%8A%A8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1182852"
+    },
+    {
+      "title": "张远 刘美含",
+      "title_en": "张远 刘美含",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%BF%9C%20%E5%88%98%E7%BE%8E%E5%90%AB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1166457"
+    },
+    {
+      "title": "特朗普和高市早苗因珍珠港发生争吵",
+      "title_en": "特朗普和高市早苗因珍珠港发生争吵",
+      "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%92%8C%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%9B%A0%E7%8F%8D%E7%8F%A0%E6%B8%AF%E5%8F%91%E7%94%9F%E4%BA%89%E5%90%B5",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "666915"
+    },
+    {
+      "title": "日本签证费涨5倍",
+      "title_en": "日本签证费涨5倍",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E7%AD%BE%E8%AF%81%E8%B4%B9%E6%B6%A85%E5%80%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "615241"
+    },
+    {
+      "title": "浪姐排名",
+      "title_en": "浪姐排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%B5%AA%E5%A7%90%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "491083"
+    },
+    {
+      "title": "阿什拉夫因强奸罪受审",
+      "title_en": "阿什拉夫因强奸罪受审",
+      "url": "https://s.weibo.com/weibo?q=%E9%98%BF%E4%BB%80%E6%8B%89%E5%A4%AB%E5%9B%A0%E5%BC%BA%E5%A5%B8%E7%BD%AA%E5%8F%97%E5%AE%A1",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "489932"
+    },
+    {
+      "title": "雷军吃热干面被指模仿黄仁勋",
+      "title_en": "雷军吃热干面被指模仿黄仁勋",
+      "url": "https://s.weibo.com/weibo?q=%E9%9B%B7%E5%86%9B%E5%90%83%E7%83%AD%E5%B9%B2%E9%9D%A2%E8%A2%AB%E6%8C%87%E6%A8%A1%E4%BB%BF%E9%BB%84%E4%BB%81%E5%8B%8B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "485759"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "EDG PRX",
+      "title_en": "EDG PRX",
+      "url": "https://search.bilibili.com/all?keyword=EDG%20PRX",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/bfb488fa524249cf7d07479dae5e3c414fcb9c2a.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "管泽元王楚淇锐评C罗",
+      "title_en": "管泽元王楚淇锐评C罗",
+      "url": "https://search.bilibili.com/all?keyword=%E7%AE%A1%E6%B3%BD%E5%85%83%E7%8E%8B%E6%A5%9A%E6%B7%87%E9%94%90%E8%AF%84C%E7%BD%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1f1a290799a81a7ea65ba5e4ff5235a0ed901a94.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "葡萄牙更衣室要崩",
+      "title_en": "葡萄牙更衣室要崩",
+      "url": "https://search.bilibili.com/all?keyword=%E8%91%A1%E8%90%84%E7%89%99%E6%9B%B4%E8%A1%A3%E5%AE%A4%E8%A6%81%E5%B4%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a751a9432c04e707d0fc6cb4243654fe514862ce.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "LEV VIT",
+      "title_en": "LEV VIT",
+      "url": "https://search.bilibili.com/all?keyword=LEV%20VIT",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/97213f3c16cb0f6ea8de47e8f6a4fb4a3b591960.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "美国和以色列还是盟友吗",
+      "title_en": "美国和以色列还是盟友吗",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E5%92%8C%E4%BB%A5%E8%89%B2%E5%88%97%E8%BF%98%E6%98%AF%E7%9B%9F%E5%8F%8B%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/fb7567ba185c227bcb803c18ebc4671d61dc8a79.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "长腿金发哈兰德",
+      "title_en": "长腿金发哈兰德",
+      "url": "https://search.bilibili.com/all?keyword=%E9%95%BF%E8%85%BF%E9%87%91%E5%8F%91%E5%93%88%E5%85%B0%E5%BE%B7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/0addda06e13618a0f961d27c66b1662811bc1b38.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "PRX 2-1 EDG数据雷达图",
+      "title_en": "PRX 2-1 EDG数据雷达图",
+      "url": "https://search.bilibili.com/all?keyword=PRX%202-1%20EDG%E6%95%B0%E6%8D%AE%E9%9B%B7%E8%BE%BE%E5%9B%BE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f7b943a952aa9d55850e1a03ec55a34057f052c4.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "范玮琪徐洁儿心之火太绝了",
+      "title_en": "范玮琪徐洁儿心之火太绝了",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8C%83%E7%8E%AE%E7%90%AA%E5%BE%90%E6%B4%81%E5%84%BF%E5%BF%83%E4%B9%8B%E7%81%AB%E5%A4%AA%E7%BB%9D%E4%BA%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/a049eb58bd9e439c1d18abf6de8214fa12c57502.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "美伊备忘录有哪些陷阱",
+      "title_en": "美伊备忘录有哪些陷阱",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E4%BC%8A%E5%A4%87%E5%BF%98%E5%BD%95%E6%9C%89%E5%93%AA%E4%BA%9B%E9%99%B7%E9%98%B1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/46ba866eb2cd96a8580f78c63e14179246a37640.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "成都AG超玩会 KSG",
+      "title_en": "成都AG超玩会 KSG",
+      "url": "https://search.bilibili.com/all?keyword=%E6%88%90%E9%83%BDAG%E8%B6%85%E7%8E%A9%E4%BC%9A%20KSG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/843fd97cf40f15b1d37162740bfea6038f1f1371.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "title": "2026-06-20 热点新闻汇总",
+  "update_time": "2026-06-20 00:33:12"
+}
