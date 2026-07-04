@@ -1,0 +1,367 @@
+{
+  "date": "2026-07-04",
+  "news": [
+    {
+      "title": "央视曝次抛衣健康风险",
+      "title_en": "央视曝次抛衣健康风险",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E6%9B%9D%E6%AC%A1%E6%8A%9B%E8%A1%A3%E5%81%A5%E5%BA%B7%E9%A3%8E%E9%99%A9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1122007"
+    },
+    {
+      "title": "佛得角再次感谢中国",
+      "title_en": "佛得角再次感谢中国",
+      "url": "https://s.weibo.com/weibo?q=%E4%BD%9B%E5%BE%97%E8%A7%92%E5%86%8D%E6%AC%A1%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "823142"
+    },
+    {
+      "title": "十五五期间美丽中国建设规划亮点",
+      "title_en": "十五五期间美丽中国建设规划亮点",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%81%E4%BA%94%E4%BA%94%E6%9C%9F%E9%97%B4%E7%BE%8E%E4%B8%BD%E4%B8%AD%E5%9B%BD%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%E4%BA%AE%E7%82%B9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "821529"
+    },
+    {
+      "title": "王力宏好深的伤口",
+      "title_en": "王力宏好深的伤口",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%8A%9B%E5%AE%8F%E5%A5%BD%E6%B7%B1%E7%9A%84%E4%BC%A4%E5%8F%A3",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "817258"
+    },
+    {
+      "title": "吃桃子也有南北方差异",
+      "title_en": "吃桃子也有南北方差异",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%83%E6%A1%83%E5%AD%90%E4%B9%9F%E6%9C%89%E5%8D%97%E5%8C%97%E6%96%B9%E5%B7%AE%E5%BC%82",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "814499"
+    },
+    {
+      "title": "王俊凯帮丁程鑫做主",
+      "title_en": "王俊凯帮丁程鑫做主",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%B8%AE%E4%B8%81%E7%A8%8B%E9%91%AB%E5%81%9A%E4%B8%BB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "810217"
+    },
+    {
+      "title": "绵阳官方辟谣高考生估分715查分299",
+      "title_en": "绵阳官方辟谣高考生估分715查分299",
+      "url": "https://s.weibo.com/weibo?q=%E7%BB%B5%E9%98%B3%E5%AE%98%E6%96%B9%E8%BE%9F%E8%B0%A3%E9%AB%98%E8%80%83%E7%94%9F%E4%BC%B0%E5%88%86715%E6%9F%A5%E5%88%86299",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "808352"
+    },
+    {
+      "title": "阿根廷佛得角全球观看量最高",
+      "title_en": "阿根廷佛得角全球观看量最高",
+      "url": "https://s.weibo.com/weibo?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BD%9B%E5%BE%97%E8%A7%92%E5%85%A8%E7%90%83%E8%A7%82%E7%9C%8B%E9%87%8F%E6%9C%80%E9%AB%98",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "805309"
+    },
+    {
+      "title": "问心2大结局",
+      "title_en": "问心2大结局",
+      "url": "https://s.weibo.com/weibo?q=%E9%97%AE%E5%BF%832%E5%A4%A7%E7%BB%93%E5%B1%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "800524"
+    },
+    {
+      "title": "成都公安通报公共卫生间偷拍事件",
+      "title_en": "成都公安通报公共卫生间偷拍事件",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%90%E9%83%BD%E5%85%AC%E5%AE%89%E9%80%9A%E6%8A%A5%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E9%97%B4%E5%81%B7%E6%8B%8D%E4%BA%8B%E4%BB%B6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "799677"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "BLG T1",
+      "title_en": "BLG T1",
+      "url": "https://search.bilibili.com/all?keyword=BLG%20T1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/91067322064d268492ea7ac07a831a27becc5fff.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "巨型台风将靠近",
+      "title_en": "巨型台风将靠近",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B7%A8%E5%9E%8B%E5%8F%B0%E9%A3%8E%E5%B0%86%E9%9D%A0%E8%BF%91",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f911254bef413c1eecd10801b7a417382c167aa8.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "佛得角防守体系强在哪",
+      "title_en": "佛得角防守体系强在哪",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BD%9B%E5%BE%97%E8%A7%92%E9%98%B2%E5%AE%88%E4%BD%93%E7%B3%BB%E5%BC%BA%E5%9C%A8%E5%93%AA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/472044e3c1dce79eb8e246a266e05c6226daef7e.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "米勒复盘BLG战胜T1",
+      "title_en": "米勒复盘BLG战胜T1",
+      "url": "https://search.bilibili.com/all?keyword=%E7%B1%B3%E5%8B%92%E5%A4%8D%E7%9B%98BLG%E6%88%98%E8%83%9CT1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/b757013fdc292863d357dd970f28f6ea0d5d2acc.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "凡人元婴大战藏了多少细节",
+      "title_en": "凡人元婴大战藏了多少细节",
+      "url": "https://search.bilibili.com/all?keyword=%E5%87%A1%E4%BA%BA%E5%85%83%E5%A9%B4%E5%A4%A7%E6%88%98%E8%97%8F%E4%BA%86%E5%A4%9A%E5%B0%91%E7%BB%86%E8%8A%82",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3129a43149a624299b937fb8c97a275247212d88.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "内存涨价背后的产能博弈",
+      "title_en": "内存涨价背后的产能博弈",
+      "url": "https://search.bilibili.com/all?keyword=%E5%86%85%E5%AD%98%E6%B6%A8%E4%BB%B7%E8%83%8C%E5%90%8E%E7%9A%84%E4%BA%A7%E8%83%BD%E5%8D%9A%E5%BC%88",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f7f0dc1af4feb461ab648e87d65e63300feb0b67.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "盘点爱演戏的足坛名宿",
+      "title_en": "盘点爱演戏的足坛名宿",
+      "url": "https://search.bilibili.com/all?keyword=%E7%9B%98%E7%82%B9%E7%88%B1%E6%BC%94%E6%88%8F%E7%9A%84%E8%B6%B3%E5%9D%9B%E5%90%8D%E5%AE%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/42ccc9abb1df34117964ca6f137eceb3d62d5920.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "BLG战胜T1赛后复盘",
+      "title_en": "BLG战胜T1赛后复盘",
+      "url": "https://search.bilibili.com/all?keyword=BLG%E6%88%98%E8%83%9CT1%E8%B5%9B%E5%90%8E%E5%A4%8D%E7%9B%98",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/31ad423dae3b9768fd7e188ebc332bbf70de2006.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "锐评互联网热门视频",
+      "title_en": "锐评互联网热门视频",
+      "url": "https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84%E4%BA%92%E8%81%94%E7%BD%91%E7%83%AD%E9%97%A8%E8%A7%86%E9%A2%91",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/710f480776930b2733ad894f875e638f98a1aa3b.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "央视曝次抛衣健康风险",
+      "title_en": "央视曝次抛衣健康风险",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E6%9B%9D%E6%AC%A1%E6%8A%9B%E8%A1%A3%E5%81%A5%E5%BA%B7%E9%A3%8E%E9%99%A9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1122007"
+    },
+    {
+      "title": "佛得角再次感谢中国",
+      "title_en": "佛得角再次感谢中国",
+      "url": "https://s.weibo.com/weibo?q=%E4%BD%9B%E5%BE%97%E8%A7%92%E5%86%8D%E6%AC%A1%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "823142"
+    },
+    {
+      "title": "十五五期间美丽中国建设规划亮点",
+      "title_en": "十五五期间美丽中国建设规划亮点",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%81%E4%BA%94%E4%BA%94%E6%9C%9F%E9%97%B4%E7%BE%8E%E4%B8%BD%E4%B8%AD%E5%9B%BD%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%E4%BA%AE%E7%82%B9",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "821529"
+    },
+    {
+      "title": "王力宏好深的伤口",
+      "title_en": "王力宏好深的伤口",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%8A%9B%E5%AE%8F%E5%A5%BD%E6%B7%B1%E7%9A%84%E4%BC%A4%E5%8F%A3",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "817258"
+    },
+    {
+      "title": "吃桃子也有南北方差异",
+      "title_en": "吃桃子也有南北方差异",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%83%E6%A1%83%E5%AD%90%E4%B9%9F%E6%9C%89%E5%8D%97%E5%8C%97%E6%96%B9%E5%B7%AE%E5%BC%82",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "814499"
+    },
+    {
+      "title": "王俊凯帮丁程鑫做主",
+      "title_en": "王俊凯帮丁程鑫做主",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%B8%AE%E4%B8%81%E7%A8%8B%E9%91%AB%E5%81%9A%E4%B8%BB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "810217"
+    },
+    {
+      "title": "绵阳官方辟谣高考生估分715查分299",
+      "title_en": "绵阳官方辟谣高考生估分715查分299",
+      "url": "https://s.weibo.com/weibo?q=%E7%BB%B5%E9%98%B3%E5%AE%98%E6%96%B9%E8%BE%9F%E8%B0%A3%E9%AB%98%E8%80%83%E7%94%9F%E4%BC%B0%E5%88%86715%E6%9F%A5%E5%88%86299",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "808352"
+    },
+    {
+      "title": "阿根廷佛得角全球观看量最高",
+      "title_en": "阿根廷佛得角全球观看量最高",
+      "url": "https://s.weibo.com/weibo?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BD%9B%E5%BE%97%E8%A7%92%E5%85%A8%E7%90%83%E8%A7%82%E7%9C%8B%E9%87%8F%E6%9C%80%E9%AB%98",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "805309"
+    },
+    {
+      "title": "问心2大结局",
+      "title_en": "问心2大结局",
+      "url": "https://s.weibo.com/weibo?q=%E9%97%AE%E5%BF%832%E5%A4%A7%E7%BB%93%E5%B1%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "800524"
+    },
+    {
+      "title": "成都公安通报公共卫生间偷拍事件",
+      "title_en": "成都公安通报公共卫生间偷拍事件",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%90%E9%83%BD%E5%85%AC%E5%AE%89%E9%80%9A%E6%8A%A5%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E9%97%B4%E5%81%B7%E6%8B%8D%E4%BA%8B%E4%BB%B6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "799677"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "BLG T1",
+      "title_en": "BLG T1",
+      "url": "https://search.bilibili.com/all?keyword=BLG%20T1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/91067322064d268492ea7ac07a831a27becc5fff.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "巨型台风将靠近",
+      "title_en": "巨型台风将靠近",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B7%A8%E5%9E%8B%E5%8F%B0%E9%A3%8E%E5%B0%86%E9%9D%A0%E8%BF%91",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f911254bef413c1eecd10801b7a417382c167aa8.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "佛得角防守体系强在哪",
+      "title_en": "佛得角防守体系强在哪",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BD%9B%E5%BE%97%E8%A7%92%E9%98%B2%E5%AE%88%E4%BD%93%E7%B3%BB%E5%BC%BA%E5%9C%A8%E5%93%AA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/472044e3c1dce79eb8e246a266e05c6226daef7e.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "米勒复盘BLG战胜T1",
+      "title_en": "米勒复盘BLG战胜T1",
+      "url": "https://search.bilibili.com/all?keyword=%E7%B1%B3%E5%8B%92%E5%A4%8D%E7%9B%98BLG%E6%88%98%E8%83%9CT1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/b757013fdc292863d357dd970f28f6ea0d5d2acc.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "凡人元婴大战藏了多少细节",
+      "title_en": "凡人元婴大战藏了多少细节",
+      "url": "https://search.bilibili.com/all?keyword=%E5%87%A1%E4%BA%BA%E5%85%83%E5%A9%B4%E5%A4%A7%E6%88%98%E8%97%8F%E4%BA%86%E5%A4%9A%E5%B0%91%E7%BB%86%E8%8A%82",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3129a43149a624299b937fb8c97a275247212d88.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "内存涨价背后的产能博弈",
+      "title_en": "内存涨价背后的产能博弈",
+      "url": "https://search.bilibili.com/all?keyword=%E5%86%85%E5%AD%98%E6%B6%A8%E4%BB%B7%E8%83%8C%E5%90%8E%E7%9A%84%E4%BA%A7%E8%83%BD%E5%8D%9A%E5%BC%88",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f7f0dc1af4feb461ab648e87d65e63300feb0b67.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "盘点爱演戏的足坛名宿",
+      "title_en": "盘点爱演戏的足坛名宿",
+      "url": "https://search.bilibili.com/all?keyword=%E7%9B%98%E7%82%B9%E7%88%B1%E6%BC%94%E6%88%8F%E7%9A%84%E8%B6%B3%E5%9D%9B%E5%90%8D%E5%AE%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/42ccc9abb1df34117964ca6f137eceb3d62d5920.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "BLG战胜T1赛后复盘",
+      "title_en": "BLG战胜T1赛后复盘",
+      "url": "https://search.bilibili.com/all?keyword=BLG%E6%88%98%E8%83%9CT1%E8%B5%9B%E5%90%8E%E5%A4%8D%E7%9B%98",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/31ad423dae3b9768fd7e188ebc332bbf70de2006.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "锐评互联网热门视频",
+      "title_en": "锐评互联网热门视频",
+      "url": "https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84%E4%BA%92%E8%81%94%E7%BD%91%E7%83%AD%E9%97%A8%E8%A7%86%E9%A2%91",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/710f480776930b2733ad894f875e638f98a1aa3b.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-07-04 热点新闻汇总",
+  "update_time": "2026-07-04 23:08:21"
+}
