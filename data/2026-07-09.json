@@ -1,0 +1,367 @@
+{
+  "date": "2026-07-09",
+  "news": [
+    {
+      "title": "台风",
+      "title_en": "台风",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1711518"
+    },
+    {
+      "title": "埃及教练向阿根廷运动员吐口水",
+      "title_en": "埃及教练向阿根廷运动员吐口水",
+      "url": "https://s.weibo.com/weibo?q=%E5%9F%83%E5%8F%8A%E6%95%99%E7%BB%83%E5%90%91%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%BF%90%E5%8A%A8%E5%91%98%E5%90%90%E5%8F%A3%E6%B0%B4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "908856"
+    },
+    {
+      "title": "当寂静的广西街头响起子弟兵口号",
+      "title_en": "当寂静的广西街头响起子弟兵口号",
+      "url": "https://s.weibo.com/weibo?q=%E5%BD%93%E5%AF%82%E9%9D%99%E7%9A%84%E5%B9%BF%E8%A5%BF%E8%A1%97%E5%A4%B4%E5%93%8D%E8%B5%B7%E5%AD%90%E5%BC%9F%E5%85%B5%E5%8F%A3%E5%8F%B7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "782886"
+    },
+    {
+      "title": "花呗崩了",
+      "title_en": "花呗崩了",
+      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%91%97%E5%B4%A9%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "772045"
+    },
+    {
+      "title": "明显能感受到暑假工上班了",
+      "title_en": "明显能感受到暑假工上班了",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%8E%E6%98%BE%E8%83%BD%E6%84%9F%E5%8F%97%E5%88%B0%E6%9A%91%E5%81%87%E5%B7%A5%E4%B8%8A%E7%8F%AD%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "738378"
+    },
+    {
+      "title": "广西洪水现状",
+      "title_en": "广西洪水现状",
+      "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B0%B4%E7%8E%B0%E7%8A%B6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "548345"
+    },
+    {
+      "title": "奇瑞要开一场科技美学秀",
+      "title_en": "奇瑞要开一场科技美学秀",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%87%E7%91%9E%E8%A6%81%E5%BC%80%E4%B8%80%E5%9C%BA%E7%A7%91%E6%8A%80%E7%BE%8E%E5%AD%A6%E7%A7%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "526602"
+    },
+    {
+      "title": "邓紫棋回应因台风取消演唱会",
+      "title_en": "邓紫棋回应因台风取消演唱会",
+      "url": "https://s.weibo.com/weibo?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E5%9B%9E%E5%BA%94%E5%9B%A0%E5%8F%B0%E9%A3%8E%E5%8F%96%E6%B6%88%E6%BC%94%E5%94%B1%E4%BC%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "508080"
+    },
+    {
+      "title": "C罗乘私人飞机离开",
+      "title_en": "C罗乘私人飞机离开",
+      "url": "https://s.weibo.com/weibo?q=C%E7%BD%97%E4%B9%98%E7%A7%81%E4%BA%BA%E9%A3%9E%E6%9C%BA%E7%A6%BB%E5%BC%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "481884"
+    },
+    {
+      "title": "最新世界杯夺冠概率出炉",
+      "title_en": "最新世界杯夺冠概率出炉",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%80%E6%96%B0%E4%B8%96%E7%95%8C%E6%9D%AF%E5%A4%BA%E5%86%A0%E6%A6%82%E7%8E%87%E5%87%BA%E7%82%89",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "470743"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "超强台风巴威将登陆华东",
+      "title_en": "超强台风巴威将登陆华东",
+      "url": "https://search.bilibili.com/all?keyword=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%B0%86%E7%99%BB%E9%99%86%E5%8D%8E%E4%B8%9C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1de2718a467fd1e1b35019e5b5681e13f1f919cb.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "锐评Doran本届MSI表现",
+      "title_en": "锐评Doran本届MSI表现",
+      "url": "https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84Doran%E6%9C%AC%E5%B1%8AMSI%E8%A1%A8%E7%8E%B0",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/ad7b923fb6e4696fc00ee57e406a76ae3a81abe5.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "小时候爱看的视频Belike",
+      "title_en": "小时候爱看的视频Belike",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B0%8F%E6%97%B6%E5%80%99%E7%88%B1%E7%9C%8B%E7%9A%84%E8%A7%86%E9%A2%91Belike",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/12f94fc223bc7627f297e8c3dc9ba34fbde13911.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "真实锐评G2战胜T1",
+      "title_en": "真实锐评G2战胜T1",
+      "url": "https://search.bilibili.com/all?keyword=%E7%9C%9F%E5%AE%9E%E9%94%90%E8%AF%84G2%E6%88%98%E8%83%9CT1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/d3e82c7cfe70bcfb6c3a5c9625a5ddb98845f099.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "世界足坛格局变了吗",
+      "title_en": "世界足坛格局变了吗",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E8%B6%B3%E5%9D%9B%E6%A0%BC%E5%B1%80%E5%8F%98%E4%BA%86%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/863a662076a9033c4b876f2114eb7b6c5b32f43d.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "新华社谈埃及阿根廷争议判罚",
+      "title_en": "新华社谈埃及阿根廷争议判罚",
+      "url": "https://search.bilibili.com/all?keyword=%E6%96%B0%E5%8D%8E%E7%A4%BE%E8%B0%88%E5%9F%83%E5%8F%8A%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BA%89%E8%AE%AE%E5%88%A4%E7%BD%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1c8f1cad1b6be3d6846ef65576940ed21e83632b.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "世界杯整活冠军是谁",
+      "title_en": "世界杯整活冠军是谁",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E6%9D%AF%E6%95%B4%E6%B4%BB%E5%86%A0%E5%86%9B%E6%98%AF%E8%B0%81",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/c70421fffc7d6e0d28c28f3cad3db970c90f4f0c.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "BW出行天气预报",
+      "title_en": "BW出行天气预报",
+      "url": "https://search.bilibili.com/all?keyword=BW%E5%87%BA%E8%A1%8C%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/b3b0ff57e63d911ca4add5feb04e11b0f75fff00.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "深度复盘G2战胜T1",
+      "title_en": "深度复盘G2战胜T1",
+      "url": "https://search.bilibili.com/all?keyword=%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98G2%E6%88%98%E8%83%9CT1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/832e8f651d9e7c558c6a60b899088480d3035814.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "台风",
+      "title_en": "台风",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1711518"
+    },
+    {
+      "title": "埃及教练向阿根廷运动员吐口水",
+      "title_en": "埃及教练向阿根廷运动员吐口水",
+      "url": "https://s.weibo.com/weibo?q=%E5%9F%83%E5%8F%8A%E6%95%99%E7%BB%83%E5%90%91%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%BF%90%E5%8A%A8%E5%91%98%E5%90%90%E5%8F%A3%E6%B0%B4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "908856"
+    },
+    {
+      "title": "当寂静的广西街头响起子弟兵口号",
+      "title_en": "当寂静的广西街头响起子弟兵口号",
+      "url": "https://s.weibo.com/weibo?q=%E5%BD%93%E5%AF%82%E9%9D%99%E7%9A%84%E5%B9%BF%E8%A5%BF%E8%A1%97%E5%A4%B4%E5%93%8D%E8%B5%B7%E5%AD%90%E5%BC%9F%E5%85%B5%E5%8F%A3%E5%8F%B7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "782886"
+    },
+    {
+      "title": "花呗崩了",
+      "title_en": "花呗崩了",
+      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%91%97%E5%B4%A9%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "772045"
+    },
+    {
+      "title": "明显能感受到暑假工上班了",
+      "title_en": "明显能感受到暑假工上班了",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%8E%E6%98%BE%E8%83%BD%E6%84%9F%E5%8F%97%E5%88%B0%E6%9A%91%E5%81%87%E5%B7%A5%E4%B8%8A%E7%8F%AD%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "738378"
+    },
+    {
+      "title": "广西洪水现状",
+      "title_en": "广西洪水现状",
+      "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B0%B4%E7%8E%B0%E7%8A%B6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "548345"
+    },
+    {
+      "title": "奇瑞要开一场科技美学秀",
+      "title_en": "奇瑞要开一场科技美学秀",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%87%E7%91%9E%E8%A6%81%E5%BC%80%E4%B8%80%E5%9C%BA%E7%A7%91%E6%8A%80%E7%BE%8E%E5%AD%A6%E7%A7%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "526602"
+    },
+    {
+      "title": "邓紫棋回应因台风取消演唱会",
+      "title_en": "邓紫棋回应因台风取消演唱会",
+      "url": "https://s.weibo.com/weibo?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E5%9B%9E%E5%BA%94%E5%9B%A0%E5%8F%B0%E9%A3%8E%E5%8F%96%E6%B6%88%E6%BC%94%E5%94%B1%E4%BC%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "508080"
+    },
+    {
+      "title": "C罗乘私人飞机离开",
+      "title_en": "C罗乘私人飞机离开",
+      "url": "https://s.weibo.com/weibo?q=C%E7%BD%97%E4%B9%98%E7%A7%81%E4%BA%BA%E9%A3%9E%E6%9C%BA%E7%A6%BB%E5%BC%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "481884"
+    },
+    {
+      "title": "最新世界杯夺冠概率出炉",
+      "title_en": "最新世界杯夺冠概率出炉",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%80%E6%96%B0%E4%B8%96%E7%95%8C%E6%9D%AF%E5%A4%BA%E5%86%A0%E6%A6%82%E7%8E%87%E5%87%BA%E7%82%89",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "470743"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "超强台风巴威将登陆华东",
+      "title_en": "超强台风巴威将登陆华东",
+      "url": "https://search.bilibili.com/all?keyword=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%B0%86%E7%99%BB%E9%99%86%E5%8D%8E%E4%B8%9C",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1de2718a467fd1e1b35019e5b5681e13f1f919cb.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "锐评Doran本届MSI表现",
+      "title_en": "锐评Doran本届MSI表现",
+      "url": "https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84Doran%E6%9C%AC%E5%B1%8AMSI%E8%A1%A8%E7%8E%B0",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/ad7b923fb6e4696fc00ee57e406a76ae3a81abe5.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "小时候爱看的视频Belike",
+      "title_en": "小时候爱看的视频Belike",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B0%8F%E6%97%B6%E5%80%99%E7%88%B1%E7%9C%8B%E7%9A%84%E8%A7%86%E9%A2%91Belike",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/12f94fc223bc7627f297e8c3dc9ba34fbde13911.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "真实锐评G2战胜T1",
+      "title_en": "真实锐评G2战胜T1",
+      "url": "https://search.bilibili.com/all?keyword=%E7%9C%9F%E5%AE%9E%E9%94%90%E8%AF%84G2%E6%88%98%E8%83%9CT1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/d3e82c7cfe70bcfb6c3a5c9625a5ddb98845f099.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "世界足坛格局变了吗",
+      "title_en": "世界足坛格局变了吗",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E8%B6%B3%E5%9D%9B%E6%A0%BC%E5%B1%80%E5%8F%98%E4%BA%86%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/863a662076a9033c4b876f2114eb7b6c5b32f43d.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "新华社谈埃及阿根廷争议判罚",
+      "title_en": "新华社谈埃及阿根廷争议判罚",
+      "url": "https://search.bilibili.com/all?keyword=%E6%96%B0%E5%8D%8E%E7%A4%BE%E8%B0%88%E5%9F%83%E5%8F%8A%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BA%89%E8%AE%AE%E5%88%A4%E7%BD%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1c8f1cad1b6be3d6846ef65576940ed21e83632b.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "世界杯整活冠军是谁",
+      "title_en": "世界杯整活冠军是谁",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E6%9D%AF%E6%95%B4%E6%B4%BB%E5%86%A0%E5%86%9B%E6%98%AF%E8%B0%81",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/c70421fffc7d6e0d28c28f3cad3db970c90f4f0c.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "BW出行天气预报",
+      "title_en": "BW出行天气预报",
+      "url": "https://search.bilibili.com/all?keyword=BW%E5%87%BA%E8%A1%8C%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/b3b0ff57e63d911ca4add5feb04e11b0f75fff00.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "深度复盘G2战胜T1",
+      "title_en": "深度复盘G2战胜T1",
+      "url": "https://search.bilibili.com/all?keyword=%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98G2%E6%88%98%E8%83%9CT1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/832e8f651d9e7c558c6a60b899088480d3035814.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-07-09 热点新闻汇总",
+  "update_time": "2026-07-09 00:03:40"
+}
