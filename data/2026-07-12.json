@@ -1,0 +1,367 @@
+{
+  "date": "2026-07-12",
+  "news": [
+    {
+      "title": "樊振东将解说世界杯决赛",
+      "title_en": "樊振东将解说世界杯决赛",
+      "url": "https://s.weibo.com/weibo?q=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%B0%86%E8%A7%A3%E8%AF%B4%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1822614"
+    },
+    {
+      "title": "功夫女足 浙江票仓",
+      "title_en": "功夫女足 浙江票仓",
+      "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%20%E6%B5%99%E6%B1%9F%E7%A5%A8%E4%BB%93",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1041412"
+    },
+    {
+      "title": "国产动力舟桥抗洪有多硬核",
+      "title_en": "国产动力舟桥抗洪有多硬核",
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E4%BA%A7%E5%8A%A8%E5%8A%9B%E8%88%9F%E6%A1%A5%E6%8A%97%E6%B4%AA%E6%9C%89%E5%A4%9A%E7%A1%AC%E6%A0%B8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "773317"
+    },
+    {
+      "title": "火鸡面被台风孤立了",
+      "title_en": "火鸡面被台风孤立了",
+      "url": "https://s.weibo.com/weibo?q=%E7%81%AB%E9%B8%A1%E9%9D%A2%E8%A2%AB%E5%8F%B0%E9%A3%8E%E5%AD%A4%E7%AB%8B%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "772037"
+    },
+    {
+      "title": "中华人民共和国外交部郑重声明",
+      "title_en": "中华人民共和国外交部郑重声明",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%83%A8%E9%83%91%E9%87%8D%E5%A3%B0%E6%98%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "762754"
+    },
+    {
+      "title": "中国女排2比3意大利女排",
+      "title_en": "中国女排2比3意大利女排",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%922%E6%AF%943%E6%84%8F%E5%A4%A7%E5%88%A9%E5%A5%B3%E6%8E%92",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "493376"
+    },
+    {
+      "title": "百花杀暑期档黑马",
+      "title_en": "百花杀暑期档黑马",
+      "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E6%9D%80%E6%9A%91%E6%9C%9F%E6%A1%A3%E9%BB%91%E9%A9%AC",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "474618"
+    },
+    {
+      "title": "功夫女足豆瓣6.6票房却杀疯了",
+      "title_en": "功夫女足豆瓣6.6票房却杀疯了",
+      "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%B1%86%E7%93%A36.6%E7%A5%A8%E6%88%BF%E5%8D%B4%E6%9D%80%E7%96%AF%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "425533"
+    },
+    {
+      "title": "泰州地震",
+      "title_en": "泰州地震",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%B7%9E%E5%9C%B0%E9%9C%87",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "424929"
+    },
+    {
+      "title": "外交部就日方恶劣言行提出严正交涉",
+      "title_en": "外交部就日方恶劣言行提出严正交涉",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%B0%B1%E6%97%A5%E6%96%B9%E6%81%B6%E5%8A%A3%E8%A8%80%E8%A1%8C%E6%8F%90%E5%87%BA%E4%B8%A5%E6%AD%A3%E4%BA%A4%E6%B6%89",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "422741"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "HLE战胜BLG赛后数据",
+      "title_en": "HLE战胜BLG赛后数据",
+      "url": "https://search.bilibili.com/all?keyword=HLE%E6%88%98%E8%83%9CBLG%E8%B5%9B%E5%90%8E%E6%95%B0%E6%8D%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/6d3374a89fc1a35b91fc56e833bad4ecf08d9255.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "台风巴威北上",
+      "title_en": "台风巴威北上",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%8C%97%E4%B8%8A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/acda83a0858dd811f8f659798e5d4506ef27df07.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "王冰冰小布聊世界杯争议名场面",
+      "title_en": "王冰冰小布聊世界杯争议名场面",
+      "url": "https://search.bilibili.com/all?keyword=%E7%8E%8B%E5%86%B0%E5%86%B0%E5%B0%8F%E5%B8%83%E8%81%8A%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BA%89%E8%AE%AE%E5%90%8D%E5%9C%BA%E9%9D%A2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/cc9bce0111a8c11ea236c4fb176eb1e9790fd64a.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "come alive激燃BML现场",
+      "title_en": "come alive激燃BML现场",
+      "url": "https://search.bilibili.com/all?keyword=come%20alive%E6%BF%80%E7%87%83BML%E7%8E%B0%E5%9C%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/765d98a7cb2679a819b69050677cbb995081bc64.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "北京WB 成都AG超玩会",
+      "title_en": "北京WB 成都AG超玩会",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E4%BA%ACWB%20%E6%88%90%E9%83%BDAG%E8%B6%85%E7%8E%A9%E4%BC%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f38435bbfd6b9d5072a4e85b9e5a3e68ad23d07b.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "北约3.0来了吗",
+      "title_en": "北约3.0来了吗",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E7%BA%A63.0%E6%9D%A5%E4%BA%86%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/87a2a6fab5cf4315b16dbce671ca4993498ec549.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "HLE",
+      "title_en": "HLE",
+      "url": "https://search.bilibili.com/all?keyword=HLE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/adbdbfe41f2cd8e7a142b9fc303ecbfaf1e48da0.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "英格兰阿根廷会师半决赛",
+      "title_en": "英格兰阿根廷会师半决赛",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E6%A0%BC%E5%85%B0%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BC%9A%E5%B8%88%E5%8D%8A%E5%86%B3%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/716b4c16e35250a0208b0ad034b0c4957b2c6296.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "Zeus获FMVP",
+      "title_en": "Zeus获FMVP",
+      "url": "https://search.bilibili.com/all?keyword=Zeus%E8%8E%B7FMVP",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1133e353f10faef4257dcbfc25f9bf5210eb23cc.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "content": [
+    {
+      "title": "樊振东将解说世界杯决赛",
+      "title_en": "樊振东将解说世界杯决赛",
+      "url": "https://s.weibo.com/weibo?q=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%B0%86%E8%A7%A3%E8%AF%B4%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1822614"
+    },
+    {
+      "title": "功夫女足 浙江票仓",
+      "title_en": "功夫女足 浙江票仓",
+      "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%20%E6%B5%99%E6%B1%9F%E7%A5%A8%E4%BB%93",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1041412"
+    },
+    {
+      "title": "国产动力舟桥抗洪有多硬核",
+      "title_en": "国产动力舟桥抗洪有多硬核",
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E4%BA%A7%E5%8A%A8%E5%8A%9B%E8%88%9F%E6%A1%A5%E6%8A%97%E6%B4%AA%E6%9C%89%E5%A4%9A%E7%A1%AC%E6%A0%B8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "773317"
+    },
+    {
+      "title": "火鸡面被台风孤立了",
+      "title_en": "火鸡面被台风孤立了",
+      "url": "https://s.weibo.com/weibo?q=%E7%81%AB%E9%B8%A1%E9%9D%A2%E8%A2%AB%E5%8F%B0%E9%A3%8E%E5%AD%A4%E7%AB%8B%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "772037"
+    },
+    {
+      "title": "中华人民共和国外交部郑重声明",
+      "title_en": "中华人民共和国外交部郑重声明",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%83%A8%E9%83%91%E9%87%8D%E5%A3%B0%E6%98%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "762754"
+    },
+    {
+      "title": "中国女排2比3意大利女排",
+      "title_en": "中国女排2比3意大利女排",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%922%E6%AF%943%E6%84%8F%E5%A4%A7%E5%88%A9%E5%A5%B3%E6%8E%92",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "493376"
+    },
+    {
+      "title": "百花杀暑期档黑马",
+      "title_en": "百花杀暑期档黑马",
+      "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E6%9D%80%E6%9A%91%E6%9C%9F%E6%A1%A3%E9%BB%91%E9%A9%AC",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "474618"
+    },
+    {
+      "title": "功夫女足豆瓣6.6票房却杀疯了",
+      "title_en": "功夫女足豆瓣6.6票房却杀疯了",
+      "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%B1%86%E7%93%A36.6%E7%A5%A8%E6%88%BF%E5%8D%B4%E6%9D%80%E7%96%AF%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "425533"
+    },
+    {
+      "title": "泰州地震",
+      "title_en": "泰州地震",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%B7%9E%E5%9C%B0%E9%9C%87",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "424929"
+    },
+    {
+      "title": "外交部就日方恶劣言行提出严正交涉",
+      "title_en": "外交部就日方恶劣言行提出严正交涉",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%B0%B1%E6%97%A5%E6%96%B9%E6%81%B6%E5%8A%A3%E8%A8%80%E8%A1%8C%E6%8F%90%E5%87%BA%E4%B8%A5%E6%AD%A3%E4%BA%A4%E6%B6%89",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "422741"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "HLE战胜BLG赛后数据",
+      "title_en": "HLE战胜BLG赛后数据",
+      "url": "https://search.bilibili.com/all?keyword=HLE%E6%88%98%E8%83%9CBLG%E8%B5%9B%E5%90%8E%E6%95%B0%E6%8D%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/6d3374a89fc1a35b91fc56e833bad4ecf08d9255.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "台风巴威北上",
+      "title_en": "台风巴威北上",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%8C%97%E4%B8%8A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/acda83a0858dd811f8f659798e5d4506ef27df07.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "王冰冰小布聊世界杯争议名场面",
+      "title_en": "王冰冰小布聊世界杯争议名场面",
+      "url": "https://search.bilibili.com/all?keyword=%E7%8E%8B%E5%86%B0%E5%86%B0%E5%B0%8F%E5%B8%83%E8%81%8A%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BA%89%E8%AE%AE%E5%90%8D%E5%9C%BA%E9%9D%A2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/cc9bce0111a8c11ea236c4fb176eb1e9790fd64a.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "come alive激燃BML现场",
+      "title_en": "come alive激燃BML现场",
+      "url": "https://search.bilibili.com/all?keyword=come%20alive%E6%BF%80%E7%87%83BML%E7%8E%B0%E5%9C%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/765d98a7cb2679a819b69050677cbb995081bc64.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "北京WB 成都AG超玩会",
+      "title_en": "北京WB 成都AG超玩会",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E4%BA%ACWB%20%E6%88%90%E9%83%BDAG%E8%B6%85%E7%8E%A9%E4%BC%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f38435bbfd6b9d5072a4e85b9e5a3e68ad23d07b.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "北约3.0来了吗",
+      "title_en": "北约3.0来了吗",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E7%BA%A63.0%E6%9D%A5%E4%BA%86%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/87a2a6fab5cf4315b16dbce671ca4993498ec549.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "HLE",
+      "title_en": "HLE",
+      "url": "https://search.bilibili.com/all?keyword=HLE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/adbdbfe41f2cd8e7a142b9fc303ecbfaf1e48da0.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "英格兰阿根廷会师半决赛",
+      "title_en": "英格兰阿根廷会师半决赛",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E6%A0%BC%E5%85%B0%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BC%9A%E5%B8%88%E5%8D%8A%E5%86%B3%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/716b4c16e35250a0208b0ad034b0c4957b2c6296.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "Zeus获FMVP",
+      "title_en": "Zeus获FMVP",
+      "url": "https://search.bilibili.com/all?keyword=Zeus%E8%8E%B7FMVP",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1133e353f10faef4257dcbfc25f9bf5210eb23cc.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "title": "2026-07-12 热点新闻汇总",
+  "update_time": "2026-07-12 23:00:08"
+}
