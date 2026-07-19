@@ -1,0 +1,367 @@
+{
+  "date": "2026-07-19",
+  "news": [
+    {
+      "title": "马龙许昕男双冠军",
+      "title_en": "马龙许昕男双冠军",
+      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E9%BE%99%E8%AE%B8%E6%98%95%E7%94%B7%E5%8F%8C%E5%86%A0%E5%86%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1463446"
+    },
+    {
+      "title": "来不及说我爱你",
+      "title_en": "来不及说我爱你",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A5%E4%B8%8D%E5%8F%8A%E8%AF%B4%E6%88%91%E7%88%B1%E4%BD%A0",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1371472"
+    },
+    {
+      "title": "青春启程踏歌行",
+      "title_en": "青春启程踏歌行",
+      "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E6%98%A5%E5%90%AF%E7%A8%8B%E8%B8%8F%E6%AD%8C%E8%A1%8C",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1053750"
+    },
+    {
+      "title": "西班牙阿根廷争终极王座",
+      "title_en": "西班牙阿根廷争终极王座",
+      "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BA%89%E7%BB%88%E6%9E%81%E7%8E%8B%E5%BA%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1052829"
+    },
+    {
+      "title": "王俊凯我该哭一下应景吗",
+      "title_en": "王俊凯我该哭一下应景吗",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%88%91%E8%AF%A5%E5%93%AD%E4%B8%80%E4%B8%8B%E5%BA%94%E6%99%AF%E5%90%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1038386"
+    },
+    {
+      "title": "AG对战TTG",
+      "title_en": "AG对战TTG",
+      "url": "https://s.weibo.com/weibo?q=AG%E5%AF%B9%E6%88%98TTG",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1003445"
+    },
+    {
+      "title": "澎湖海战 撤档",
+      "title_en": "澎湖海战 撤档",
+      "url": "https://s.weibo.com/weibo?q=%E6%BE%8E%E6%B9%96%E6%B5%B7%E6%88%98%20%E6%92%A4%E6%A1%A3",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "958960"
+    },
+    {
+      "title": "九尾 无畏",
+      "title_en": "九尾 无畏",
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%B0%BE%20%E6%97%A0%E7%95%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "913215"
+    },
+    {
+      "title": "存钱过万一定要办理纸质存单",
+      "title_en": "存钱过万一定要办理纸质存单",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%98%E9%92%B1%E8%BF%87%E4%B8%87%E4%B8%80%E5%AE%9A%E8%A6%81%E5%8A%9E%E7%90%86%E7%BA%B8%E8%B4%A8%E5%AD%98%E5%8D%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "678782"
+    },
+    {
+      "title": "没想到王俊凯的工作留痕在这用上了",
+      "title_en": "没想到王俊凯的工作留痕在这用上了",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%A1%E6%83%B3%E5%88%B0%E7%8E%8B%E4%BF%8A%E5%87%AF%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%95%99%E7%97%95%E5%9C%A8%E8%BF%99%E7%94%A8%E4%B8%8A%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "676587"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "成都AG超玩会 广州TTG",
+      "title_en": "成都AG超玩会 广州TTG",
+      "url": "https://search.bilibili.com/all?keyword=%E6%88%90%E9%83%BDAG%E8%B6%85%E7%8E%A9%E4%BC%9A%20%E5%B9%BF%E5%B7%9ETTG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/818ea30e7335ece1fd723b9f1e7bf9bb7bd8f961.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "UP主拍到了最真实的佛得角",
+      "title_en": "UP主拍到了最真实的佛得角",
+      "url": "https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E6%8B%8D%E5%88%B0%E4%BA%86%E6%9C%80%E7%9C%9F%E5%AE%9E%E7%9A%84%E4%BD%9B%E5%BE%97%E8%A7%92",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1605bc7efe74d835ba3253bfd47afa1b7c9c74fc.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "王冰冰带你回顾本届世界杯",
+      "title_en": "王冰冰带你回顾本届世界杯",
+      "url": "https://search.bilibili.com/all?keyword=%E7%8E%8B%E5%86%B0%E5%86%B0%E5%B8%A6%E4%BD%A0%E5%9B%9E%E9%A1%BE%E6%9C%AC%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/ef807a971836a856aaadf5ad38531962090b986a.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "KC DK",
+      "title_en": "KC DK",
+      "url": "https://search.bilibili.com/all?keyword=KC%20DK",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/d643632147774940734740c46faea80c3361e989.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "解读安理会讨论红海局势",
+      "title_en": "解读安理会讨论红海局势",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%BB%E5%AE%89%E7%90%86%E4%BC%9A%E8%AE%A8%E8%AE%BA%E7%BA%A2%E6%B5%B7%E5%B1%80%E5%8A%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/335f684071d1e6bd606d4ac450744f540672d5e3.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "阿根廷队赛前短片",
+      "title_en": "阿根廷队赛前短片",
+      "url": "https://search.bilibili.com/all?keyword=%E9%98%BF%E6%A0%B9%E5%BB%B7%E9%98%9F%E8%B5%9B%E5%89%8D%E7%9F%AD%E7%89%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/6bc95d9b3600b300eba719543f22c5526000d258.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "EDG JDG",
+      "title_en": "EDG JDG",
+      "url": "https://search.bilibili.com/all?keyword=EDG%20JDG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/9e5a2f9fedd039ac94875134d435bc748bcf7325.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "用AI预测西班牙vs阿根廷",
+      "title_en": "用AI预测西班牙vs阿根廷",
+      "url": "https://search.bilibili.com/all?keyword=%E7%94%A8AI%E9%A2%84%E6%B5%8B%E8%A5%BF%E7%8F%AD%E7%89%99vs%E9%98%BF%E6%A0%B9%E5%BB%B7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/3148c8cc0c9dc76c82b4710c9d897c05c7c80ebb.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "上海为何突降特大暴雨",
+      "title_en": "上海为何突降特大暴雨",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%8A%E6%B5%B7%E4%B8%BA%E4%BD%95%E7%AA%81%E9%99%8D%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/7fa4d954c26852a562d5f8d89488b9e76b6a2316.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "马龙许昕男双冠军",
+      "title_en": "马龙许昕男双冠军",
+      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E9%BE%99%E8%AE%B8%E6%98%95%E7%94%B7%E5%8F%8C%E5%86%A0%E5%86%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1463446"
+    },
+    {
+      "title": "来不及说我爱你",
+      "title_en": "来不及说我爱你",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A5%E4%B8%8D%E5%8F%8A%E8%AF%B4%E6%88%91%E7%88%B1%E4%BD%A0",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1371472"
+    },
+    {
+      "title": "青春启程踏歌行",
+      "title_en": "青春启程踏歌行",
+      "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E6%98%A5%E5%90%AF%E7%A8%8B%E8%B8%8F%E6%AD%8C%E8%A1%8C",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1053750"
+    },
+    {
+      "title": "西班牙阿根廷争终极王座",
+      "title_en": "西班牙阿根廷争终极王座",
+      "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BA%89%E7%BB%88%E6%9E%81%E7%8E%8B%E5%BA%A7",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1052829"
+    },
+    {
+      "title": "王俊凯我该哭一下应景吗",
+      "title_en": "王俊凯我该哭一下应景吗",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%88%91%E8%AF%A5%E5%93%AD%E4%B8%80%E4%B8%8B%E5%BA%94%E6%99%AF%E5%90%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1038386"
+    },
+    {
+      "title": "AG对战TTG",
+      "title_en": "AG对战TTG",
+      "url": "https://s.weibo.com/weibo?q=AG%E5%AF%B9%E6%88%98TTG",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1003445"
+    },
+    {
+      "title": "澎湖海战 撤档",
+      "title_en": "澎湖海战 撤档",
+      "url": "https://s.weibo.com/weibo?q=%E6%BE%8E%E6%B9%96%E6%B5%B7%E6%88%98%20%E6%92%A4%E6%A1%A3",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "958960"
+    },
+    {
+      "title": "九尾 无畏",
+      "title_en": "九尾 无畏",
+      "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%B0%BE%20%E6%97%A0%E7%95%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "913215"
+    },
+    {
+      "title": "存钱过万一定要办理纸质存单",
+      "title_en": "存钱过万一定要办理纸质存单",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%98%E9%92%B1%E8%BF%87%E4%B8%87%E4%B8%80%E5%AE%9A%E8%A6%81%E5%8A%9E%E7%90%86%E7%BA%B8%E8%B4%A8%E5%AD%98%E5%8D%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "678782"
+    },
+    {
+      "title": "没想到王俊凯的工作留痕在这用上了",
+      "title_en": "没想到王俊凯的工作留痕在这用上了",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%A1%E6%83%B3%E5%88%B0%E7%8E%8B%E4%BF%8A%E5%87%AF%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%95%99%E7%97%95%E5%9C%A8%E8%BF%99%E7%94%A8%E4%B8%8A%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "676587"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "成都AG超玩会 广州TTG",
+      "title_en": "成都AG超玩会 广州TTG",
+      "url": "https://search.bilibili.com/all?keyword=%E6%88%90%E9%83%BDAG%E8%B6%85%E7%8E%A9%E4%BC%9A%20%E5%B9%BF%E5%B7%9ETTG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/818ea30e7335ece1fd723b9f1e7bf9bb7bd8f961.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "UP主拍到了最真实的佛得角",
+      "title_en": "UP主拍到了最真实的佛得角",
+      "url": "https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E6%8B%8D%E5%88%B0%E4%BA%86%E6%9C%80%E7%9C%9F%E5%AE%9E%E7%9A%84%E4%BD%9B%E5%BE%97%E8%A7%92",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/1605bc7efe74d835ba3253bfd47afa1b7c9c74fc.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "王冰冰带你回顾本届世界杯",
+      "title_en": "王冰冰带你回顾本届世界杯",
+      "url": "https://search.bilibili.com/all?keyword=%E7%8E%8B%E5%86%B0%E5%86%B0%E5%B8%A6%E4%BD%A0%E5%9B%9E%E9%A1%BE%E6%9C%AC%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/ef807a971836a856aaadf5ad38531962090b986a.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "KC DK",
+      "title_en": "KC DK",
+      "url": "https://search.bilibili.com/all?keyword=KC%20DK",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/d643632147774940734740c46faea80c3361e989.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "解读安理会讨论红海局势",
+      "title_en": "解读安理会讨论红海局势",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%BB%E5%AE%89%E7%90%86%E4%BC%9A%E8%AE%A8%E8%AE%BA%E7%BA%A2%E6%B5%B7%E5%B1%80%E5%8A%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/335f684071d1e6bd606d4ac450744f540672d5e3.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "阿根廷队赛前短片",
+      "title_en": "阿根廷队赛前短片",
+      "url": "https://search.bilibili.com/all?keyword=%E9%98%BF%E6%A0%B9%E5%BB%B7%E9%98%9F%E8%B5%9B%E5%89%8D%E7%9F%AD%E7%89%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/6bc95d9b3600b300eba719543f22c5526000d258.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "EDG JDG",
+      "title_en": "EDG JDG",
+      "url": "https://search.bilibili.com/all?keyword=EDG%20JDG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/9e5a2f9fedd039ac94875134d435bc748bcf7325.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "用AI预测西班牙vs阿根廷",
+      "title_en": "用AI预测西班牙vs阿根廷",
+      "url": "https://search.bilibili.com/all?keyword=%E7%94%A8AI%E9%A2%84%E6%B5%8B%E8%A5%BF%E7%8F%AD%E7%89%99vs%E9%98%BF%E6%A0%B9%E5%BB%B7",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/3148c8cc0c9dc76c82b4710c9d897c05c7c80ebb.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "上海为何突降特大暴雨",
+      "title_en": "上海为何突降特大暴雨",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%8A%E6%B5%B7%E4%B8%BA%E4%BD%95%E7%AA%81%E9%99%8D%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/7fa4d954c26852a562d5f8d89488b9e76b6a2316.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-07-19 热点新闻汇总",
+  "update_time": "2026-07-19 22:59:26"
+}
