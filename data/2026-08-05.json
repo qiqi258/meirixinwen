@@ -1,0 +1,367 @@
+{
+  "date": "2026-08-05",
+  "news": [
+    {
+      "title": "泰航拒绝20多名中国乘客登机",
+      "title_en": "泰航拒绝20多名中国乘客登机",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E8%88%AA%E6%8B%92%E7%BB%9D20%E5%A4%9A%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%B9%98%E5%AE%A2%E7%99%BB%E6%9C%BA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1543350"
+    },
+    {
+      "title": "鸿蒙智行回应竹知了事件",
+      "title_en": "鸿蒙智行回应竹知了事件",
+      "url": "https://s.weibo.com/weibo?q=%E9%B8%BF%E8%92%99%E6%99%BA%E8%A1%8C%E5%9B%9E%E5%BA%94%E7%AB%B9%E7%9F%A5%E4%BA%86%E4%BA%8B%E4%BB%B6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1056425"
+    },
+    {
+      "title": "谁是联合利刃未来战场主角",
+      "title_en": "谁是联合利刃未来战场主角",
+      "url": "https://s.weibo.com/weibo?q=%E8%B0%81%E6%98%AF%E8%81%94%E5%90%88%E5%88%A9%E5%88%83%E6%9C%AA%E6%9D%A5%E6%88%98%E5%9C%BA%E4%B8%BB%E8%A7%92",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "660098"
+    },
+    {
+      "title": "女孩8岁独居床头放菜刀现考上一本",
+      "title_en": "女孩8岁独居床头放菜刀现考上一本",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%A98%E5%B2%81%E7%8B%AC%E5%B1%85%E5%BA%8A%E5%A4%B4%E6%94%BE%E8%8F%9C%E5%88%80%E7%8E%B0%E8%80%83%E4%B8%8A%E4%B8%80%E6%9C%AC",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "565608"
+    },
+    {
+      "title": "美拟禁新型光模块草案",
+      "title_en": "美拟禁新型光模块草案",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E6%8B%9F%E7%A6%81%E6%96%B0%E5%9E%8B%E5%85%89%E6%A8%A1%E5%9D%97%E8%8D%89%E6%A1%88",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "485226"
+    },
+    {
+      "title": "天才女友语文成绩148",
+      "title_en": "天才女友语文成绩148",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A9%E6%89%8D%E5%A5%B3%E5%8F%8B%E8%AF%AD%E6%96%87%E6%88%90%E7%BB%A9148",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "384099"
+    },
+    {
+      "title": "建议大家买行李箱不要太大众",
+      "title_en": "建议大家买行李箱不要太大众",
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E5%A4%A7%E5%AE%B6%E4%B9%B0%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%8D%E8%A6%81%E5%A4%AA%E5%A4%A7%E4%BC%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "371998"
+    },
+    {
+      "title": "内娱新四大名著",
+      "title_en": "内娱新四大名著",
+      "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E6%96%B0%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "337425"
+    },
+    {
+      "title": "我们的少年时代2",
+      "title_en": "我们的少年时代2",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E4%BB%AC%E7%9A%84%E5%B0%91%E5%B9%B4%E6%97%B6%E4%BB%A32",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "320774"
+    },
+    {
+      "title": "人不在工位一定要把豆包关了",
+      "title_en": "人不在工位一定要把豆包关了",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%BA%E4%B8%8D%E5%9C%A8%E5%B7%A5%E4%BD%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E6%8A%8A%E8%B1%86%E5%8C%85%E5%85%B3%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "311137"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "台风白海豚加强并西调",
+      "title_en": "台风白海豚加强并西调",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%8A%A0%E5%BC%BA%E5%B9%B6%E8%A5%BF%E8%B0%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/c5c7a507bf1f78cd2689858e3d448ec55113f8df.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "长鑫总产能有望继续翻倍",
+      "title_en": "长鑫总产能有望继续翻倍",
+      "url": "https://search.bilibili.com/all?keyword=%E9%95%BF%E9%91%AB%E6%80%BB%E4%BA%A7%E8%83%BD%E6%9C%89%E6%9C%9B%E7%BB%A7%E7%BB%AD%E7%BF%BB%E5%80%8D",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/a3e3f74fbc5207ba1ea77dd5bad6e6c8d88323a5.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "卫星互联网低轨23组卫星发射成功",
+      "title_en": "卫星互联网低轨23组卫星发射成功",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8D%AB%E6%98%9F%E4%BA%92%E8%81%94%E7%BD%91%E4%BD%8E%E8%BD%A823%E7%BB%84%E5%8D%AB%E6%98%9F%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/08975e9a4116bf16f500198d60db0fb7a10fc298.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "鸿蒙智行回应竹知了事件",
+      "title_en": "鸿蒙智行回应竹知了事件",
+      "url": "https://search.bilibili.com/all?keyword=%E9%B8%BF%E8%92%99%E6%99%BA%E8%A1%8C%E5%9B%9E%E5%BA%94%E7%AB%B9%E7%9F%A5%E4%BA%86%E4%BA%8B%E4%BB%B6",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/9507f5b387ff3f365e7da89236d61aeb679957ef.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "小Lin说对话漫威总裁",
+      "title_en": "小Lin说对话漫威总裁",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B0%8FLin%E8%AF%B4%E5%AF%B9%E8%AF%9D%E6%BC%AB%E5%A8%81%E6%80%BB%E8%A3%81",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/c4c2fc66d8d11a267adf412600fd7b2710135bc9.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "一次看完完蛋男同学剧情",
+      "title_en": "一次看完完蛋男同学剧情",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%80%E6%AC%A1%E7%9C%8B%E5%AE%8C%E5%AE%8C%E8%9B%8B%E7%94%B7%E5%90%8C%E5%AD%A6%E5%89%A7%E6%83%85",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/521da211527403319c1937d0f5beac790d60365c.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "蜘蛛侠4 MJ恢复记忆了吗",
+      "title_en": "蜘蛛侠4 MJ恢复记忆了吗",
+      "url": "https://search.bilibili.com/all?keyword=%E8%9C%98%E8%9B%9B%E4%BE%A04%20MJ%E6%81%A2%E5%A4%8D%E8%AE%B0%E5%BF%86%E4%BA%86%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/2aea3ee78b17cf79a53d63f3ea2c700cd0ec7ce0.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "评比乱象正迎来强力纠偏",
+      "title_en": "评比乱象正迎来强力纠偏",
+      "url": "https://search.bilibili.com/all?keyword=%E8%AF%84%E6%AF%94%E4%B9%B1%E8%B1%A1%E6%AD%A3%E8%BF%8E%E6%9D%A5%E5%BC%BA%E5%8A%9B%E7%BA%A0%E5%81%8F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/154fd6afb55360b8146669935b9fcf62b2952aa1.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "76人还能怎么交易",
+      "title_en": "76人还能怎么交易",
+      "url": "https://search.bilibili.com/all?keyword=76%E4%BA%BA%E8%BF%98%E8%83%BD%E6%80%8E%E4%B9%88%E4%BA%A4%E6%98%93",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/eff8f642dce684d3b5a149ae378687c0f11c6290.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "泰航拒绝20多名中国乘客登机",
+      "title_en": "泰航拒绝20多名中国乘客登机",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E8%88%AA%E6%8B%92%E7%BB%9D20%E5%A4%9A%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%B9%98%E5%AE%A2%E7%99%BB%E6%9C%BA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1543350"
+    },
+    {
+      "title": "鸿蒙智行回应竹知了事件",
+      "title_en": "鸿蒙智行回应竹知了事件",
+      "url": "https://s.weibo.com/weibo?q=%E9%B8%BF%E8%92%99%E6%99%BA%E8%A1%8C%E5%9B%9E%E5%BA%94%E7%AB%B9%E7%9F%A5%E4%BA%86%E4%BA%8B%E4%BB%B6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1056425"
+    },
+    {
+      "title": "谁是联合利刃未来战场主角",
+      "title_en": "谁是联合利刃未来战场主角",
+      "url": "https://s.weibo.com/weibo?q=%E8%B0%81%E6%98%AF%E8%81%94%E5%90%88%E5%88%A9%E5%88%83%E6%9C%AA%E6%9D%A5%E6%88%98%E5%9C%BA%E4%B8%BB%E8%A7%92",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "660098"
+    },
+    {
+      "title": "女孩8岁独居床头放菜刀现考上一本",
+      "title_en": "女孩8岁独居床头放菜刀现考上一本",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%A98%E5%B2%81%E7%8B%AC%E5%B1%85%E5%BA%8A%E5%A4%B4%E6%94%BE%E8%8F%9C%E5%88%80%E7%8E%B0%E8%80%83%E4%B8%8A%E4%B8%80%E6%9C%AC",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "565608"
+    },
+    {
+      "title": "美拟禁新型光模块草案",
+      "title_en": "美拟禁新型光模块草案",
+      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E6%8B%9F%E7%A6%81%E6%96%B0%E5%9E%8B%E5%85%89%E6%A8%A1%E5%9D%97%E8%8D%89%E6%A1%88",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "485226"
+    },
+    {
+      "title": "天才女友语文成绩148",
+      "title_en": "天才女友语文成绩148",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A9%E6%89%8D%E5%A5%B3%E5%8F%8B%E8%AF%AD%E6%96%87%E6%88%90%E7%BB%A9148",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "384099"
+    },
+    {
+      "title": "建议大家买行李箱不要太大众",
+      "title_en": "建议大家买行李箱不要太大众",
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E5%A4%A7%E5%AE%B6%E4%B9%B0%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%8D%E8%A6%81%E5%A4%AA%E5%A4%A7%E4%BC%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "371998"
+    },
+    {
+      "title": "内娱新四大名著",
+      "title_en": "内娱新四大名著",
+      "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E6%96%B0%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "337425"
+    },
+    {
+      "title": "我们的少年时代2",
+      "title_en": "我们的少年时代2",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E4%BB%AC%E7%9A%84%E5%B0%91%E5%B9%B4%E6%97%B6%E4%BB%A32",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "320774"
+    },
+    {
+      "title": "人不在工位一定要把豆包关了",
+      "title_en": "人不在工位一定要把豆包关了",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%BA%E4%B8%8D%E5%9C%A8%E5%B7%A5%E4%BD%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E6%8A%8A%E8%B1%86%E5%8C%85%E5%85%B3%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "311137"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "台风白海豚加强并西调",
+      "title_en": "台风白海豚加强并西调",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%8A%A0%E5%BC%BA%E5%B9%B6%E8%A5%BF%E8%B0%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/c5c7a507bf1f78cd2689858e3d448ec55113f8df.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "长鑫总产能有望继续翻倍",
+      "title_en": "长鑫总产能有望继续翻倍",
+      "url": "https://search.bilibili.com/all?keyword=%E9%95%BF%E9%91%AB%E6%80%BB%E4%BA%A7%E8%83%BD%E6%9C%89%E6%9C%9B%E7%BB%A7%E7%BB%AD%E7%BF%BB%E5%80%8D",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/a3e3f74fbc5207ba1ea77dd5bad6e6c8d88323a5.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "卫星互联网低轨23组卫星发射成功",
+      "title_en": "卫星互联网低轨23组卫星发射成功",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8D%AB%E6%98%9F%E4%BA%92%E8%81%94%E7%BD%91%E4%BD%8E%E8%BD%A823%E7%BB%84%E5%8D%AB%E6%98%9F%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/08975e9a4116bf16f500198d60db0fb7a10fc298.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "鸿蒙智行回应竹知了事件",
+      "title_en": "鸿蒙智行回应竹知了事件",
+      "url": "https://search.bilibili.com/all?keyword=%E9%B8%BF%E8%92%99%E6%99%BA%E8%A1%8C%E5%9B%9E%E5%BA%94%E7%AB%B9%E7%9F%A5%E4%BA%86%E4%BA%8B%E4%BB%B6",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/9507f5b387ff3f365e7da89236d61aeb679957ef.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "小Lin说对话漫威总裁",
+      "title_en": "小Lin说对话漫威总裁",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B0%8FLin%E8%AF%B4%E5%AF%B9%E8%AF%9D%E6%BC%AB%E5%A8%81%E6%80%BB%E8%A3%81",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/c4c2fc66d8d11a267adf412600fd7b2710135bc9.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "一次看完完蛋男同学剧情",
+      "title_en": "一次看完完蛋男同学剧情",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%80%E6%AC%A1%E7%9C%8B%E5%AE%8C%E5%AE%8C%E8%9B%8B%E7%94%B7%E5%90%8C%E5%AD%A6%E5%89%A7%E6%83%85",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/521da211527403319c1937d0f5beac790d60365c.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "蜘蛛侠4 MJ恢复记忆了吗",
+      "title_en": "蜘蛛侠4 MJ恢复记忆了吗",
+      "url": "https://search.bilibili.com/all?keyword=%E8%9C%98%E8%9B%9B%E4%BE%A04%20MJ%E6%81%A2%E5%A4%8D%E8%AE%B0%E5%BF%86%E4%BA%86%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/2aea3ee78b17cf79a53d63f3ea2c700cd0ec7ce0.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "评比乱象正迎来强力纠偏",
+      "title_en": "评比乱象正迎来强力纠偏",
+      "url": "https://search.bilibili.com/all?keyword=%E8%AF%84%E6%AF%94%E4%B9%B1%E8%B1%A1%E6%AD%A3%E8%BF%8E%E6%9D%A5%E5%BC%BA%E5%8A%9B%E7%BA%A0%E5%81%8F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/154fd6afb55360b8146669935b9fcf62b2952aa1.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "76人还能怎么交易",
+      "title_en": "76人还能怎么交易",
+      "url": "https://search.bilibili.com/all?keyword=76%E4%BA%BA%E8%BF%98%E8%83%BD%E6%80%8E%E4%B9%88%E4%BA%A4%E6%98%93",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/eff8f642dce684d3b5a149ae378687c0f11c6290.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-08-05 热点新闻汇总",
+  "update_time": "2026-08-05 00:13:59"
+}
