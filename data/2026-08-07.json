@@ -1,0 +1,367 @@
+{
+  "date": "2026-08-07",
+  "news": [
+    {
+      "title": "歌手第一轮排名",
+      "title_en": "歌手第一轮排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E7%AC%AC%E4%B8%80%E8%BD%AE%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "4736148"
+    },
+    {
+      "title": "一个没有空调外挂机的城市",
+      "title_en": "一个没有空调外挂机的城市",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E7%A9%BA%E8%B0%83%E5%A4%96%E6%8C%82%E6%9C%BA%E7%9A%84%E5%9F%8E%E5%B8%82",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1245314"
+    },
+    {
+      "title": "暑期档票房超80亿",
+      "title_en": "暑期档票房超80亿",
+      "url": "https://s.weibo.com/weibo?q=%E6%9A%91%E6%9C%9F%E6%A1%A3%E7%A5%A8%E6%88%BF%E8%B6%8580%E4%BA%BF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "994974"
+    },
+    {
+      "title": "三星折叠屏薄到离谱了",
+      "title_en": "三星折叠屏薄到离谱了",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E6%98%9F%E6%8A%98%E5%8F%A0%E5%B1%8F%E8%96%84%E5%88%B0%E7%A6%BB%E8%B0%B1%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "880053"
+    },
+    {
+      "title": "齐豫 躲歌王",
+      "title_en": "齐豫 躲歌王",
+      "url": "https://s.weibo.com/weibo?q=%E9%BD%90%E8%B1%AB%20%E8%BA%B2%E6%AD%8C%E7%8E%8B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "870059"
+    },
+    {
+      "title": "湖人 詹姆斯",
+      "title_en": "湖人 詹姆斯",
+      "url": "https://s.weibo.com/weibo?q=%E6%B9%96%E4%BA%BA%20%E8%A9%B9%E5%A7%86%E6%96%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "681789"
+    },
+    {
+      "title": "歌手总决赛 孙燕姿吴青峰太伟大了",
+      "title_en": "歌手总决赛 孙燕姿吴青峰太伟大了",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B%20%E5%AD%99%E7%87%95%E5%A7%BF%E5%90%B4%E9%9D%92%E5%B3%B0%E5%A4%AA%E4%BC%9F%E5%A4%A7%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "575869"
+    },
+    {
+      "title": "第38届百花奖开幕式",
+      "title_en": "第38届百花奖开幕式",
+      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC38%E5%B1%8A%E7%99%BE%E8%8A%B1%E5%A5%96%E5%BC%80%E5%B9%95%E5%BC%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "558088"
+    },
+    {
+      "title": "歌手总决赛",
+      "title_en": "歌手总决赛",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "510013"
+    },
+    {
+      "title": "北京出台房地产新政策",
+      "title_en": "北京出台房地产新政策",
+      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E5%87%BA%E5%8F%B0%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%96%B0%E6%94%BF%E7%AD%96",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "425069"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "白海豚或将再次变成超强台风",
+      "title_en": "白海豚或将再次变成超强台风",
+      "url": "https://search.bilibili.com/all?keyword=%E7%99%BD%E6%B5%B7%E8%B1%9A%E6%88%96%E5%B0%86%E5%86%8D%E6%AC%A1%E5%8F%98%E6%88%90%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/b012914a6efe1c9b026d1081df9e9dda739bcec1.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "EDG TEC",
+      "title_en": "EDG TEC",
+      "url": "https://search.bilibili.com/all?keyword=EDG%20TEC",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/d288e96b5be738ae0f253dd7415694a19a7c3915.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "U17国足战胜河床挺进决赛",
+      "title_en": "U17国足战胜河床挺进决赛",
+      "url": "https://search.bilibili.com/all?keyword=U17%E5%9B%BD%E8%B6%B3%E6%88%98%E8%83%9C%E6%B2%B3%E5%BA%8A%E6%8C%BA%E8%BF%9B%E5%86%B3%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/a348b1d3fc37d7c9e502b7caefe13c990d7fe514.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "BLG TES",
+      "title_en": "BLG TES",
+      "url": "https://search.bilibili.com/all?keyword=BLG%20TES",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/91dc70f828363c61341d3ad8ffda791cd1740350.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "苏炜杰获统计学界诺贝尔奖",
+      "title_en": "苏炜杰获统计学界诺贝尔奖",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%8F%E7%82%9C%E6%9D%B0%E8%8E%B7%E7%BB%9F%E8%AE%A1%E5%AD%A6%E7%95%8C%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/50af8c62a8d4dd4987d658b0de0b1dabac1be3c8.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "歌手总决赛陪看",
+      "title_en": "歌手总决赛陪看",
+      "url": "https://search.bilibili.com/all?keyword=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B%E9%99%AA%E7%9C%8B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/a2f6d18a9e1722fc8388e1e04e84f72b3f63811f.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "绝区零制作人珍贵凹分视频",
+      "title_en": "绝区零制作人珍贵凹分视频",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BB%9D%E5%8C%BA%E9%9B%B6%E5%88%B6%E4%BD%9C%E4%BA%BA%E7%8F%8D%E8%B4%B5%E5%87%B9%E5%88%86%E8%A7%86%E9%A2%91",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/f20d4ba6d47e1568fc13d8e35d999b477b6f938b.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "河南三支一扶将重新组织笔试",
+      "title_en": "河南三支一扶将重新组织笔试",
+      "url": "https://search.bilibili.com/all?keyword=%E6%B2%B3%E5%8D%97%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E5%B0%86%E9%87%8D%E6%96%B0%E7%BB%84%E7%BB%87%E7%AC%94%E8%AF%95",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/073b4097ef2ca5fa84e05a3ba8a33a86b6b220bc.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "NCT WISH唱中文版彼得潘",
+      "title_en": "NCT WISH唱中文版彼得潘",
+      "url": "https://search.bilibili.com/all?keyword=NCT%20WISH%E5%94%B1%E4%B8%AD%E6%96%87%E7%89%88%E5%BD%BC%E5%BE%97%E6%BD%98",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/d9f3fe879d7f879a75789025e783e1fe3465dbde.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "歌手第一轮排名",
+      "title_en": "歌手第一轮排名",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E7%AC%AC%E4%B8%80%E8%BD%AE%E6%8E%92%E5%90%8D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "4736148"
+    },
+    {
+      "title": "一个没有空调外挂机的城市",
+      "title_en": "一个没有空调外挂机的城市",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E7%A9%BA%E8%B0%83%E5%A4%96%E6%8C%82%E6%9C%BA%E7%9A%84%E5%9F%8E%E5%B8%82",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1245314"
+    },
+    {
+      "title": "暑期档票房超80亿",
+      "title_en": "暑期档票房超80亿",
+      "url": "https://s.weibo.com/weibo?q=%E6%9A%91%E6%9C%9F%E6%A1%A3%E7%A5%A8%E6%88%BF%E8%B6%8580%E4%BA%BF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "994974"
+    },
+    {
+      "title": "三星折叠屏薄到离谱了",
+      "title_en": "三星折叠屏薄到离谱了",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E6%98%9F%E6%8A%98%E5%8F%A0%E5%B1%8F%E8%96%84%E5%88%B0%E7%A6%BB%E8%B0%B1%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "880053"
+    },
+    {
+      "title": "齐豫 躲歌王",
+      "title_en": "齐豫 躲歌王",
+      "url": "https://s.weibo.com/weibo?q=%E9%BD%90%E8%B1%AB%20%E8%BA%B2%E6%AD%8C%E7%8E%8B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "870059"
+    },
+    {
+      "title": "湖人 詹姆斯",
+      "title_en": "湖人 詹姆斯",
+      "url": "https://s.weibo.com/weibo?q=%E6%B9%96%E4%BA%BA%20%E8%A9%B9%E5%A7%86%E6%96%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "681789"
+    },
+    {
+      "title": "歌手总决赛 孙燕姿吴青峰太伟大了",
+      "title_en": "歌手总决赛 孙燕姿吴青峰太伟大了",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B%20%E5%AD%99%E7%87%95%E5%A7%BF%E5%90%B4%E9%9D%92%E5%B3%B0%E5%A4%AA%E4%BC%9F%E5%A4%A7%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "575869"
+    },
+    {
+      "title": "第38届百花奖开幕式",
+      "title_en": "第38届百花奖开幕式",
+      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC38%E5%B1%8A%E7%99%BE%E8%8A%B1%E5%A5%96%E5%BC%80%E5%B9%95%E5%BC%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "558088"
+    },
+    {
+      "title": "歌手总决赛",
+      "title_en": "歌手总决赛",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "510013"
+    },
+    {
+      "title": "北京出台房地产新政策",
+      "title_en": "北京出台房地产新政策",
+      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E5%87%BA%E5%8F%B0%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%96%B0%E6%94%BF%E7%AD%96",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "425069"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "白海豚或将再次变成超强台风",
+      "title_en": "白海豚或将再次变成超强台风",
+      "url": "https://search.bilibili.com/all?keyword=%E7%99%BD%E6%B5%B7%E8%B1%9A%E6%88%96%E5%B0%86%E5%86%8D%E6%AC%A1%E5%8F%98%E6%88%90%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/b012914a6efe1c9b026d1081df9e9dda739bcec1.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "EDG TEC",
+      "title_en": "EDG TEC",
+      "url": "https://search.bilibili.com/all?keyword=EDG%20TEC",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/d288e96b5be738ae0f253dd7415694a19a7c3915.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "U17国足战胜河床挺进决赛",
+      "title_en": "U17国足战胜河床挺进决赛",
+      "url": "https://search.bilibili.com/all?keyword=U17%E5%9B%BD%E8%B6%B3%E6%88%98%E8%83%9C%E6%B2%B3%E5%BA%8A%E6%8C%BA%E8%BF%9B%E5%86%B3%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/a348b1d3fc37d7c9e502b7caefe13c990d7fe514.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "BLG TES",
+      "title_en": "BLG TES",
+      "url": "https://search.bilibili.com/all?keyword=BLG%20TES",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/91dc70f828363c61341d3ad8ffda791cd1740350.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "苏炜杰获统计学界诺贝尔奖",
+      "title_en": "苏炜杰获统计学界诺贝尔奖",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%8F%E7%82%9C%E6%9D%B0%E8%8E%B7%E7%BB%9F%E8%AE%A1%E5%AD%A6%E7%95%8C%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/50af8c62a8d4dd4987d658b0de0b1dabac1be3c8.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "歌手总决赛陪看",
+      "title_en": "歌手总决赛陪看",
+      "url": "https://search.bilibili.com/all?keyword=%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B%E9%99%AA%E7%9C%8B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/a2f6d18a9e1722fc8388e1e04e84f72b3f63811f.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "绝区零制作人珍贵凹分视频",
+      "title_en": "绝区零制作人珍贵凹分视频",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BB%9D%E5%8C%BA%E9%9B%B6%E5%88%B6%E4%BD%9C%E4%BA%BA%E7%8F%8D%E8%B4%B5%E5%87%B9%E5%88%86%E8%A7%86%E9%A2%91",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/f20d4ba6d47e1568fc13d8e35d999b477b6f938b.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "河南三支一扶将重新组织笔试",
+      "title_en": "河南三支一扶将重新组织笔试",
+      "url": "https://search.bilibili.com/all?keyword=%E6%B2%B3%E5%8D%97%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E5%B0%86%E9%87%8D%E6%96%B0%E7%BB%84%E7%BB%87%E7%AC%94%E8%AF%95",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/073b4097ef2ca5fa84e05a3ba8a33a86b6b220bc.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "NCT WISH唱中文版彼得潘",
+      "title_en": "NCT WISH唱中文版彼得潘",
+      "url": "https://search.bilibili.com/all?keyword=NCT%20WISH%E5%94%B1%E4%B8%AD%E6%96%87%E7%89%88%E5%BD%BC%E5%BE%97%E6%BD%98",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/d9f3fe879d7f879a75789025e783e1fe3465dbde.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-08-07 热点新闻汇总",
+  "update_time": "2026-08-07 22:55:27"
+}
