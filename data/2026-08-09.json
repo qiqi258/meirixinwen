@@ -1,0 +1,367 @@
+{
+  "date": "2026-08-09",
+  "news": [
+    {
+      "title": "百花奖",
+      "title_en": "百花奖",
+      "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E5%A5%96",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "2161755"
+    },
+    {
+      "title": "台风白海豚",
+      "title_en": "台风白海豚",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "2158882"
+    },
+    {
+      "title": "中国制造硬核瞬间",
+      "title_en": "中国制造硬核瞬间",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E7%A1%AC%E6%A0%B8%E7%9E%AC%E9%97%B4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1391500"
+    },
+    {
+      "title": "沈腾 影帝",
+      "title_en": "沈腾 影帝",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%88%E8%85%BE%20%E5%BD%B1%E5%B8%9D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1250733"
+    },
+    {
+      "title": "上海地铁",
+      "title_en": "上海地铁",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "956025"
+    },
+    {
+      "title": "武汉医保辟谣只报销便宜老药",
+      "title_en": "武汉医保辟谣只报销便宜老药",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%A6%E6%B1%89%E5%8C%BB%E4%BF%9D%E8%BE%9F%E8%B0%A3%E5%8F%AA%E6%8A%A5%E9%94%80%E4%BE%BF%E5%AE%9C%E8%80%81%E8%8D%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "883081"
+    },
+    {
+      "title": "朱一龙鼻子怎么了",
+      "title_en": "朱一龙鼻子怎么了",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%B1%E4%B8%80%E9%BE%99%E9%BC%BB%E5%AD%90%E6%80%8E%E4%B9%88%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "624459"
+    },
+    {
+      "title": "极氪7X充电起火",
+      "title_en": "极氪7X充电起火",
+      "url": "https://s.weibo.com/weibo?q=%E6%9E%81%E6%B0%AA7X%E5%85%85%E7%94%B5%E8%B5%B7%E7%81%AB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "512961"
+    },
+    {
+      "title": "医疗垃圾 手机壳",
+      "title_en": "医疗垃圾 手机壳",
+      "url": "https://s.weibo.com/weibo?q=%E5%8C%BB%E7%96%97%E5%9E%83%E5%9C%BE%20%E6%89%8B%E6%9C%BA%E5%A3%B3",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "512891"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "如何评价沈腾文牧野新片",
+      "title_en": "如何评价沈腾文牧野新片",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E6%B2%88%E8%85%BE%E6%96%87%E7%89%A7%E9%87%8E%E6%96%B0%E7%89%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/2df71d11102cbc054f45a5902ca8408caaf41a14.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "JDG WE",
+      "title_en": "JDG WE",
+      "url": "https://search.bilibili.com/all?keyword=JDG%20WE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/71f004654c8b0ad3bd74ad9185cbc39b6ebdc50b.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "普通人如何抓住科技红利",
+      "title_en": "普通人如何抓住科技红利",
+      "url": "https://search.bilibili.com/all?keyword=%E6%99%AE%E9%80%9A%E4%BA%BA%E5%A6%82%E4%BD%95%E6%8A%93%E4%BD%8F%E7%A7%91%E6%8A%80%E7%BA%A2%E5%88%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/9f4c7720a91b07c8fdf8c001afc15828897c08cb.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "TT TES",
+      "title_en": "TT TES",
+      "url": "https://search.bilibili.com/all?keyword=TT%20TES",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/65b42ae43b9459bac3c8367dcf19a7ad87d37eb6.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "白海豚或将为华北地区带来暴雨",
+      "title_en": "白海豚或将为华北地区带来暴雨",
+      "url": "https://search.bilibili.com/all?keyword=%E7%99%BD%E6%B5%B7%E8%B1%9A%E6%88%96%E5%B0%86%E4%B8%BA%E5%8D%8E%E5%8C%97%E5%9C%B0%E5%8C%BA%E5%B8%A6%E6%9D%A5%E6%9A%B4%E9%9B%A8",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/73414664d4b8e51c42963e78256c4462cef0689c.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "提欧奥特曼开播好看吗",
+      "title_en": "提欧奥特曼开播好看吗",
+      "url": "https://search.bilibili.com/all?keyword=%E6%8F%90%E6%AC%A7%E5%A5%A5%E7%89%B9%E6%9B%BC%E5%BC%80%E6%92%AD%E5%A5%BD%E7%9C%8B%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1acd562a951cb8927cc6c2bfc6f5b22c66174391.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "烽火职业联赛夏季赛",
+      "title_en": "烽火职业联赛夏季赛",
+      "url": "https://search.bilibili.com/all?keyword=%E7%83%BD%E7%81%AB%E8%81%8C%E4%B8%9A%E8%81%94%E8%B5%9B%E5%A4%8F%E5%AD%A3%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/5ff4973e95e4f882da6270ad38f9f7eb442630db.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "物业撤场后小区有何变化",
+      "title_en": "物业撤场后小区有何变化",
+      "url": "https://search.bilibili.com/all?keyword=%E7%89%A9%E4%B8%9A%E6%92%A4%E5%9C%BA%E5%90%8E%E5%B0%8F%E5%8C%BA%E6%9C%89%E4%BD%95%E5%8F%98%E5%8C%96",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/b61c6b031923f62329f0e0874fddf5a1c18488b0.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "70亿token做出AI督学军官",
+      "title_en": "70亿token做出AI督学军官",
+      "url": "https://search.bilibili.com/all?keyword=70%E4%BA%BFtoken%E5%81%9A%E5%87%BAAI%E7%9D%A3%E5%AD%A6%E5%86%9B%E5%AE%98",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/b219b2a99fcb643d5857bf5187f0856cc8a29497.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "白海豚在浙江乐清二次登陆",
+      "title_en": "白海豚在浙江乐清二次登陆",
+      "url": "https://search.bilibili.com/all?keyword=%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%9C%A8%E6%B5%99%E6%B1%9F%E4%B9%90%E6%B8%85%E4%BA%8C%E6%AC%A1%E7%99%BB%E9%99%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/73414664d4b8e51c42963e78256c4462cef0689c.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "content": [
+    {
+      "title": "百花奖",
+      "title_en": "百花奖",
+      "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E5%A5%96",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "2161755"
+    },
+    {
+      "title": "台风白海豚",
+      "title_en": "台风白海豚",
+      "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "2158882"
+    },
+    {
+      "title": "中国制造硬核瞬间",
+      "title_en": "中国制造硬核瞬间",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E7%A1%AC%E6%A0%B8%E7%9E%AC%E9%97%B4",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1391500"
+    },
+    {
+      "title": "沈腾 影帝",
+      "title_en": "沈腾 影帝",
+      "url": "https://s.weibo.com/weibo?q=%E6%B2%88%E8%85%BE%20%E5%BD%B1%E5%B8%9D",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "1250733"
+    },
+    {
+      "title": "上海地铁",
+      "title_en": "上海地铁",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "956025"
+    },
+    {
+      "title": "武汉医保辟谣只报销便宜老药",
+      "title_en": "武汉医保辟谣只报销便宜老药",
+      "url": "https://s.weibo.com/weibo?q=%E6%AD%A6%E6%B1%89%E5%8C%BB%E4%BF%9D%E8%BE%9F%E8%B0%A3%E5%8F%AA%E6%8A%A5%E9%94%80%E4%BE%BF%E5%AE%9C%E8%80%81%E8%8D%AF",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "883081"
+    },
+    {
+      "title": "朱一龙鼻子怎么了",
+      "title_en": "朱一龙鼻子怎么了",
+      "url": "https://s.weibo.com/weibo?q=%E6%9C%B1%E4%B8%80%E9%BE%99%E9%BC%BB%E5%AD%90%E6%80%8E%E4%B9%88%E4%BA%86",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "624459"
+    },
+    {
+      "title": "极氪7X充电起火",
+      "title_en": "极氪7X充电起火",
+      "url": "https://s.weibo.com/weibo?q=%E6%9E%81%E6%B0%AA7X%E5%85%85%E7%94%B5%E8%B5%B7%E7%81%AB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "512961"
+    },
+    {
+      "title": "医疗垃圾 手机壳",
+      "title_en": "医疗垃圾 手机壳",
+      "url": "https://s.weibo.com/weibo?q=%E5%8C%BB%E7%96%97%E5%9E%83%E5%9C%BE%20%E6%89%8B%E6%9C%BA%E5%A3%B3",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "512891"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "如何评价沈腾文牧野新片",
+      "title_en": "如何评价沈腾文牧野新片",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E6%B2%88%E8%85%BE%E6%96%87%E7%89%A7%E9%87%8E%E6%96%B0%E7%89%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/2df71d11102cbc054f45a5902ca8408caaf41a14.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "JDG WE",
+      "title_en": "JDG WE",
+      "url": "https://search.bilibili.com/all?keyword=JDG%20WE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/71f004654c8b0ad3bd74ad9185cbc39b6ebdc50b.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "普通人如何抓住科技红利",
+      "title_en": "普通人如何抓住科技红利",
+      "url": "https://search.bilibili.com/all?keyword=%E6%99%AE%E9%80%9A%E4%BA%BA%E5%A6%82%E4%BD%95%E6%8A%93%E4%BD%8F%E7%A7%91%E6%8A%80%E7%BA%A2%E5%88%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/9f4c7720a91b07c8fdf8c001afc15828897c08cb.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "TT TES",
+      "title_en": "TT TES",
+      "url": "https://search.bilibili.com/all?keyword=TT%20TES",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/65b42ae43b9459bac3c8367dcf19a7ad87d37eb6.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "白海豚或将为华北地区带来暴雨",
+      "title_en": "白海豚或将为华北地区带来暴雨",
+      "url": "https://search.bilibili.com/all?keyword=%E7%99%BD%E6%B5%B7%E8%B1%9A%E6%88%96%E5%B0%86%E4%B8%BA%E5%8D%8E%E5%8C%97%E5%9C%B0%E5%8C%BA%E5%B8%A6%E6%9D%A5%E6%9A%B4%E9%9B%A8",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/73414664d4b8e51c42963e78256c4462cef0689c.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "提欧奥特曼开播好看吗",
+      "title_en": "提欧奥特曼开播好看吗",
+      "url": "https://search.bilibili.com/all?keyword=%E6%8F%90%E6%AC%A7%E5%A5%A5%E7%89%B9%E6%9B%BC%E5%BC%80%E6%92%AD%E5%A5%BD%E7%9C%8B%E5%90%97",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1acd562a951cb8927cc6c2bfc6f5b22c66174391.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "烽火职业联赛夏季赛",
+      "title_en": "烽火职业联赛夏季赛",
+      "url": "https://search.bilibili.com/all?keyword=%E7%83%BD%E7%81%AB%E8%81%8C%E4%B8%9A%E8%81%94%E8%B5%9B%E5%A4%8F%E5%AD%A3%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/5ff4973e95e4f882da6270ad38f9f7eb442630db.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "物业撤场后小区有何变化",
+      "title_en": "物业撤场后小区有何变化",
+      "url": "https://search.bilibili.com/all?keyword=%E7%89%A9%E4%B8%9A%E6%92%A4%E5%9C%BA%E5%90%8E%E5%B0%8F%E5%8C%BA%E6%9C%89%E4%BD%95%E5%8F%98%E5%8C%96",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/b61c6b031923f62329f0e0874fddf5a1c18488b0.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "70亿token做出AI督学军官",
+      "title_en": "70亿token做出AI督学军官",
+      "url": "https://search.bilibili.com/all?keyword=70%E4%BA%BFtoken%E5%81%9A%E5%87%BAAI%E7%9D%A3%E5%AD%A6%E5%86%9B%E5%AE%98",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/b219b2a99fcb643d5857bf5187f0856cc8a29497.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "白海豚在浙江乐清二次登陆",
+      "title_en": "白海豚在浙江乐清二次登陆",
+      "url": "https://search.bilibili.com/all?keyword=%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%9C%A8%E6%B5%99%E6%B1%9F%E4%B9%90%E6%B8%85%E4%BA%8C%E6%AC%A1%E7%99%BB%E9%99%86",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/73414664d4b8e51c42963e78256c4462cef0689c.jpg",
+      "hot_value": "TOP10"
+    }
+  ],
+  "title": "2026-08-09 热点新闻汇总",
+  "update_time": "2026-08-09 22:37:49"
+}
