@@ -1,9 +1,8 @@
 name: 每日新闻自动更新
-
 on:
   schedule:
-    - cron: '0 14 * * *'  # 每天 UTC 14:00 = 北京时间 22:00
-  workflow_dispatch:  # 允许手动触发
+    - cron: '0 14 * * *'  # UTC 14:00 = 北京时间 22:00
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # 拉取完整历史，避免推送失败
-        ref: main  # 明确指定拉取主分支
+        fetch-depth: 0
+        ref: main
     
     - name: 设置Python环境
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.9'
         cache: 'pip'
@@ -32,36 +31,27 @@ jobs:
     
     - name: 运行新闻抓取脚本
       run: |
+        export TZ='Asia/Shanghai'
         python main.py
       env:
-        TZ: Asia/Shanghai  # 设置时区，确保日期正确
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 添加 GitHub Token
+        TZ: Asia/Shanghai
     
     - name: 提交更新到主分支
       run: |
-        # 配置提交信息（确保推送身份正确）
+        export TZ='Asia/Shanghai'
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-
-        # 将所有变更（包含新增文件）加入暂存区
         git add -A
-
-        # 检查是否有待提交的变更（包含新增/删除）
         if git diff --cached --quiet; then
           echo "没有内容更新，无需提交"
           exit 0
         fi
-
-        # 提交并推送到主分支
         git commit -m "自动更新: $(date '+%Y-%m-%d %H:%M:%S')"
         git push origin main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 添加 GitHub Token
     
     - name: 部署到GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: .  # 发布目录（根据实际情况调整）
+        publish_dir: .
         publish_branch: gh-pages
-        full_commit_message: "自动部署: $(date '+%Y-%m-%d %H:%M:%S')"
