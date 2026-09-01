@@ -1,0 +1,367 @@
+{
+  "date": "2026-09-02",
+  "news": [
+    {
+      "title": "张一山演技",
+      "title_en": "张一山演技",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E4%B8%80%E5%B1%B1%E6%BC%94%E6%8A%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "393034"
+    },
+    {
+      "title": "花少2",
+      "title_en": "花少2",
+      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%B0%912",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "269976"
+    },
+    {
+      "title": "上合示范区释放区域经贸合作新动能",
+      "title_en": "上合示范区释放区域经贸合作新动能",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E5%90%88%E7%A4%BA%E8%8C%83%E5%8C%BA%E9%87%8A%E6%94%BE%E5%8C%BA%E5%9F%9F%E7%BB%8F%E8%B4%B8%E5%90%88%E4%BD%9C%E6%96%B0%E5%8A%A8%E8%83%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "207961"
+    },
+    {
+      "title": "手机涨价 卖不动",
+      "title_en": "手机涨价 卖不动",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%8B%E6%9C%BA%E6%B6%A8%E4%BB%B7%20%E5%8D%96%E4%B8%8D%E5%8A%A8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "198597"
+    },
+    {
+      "title": "苹果CEO特努斯入驻微博",
+      "title_en": "苹果CEO特努斯入驻微博",
+      "url": "https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9CCEO%E7%89%B9%E5%8A%AA%E6%96%AF%E5%85%A5%E9%A9%BB%E5%BE%AE%E5%8D%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "178424"
+    },
+    {
+      "title": "那个用防窥屏的朋友",
+      "title_en": "那个用防窥屏的朋友",
+      "url": "https://s.weibo.com/weibo?q=%E9%82%A3%E4%B8%AA%E7%94%A8%E9%98%B2%E7%AA%A5%E5%B1%8F%E7%9A%84%E6%9C%8B%E5%8F%8B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "145897"
+    },
+    {
+      "title": "深圳校服为什么引发网友共鸣",
+      "title_en": "深圳校服为什么引发网友共鸣",
+      "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E6%A0%A1%E6%9C%8D%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BC%95%E5%8F%91%E7%BD%91%E5%8F%8B%E5%85%B1%E9%B8%A3",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "126295"
+    },
+    {
+      "title": "杨洋花少口碑",
+      "title_en": "杨洋花少口碑",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E6%B4%8B%E8%8A%B1%E5%B0%91%E5%8F%A3%E7%A2%91",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "120585"
+    },
+    {
+      "title": "花少2分析",
+      "title_en": "花少2分析",
+      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%B0%912%E5%88%86%E6%9E%90",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "119855"
+    },
+    {
+      "title": "才知道老一辈做饭比我们更狠",
+      "title_en": "才知道老一辈做饭比我们更狠",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%8D%E7%9F%A5%E9%81%93%E8%80%81%E4%B8%80%E8%BE%88%E5%81%9A%E9%A5%AD%E6%AF%94%E6%88%91%E4%BB%AC%E6%9B%B4%E7%8B%A0",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "114326"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "杨瀚森",
+      "title_en": "杨瀚森",
+      "url": "https://search.bilibili.com/all?keyword=%E6%9D%A8%E7%80%9A%E6%A3%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/acfa617e698d3b3358d29063e007c495a7a0fb74.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "何同学眼中的库克时代",
+      "title_en": "何同学眼中的库克时代",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%BC%E4%B8%AD%E7%9A%84%E5%BA%93%E5%85%8B%E6%97%B6%E4%BB%A3",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/e3416393aba9346f8524bd3e84c621ad5c8ca0e0.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "杨鸣",
+      "title_en": "杨鸣",
+      "url": "https://search.bilibili.com/all?keyword=%E6%9D%A8%E9%B8%A3",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/186bf9c136f6b4cda5201aa06ee5558f0129ec2b.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "当西西弗斯遇见孙悟空",
+      "title_en": "当西西弗斯遇见孙悟空",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BD%93%E8%A5%BF%E8%A5%BF%E5%BC%97%E6%96%AF%E9%81%87%E8%A7%81%E5%AD%99%E6%82%9F%E7%A9%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/f6deea4b2be71c9cb7bba80264abcaed8b33c318.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "T1锁定S16名额",
+      "title_en": "T1锁定S16名额",
+      "url": "https://search.bilibili.com/all?keyword=T1%E9%94%81%E5%AE%9AS16%E5%90%8D%E9%A2%9D",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/9fb33f229e069654ca2ab6d870bb35b8524f89b2.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "7岁UP主开箱10万粉证书",
+      "title_en": "7岁UP主开箱10万粉证书",
+      "url": "https://search.bilibili.com/all?keyword=7%E5%B2%81UP%E4%B8%BB%E5%BC%80%E7%AE%B110%E4%B8%87%E7%B2%89%E8%AF%81%E4%B9%A6",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/343ae445dfdee0847f1ec5890a87e799f48759d0.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "NCTWISH中文课堂",
+      "title_en": "NCTWISH中文课堂",
+      "url": "https://search.bilibili.com/all?keyword=NCTWISH%E4%B8%AD%E6%96%87%E8%AF%BE%E5%A0%82",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/566721eea563b65cc66a63ae49b18c4b366c8dfd.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "复盘杨瀚森绝杀黎巴嫩队",
+      "title_en": "复盘杨瀚森绝杀黎巴嫩队",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%8D%E7%9B%98%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%BB%9D%E6%9D%80%E9%BB%8E%E5%B7%B4%E5%AB%A9%E9%98%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/360ff4f32f88e09ea7be3e236f29704876026aca.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "罗永浩对话手工耿",
+      "title_en": "罗永浩对话手工耿",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BD%97%E6%B0%B8%E6%B5%A9%E5%AF%B9%E8%AF%9D%E6%89%8B%E5%B7%A5%E8%80%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3f0d08127c47c19cddb96ce1230ff4f1d44359c5.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "张一山演技",
+      "title_en": "张一山演技",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E4%B8%80%E5%B1%B1%E6%BC%94%E6%8A%80",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "393034"
+    },
+    {
+      "title": "花少2",
+      "title_en": "花少2",
+      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%B0%912",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "269976"
+    },
+    {
+      "title": "上合示范区释放区域经贸合作新动能",
+      "title_en": "上合示范区释放区域经贸合作新动能",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E5%90%88%E7%A4%BA%E8%8C%83%E5%8C%BA%E9%87%8A%E6%94%BE%E5%8C%BA%E5%9F%9F%E7%BB%8F%E8%B4%B8%E5%90%88%E4%BD%9C%E6%96%B0%E5%8A%A8%E8%83%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "207961"
+    },
+    {
+      "title": "手机涨价 卖不动",
+      "title_en": "手机涨价 卖不动",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%8B%E6%9C%BA%E6%B6%A8%E4%BB%B7%20%E5%8D%96%E4%B8%8D%E5%8A%A8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "198597"
+    },
+    {
+      "title": "苹果CEO特努斯入驻微博",
+      "title_en": "苹果CEO特努斯入驻微博",
+      "url": "https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9CCEO%E7%89%B9%E5%8A%AA%E6%96%AF%E5%85%A5%E9%A9%BB%E5%BE%AE%E5%8D%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "178424"
+    },
+    {
+      "title": "那个用防窥屏的朋友",
+      "title_en": "那个用防窥屏的朋友",
+      "url": "https://s.weibo.com/weibo?q=%E9%82%A3%E4%B8%AA%E7%94%A8%E9%98%B2%E7%AA%A5%E5%B1%8F%E7%9A%84%E6%9C%8B%E5%8F%8B",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "145897"
+    },
+    {
+      "title": "深圳校服为什么引发网友共鸣",
+      "title_en": "深圳校服为什么引发网友共鸣",
+      "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E6%A0%A1%E6%9C%8D%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BC%95%E5%8F%91%E7%BD%91%E5%8F%8B%E5%85%B1%E9%B8%A3",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "126295"
+    },
+    {
+      "title": "杨洋花少口碑",
+      "title_en": "杨洋花少口碑",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E6%B4%8B%E8%8A%B1%E5%B0%91%E5%8F%A3%E7%A2%91",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "120585"
+    },
+    {
+      "title": "花少2分析",
+      "title_en": "花少2分析",
+      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%B0%912%E5%88%86%E6%9E%90",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "119855"
+    },
+    {
+      "title": "才知道老一辈做饭比我们更狠",
+      "title_en": "才知道老一辈做饭比我们更狠",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%8D%E7%9F%A5%E9%81%93%E8%80%81%E4%B8%80%E8%BE%88%E5%81%9A%E9%A5%AD%E6%AF%94%E6%88%91%E4%BB%AC%E6%9B%B4%E7%8B%A0",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "114326"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "杨瀚森",
+      "title_en": "杨瀚森",
+      "url": "https://search.bilibili.com/all?keyword=%E6%9D%A8%E7%80%9A%E6%A3%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/acfa617e698d3b3358d29063e007c495a7a0fb74.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "何同学眼中的库克时代",
+      "title_en": "何同学眼中的库克时代",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%BC%E4%B8%AD%E7%9A%84%E5%BA%93%E5%85%8B%E6%97%B6%E4%BB%A3",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/e3416393aba9346f8524bd3e84c621ad5c8ca0e0.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "杨鸣",
+      "title_en": "杨鸣",
+      "url": "https://search.bilibili.com/all?keyword=%E6%9D%A8%E9%B8%A3",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/186bf9c136f6b4cda5201aa06ee5558f0129ec2b.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "当西西弗斯遇见孙悟空",
+      "title_en": "当西西弗斯遇见孙悟空",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BD%93%E8%A5%BF%E8%A5%BF%E5%BC%97%E6%96%AF%E9%81%87%E8%A7%81%E5%AD%99%E6%82%9F%E7%A9%BA",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/f6deea4b2be71c9cb7bba80264abcaed8b33c318.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "T1锁定S16名额",
+      "title_en": "T1锁定S16名额",
+      "url": "https://search.bilibili.com/all?keyword=T1%E9%94%81%E5%AE%9AS16%E5%90%8D%E9%A2%9D",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/9fb33f229e069654ca2ab6d870bb35b8524f89b2.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "7岁UP主开箱10万粉证书",
+      "title_en": "7岁UP主开箱10万粉证书",
+      "url": "https://search.bilibili.com/all?keyword=7%E5%B2%81UP%E4%B8%BB%E5%BC%80%E7%AE%B110%E4%B8%87%E7%B2%89%E8%AF%81%E4%B9%A6",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/343ae445dfdee0847f1ec5890a87e799f48759d0.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "NCTWISH中文课堂",
+      "title_en": "NCTWISH中文课堂",
+      "url": "https://search.bilibili.com/all?keyword=NCTWISH%E4%B8%AD%E6%96%87%E8%AF%BE%E5%A0%82",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/566721eea563b65cc66a63ae49b18c4b366c8dfd.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "复盘杨瀚森绝杀黎巴嫩队",
+      "title_en": "复盘杨瀚森绝杀黎巴嫩队",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%8D%E7%9B%98%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%BB%9D%E6%9D%80%E9%BB%8E%E5%B7%B4%E5%AB%A9%E9%98%9F",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/360ff4f32f88e09ea7be3e236f29704876026aca.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "罗永浩对话手工耿",
+      "title_en": "罗永浩对话手工耿",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BD%97%E6%B0%B8%E6%B5%A9%E5%AF%B9%E8%AF%9D%E6%89%8B%E5%B7%A5%E8%80%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3f0d08127c47c19cddb96ce1230ff4f1d44359c5.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-09-02 热点新闻汇总",
+  "update_time": "2026-09-02 01:50:19"
+}
