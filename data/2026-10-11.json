@@ -1,0 +1,365 @@
+{
+  "date": "2026-10-11",
+  "news": [
+    {
+      "title": "泰国警方回应大概率已被转至缅甸",
+      "title_en": "泰国警方回应大概率已被转至缅甸",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%9B%BD%E8%AD%A6%E6%96%B9%E5%9B%9E%E5%BA%94%E5%A4%A7%E6%A6%82%E7%8E%87%E5%B7%B2%E8%A2%AB%E8%BD%AC%E8%87%B3%E7%BC%85%E7%94%B8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "440314"
+    },
+    {
+      "title": "明知不该买房却想要自己的家",
+      "title_en": "明知不该买房却想要自己的家",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%8E%E7%9F%A5%E4%B8%8D%E8%AF%A5%E4%B9%B0%E6%88%BF%E5%8D%B4%E6%83%B3%E8%A6%81%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AE%B6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "276070"
+    },
+    {
+      "title": "以青春之我建强农之业",
+      "title_en": "以青春之我建强农之业",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E9%9D%92%E6%98%A5%E4%B9%8B%E6%88%91%E5%BB%BA%E5%BC%BA%E5%86%9C%E4%B9%8B%E4%B8%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "165759"
+    },
+    {
+      "title": "梅艳芳骨灰被盗",
+      "title_en": "梅艳芳骨灰被盗",
+      "url": "https://s.weibo.com/weibo?q=%E6%A2%85%E8%89%B3%E8%8A%B3%E9%AA%A8%E7%81%B0%E8%A2%AB%E7%9B%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "165559"
+    },
+    {
+      "title": "刘琳琳抖音账号被封",
+      "title_en": "刘琳琳抖音账号被封",
+      "url": "https://s.weibo.com/weibo?q=%E5%88%98%E7%90%B3%E7%90%B3%E6%8A%96%E9%9F%B3%E8%B4%A6%E5%8F%B7%E8%A2%AB%E5%B0%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "129887"
+    },
+    {
+      "title": "恋人",
+      "title_en": "恋人",
+      "url": "https://s.weibo.com/weibo?q=%E6%81%8B%E4%BA%BA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "123712"
+    },
+    {
+      "title": "打一针让癌细胞生锈而死",
+      "title_en": "打一针让癌细胞生锈而死",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%93%E4%B8%80%E9%92%88%E8%AE%A9%E7%99%8C%E7%BB%86%E8%83%9E%E7%94%9F%E9%94%88%E8%80%8C%E6%AD%BB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "112251"
+    },
+    {
+      "title": "香港近年多位名人骨灰被盗",
+      "title_en": "香港近年多位名人骨灰被盗",
+      "url": "https://s.weibo.com/weibo?q=%E9%A6%99%E6%B8%AF%E8%BF%91%E5%B9%B4%E5%A4%9A%E4%BD%8D%E5%90%8D%E4%BA%BA%E9%AA%A8%E7%81%B0%E8%A2%AB%E7%9B%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "112166"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "管泽元Bin聊S赛新版本",
+      "title_en": "管泽元Bin聊S赛新版本",
+      "url": "https://search.bilibili.com/all?keyword=%E7%AE%A1%E6%B3%BD%E5%85%83Bin%E8%81%8AS%E8%B5%9B%E6%96%B0%E7%89%88%E6%9C%AC",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/fe2e46ed1b27821d65a1fd985b1aa4e4993dcdd6.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "重庆狼队 济南RW侠",
+      "title_en": "重庆狼队 济南RW侠",
+      "url": "https://search.bilibili.com/all?keyword=%E9%87%8D%E5%BA%86%E7%8B%BC%E9%98%9F%20%E6%B5%8E%E5%8D%97RW%E4%BE%A0",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3774112b886edfd86ff74e3d4b84e807d8a9833f.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "美军拟直播枪决罪犯有哪些争议",
+      "title_en": "美军拟直播枪决罪犯有哪些争议",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%86%9B%E6%8B%9F%E7%9B%B4%E6%92%AD%E6%9E%AA%E5%86%B3%E7%BD%AA%E7%8A%AF%E6%9C%89%E5%93%AA%E4%BA%9B%E4%BA%89%E8%AE%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/8e0f09f6626b017b2a8a2ee3ee36a8b178fffebb.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "杜兰特徐静雨签和解协议",
+      "title_en": "杜兰特徐静雨签和解协议",
+      "url": "https://search.bilibili.com/all?keyword=%E6%9D%9C%E5%85%B0%E7%89%B9%E5%BE%90%E9%9D%99%E9%9B%A8%E7%AD%BE%E5%92%8C%E8%A7%A3%E5%8D%8F%E8%AE%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/11a9521526ed7aaee69871d5ed1247171fb7e4c3.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "美国公布了六代机哪些新消息",
+      "title_en": "美国公布了六代机哪些新消息",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%B8%83%E4%BA%86%E5%85%AD%E4%BB%A3%E6%9C%BA%E5%93%AA%E4%BA%9B%E6%96%B0%E6%B6%88%E6%81%AF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/d25bbe305231db190a886f63a5068271fe3e2012.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "广州TTG 杭州LGD.NBW",
+      "title_en": "广州TTG 杭州LGD.NBW",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B9%BF%E5%B7%9ETTG%20%E6%9D%AD%E5%B7%9ELGD.NBW",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/4ab35c663c9f5d9989ca8cbe954d6fe820b9981a.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "郑钦文首进中网女单决赛",
+      "title_en": "郑钦文首进中网女单决赛",
+      "url": "https://search.bilibili.com/all?keyword=%E9%83%91%E9%92%A6%E6%96%87%E9%A6%96%E8%BF%9B%E4%B8%AD%E7%BD%91%E5%A5%B3%E5%8D%95%E5%86%B3%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f5bb768c2b14a42bcdc59ac42d6e69969d86acd7.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "解析韩立绝境求生名场面",
+      "title_en": "解析韩立绝境求生名场面",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E6%9E%90%E9%9F%A9%E7%AB%8B%E7%BB%9D%E5%A2%83%E6%B1%82%E7%94%9F%E5%90%8D%E5%9C%BA%E9%9D%A2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/cfea689b39a54fef63579256cde3855e29c3375f.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "这司凤音乐听着真烧心",
+      "title_en": "这司凤音乐听着真烧心",
+      "url": "https://search.bilibili.com/all?keyword=%E8%BF%99%E5%8F%B8%E5%87%A4%E9%9F%B3%E4%B9%90%E5%90%AC%E7%9D%80%E7%9C%9F%E7%83%A7%E5%BF%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/94bcfd311d8ad9d1e63e44485ac3ee1322f1e0a2.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "UP主在荷兰赶海找到生蚝滩",
+      "title_en": "UP主在荷兰赶海找到生蚝滩",
+      "url": "https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E5%9C%A8%E8%8D%B7%E5%85%B0%E8%B5%B6%E6%B5%B7%E6%89%BE%E5%88%B0%E7%94%9F%E8%9A%9D%E6%BB%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/46f8878a9d49063cbdaf232b6c87eb2c369bc75f.jpg",
+      "hot_value": "TOP10"
+    },
+    {
+      "title": "鲸天魔盗团!黑客靠AI入侵韩国银行",
+      "title_en": "鲸天魔盗团!黑客靠AI入侵韩国银行",
+      "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28366789&amp;topic_name=%E9%B2%B8%E5%A4%A9%E9%AD%94%E7%9B%97%E5%9B%A2%21%E9%BB%91%E5%AE%A2%E9%9D%A0AI%E5%85%A5%E4%BE%B5%E9%9F%A9%E5%9B%BD%E9%93%B6%E8%A1%8C",
+      "platform": "贴吧",
+      "platform_en": "Tieba",
+      "hot_value": "1953720"
+    }
+  ],
+  "content": [
+    {
+      "title": "泰国警方回应大概率已被转至缅甸",
+      "title_en": "泰国警方回应大概率已被转至缅甸",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%9B%BD%E8%AD%A6%E6%96%B9%E5%9B%9E%E5%BA%94%E5%A4%A7%E6%A6%82%E7%8E%87%E5%B7%B2%E8%A2%AB%E8%BD%AC%E8%87%B3%E7%BC%85%E7%94%B8",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "440314"
+    },
+    {
+      "title": "明知不该买房却想要自己的家",
+      "title_en": "明知不该买房却想要自己的家",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%8E%E7%9F%A5%E4%B8%8D%E8%AF%A5%E4%B9%B0%E6%88%BF%E5%8D%B4%E6%83%B3%E8%A6%81%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AE%B6",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "276070"
+    },
+    {
+      "title": "以青春之我建强农之业",
+      "title_en": "以青春之我建强农之业",
+      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E9%9D%92%E6%98%A5%E4%B9%8B%E6%88%91%E5%BB%BA%E5%BC%BA%E5%86%9C%E4%B9%8B%E4%B8%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "165759"
+    },
+    {
+      "title": "梅艳芳骨灰被盗",
+      "title_en": "梅艳芳骨灰被盗",
+      "url": "https://s.weibo.com/weibo?q=%E6%A2%85%E8%89%B3%E8%8A%B3%E9%AA%A8%E7%81%B0%E8%A2%AB%E7%9B%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "165559"
+    },
+    {
+      "title": "刘琳琳抖音账号被封",
+      "title_en": "刘琳琳抖音账号被封",
+      "url": "https://s.weibo.com/weibo?q=%E5%88%98%E7%90%B3%E7%90%B3%E6%8A%96%E9%9F%B3%E8%B4%A6%E5%8F%B7%E8%A2%AB%E5%B0%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "129887"
+    },
+    {
+      "title": "恋人",
+      "title_en": "恋人",
+      "url": "https://s.weibo.com/weibo?q=%E6%81%8B%E4%BA%BA",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "123712"
+    },
+    {
+      "title": "打一针让癌细胞生锈而死",
+      "title_en": "打一针让癌细胞生锈而死",
+      "url": "https://s.weibo.com/weibo?q=%E6%89%93%E4%B8%80%E9%92%88%E8%AE%A9%E7%99%8C%E7%BB%86%E8%83%9E%E7%94%9F%E9%94%88%E8%80%8C%E6%AD%BB",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "112251"
+    },
+    {
+      "title": "香港近年多位名人骨灰被盗",
+      "title_en": "香港近年多位名人骨灰被盗",
+      "url": "https://s.weibo.com/weibo?q=%E9%A6%99%E6%B8%AF%E8%BF%91%E5%B9%B4%E5%A4%9A%E4%BD%8D%E5%90%8D%E4%BA%BA%E9%AA%A8%E7%81%B0%E8%A2%AB%E7%9B%97",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "112166"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "管泽元Bin聊S赛新版本",
+      "title_en": "管泽元Bin聊S赛新版本",
+      "url": "https://search.bilibili.com/all?keyword=%E7%AE%A1%E6%B3%BD%E5%85%83Bin%E8%81%8AS%E8%B5%9B%E6%96%B0%E7%89%88%E6%9C%AC",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/fe2e46ed1b27821d65a1fd985b1aa4e4993dcdd6.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "重庆狼队 济南RW侠",
+      "title_en": "重庆狼队 济南RW侠",
+      "url": "https://search.bilibili.com/all?keyword=%E9%87%8D%E5%BA%86%E7%8B%BC%E9%98%9F%20%E6%B5%8E%E5%8D%97RW%E4%BE%A0",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/3774112b886edfd86ff74e3d4b84e807d8a9833f.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "美军拟直播枪决罪犯有哪些争议",
+      "title_en": "美军拟直播枪决罪犯有哪些争议",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%86%9B%E6%8B%9F%E7%9B%B4%E6%92%AD%E6%9E%AA%E5%86%B3%E7%BD%AA%E7%8A%AF%E6%9C%89%E5%93%AA%E4%BA%9B%E4%BA%89%E8%AE%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/8e0f09f6626b017b2a8a2ee3ee36a8b178fffebb.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "杜兰特徐静雨签和解协议",
+      "title_en": "杜兰特徐静雨签和解协议",
+      "url": "https://search.bilibili.com/all?keyword=%E6%9D%9C%E5%85%B0%E7%89%B9%E5%BE%90%E9%9D%99%E9%9B%A8%E7%AD%BE%E5%92%8C%E8%A7%A3%E5%8D%8F%E8%AE%AE",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/11a9521526ed7aaee69871d5ed1247171fb7e4c3.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "美国公布了六代机哪些新消息",
+      "title_en": "美国公布了六代机哪些新消息",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%B8%83%E4%BA%86%E5%85%AD%E4%BB%A3%E6%9C%BA%E5%93%AA%E4%BA%9B%E6%96%B0%E6%B6%88%E6%81%AF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/d25bbe305231db190a886f63a5068271fe3e2012.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "广州TTG 杭州LGD.NBW",
+      "title_en": "广州TTG 杭州LGD.NBW",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B9%BF%E5%B7%9ETTG%20%E6%9D%AD%E5%B7%9ELGD.NBW",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/4ab35c663c9f5d9989ca8cbe954d6fe820b9981a.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "郑钦文首进中网女单决赛",
+      "title_en": "郑钦文首进中网女单决赛",
+      "url": "https://search.bilibili.com/all?keyword=%E9%83%91%E9%92%A6%E6%96%87%E9%A6%96%E8%BF%9B%E4%B8%AD%E7%BD%91%E5%A5%B3%E5%8D%95%E5%86%B3%E8%B5%9B",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/f5bb768c2b14a42bcdc59ac42d6e69969d86acd7.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "解析韩立绝境求生名场面",
+      "title_en": "解析韩立绝境求生名场面",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E6%9E%90%E9%9F%A9%E7%AB%8B%E7%BB%9D%E5%A2%83%E6%B1%82%E7%94%9F%E5%90%8D%E5%9C%BA%E9%9D%A2",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/cfea689b39a54fef63579256cde3855e29c3375f.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "这司凤音乐听着真烧心",
+      "title_en": "这司凤音乐听着真烧心",
+      "url": "https://search.bilibili.com/all?keyword=%E8%BF%99%E5%8F%B8%E5%87%A4%E9%9F%B3%E4%B9%90%E5%90%AC%E7%9D%80%E7%9C%9F%E7%83%A7%E5%BF%83",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/94bcfd311d8ad9d1e63e44485ac3ee1322f1e0a2.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "UP主在荷兰赶海找到生蚝滩",
+      "title_en": "UP主在荷兰赶海找到生蚝滩",
+      "url": "https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E5%9C%A8%E8%8D%B7%E5%85%B0%E8%B5%B6%E6%B5%B7%E6%89%BE%E5%88%B0%E7%94%9F%E8%9A%9D%E6%BB%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/46f8878a9d49063cbdaf232b6c87eb2c369bc75f.jpg",
+      "hot_value": "TOP10"
+    },
+    {
+      "title": "鲸天魔盗团!黑客靠AI入侵韩国银行",
+      "title_en": "鲸天魔盗团!黑客靠AI入侵韩国银行",
+      "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28366789&amp;topic_name=%E9%B2%B8%E5%A4%A9%E9%AD%94%E7%9B%97%E5%9B%A2%21%E9%BB%91%E5%AE%A2%E9%9D%A0AI%E5%85%A5%E4%BE%B5%E9%9F%A9%E5%9B%BD%E9%93%B6%E8%A1%8C",
+      "platform": "贴吧",
+      "platform_en": "Tieba",
+      "hot_value": "1953720"
+    }
+  ],
+  "title": "2026-10-11 热点新闻汇总",
+  "update_time": "2026-10-11 02:36:59"
+}
