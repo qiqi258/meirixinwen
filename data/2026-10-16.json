@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-16",
+  "news": [
+    {
+      "title": "AI射雕英雄传看起来比人演的好",
+      "title_en": "AI射雕英雄传看起来比人演的好",
+      "url": "https://s.weibo.com/weibo?q=AI%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%AF%94%E4%BA%BA%E6%BC%94%E7%9A%84%E5%A5%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "130538"
+    },
+    {
+      "title": "DeepSeek宣布故障补偿方案",
+      "title_en": "DeepSeek宣布故障补偿方案",
+      "url": "https://search.bilibili.com/all?keyword=DeepSeek%E5%AE%A3%E5%B8%83%E6%95%85%E9%9A%9C%E8%A1%A5%E5%81%BF%E6%96%B9%E6%A1%88",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/d3902b235a82b53c0e3effe5589287f4f8ea86f8.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "英伟达RTX Spark性能分析",
+      "title_en": "英伟达RTX Spark性能分析",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BERTX%20Spark%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/e6e35360889cbcff0215646f94379b7b66a642b3.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "AI消失前的最后一天",
+      "title_en": "AI消失前的最后一天",
+      "url": "https://search.bilibili.com/all?keyword=AI%E6%B6%88%E5%A4%B1%E5%89%8D%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/8c8b87eb2c06345996516c0f848f12f323653046.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "AI为何会欺骗人类",
+      "title_en": "AI为何会欺骗人类",
+      "url": "https://search.bilibili.com/all?keyword=AI%E4%B8%BA%E4%BD%95%E4%BC%9A%E6%AC%BA%E9%AA%97%E4%BA%BA%E7%B1%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/c5037138a58520c4221a6db73d44ff8092bbb37e.jpg",
+      "hot_value": "TOP10"
+    },
+    {
+      "title": "已恢复!DeepSeek发故障补偿",
+      "title_en": "已恢复!DeepSeek发故障补偿",
+      "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367231&amp;topic_name=%E5%B7%B2%E6%81%A2%E5%A4%8D%21DeepSeek%E5%8F%91%E6%95%85%E9%9A%9C%E8%A1%A5%E5%81%BF",
+      "platform": "贴吧",
+      "platform_en": "Tieba",
+      "hot_value": "1275872"
+    },
+    {
+      "title": "老干妈用AI一年狂赚54亿",
+      "title_en": "老干妈用AI一年狂赚54亿",
+      "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367216&amp;topic_name=%E8%80%81%E5%B9%B2%E5%A6%88%E7%94%A8AI%E4%B8%80%E5%B9%B4%E7%8B%82%E8%B5%9A54%E4%BA%BF",
+      "platform": "贴吧",
+      "platform_en": "Tieba",
+      "hot_value": "1259425"
+    },
+    {
+      "title": "网传中国大学生黑市报价70万",
+      "title_en": "网传中国大学生黑市报价70万",
+      "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367189&amp;topic_name=%E7%BD%91%E4%BC%A0%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E9%BB%91%E5%B8%82%E6%8A%A5%E4%BB%B770%E4%B8%87",
+      "platform": "贴吧",
+      "platform_en": "Tieba",
+      "hot_value": "636658"
+    },
+    {
+      "title": "当我拥有自己的ai播放器",
+      "title_en": "当我拥有自己的ai播放器",
+      "url": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E6%8B%A5%E6%9C%89%E8%87%AA%E5%B7%B1%E7%9A%84ai%E6%92%AD%E6%94%BE%E5%99%A8",
+      "platform": "抖音",
+      "platform_en": "Douyin",
+      "hot_value": "12132512"
+    },
+    {
+      "title": "DeepSeek发布补偿方案",
+      "title_en": "DeepSeek发布补偿方案",
+      "url": "https://www.douyin.com/search/DeepSeek%E5%8F%91%E5%B8%83%E8%A1%A5%E5%81%BF%E6%96%B9%E6%A1%88",
+      "platform": "抖音",
+      "platform_en": "Douyin",
+      "hot_value": "7778992"
+    },
+    {
+      "title": "科技股调整砸出黄金坑了吗",
+      "title_en": "科技股调整砸出黄金坑了吗",
+      "url": "https://www.douyin.com/search/%E7%A7%91%E6%8A%80%E8%82%A1%E8%B0%83%E6%95%B4%E7%A0%B8%E5%87%BA%E9%BB%84%E9%87%91%E5%9D%91%E4%BA%86%E5%90%97",
+      "platform": "抖音",
+      "platform_en": "Douyin",
+      "hot_value": "7772996"
+    }
+  ],
+  "content": [
+    {
+      "title": "AI射雕英雄传看起来比人演的好",
+      "title_en": "AI射雕英雄传看起来比人演的好",
+      "url": "https://s.weibo.com/weibo?q=AI%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%AF%94%E4%BA%BA%E6%BC%94%E7%9A%84%E5%A5%BD",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "130538"
+    },
+    {
+      "title": "DeepSeek宣布故障补偿方案",
+      "title_en": "DeepSeek宣布故障补偿方案",
+      "url": "https://search.bilibili.com/all?keyword=DeepSeek%E5%AE%A3%E5%B8%83%E6%95%85%E9%9A%9C%E8%A1%A5%E5%81%BF%E6%96%B9%E6%A1%88",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/d3902b235a82b53c0e3effe5589287f4f8ea86f8.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "英伟达RTX Spark性能分析",
+      "title_en": "英伟达RTX Spark性能分析",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BERTX%20Spark%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/e6e35360889cbcff0215646f94379b7b66a642b3.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "AI消失前的最后一天",
+      "title_en": "AI消失前的最后一天",
+      "url": "https://search.bilibili.com/all?keyword=AI%E6%B6%88%E5%A4%B1%E5%89%8D%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/8c8b87eb2c06345996516c0f848f12f323653046.jpg",
+      "hot_value": "TOP9"
+    },
+    {
+      "title": "AI为何会欺骗人类",
+      "title_en": "AI为何会欺骗人类",
+      "url": "https://search.bilibili.com/all?keyword=AI%E4%B8%BA%E4%BD%95%E4%BC%9A%E6%AC%BA%E9%AA%97%E4%BA%BA%E7%B1%BB",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/c5037138a58520c4221a6db73d44ff8092bbb37e.jpg",
+      "hot_value": "TOP10"
+    },
+    {
+      "title": "已恢复!DeepSeek发故障补偿",
+      "title_en": "已恢复!DeepSeek发故障补偿",
+      "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367231&amp;topic_name=%E5%B7%B2%E6%81%A2%E5%A4%8D%21DeepSeek%E5%8F%91%E6%95%85%E9%9A%9C%E8%A1%A5%E5%81%BF",
+      "platform": "贴吧",
+      "platform_en": "Tieba",
+      "hot_value": "1275872"
+    },
+    {
+      "title": "老干妈用AI一年狂赚54亿",
+      "title_en": "老干妈用AI一年狂赚54亿",
+      "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367216&amp;topic_name=%E8%80%81%E5%B9%B2%E5%A6%88%E7%94%A8AI%E4%B8%80%E5%B9%B4%E7%8B%82%E8%B5%9A54%E4%BA%BF",
+      "platform": "贴吧",
+      "platform_en": "Tieba",
+      "hot_value": "1259425"
+    },
+    {
+      "title": "网传中国大学生黑市报价70万",
+      "title_en": "网传中国大学生黑市报价70万",
+      "url": "https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367189&amp;topic_name=%E7%BD%91%E4%BC%A0%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E9%BB%91%E5%B8%82%E6%8A%A5%E4%BB%B770%E4%B8%87",
+      "platform": "贴吧",
+      "platform_en": "Tieba",
+      "hot_value": "636658"
+    },
+    {
+      "title": "当我拥有自己的ai播放器",
+      "title_en": "当我拥有自己的ai播放器",
+      "url": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E6%8B%A5%E6%9C%89%E8%87%AA%E5%B7%B1%E7%9A%84ai%E6%92%AD%E6%94%BE%E5%99%A8",
+      "platform": "抖音",
+      "platform_en": "Douyin",
+      "hot_value": "12132512"
+    },
+    {
+      "title": "DeepSeek发布补偿方案",
+      "title_en": "DeepSeek发布补偿方案",
+      "url": "https://www.douyin.com/search/DeepSeek%E5%8F%91%E5%B8%83%E8%A1%A5%E5%81%BF%E6%96%B9%E6%A1%88",
+      "platform": "抖音",
+      "platform_en": "Douyin",
+      "hot_value": "7778992"
+    },
+    {
+      "title": "科技股调整砸出黄金坑了吗",
+      "title_en": "科技股调整砸出黄金坑了吗",
+      "url": "https://www.douyin.com/search/%E7%A7%91%E6%8A%80%E8%82%A1%E8%B0%83%E6%95%B4%E7%A0%B8%E5%87%BA%E9%BB%84%E9%87%91%E5%9D%91%E4%BA%86%E5%90%97",
+      "platform": "抖音",
+      "platform_en": "Douyin",
+      "hot_value": "7772996"
+    }
+  ],
+  "title": "2026-10-16 热点新闻汇总",
+  "update_time": "2026-10-16 02:19:22"
+}
