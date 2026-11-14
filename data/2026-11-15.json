@@ -1,0 +1,367 @@
+{
+  "date": "2026-11-15",
+  "news": [
+    {
+      "title": "GEN对战BLG",
+      "title_en": "GEN对战BLG",
+      "url": "https://s.weibo.com/weibo?q=GEN%E5%AF%B9%E6%88%98BLG",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "555191"
+    },
+    {
+      "title": "八冠神罚",
+      "title_en": "八冠神罚",
+      "url": "https://s.weibo.com/weibo?q=%E5%85%AB%E5%86%A0%E7%A5%9E%E7%BD%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152904"
+    },
+    {
+      "title": "数读向新向优向好的中国经济",
+      "title_en": "数读向新向优向好的中国经济",
+      "url": "https://s.weibo.com/weibo?q=%E6%95%B0%E8%AF%BB%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%E5%90%91%E5%A5%BD%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152609"
+    },
+    {
+      "title": "白小纯居然是来报恩的",
+      "title_en": "白小纯居然是来报恩的",
+      "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%B1%85%E7%84%B6%E6%98%AF%E6%9D%A5%E6%8A%A5%E6%81%A9%E7%9A%84",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152606"
+    },
+    {
+      "title": "许飞听到不负少年不负卿上热搜的反应",
+      "title_en": "许飞听到不负少年不负卿上热搜的反应",
+      "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E5%90%AC%E5%88%B0%E4%B8%8D%E8%B4%9F%E5%B0%91%E5%B9%B4%E4%B8%8D%E8%B4%9F%E5%8D%BF%E4%B8%8A%E7%83%AD%E6%90%9C%E7%9A%84%E5%8F%8D%E5%BA%94",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152571"
+    },
+    {
+      "title": "王乐乐",
+      "title_en": "王乐乐",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%B9%90%E4%B9%90",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152414"
+    },
+    {
+      "title": "无畏",
+      "title_en": "无畏",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E7%95%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152276"
+    },
+    {
+      "title": "曝高迪抖音直播权限被永封",
+      "title_en": "曝高迪抖音直播权限被永封",
+      "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E9%AB%98%E8%BF%AA%E6%8A%96%E9%9F%B3%E7%9B%B4%E6%92%AD%E6%9D%83%E9%99%90%E8%A2%AB%E6%B0%B8%E5%B0%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152126"
+    },
+    {
+      "title": "国足张玉宁踢到对手 不是点球",
+      "title_en": "国足张玉宁踢到对手 不是点球",
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E8%B6%B3%E5%BC%A0%E7%8E%89%E5%AE%81%E8%B8%A2%E5%88%B0%E5%AF%B9%E6%89%8B%20%E4%B8%8D%E6%98%AF%E7%82%B9%E7%90%83",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "151933"
+    },
+    {
+      "title": "GEN对战BLG首发名单",
+      "title_en": "GEN对战BLG首发名单",
+      "url": "https://s.weibo.com/weibo?q=GEN%E5%AF%B9%E6%88%98BLG%E9%A6%96%E5%8F%91%E5%90%8D%E5%8D%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "151770"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "GEN BLG",
+      "title_en": "GEN BLG",
+      "url": "https://search.bilibili.com/all?keyword=GEN%20BLG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a7fd6aa14a9fd3f7e5779140ffc9cb51e6ea8766.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "内存行业担忧产能过剩",
+      "title_en": "内存行业担忧产能过剩",
+      "url": "https://search.bilibili.com/all?keyword=%E5%86%85%E5%AD%98%E8%A1%8C%E4%B8%9A%E6%8B%85%E5%BF%A7%E4%BA%A7%E8%83%BD%E8%BF%87%E5%89%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/971db356955b289f4fc9d981fedef3298f112d9a.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "梓墨获2026KPL年总FMVP",
+      "title_en": "梓墨获2026KPL年总FMVP",
+      "url": "https://search.bilibili.com/all?keyword=%E6%A2%93%E5%A2%A8%E8%8E%B72026KPL%E5%B9%B4%E6%80%BBFMVP",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/daf40406ade6b3845c3e5271a2e79790c7b52f04.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "WB年总夺冠圆梦凤凰山",
+      "title_en": "WB年总夺冠圆梦凤凰山",
+      "url": "https://search.bilibili.com/all?keyword=WB%E5%B9%B4%E6%80%BB%E5%A4%BA%E5%86%A0%E5%9C%86%E6%A2%A6%E5%87%A4%E5%87%B0%E5%B1%B1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/43159a0488f9581948f0489c4fb638ebb278bee2.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "中国数学家取得哥德巴赫猜想新突破",
+      "title_en": "中国数学家取得哥德巴赫猜想新突破",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%8F%96%E5%BE%97%E5%93%A5%E5%BE%B7%E5%B7%B4%E8%B5%AB%E7%8C%9C%E6%83%B3%E6%96%B0%E7%AA%81%E7%A0%B4",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/9e1ca02e5c431d85d9aadf67ac5b5ebde2543ac7.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "日本3-2巴西",
+      "title_en": "日本3-2巴西",
+      "url": "https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC3-2%E5%B7%B4%E8%A5%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/5caf58541749f6621f75f9fd38a4b29e94dedcca.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "梓墨FMVP皮肤给到司空震",
+      "title_en": "梓墨FMVP皮肤给到司空震",
+      "url": "https://search.bilibili.com/all?keyword=%E6%A2%93%E5%A2%A8FMVP%E7%9A%AE%E8%82%A4%E7%BB%99%E5%88%B0%E5%8F%B8%E7%A9%BA%E9%9C%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/baa6dbd43092e6002d11ff3c6046a4d1c4266197.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "韩国的事故救援体系有何问题",
+      "title_en": "韩国的事故救援体系有何问题",
+      "url": "https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E7%9A%84%E4%BA%8B%E6%95%85%E6%95%91%E6%8F%B4%E4%BD%93%E7%B3%BB%E6%9C%89%E4%BD%95%E9%97%AE%E9%A2%98",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/08395ed1202e732b06fa9d59e319b372fc24b0d3.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "国足2-0马来西亚",
+      "title_en": "国足2-0马来西亚",
+      "url": "https://search.bilibili.com/all?keyword=%E5%9B%BD%E8%B6%B32-0%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1158a0b399844d04871d5a2f0ff6659c75143f3a.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "content": [
+    {
+      "title": "GEN对战BLG",
+      "title_en": "GEN对战BLG",
+      "url": "https://s.weibo.com/weibo?q=GEN%E5%AF%B9%E6%88%98BLG",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "555191"
+    },
+    {
+      "title": "八冠神罚",
+      "title_en": "八冠神罚",
+      "url": "https://s.weibo.com/weibo?q=%E5%85%AB%E5%86%A0%E7%A5%9E%E7%BD%9A",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152904"
+    },
+    {
+      "title": "数读向新向优向好的中国经济",
+      "title_en": "数读向新向优向好的中国经济",
+      "url": "https://s.weibo.com/weibo?q=%E6%95%B0%E8%AF%BB%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%E5%90%91%E5%A5%BD%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152609"
+    },
+    {
+      "title": "白小纯居然是来报恩的",
+      "title_en": "白小纯居然是来报恩的",
+      "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%B1%85%E7%84%B6%E6%98%AF%E6%9D%A5%E6%8A%A5%E6%81%A9%E7%9A%84",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152606"
+    },
+    {
+      "title": "许飞听到不负少年不负卿上热搜的反应",
+      "title_en": "许飞听到不负少年不负卿上热搜的反应",
+      "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E5%90%AC%E5%88%B0%E4%B8%8D%E8%B4%9F%E5%B0%91%E5%B9%B4%E4%B8%8D%E8%B4%9F%E5%8D%BF%E4%B8%8A%E7%83%AD%E6%90%9C%E7%9A%84%E5%8F%8D%E5%BA%94",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152571"
+    },
+    {
+      "title": "王乐乐",
+      "title_en": "王乐乐",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%B9%90%E4%B9%90",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152414"
+    },
+    {
+      "title": "无畏",
+      "title_en": "无畏",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E7%95%8F",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152276"
+    },
+    {
+      "title": "曝高迪抖音直播权限被永封",
+      "title_en": "曝高迪抖音直播权限被永封",
+      "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E9%AB%98%E8%BF%AA%E6%8A%96%E9%9F%B3%E7%9B%B4%E6%92%AD%E6%9D%83%E9%99%90%E8%A2%AB%E6%B0%B8%E5%B0%81",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "152126"
+    },
+    {
+      "title": "国足张玉宁踢到对手 不是点球",
+      "title_en": "国足张玉宁踢到对手 不是点球",
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E8%B6%B3%E5%BC%A0%E7%8E%89%E5%AE%81%E8%B8%A2%E5%88%B0%E5%AF%B9%E6%89%8B%20%E4%B8%8D%E6%98%AF%E7%82%B9%E7%90%83",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "151933"
+    },
+    {
+      "title": "GEN对战BLG首发名单",
+      "title_en": "GEN对战BLG首发名单",
+      "url": "https://s.weibo.com/weibo?q=GEN%E5%AF%B9%E6%88%98BLG%E9%A6%96%E5%8F%91%E5%90%8D%E5%8D%95",
+      "platform": "微博",
+      "platform_en": "Weibo",
+      "image_url": "",
+      "hot_value": "151770"
+    },
+    {
+      "title": "",
+      "title_en": "",
+      "url": "https://www.baidu.com/s?wd=",
+      "platform": "百度",
+      "platform_en": "Baidu",
+      "hot_value": ""
+    },
+    {
+      "title": "GEN BLG",
+      "title_en": "GEN BLG",
+      "url": "https://search.bilibili.com/all?keyword=GEN%20BLG",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/a7fd6aa14a9fd3f7e5779140ffc9cb51e6ea8766.jpg",
+      "hot_value": "TOP1"
+    },
+    {
+      "title": "内存行业担忧产能过剩",
+      "title_en": "内存行业担忧产能过剩",
+      "url": "https://search.bilibili.com/all?keyword=%E5%86%85%E5%AD%98%E8%A1%8C%E4%B8%9A%E6%8B%85%E5%BF%A7%E4%BA%A7%E8%83%BD%E8%BF%87%E5%89%A9",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/971db356955b289f4fc9d981fedef3298f112d9a.jpg",
+      "hot_value": "TOP2"
+    },
+    {
+      "title": "梓墨获2026KPL年总FMVP",
+      "title_en": "梓墨获2026KPL年总FMVP",
+      "url": "https://search.bilibili.com/all?keyword=%E6%A2%93%E5%A2%A8%E8%8E%B72026KPL%E5%B9%B4%E6%80%BBFMVP",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/daf40406ade6b3845c3e5271a2e79790c7b52f04.jpg",
+      "hot_value": "TOP3"
+    },
+    {
+      "title": "WB年总夺冠圆梦凤凰山",
+      "title_en": "WB年总夺冠圆梦凤凰山",
+      "url": "https://search.bilibili.com/all?keyword=WB%E5%B9%B4%E6%80%BB%E5%A4%BA%E5%86%A0%E5%9C%86%E6%A2%A6%E5%87%A4%E5%87%B0%E5%B1%B1",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/43159a0488f9581948f0489c4fb638ebb278bee2.jpg",
+      "hot_value": "TOP4"
+    },
+    {
+      "title": "中国数学家取得哥德巴赫猜想新突破",
+      "title_en": "中国数学家取得哥德巴赫猜想新突破",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%8F%96%E5%BE%97%E5%93%A5%E5%BE%B7%E5%B7%B4%E8%B5%AB%E7%8C%9C%E6%83%B3%E6%96%B0%E7%AA%81%E7%A0%B4",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i1.hdslb.com/bfs/archive/9e1ca02e5c431d85d9aadf67ac5b5ebde2543ac7.jpg",
+      "hot_value": "TOP5"
+    },
+    {
+      "title": "日本3-2巴西",
+      "title_en": "日本3-2巴西",
+      "url": "https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC3-2%E5%B7%B4%E8%A5%BF",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/5caf58541749f6621f75f9fd38a4b29e94dedcca.jpg",
+      "hot_value": "TOP6"
+    },
+    {
+      "title": "梓墨FMVP皮肤给到司空震",
+      "title_en": "梓墨FMVP皮肤给到司空震",
+      "url": "https://search.bilibili.com/all?keyword=%E6%A2%93%E5%A2%A8FMVP%E7%9A%AE%E8%82%A4%E7%BB%99%E5%88%B0%E5%8F%B8%E7%A9%BA%E9%9C%87",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i2.hdslb.com/bfs/archive/baa6dbd43092e6002d11ff3c6046a4d1c4266197.jpg",
+      "hot_value": "TOP7"
+    },
+    {
+      "title": "韩国的事故救援体系有何问题",
+      "title_en": "韩国的事故救援体系有何问题",
+      "url": "https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E7%9A%84%E4%BA%8B%E6%95%85%E6%95%91%E6%8F%B4%E4%BD%93%E7%B3%BB%E6%9C%89%E4%BD%95%E9%97%AE%E9%A2%98",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/08395ed1202e732b06fa9d59e319b372fc24b0d3.jpg",
+      "hot_value": "TOP8"
+    },
+    {
+      "title": "国足2-0马来西亚",
+      "title_en": "国足2-0马来西亚",
+      "url": "https://search.bilibili.com/all?keyword=%E5%9B%BD%E8%B6%B32-0%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A",
+      "platform": "B站",
+      "platform_en": "Bilibili",
+      "image_url": "//i0.hdslb.com/bfs/archive/1158a0b399844d04871d5a2f0ff6659c75143f3a.jpg",
+      "hot_value": "TOP9"
+    }
+  ],
+  "title": "2026-11-15 热点新闻汇总",
+  "update_time": "2026-11-15 03:11:24"
+}
